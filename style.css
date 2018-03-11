@@ -1,0 +1,57 @@
+/* Reinhart P. K. 2018 */
+body{
+  font-family: "Inter UI", -apple-system, BlinkMacSystemFont, "Roboto", "Liberation Sans", "Helvetica", "Arimo", "Arial", sans-serif;
+}
+a{
+  text-decoration: none;
+  color: #2962FF;
+  border: 1px solid;
+  border-radius: 4px;
+  padding: 4px;
+}
+.cardcontainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.card{
+  width: 45%;
+  border-top: 1px solid #ddd;
+  padding-top: 1px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-bottom: 10px;
+  text-align: left;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: #777 0px 3px 3px;
+  -moz-box-shadow: #777 0px 3px 3px;
+  box-shadow: #777 0px 3px 3px;
+}
+@media screen and (max-width:749px){
+  .card{width:90%;}
+}
+@media screen and (min-width:1200px){
+  .card{width:30%;}
+}
+.card .acontainer{line-height: 32px;}
+/* Specific Colors for Cards */
+.c-osm{background-color: #439A06; border:none;}
+.c-github{background-color: #333333; border:none;}
+.c-gitter{
+  background-color: #cc2b5e;
+  background: linear-gradient(to left,#cc2b5e,#753a88);
+  background: -webkit-linear-gradient(right,#cc2b5e,#753a88);
+  background: -webkit-gradient(linear,right top,left top,from(#cc2b5e),to(#753a88));
+  border:none;}
+.c-telegram{background-color: #0088CC; border:none;}
+.c-quora{background-color: #A82400; border:none;}
+.c-webcompat{background-color: #FFC900; border:none;}
+.c-wikihow{background-color: #93B874; border:none;}
+
+.white, .white a{color: #FFFFFF;}
+.black, .black a{color: #000000;}
+.card img{width:100%}
+.lcountimg{max-width: 300px;}
