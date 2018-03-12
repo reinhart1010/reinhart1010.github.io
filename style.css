@@ -9,34 +9,38 @@ a{
   border-radius: 4px;
   padding: 4px;
 }
+.acontainer{line-height: 32px}
 .cardcontainer{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 .card{
-  width: 45%;
+  width: 384px;
+  /* 384 = 12px padding + 360px image + 12px padding. Prepare a 3:1 (360*120px) image.*/
   border-top: 1px solid #ddd;
-  padding-top: 1px;
-  padding-bottom: 16px;
-  padding-left: 16px;
-  padding-right: 16px;
-  margin-bottom: 10px;
+  padding-top: 0;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin: 6px;
   text-align: left;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  border-radius: 16px;
   -webkit-box-shadow: #777 0px 3px 3px;
   -moz-box-shadow: #777 0px 3px 3px;
   box-shadow: #777 0px 3px 3px;
 }
-@media screen and (max-width:749px){
-  .card{width:90%;}
+/*
+@media screen and (max-width: 865px){
+  .card{width:90%; max-width: 407px;}
 }
-@media screen and (min-width:1200px){
-  .card{width:30%;}
+@media screen and (min-width: 1260px){
+  .card{width:30%; max-width: 407px;}
 }
 .card .acontainer{line-height: 32px;}
+*/
 /* Specific Colors for Cards */
 .c-osm{background-color: #439A06; border:none;}
 .c-github{background-color: #333333; border:none;}
