@@ -1,13 +1,11 @@
 /* Reinhart P. K. 2018 */
 body{
   font-family: "Inter UI", -apple-system, BlinkMacSystemFont, "Roboto", "Liberation Sans", "Helvetica", "Arimo", "Arial", sans-serif;
+
 }
 a{
   text-decoration: none;
   color: #2962FF;
-  border: 1px solid;
-  border-radius: 4px;
-  padding: 4px;
 }
 .acontainer{line-height: 32px}
 .cardcontainer{
@@ -37,15 +35,11 @@ a{
   -moz-box-shadow: #777 0px 3px 3px;
   box-shadow: #777 0px 3px 3px;
 }
-/*
-@media screen and (max-width: 865px){
-  .card{width:90%; max-width: 407px;}
+.card a{
+  border: 1px solid;
+  border-radius: 4px;
+  padding: 4px;
 }
-@media screen and (min-width: 1260px){
-  .card{width:30%; max-width: 407px;}
-}
-.card .acontainer{line-height: 32px;}
-*/
 /* Specific Colors for Cards */
 .c-osm{background-color: #439A06; border:none;}
 .c-github{background-color: #333333; border:none;}
