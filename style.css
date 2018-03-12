@@ -12,8 +12,13 @@ a{
 .acontainer{line-height: 32px}
 .cardcontainer{
   display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  align-items: left;
+  justify-content: space-evenly;
 }
 .card{
   width: 384px;
