@@ -1,11 +1,15 @@
 /* Reinhart P. K. 2018 */
 body{
   font-family: "Inter UI", -apple-system, BlinkMacSystemFont, "Roboto", "Liberation Sans", "Helvetica", "Arimo", "Arial", sans-serif;
-
+  color: #111111;
+  background-color: #f8f8f8;
+}
+@media print{
+  body{color:#000000}
 }
 a{
   text-decoration: none;
-  color: #2962FF;
+  color: #0074D9;
 }
 .acontainer{line-height: 32px}
 .cardcontainer{
@@ -21,6 +25,7 @@ a{
 .card{
   width: 384px;
   /* 384 = 12px padding + 360px image + 12px padding. Prepare a 3:1 (360*120px) image.*/
+  background-color: #ffffff;
   border-top: 1px solid #ddd;
   padding-top: 0;
   padding-bottom: 12px;
@@ -39,6 +44,7 @@ a{
   border: 1px solid;
   border-radius: 4px;
   padding: 4px;
+  color:inherit;
 }
 /* Specific Colors for Cards */
 .c-osm{background-color: #439A06; border:none;}
@@ -50,11 +56,10 @@ a{
   background: -webkit-gradient(linear,right top,left top,from(#cc2b5e),to(#753a88));
   border:none;}
 .c-telegram{background-color: #0088CC; border:none;}
+.c-twitter{background-color: #1DA1F2; border:none;}
 .c-quora{background-color: #A82400; border:none;}
 .c-webcompat{background-color: #FFC900; border:none;}
 .c-wikihow{background-color: #93B874; border:none;}
 
-.white, .white a{color: #FFFFFF;}
-.black, .black a{color: #000000;}
 .card img{width:100%}
 .lcountimg{max-width: 300px;}
