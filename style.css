@@ -9,7 +9,7 @@ body{
 }
 a{
   text-decoration: none;
-  color: #0074D9;
+  color: #3255a4;
 }
 .acontainer{line-height: 32px}
 .cardcontainer{
@@ -48,6 +48,7 @@ a{
 }
 /* Specific Colors for Cards */
 .c-osm{background-color: #439A06; border:none;}
+.c-discord{background-color: #7289DA; border:none;}
 .c-github{background-color: #333333; border:none;}
 .c-gitter{
   background-color: #cc2b5e;
