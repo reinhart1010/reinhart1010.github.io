@@ -1,15 +1,27 @@
 /* Reinhart P. K. 2018 */
-body{
-  font-family: "Inter UI", -apple-system, BlinkMacSystemFont, "Roboto", "Liberation Sans", "Helvetica", "Arimo", "Arial", sans-serif;
-  color: #111111;
-  background-color: #f8f8f8;
+.contentcontainer{
+  width: 100%;
+  margin:auto;
 }
-@media print{
-  body{color:#000000}
+@media screen and (min-width:1276px){
+  .contentcontainer{
+    max-width: 1276px;
+  }
+}
+@media screen and (max-width:1275px){
+  .contentcontainer{
+    max-width: 856px;
+  }
+}
+@media screen and (max-width:855px){
+  .contentcontainer{
+    max-width: 436px;
+  }
 }
 a{
-  text-decoration: none;
+  text-decoration: underline;
   color: #3255a4;
+  font-weight: 600;
 }
 .acontainer{line-height: 32px}
 .cardcontainer{
@@ -40,11 +52,12 @@ a{
   -moz-box-shadow: #777 0px 3px 3px;
   box-shadow: #777 0px 3px 3px;
 }
-.card a{
+.acontainer a{
   border: 1px solid;
   border-radius: 4px;
   padding: 4px;
   color:inherit;
+  text-decoration: none;
 }
 /* Specific Colors for Cards */
 .c-osm{background-color: #439A06; border:none;}

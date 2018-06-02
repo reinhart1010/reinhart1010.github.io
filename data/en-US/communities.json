@@ -1,0 +1,166 @@
+{
+  "communities": {
+    "personal": [
+      {
+        "name": "Christmas T-Rex",
+        "color": "#F7F7F7",
+        "bgcolor": "#646464",
+        "summary": "I don't have time to build a Christmas Tree, but I a Christmas T-Rex.",
+        "description": "The popular Google Chrome (Chromium) &quot;Offline T-Rex&quot; game, modified for Christmas.",
+        "link1": "https://reinhart1010.github.io/christmas-t-rex/play-en.html",
+        "btn1": "<i class='icon ion-play'></i> Play Now",
+        "link2": "https://github.com/reinhart1010/christmas-t-rex",
+        "btn2": "<i class='icon ion-code'></i> Source Code",
+        "link3": "#",
+        "btn3": "The Backstory"
+      }
+    ],
+    "mozilla": [
+      {
+        "name": "BMO (bugzilla.mozilla.org)",
+        "color": "#000000",
+        "bgcolor": "#FFFFFF",
+        "summary": "The official bug tracking website for most Mozilla products",
+        "link1": "https://bugzilla.mozilla.org",
+        "btn1": "<i class='icon ion-ios-world-outline'></i> Visit Homepage",
+        "link2": "https://bugzilla.mozilla.org/user_profile?login=reinhart_previano%40yahoo.com",
+        "btn2": "<i class='icon ion-person'></i> View Profile",
+        "link3": "https://wiki.mozilla.org/BMO/How_to_Use_Bugzilla",
+        "btn3": "? About BMO"
+      },
+      {
+        "name": "Common Voice",
+        "color": "#000000",
+        "bgcolor": "#FFFFFF",
+        "summary": "A open-sourced voice recognition database.",
+        "description": "The Common Voice project is Mozilla’s initiative to help teach machines how real people speak.",
+        "link1": "https://voice.mozilla.org",
+        "btn1": "<i class='icon ion-ios-world-outline'></i> Visit Homepage",
+        "link2": "https://github.com/mozilla/voice-web/blob/master/server/data/reinhart1010.txt",
+        "btn2": "<i class='icon ion-document-text'></i> Donated Sentence List",
+        "link3": "https://voice.mozilla.org/en/record",
+        "btn3": "<i class='icon ion-android-microphone'></i> Contribute Your Voice"
+      },
+      {
+        "name": "Mozilla Discourse",
+        "color": "#000000",
+        "bgcolor": "#FFFFFF",
+        "summary": "The official Mozilla forum.",
+        "link1": "https://discourse.mozilla.org",
+        "btn1": "<i class='icon ion-ios-world-outline'></i> Visit Homepage",
+        "link2": "https://discourse.mozilla.org/u/reinhart_previano/summary",
+        "btn2": "<i class='icon ion-person'></i> View Profile"
+      },
+      {
+        "name": "Servonk",
+        "color": "#000000",
+        "bgcolor": "#FFFFFF",
+        "summary": "Servo on Gonk.",
+        "description": "Bringing Mozilla's <a href='https://servo.org'>Servo</a> web browser engine to run on Gonk from <a href='https://en.wikipedia.org/wiki/Firefox_OS'>Firefox OS</a>.",
+        "link1": "https://discourse.mozilla.org",
+        "btn1": "<i class='icon ion-ios-world-outline'></i> Visit Homepage",
+        "link2": "https://discourse.mozilla.org/u/reinhart_previano/summary",
+        "btn2": "<i class='icon ion-person'></i> View Profile"
+      },
+      {
+        "name": "Webcompat.com",
+        "color": "#404040",
+        "bgcolor": "#FFC900",
+        "summary": "Bug reporting for the web.",
+        "description": "A community dedicated to resolve <a href='https://wiki.mozilla.org/Compatibility'>web compatibility</a> issues across multiple web browsers and operating systems.",
+        "link1": "https://webcompat.com",
+        "btn1": "<i class='icon ion-ios-world-outline'></i> Visit Homepage",
+        "link2": "https://webcompat.com/contributors",
+        "btn2": "<i class='icon ion-person-stalker'></i> Main Contributors",
+        "link3": "https://webcompat.com/issues/new",
+        "btn3": "<i class='icon ion-bug'></i> Report a Website Issue"
+      }
+    ],
+    "other": [
+      {
+        "name": "OpenStreetMap",
+        "color": "#FFFFFF",
+        "bgcolor": "#2ECC40",
+        "summary": "Map for everyone.",
+        "description": "A free and crowd-sourced community mapping project for the entire world.",
+        "link1": "https://openstreetmap.org",
+        "btn1": "<i class='icon ion-ios-world-outline'></i> Visit Homepage",
+        "link2": "https://www.openstreetmap.org/user/Reinhart%20Previano",
+        "btn2": "<i class='icon ion-person'></i> View Profile",
+        "link3": "http://streak.osmz.ru/user/Reinhart%20Previano",
+        "btn3": "<i class='icon ion-star'></i> OSM Streak Data"
+      },
+      {
+        "name": "GitHub",
+        "color": "#FFFFFF",
+        "bgcolor": "#24292E",
+        "link1": "https://github.com",
+        "btn1": "<i class='icon ion-ios-world-outline'></i> Visit Homepage",
+        "link2": "https://github.com/reinhart1010",
+        "btn2": "<i class='icon ion-person'></i> View Profile",
+        "link3": "http://github.com/reinhart1010/reinhart1010.github.io",
+        "btn3": "<i class='icon ion-code'></i> Source Code for this Website"
+      },
+      {
+        "name": "Quora",
+        "color": "#FFFFFF",
+        "bgcolor": "#A82400",
+        "link1": "https://quora.com",
+        "btn1": "<i class='icon ion-ios-world-outline'></i> Visit Homepage",
+        "link2": "https://www.quora.com/profile/Reinhart-Previano",
+        "btn2": "<i class='icon ion-person'></i> View Profile",
+        "link3": "http://qr.ae/TU1iY8",
+        "btn3": "Reinhart's Most-Viewed Answer"
+      }
+    ],
+    "inactive": [
+      {
+        "name": "AndroidCentral Forums",
+        "color": "#FFFFFF",
+        "bgcolor": "#1CCC3E",
+        "description": "by Mobile Nations",
+        "link1": "https://forums.androidcentral.com",
+        "btn1": "Visit Homepage"
+      },
+      {
+        "name": "CrackBerry Forums",
+        "color": "#FFFFFF",
+        "bgcolor": "#FF753B",
+        "description": "by Mobile Nations",
+        "link1": "https://forums.crackberry.com",
+        "btn1": "Visit Homepage",
+        "link2": "https://forums.crackberry.com/members/reinhart-previano-3976161",
+        "btn2": "View Profile (Login Required)"
+      },
+      {
+        "name": "StackOverflow",
+        "color": "#FFFFFF",
+        "bgcolor": "#F48024",
+        "description": "by StackExchange",
+        "link1": "https://stackoverflow.com",
+        "btn1": "Visit Homepage",
+        "link2": "https://stackoverflow.com/users/3671760/reinhart-p",
+        "btn2": "View Profile"
+      },
+      {
+        "name": "wikiHow",
+        "color": "#000000",
+        "bgcolor": "#FFFFFF",
+        "summary": "to do anything.",
+        "link1": "https://wikihow.com",
+        "btn1": "Visit Homepage",
+        "link2": "https://www.wikihow.com/User:Reinhart-Previano",
+        "btn2": "View Profile"
+      }
+    ],
+    "comingsoon": [
+      {
+        "name": "Discord",
+        "color": "#FFFFFF",
+        "bgcolor": "#7289DA",
+        "link1": "https://discord.com",
+        "btn1": "Visit Homepage"
+      }
+    ]
+  }
+}
