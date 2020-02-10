@@ -1,107 +1,122 @@
 <!DOCTYPE html>
 <html>
-<!--
-Reinhart P. K. 2018
--->
-<head>
-  <title>Reinhart Previano K.</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/colors.min.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/fonts.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/special-r17.css">
-</head>
-<body>
-  <div class="titlebar t-right">
-    <p class="f-mnt f-rpk"><b>Reinhart</b> Previano K.</p>
-  </div>
-  <div class="contentheader">
-    <div class="contentcontainer">
-    <h1>Notices</h1>
-      <div class="cardcontainer">
-        <div class="card bg-orange white">
-          <h2>A redesign is underway!</h2>
-          <p class="acontainer"><a href="https://twitter.com/ReinPre10/status/1101083705106288641"><i class="icon ion-android-send"></i> Read Announcement (Twitter)</a></p>
-          <p>A new design language for apps to books to signages, videos, and more.</p>
+  <head>
+    <link rel="stylesheet" href="assets/css/main.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/dark.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/special.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="assets/js/rss.js"></script>
+    <script src="assets/js/content.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <style>
+    @media (min-width: 34em) {
+        .card-columns {
+            -webkit-column-count: 1;
+            -moz-column-count: 1;
+            column-count: 1;
+        }
+    }
+
+    @media (min-width: 48em) {
+        .card-columns {
+            -webkit-column-count: 2;
+            -moz-column-count: 2;
+            column-count: 2;
+        }
+    }
+
+    @media (min-width: 75em) {
+        .card-columns {
+            -webkit-column-count: 3;
+            -moz-column-count: 3;
+            column-count: 3;
+        }
+    }
+    #feed-content img {
+      width: 100%;
+    }
+    </style>
+  </head>
+  <body onload="imFeelingLucky('feed-content')">
+    <nav class="navbar navbar-reinhart navbar-expand-lg navbar-dark bg-dark w-100 d-none d-lg-flex">
+      <a class="navbar-brand" href="#">Reinhart Previano K.</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <nav class="navbar navbar-reinhart bg-light nav nav-pills nav-fill d-lg-none w-100">
+      <a class="nav-item nav-link pl-0 pr-0" href="#"><small><i class="fa fa-2x fa-home" aria-hidden="true"></i><br>Home</small></a>
+      <a class="nav-item nav-link pl-0 pr-0" href="#"><small><i class="fa fa-2x fa-history" aria-hidden="true"></i><br>Activity</small></a>
+      <a class="nav-item nav-link pl-0 pr-0 active" href="#"><small><i class="fa fa-2x fa-qrcode" aria-hidden="true"></i><br>Scan</small></a>
+      <a class="nav-item nav-link pl-0 pr-0" href="#"><small><i class="fa fa-2x fa-bell" aria-hidden="true"></i><br>Inbox</small></a>
+      <a class="nav-item nav-link pl-0 pr-0" href="#"><small><i class="fa fa-2x fa-id-badge" aria-hidden="true"></i><br>About</small></a>
+    </nav>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://picsum.photos/1800/600" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://picsum.photos/1800/600" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://picsum.photos/1800/600" class="d-block w-100" alt="...">
         </div>
       </div>
     </div>
-  </div>
-  <div class="contentcontainer">
-  <h1>I have created</h1>
-  <div class="cardcontainer">
-    <div class="card bg-maroon white">
-      <h2>Jackpot GBK*</h2>
-      <p class="acontainer"><a href="https://reinhart1010.github.io/jackpotgbk?utm_source=github&utm_medium=repository&utm_campaign=hello">Play</a> | <a href="https://github.com/reinhart1010/jackpotgbk">Source Code</a></p>
-      <p>*Gunting, Batu, Kertas</p>
+    <header class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Explore Reinhart</h1>
+        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+      </div>
+    </header>
+
+    <div class="container">
+      <h1>I'm Feeling Lucky! <button type="button" class="btn btn-primary" onClick="imFeelingLucky('feed-content')">Refresh</button></h1>
+
+      <div class="card-columns" id="feed-content">
+      </div>
     </div>
-  </div>
-  <h1>I am currently helping in</h1>
-  <div class="cardcontainer">
-  <div class="card bg-silver black">
-    <h2>Common Voice</h2>
-    <p class="acontainer"><a href="https://voice.mozilla.org">Visit Website</a> | <a href="https://voice.mozilla.org/record">Record Your Voice</a></p>
-    <p>A crowd-sourced <b>voice recognition</b> database project by Mozilla.</p>
-  </div>
-  <div class="card bg-green white">
-    <h2>OpenStreetMap</h2>
-    <p class="acontainer"><a href="https://www.openstreetmap.org">Visit Website</a> | <a href="https://www.openstreetmap.org/user/Reinhart%20Previano">View Profile</a></p>
-    <p>A <b>free</b> and <b>crowd-sourced</b> community mapping project for <b>the entire world</b></p>
-    <img src="img/osm.png" alt="OpenStreetMap view of Banjarmasin, South Kalimantan, Indonesia">
-  </div>
-  <div class="card bg-yellow black">
-    <h2>Webcompat.com</h2>
-    <p class="acontainer"><a href="https://webcompat.com">Visit Website</a> | <a href="https://webcompat.com/activity/reinhart1010">View Profile</a><br><a href="https://webcompat.com/issues/new">Report Site Issue</a></p>
-    <p><b>An open community</b> dedicated to resolve website issues across web browsers and operating systems.</p>
-  </div>
-  </div>
-  <h1>Visit and contact me on</h1>
-  <div class="cardcontainer">
-  <div class="card bg-red white">
-    <h2>Email</h2>
-    <p><b>Address:</b> reinhart_previano@yahoo.com</p>
-    <p class="acontainer"><a href="mailto:reinhart_previano@yahoo.com">Send Something</a></p>
-  </div>
-  <div class="card c-github white">
-    <h2>GitHub</h2>
-    <p><b>User ID:</b> reinhart1010</p>
-    <p class="acontainer"><a href="https://github.com/reinhart1010">View Profile</a></p>
-  </div>
-  <div class="card bg-orange white">
-    <h2>GitLab</h2>
-    <p><b>User ID:</b> reinhart1010</p>
-    <p class="acontainer"><a href="https://gitlab.com/reinhart1010">View Profile</a></p>
-  </div>
-  <div class="card c-quora white">
-    <h2>Quora</h2>
-    <p><b>User Name:</b> Reinhart Previano</p>
-    <p class="acontainer"><a href="https://www.quora.com/profile/Reinhart-Previano">View Profile</a></p>
-    <p></p>
-  </div>
-  <div class="card bg-teal white">
-    <h2>Sarahah</h2>
-    <p><b>User ID:</b> reinpre10</p>
-    <p class="acontainer"><a href="https://www.sarahah.com/messages/user/fb297e9d-f1e2-4776-9957-784e5ab4f202">Write Something</a>
-  </div>
-  <div class="card c-telegram white">
-    <h2>Telegram</h2>
-    <p><b>User ID:</b> reinhart1010</p>
-    <p class="acontainer"><a href="https://t.me/reinhart1010">Chat</a></p>
-  </div>
-  <div class="card c-twitter white">
-    <h2>Twitter</h2>
-    <p><b>User ID:</b> @ReinPre10 (Case-sensitive)</p>
-    <p class="acontainer"><a href="https://twitter.com/@ReinPre10">View Profile</a>
-  </div>
-  </div>
-  </div>
-  <div class="credits">
-    <p class="small">
-      <b>Copyright 2015-2018 Reinhart Previano K.</b><br>
-      <!--Trademark acknowledgements will be available later-->
-    </p>
-  </div>
-  <script src="assets/js/content.js"></script>
-</body>
+    <nav class="navbar w-100 d-lg-none">
+      <p class="navbar-brand"><br></p>
+    </nav>
+  </body>
 </html>
