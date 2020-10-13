@@ -19,6 +19,12 @@
     <link href="https://cdn.jsdelivr.net/npm/halfmoon@1.1.0/css/halfmoon.min.css" rel="stylesheet" />
     Learn more: https://www.gethalfmoon.com/docs/customize/#notes-on-browser-compatibility
   -->
+  <!-- Fork Awesome Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
+
+  <!-- Adaptive Cards JS -->
+  <script src="https://unpkg.com/adaptivecards/dist/adaptivecards.js"></script>
+  <script type="text/javascript" src="https://unpkg.com/markdown-it/dist/markdown-it.js"></script>
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700;900&display=swap" rel="stylesheet">
@@ -37,6 +43,425 @@
     .card-title {
       font-weight: 700;
     }
+
+    #card-container {
+      column-count: 3;
+      column-gap: 0;
+    }
+
+    #card-container > * {
+      border: var(--card-border-width) solid var(--lm-card-border-color);
+      box-shadow: var(--lm-card-box-shadow);
+      -webkit-column-break-inside: avoid;
+      display: inline-block;
+      width: 100% !important;
+      justify-items: center;
+    }
+
+    @media (max-width: 1199px){
+      #card-container {
+        column-count: 2;
+      }
+    }
+    @media (max-width: 991px){
+      #card-container {
+        column-count: 1;
+      }
+    }
+
+    /* Style override for Instagram embed cards */
+    #card-container > blockquote.instagram-media {
+      position:relative;
+      padding:var(--content-and-card-spacing);
+      color:var(--lm-card-text-color);
+      background-color:var(--lm-card-bg-color);
+      background-image:var(--lm-card-bg-image);
+      border:var(--card-border-width) solid var(--lm-card-border-color) !important;
+      -moz-box-shadow:var(--lm-card-box-shadow) !important;
+      -webkit-box-shadow:var(--lm-card-box-shadow) !important;
+      box-shadow:var(--lm-card-box-shadow) !important;
+      border-radius: 0 !important;
+      margin: 0 !important;
+    }
+
+    /* Support for Adaptive Cards */
+    #card-container > div.ac-adaptiveCard {
+      position:relative;
+      margin:var(--content-and-card-spacing);
+      padding:var(--content-and-card-spacing);
+      color:var(--lm-card-text-color);
+      background-color:var(--lm-card-bg-color);
+      background-image:var(--lm-card-bg-image);
+      border:var(--card-border-width) solid var(--lm-card-border-color);
+      -moz-box-shadow:var(--lm-card-box-shadow);
+      -webkit-box-shadow:var(--lm-card-box-shadow);
+      box-shadow:var(--lm-card-box-shadow)
+    }
+    
+    .ac-pushButton {
+      display:inline-block;
+      height:var(--button-height);
+      line-height:var(--button-line-height);
+      padding:var(--button-padding);
+      text-align:center;
+      white-space:nowrap;
+      cursor:pointer;
+      color:var(--lm-button-text-color);
+      background-color:var(--lm-button-bg-color);
+      background-image:var(--lm-button-bg-image);
+      border:var(--button-border-width) solid var(--lm-button-border-color);
+      border-radius:var(--button-border-radius);
+      -moz-box-shadow:var(--lm-button-box-shadow);
+      -webkit-box-shadow:var(--lm-button-box-shadow);
+      box-shadow:var(--lm-button-box-shadow)
+    }
+    .ac-pushButton:hover {
+      text-decoration:none;
+      color:var(--lm-button-text-color-hover);
+      background-color:var(--lm-button-bg-color-hover);
+      background-image:var(--lm-button-bg-image-hover);
+      border-color:var(--lm-button-border-color-hover);
+      -moz-box-shadow:var(--lm-button-box-shadow-hover);
+      -webkit-box-shadow:var(--lm-button-box-shadow-hover);
+      box-shadow:var(--lm-button-box-shadow-hover)
+    }
+    .ac-pushButton.active,
+    .ac-pushButton:focus {
+      color:var(--lm-button-text-color-focus);
+      background-color:var(--lm-button-bg-color-focus);
+      background-image:var(--lm-button-bg-image-focus);
+      border-color:var(--lm-button-border-color-focus);
+      -moz-box-shadow:var(--lm-button-box-shadow-focus);
+      -webkit-box-shadow:var(--lm-button-box-shadow-focus);
+      box-shadow:var(--lm-button-box-shadow-focus);
+      outline:var(--button-outline-width) var(--button-outline-type) var(--lm-button-outline-color-focus);
+      outline-offset:var(--button-outline-offset)
+    }
+    .ac-pushButton.active:hover,
+    .ac-pushButton:focus:hover {
+      color:var(--lm-button-text-color-hover);
+      background-color:var(--lm-button-bg-color-hover);
+      background-image:var(--lm-button-bg-image-hover)
+    }
+    .dark-mode .ac-pushButton {
+      color:var(--dm-button-text-color);
+      background-color:var(--dm-button-bg-color);
+      background-image:var(--dm-button-bg-image);
+      border-color:var(--dm-button-border-color);
+      -moz-box-shadow:var(--dm-button-box-shadow);
+      -webkit-box-shadow:var(--dm-button-box-shadow);
+      box-shadow:var(--dm-button-box-shadow)
+    }
+    .dark-mode .ac-pushButton:hover {
+      color:var(--dm-button-text-color-hover);
+      background-color:var(--dm-button-bg-color-hover);
+      background-image:var(--dm-button-bg-image-hover);
+      border-color:var(--dm-button-border-color-hover);
+      -moz-box-shadow:var(--dm-button-box-shadow-hover);
+      -webkit-box-shadow:var(--dm-button-box-shadow-hover);
+      box-shadow:var(--dm-button-box-shadow-hover)
+    }
+    .dark-mode .ac-pushButton.active,
+    .dark-mode .ac-pushButton:focus {
+      color:var(--dm-button-text-color-focus);
+      background-color:var(--dm-button-bg-color-focus);
+      background-image:var(--dm-button-bg-image-focus);
+      border-color:var(--dm-button-border-color-focus);
+      -moz-box-shadow:var(--dm-button-box-shadow-focus);
+      -webkit-box-shadow:var(--dm-button-box-shadow-focus);
+      box-shadow:var(--dm-button-box-shadow-focus);
+      outline-color:var(--dm-button-outline-color-focus)
+    }
+    .dark-mode .ac-pushButton.active:hover,
+    .dark-mode .ac-pushButton:focus:hover {
+      color:var(--dm-button-text-color-hover);
+      background-color:var(--dm-button-bg-color-hover);
+      background-image:var(--dm-button-bg-image-hover)
+    }
+    .ac-pushButton.disabled,
+    .ac-pushButton:disabled {
+      cursor:not-allowed;
+      opacity:.6
+    }
+    .ac-pushButton.disabled,
+    .ac-pushButton.disabled:focus,
+    .ac-pushButton.disabled:hover,
+    .ac-pushButton:disabled {
+      color:var(--lm-button-text-color);
+      background-color:var(--lm-button-bg-color);
+      background-image:var(--lm-button-bg-image);
+      border-color:var(--lm-button-border-color);
+      -moz-box-shadow:none;
+      -webkit-box-shadow:none;
+      box-shadow:none;
+      outline:0
+    }
+    .dark-mode .ac-pushButton.disabled,
+    .dark-mode .ac-pushButton.disabled:focus,
+    .dark-mode .ac-pushButton.disabled:hover,
+    .dark-mode .ac-pushButton:disabled {
+      color:var(--dm-button-text-color);
+      background-color:var(--dm-button-bg-color);
+      background-image:var(--dm-button-bg-image);
+      border-color:var(--dm-button-border-color);
+      -moz-box-shadow:none;
+      -webkit-box-shadow:none;
+      box-shadow:none;
+      outline:0
+    }
+    .dark-mode .ac-pushButton.alt-dm {
+      color:var(--dm-button-alt-text-color);
+      background-color:var(--dm-button-alt-bg-color);
+      background-image:var(--dm-button-alt-bg-image);
+      border-color:var(--dm-button-alt-border-color);
+      -moz-box-shadow:var(--dm-button-alt-box-shadow);
+      -webkit-box-shadow:var(--dm-button-alt-box-shadow);
+      box-shadow:var(--dm-button-alt-box-shadow)
+    }
+    .dark-mode .ac-pushButton.alt-dm:hover {
+      color:var(--dm-button-alt-text-color-hover);
+      background-color:var(--dm-button-alt-bg-color-hover);
+      background-image:var(--dm-button-alt-bg-image-hover);
+      border-color:var(--dm-button-alt-border-color-hover);
+      -moz-box-shadow:var(--dm-button-alt-box-shadow-hover);
+      -webkit-box-shadow:var(--dm-button-alt-box-shadow-hover);
+      box-shadow:var(--dm-button-alt-box-shadow-hover)
+    }
+    .dark-mode .ac-pushButton.alt-dm.active,
+    .dark-mode .ac-pushButton.alt-dm:focus {
+      color:var(--dm-button-alt-text-color-focus);
+      background-color:var(--dm-button-alt-bg-color-focus);
+      background-image:var(--dm-button-alt-bg-image-focus);
+      border-color:var(--dm-button-alt-border-color-focus);
+      -moz-box-shadow:var(--dm-button-alt-box-shadow-focus);
+      -webkit-box-shadow:var(--dm-button-alt-box-shadow-focus);
+      box-shadow:var(--dm-button-alt-box-shadow-focus);
+      outline-color:var(--dm-button-alt-outline-color-focus)
+    }
+    .dark-mode .ac-pushButton.alt-dm.active:hover,
+    .dark-mode .ac-pushButton.alt-dm:focus:hover {
+      color:var(--dm-button-alt-text-color-hover);
+      background-color:var(--dm-button-alt-bg-color-hover);
+      background-image:var(--dm-button-alt-bg-image-hover)
+    }
+    .dark-mode .ac-pushButton.alt-dm.disabled,
+    .dark-mode .ac-pushButton.alt-dm.disabled:focus,
+    .dark-mode .ac-pushButton.alt-dm.disabled:hover,
+    .dark-mode .ac-pushButton.alt-dm:disabled {
+      color:var(--dm-button-alt-text-color);
+      background-color:var(--dm-button-alt-bg-color);
+      background-image:var(--dm-button-alt-bg-image);
+      border-color:var(--dm-button-alt-border-color);
+      -moz-box-shadow:none;
+      -webkit-box-shadow:none;
+      box-shadow:none;
+      outline:0
+    }
+
+    .ac-pushButton.style-positive, .ac-pushButton.style-destructive {
+      font-weight: bold;
+    }
+
+    /* Positive Button */
+    .ac-pushButton.style-positive {
+      color:var(--lm-button-primary-text-color);
+      background-color:var(--lm-button-primary-bg-color);
+      background-image:var(--lm-button-primary-bg-image);
+      border-color:var(--lm-button-primary-border-color);
+      -moz-box-shadow:var(--lm-button-primary-box-shadow);
+      -webkit-box-shadow:var(--lm-button-primary-box-shadow);
+      box-shadow:var(--lm-button-primary-box-shadow)
+    }
+    .ac-pushButton.style-positive:hover {
+      color:var(--lm-button-primary-text-color-hover);
+      background-color:var(--lm-button-primary-bg-color-hover);
+      background-image:var(--lm-button-primary-bg-image-hover);
+      border-color:var(--lm-button-primary-border-color-hover);
+      -moz-box-shadow:var(--lm-button-primary-box-shadow-hover);
+      -webkit-box-shadow:var(--lm-button-primary-box-shadow-hover);
+      box-shadow:var(--lm-button-primary-box-shadow-hover)
+    }
+    .ac-pushButton.style-positive.active,
+    .ac-pushButton.style-positive:focus {
+      color:var(--lm-button-primary-text-color-focus);
+      background-color:var(--lm-button-primary-bg-color-focus);
+      background-image:var(--lm-button-primary-bg-image-focus);
+      border-color:var(--lm-button-primary-border-color-focus);
+      -moz-box-shadow:var(--lm-button-primary-box-shadow-focus);
+      -webkit-box-shadow:var(--lm-button-primary-box-shadow-focus);
+      box-shadow:var(--lm-button-primary-box-shadow-focus);
+      outline-color:var(--lm-button-primary-outline-color-focus)
+    }
+    .ac-pushButton.style-positive.active:hover,
+    .ac-pushButton.style-positive:focus:hover {
+      color:var(--lm-button-primary-text-color-hover);
+      background-color:var(--lm-button-primary-bg-color-hover);
+      background-image:var(--lm-button-primary-bg-image-hover)
+    }
+    .dark-mode .ac-pushButton.style-positive {
+      color:var(--dm-button-primary-text-color);
+      background-color:var(--dm-button-primary-bg-color);
+      background-image:var(--dm-button-primary-bg-image);
+      border-color:var(--dm-button-primary-border-color);
+      -moz-box-shadow:var(--dm-button-primary-box-shadow);
+      -webkit-box-shadow:var(--dm-button-primary-box-shadow);
+      box-shadow:var(--dm-button-primary-box-shadow);
+      -webkit-font-smoothing:auto;
+      -moz-osx-font-smoothing:auto
+    }
+    .dark-mode .ac-pushButton.style-positive:hover {
+      color:var(--dm-button-primary-text-color-hover);
+      background-color:var(--dm-button-primary-bg-color-hover);
+      background-image:var(--dm-button-primary-bg-image-hover);
+      border-color:var(--dm-button-primary-border-color-hover);
+      -moz-box-shadow:var(--dm-button-primary-box-shadow-hover);
+      -webkit-box-shadow:var(--dm-button-primary-box-shadow-hover);
+      box-shadow:var(--dm-button-primary-box-shadow-hover)
+    }
+    .dark-mode .ac-pushButton.style-positive.active,
+    .dark-mode .ac-pushButton.style-positive:focus {
+      color:var(--dm-button-primary-text-color-focus);
+      background-color:var(--dm-button-primary-bg-color-focus);
+      background-image:var(--dm-button-primary-bg-image-focus);
+      border-color:var(--dm-button-primary-border-color-focus);
+      -moz-box-shadow:var(--dm-button-primary-box-shadow-focus);
+      -webkit-box-shadow:var(--dm-button-primary-box-shadow-focus);
+      box-shadow:var(--dm-button-primary-box-shadow-focus);
+      outline-color:var(--dm-button-primary-outline-color-focus)
+    }
+    .dark-mode .ac-pushButton.style-positive.active:hover,
+    .dark-mode .ac-pushButton.style-positive:focus:hover {
+      color:var(--dm-button-primary-text-color-hover);
+      background-color:var(--dm-button-primary-bg-color-hover);
+      background-image:var(--dm-button-primary-bg-image-hover)
+    }
+    .ac-pushButton.style-positive.disabled,
+    .ac-pushButton.style-positive.disabled:focus,
+    .ac-pushButton.style-positive.disabled:hover,
+    .ac-pushButton.style-positive:disabled {
+      color:var(--lm-button-primary-text-color);
+      background-color:var(--lm-button-primary-bg-color);
+      background-image:var(--lm-button-primary-bg-image);
+      border-color:var(--lm-button-primary-border-color);
+      -moz-box-shadow:none;
+      -webkit-box-shadow:none;
+      box-shadow:none;
+      outline:0
+    }
+    .dark-mode .ac-pushButton.style-positive.disabled,
+    .dark-mode .ac-pushButton.style-positive.disabled:focus,
+    .dark-mode .ac-pushButton.style-positive.disabled:hover,
+    .dark-mode .ac-pushButton.style-positive:disabled {
+      color:var(--dm-button-primary-text-color);
+      background-color:var(--dm-button-primary-bg-color);
+      background-image:var(--dm-button-primary-bg-image);
+      border-color:var(--dm-button-primary-border-color);
+      -moz-box-shadow:none;
+      -webkit-box-shadow:none;
+      box-shadow:none;
+      outline:0
+    }
+
+    /* Desctructive Button */
+    .ac-pushButton.style-destructive {
+      color:var(--lm-button-danger-text-color);
+      background-color:var(--lm-button-danger-bg-color);
+      background-image:var(--lm-button-danger-bg-image);
+      border-color:var(--lm-button-danger-border-color);
+      -moz-box-shadow:var(--lm-button-danger-box-shadow);
+      -webkit-box-shadow:var(--lm-button-danger-box-shadow);
+      box-shadow:var(--lm-button-danger-box-shadow)
+    }
+    .ac-pushButton.style-destructive:hover {
+      color:var(--lm-button-danger-text-color-hover);
+      background-color:var(--lm-button-danger-bg-color-hover);
+      background-image:var(--lm-button-danger-bg-image-hover);
+      border-color:var(--lm-button-danger-border-color-hover);
+      -moz-box-shadow:var(--lm-button-danger-box-shadow-hover);
+      -webkit-box-shadow:var(--lm-button-danger-box-shadow-hover);
+      box-shadow:var(--lm-button-danger-box-shadow-hover)
+    }
+    .ac-pushButton.style-destructive.active,
+    .ac-pushButton.style-destructive:focus {
+      color:var(--lm-button-danger-text-color-focus);
+      background-color:var(--lm-button-danger-bg-color-focus);
+      background-image:var(--lm-button-danger-bg-image-focus);
+      border-color:var(--lm-button-danger-border-color-focus);
+      -moz-box-shadow:var(--lm-button-danger-box-shadow-focus);
+      -webkit-box-shadow:var(--lm-button-danger-box-shadow-focus);
+      box-shadow:var(--lm-button-danger-box-shadow-focus);
+      outline-color:var(--lm-button-danger-outline-color-focus)
+    }
+    .ac-pushButton.style-destructive.active:hover,
+    .ac-pushButton.style-destructive:focus:hover {
+      color:var(--lm-button-danger-text-color-hover);
+      background-color:var(--lm-button-danger-bg-color-hover);
+      background-image:var(--lm-button-danger-bg-image-hover)
+    }
+    .dark-mode .ac-pushButton.style-destructive {
+      color:var(--dm-button-danger-text-color);
+      background-color:var(--dm-button-danger-bg-color);
+      background-image:var(--dm-button-danger-bg-image);
+      border-color:var(--dm-button-danger-border-color);
+      -moz-box-shadow:var(--dm-button-danger-box-shadow);
+      -webkit-box-shadow:var(--dm-button-danger-box-shadow);
+      box-shadow:var(--dm-button-danger-box-shadow);
+      -webkit-font-smoothing:auto;
+      -moz-osx-font-smoothing:auto
+    }
+    .dark-mode .ac-pushButton.style-destructive:hover {
+      color:var(--dm-button-danger-text-color-hover);
+      background-color:var(--dm-button-danger-bg-color-hover);
+      background-image:var(--dm-button-danger-bg-image-hover);
+      border-color:var(--dm-button-danger-border-color-hover);
+      -moz-box-shadow:var(--dm-button-danger-box-shadow-hover);
+      -webkit-box-shadow:var(--dm-button-danger-box-shadow-hover);
+      box-shadow:var(--dm-button-danger-box-shadow-hover)
+    }
+    .dark-mode .ac-pushButton.style-destructive.active,
+    .dark-mode .ac-pushButton.style-destructive:focus {
+      color:var(--dm-button-danger-text-color-focus);
+      background-color:var(--dm-button-danger-bg-color-focus);
+      background-image:var(--dm-button-danger-bg-image-focus);
+      border-color:var(--dm-button-danger-border-color-focus);
+      -moz-box-shadow:var(--dm-button-danger-box-shadow-focus);
+      -webkit-box-shadow:var(--dm-button-danger-box-shadow-focus);
+      box-shadow:var(--dm-button-danger-box-shadow-focus);
+      outline-color:var(--dm-button-danger-outline-color-focus)
+    }
+    .dark-mode .ac-pushButton.style-destructive.active:hover,
+    .dark-mode .ac-pushButton.style-destructive:focus:hover {
+      color:var(--dm-button-danger-text-color-hover);
+      background-color:var(--dm-button-danger-bg-color-hover);
+      background-image:var(--dm-button-danger-bg-image-hover)
+    }
+    .ac-pushButton.style-destructive.disabled,
+    .ac-pushButton.style-destructive.disabled:focus,
+    .ac-pushButton.style-destructive.disabled:hover,
+    .ac-pushButton.style-destructive:disabled {
+      color:var(--lm-button-danger-text-color);
+      background-color:var(--lm-button-danger-bg-color);
+      background-image:var(--lm-button-danger-bg-image);
+      border-color:var(--lm-button-danger-border-color);
+      -moz-box-shadow:none;
+      -webkit-box-shadow:none;
+      box-shadow:none;
+      outline:0
+    }
+    .dark-mode .ac-pushButton.style-destructive.disabled,
+    .dark-mode .ac-pushButton.style-destructive.disabled:focus,
+    .dark-mode .ac-pushButton.style-destructive.disabled:hover,
+    .dark-mode .ac-pushButton.style-destructive:disabled {
+      color:var(--dm-button-danger-text-color);
+      background-color:var(--dm-button-danger-bg-color);
+      background-image:var(--dm-button-danger-bg-image);
+      border-color:var(--dm-button-danger-border-color);
+      -moz-box-shadow:none;
+      -webkit-box-shadow:none;
+      box-shadow:none;
+      outline:0
+    }
+
   </style>
 </head>
 <body class="with-custom-webkit-scrollbars with-custom-css-scrollbars" data-dm-shortcut-enabled="true" data-sidebar-shortcut-enabled="true" data-set-preferred-mode-onload="true">
@@ -101,25 +526,19 @@
       <div class="sidebar-divider"></div>
       <a href="https://github.com/reinhart1010" target="_blank" class="sidebar-link sidebar-link-with-icon">
         <span class="sidebar-icon bg-dark text-white bg-light-dm text-dark-dm">
-          <svg class="bi" width="18" height="18" fill="currentColor">
-            <use xlink:href="/img/bootstrap-icons.svg#code-square"/>
-          </svg>
+          <i class="fa fa-lg fa-github" aria-hidden="true"></i>
         </span>
         GitHub
       </a>
       <a href="https://gitlab.com/reinhart1010" target="_blank" class="sidebar-link sidebar-link-with-icon">
         <span class="sidebar-icon w3-metro-dark-orange text-white">
-          <svg class="bi" width="18" height="18" fill="currentColor">
-            <use xlink:href="/img/bootstrap-icons.svg#code-square"/>
-          </svg>
+          <i class="fa fa-lg fa-gitlab" aria-hidden="true"></i>
         </span>
         GitLab
       </a>
       <a href="https://twitter.com/reinhart1010" target="_blank" class="sidebar-link sidebar-link-with-icon">
         <span class="sidebar-icon w3-metro-blue text-white">
-          <svg class="bi" width="18" height="18" fill="currentColor">
-            <use xlink:href="/img/bootstrap-icons.svg#chat-dots"/>
-          </svg>
+          <i class="fa fa-lg fa-twitter" aria-hidden="true"></i>
         </span>
         Twitter
       </a>
@@ -127,19 +546,15 @@
       <h5 class="sidebar-title">Working On</h5>
       <div class="sidebar-divider"></div>
       <a href="https://computerun.id" target="_blank" class="sidebar-link sidebar-link-with-icon">
-        <span class="sidebar-icon w3-metro-dark-blue text-white">
-          <svg class="bi" width="18" height="18" fill="currentColor">
-            <use xlink:href="/img/bootstrap-icons.svg#calendar-event"/>
-          </svg>
+        <span class="sidebar-icon text-white" style="background-color: #0c1631">
+          <img src="/img/logo/computerun-2020.png" alt="Icon">
         </span>
         COMPUTERUN 2020:<br>
         INSIGHT
       </a>
       <a href="https://student.binus.ac.id/fyp/" target="_blank" class="sidebar-link sidebar-link-with-icon">
-        <span class="sidebar-icon w3-metro-light-purple text-white">
-          <svg class="bi" width="18" height="18" fill="currentColor">
-            <use xlink:href="/img/bootstrap-icons.svg#people"/>
-          </svg>
+        <span class="sidebar-icon">
+          <img src="/img/logo/binus.ico" alt="Icon">
         </span>
         First Year Program (FYP)<br>BINUS University
       </a>
@@ -179,10 +594,8 @@
         ICPC INC 2020
       </a>
       <a href="https://hacktoberfest.digitalocean.com/" target="_blank" class="sidebar-link sidebar-link-with-icon">
-        <span class="sidebar-icon w3-metro-magenta text-white">
-          <svg class="bi" width="18" height="18" fill="currentColor">
-            <use xlink:href="/img/bootstrap-icons.svg#code-square"/>
-          </svg>
+        <span class="sidebar-icon">
+          <img src="/img/logo/hacktoberfest-2020.ico" alt="Icon">
         </span>
         Hacktoberfest 2020
       </a>
@@ -238,10 +651,8 @@
         HTTP 2020: LINK
       </a>
       <a href="https://gitlab.com/gal_bert/m-oop-final-project" target="_blank" class="sidebar-link sidebar-link-with-icon">
-        <span class="sidebar-icon w3-metro-dark-purple text-white">
-          <svg class="bi" width="18" height="18" fill="currentColor">
-            <use xlink:href="/img/bootstrap-icons.svg#app-indicator"/>
-          </svg>
+        <span class="sidebar-icon">
+          <img src="/img/logo/jackpot-and-maths.png" alt="Icon" width="20" height="20">
         </span>
         Jackpot and Maths &mdash;<br>M-OOP Final Project
       </a>
@@ -266,9 +677,7 @@
       <div class="sidebar-divider"></div>
       <a href="https://hacktoberfest.digitalocean.com" target="_blank" class="sidebar-link sidebar-link-with-icon">
         <span class="sidebar-icon w3-metro-purple text-white">
-          <svg class="bi" width="18" height="18" fill="currentColor">
-            <use xlink:href="/img/bootstrap-icons.svg#code-square"/>
-          </svg>
+          <i class="fa fa-lg fa-digitalocean" aria-hidden="true"></i>
         </span>
         Hacktoberfest 2019
       </a>
@@ -287,149 +696,13 @@
       <div class="content">
         <h2 id="explore">Explore</h2><hr>
         <div class="container-fluid">
-          <div class="row">
-            <div class="col-lg-4">
-              <div class="card rounded-0 m-0 bg-dark text-white">
-                <h2 class="hidden-lg-and-down">
-                  #BersamaKita<br>
-                  <span style="visibility:hidden">#</span>Menang
-                </h2>
-                <h2 class="hidden-xl-and-up hidden-md-and-down">
-                  #Bersama<br>
-                  <span style="visibility:hidden">#</span>Kita<br>
-                  <span style="visibility:hidden">#</span>Menang
-                </h2>
-                <h3 class="hidden-lg-and-up">
-                  #BersamaKitaMenang
-                </h3>
-                <h2 class="card-title">Jangan menyerah dan <u>terus berjuang</u> dalam menghadapi keadaan apapun.<br><br>Percayalah, kita dapat melewatinya dengan <u>sempurna</u>.</h2>
-              </div>
-              <div class="card rounded-0 m-0 p-0 text-white" style="background: linear-gradient(77.5deg, rgba(50,70,133,1) -2.5%, rgba(38,55,107,1) 22.5%, rgba(12,22,49,1) 75%)">
-                <img src="https://user-images.githubusercontent.com/17312341/95489784-846ce800-09c1-11eb-85a6-00d2b3b13250.png" class="img-fluid" alt="COMPUTERUN 2020: INSIGHT">
-                <div class="content">
-                  <h3>
-                    Registration is now open!
-                  </h2>
-                  <p>
-                    Compete now in our <b>Business-IT Case</b> or <b>Mobile Application Development</b> competitions and show us what you’re made of 👊🏼
-                  </p>
-                  <div class="text-right">
-                    <a href="https://computerun.id" class="btn btn-primary"><b>Register</b></a>
-                  </div>
-                </div>
-              </div>
-              <div class="card rounded-0 m-0 p-0">
-                <img src="https://student.binus.ac.id/wp-content/uploads/2020/09/Untitled-design.png" class="img-fluid" alt="Tampilan aplikasi ADAB">
-                <div class="content">
-                  <h2 class="card-title mb-0">
-                    From the folks at Mobile Application and Technology (MAT) BINUS University
-                  </h2>
-                  <h3 class="text-primary">
-                    ADAB &mdash; Ayo Dengar Ayo Bicara
-                  </h3>
-                  <p>
-                    A mobile application to help hearing-impaired students in the all-online world.
-                  </p>
-                  <div class="text-right">
-                    <a href="https://www.online-journals.org/index.php/i-jet/article/view/12147/6677" class="btn">Read the Whitepaper</a>
-                    <a href="https://student.binus.ac.id/2020/09/aplikasi-adab-to-connect-dari-binusian-untuk-binusian/" class="btn btn-primary"><b>Learn More</b></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="card rounded-0 m-0 bg-success text-dark text-center">
-                <h3>
-                  <svg class="bi" width="64" height="64" fill="currentColor">
-                    <use xlink:href="/img/bootstrap-icons.svg#globe"/>
-                  </svg>
-                  <svg class="bi" width="64" height="64" fill="currentColor">
-                    <use xlink:href="/img/bootstrap-icons.svg#calendar-date"/>
-                  </svg>
-                  <svg class="bi" width="64" height="64" fill="currentColor">
-                    <use xlink:href="/img/bootstrap-icons.svg#chat-dots"/>
-                  </svg>
-                  <br>
-                  See All Projects, Events, and Contacts in One Place!
-                </h3>
-                <p>
-                  If you're on mobile, just click the <b>Menu</b> button on the <b>top-left corner</b> to see all of them.
-                </p>
-              </div>
-              <div class="card rounded-0 m-0 p-0 w3-metro-purple text-white">
-                <img src="https://user-images.githubusercontent.com/17312341/95454939-4e1a7300-0997-11eb-86fa-62178d465dce.png" class="img-fluid" alt="HIMTI ELECTION 2020">
-                <div class="content">
-                  <h3>
-                    Now Open for SoCS BINUS University
-                  </h3>
-                  <p>
-                    Let's vote for the next official HIMTI leaders, who will lead HIMTI to become South East Asia's renowned Student Association by 2025!<br><br>
-                    <b>Voting Period:</b> October 04-18, 2020
-                  </p>
-                  <div class="text-right">
-                    <a href="https://election.himti.or.id" class="btn bg-light text-dark"><b>Vote Now</b></a>
-                  </div>
-                </div>
-              </div>
-              <div class="card rounded-0 m-0 bg-dark text-white">
-                <code class="text-secondary">
-                </code>
-                <h2>
-                  <span style="font-weight: normal">H</span>31.10,<br>
-                  WORLD!
-                </h2>
-                <h2 class="card-title">The wait is <u>not</u> over yet!</h2>
-                <p>
-                  Stay tuned for amazing announcements on events and projects from Reinhart. <b>See you in October 31, 2020!</b>
-                </p>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="card rounded-0 m-0 bg-primary text-white">
-                <h3>
-                  Blogs are coming soon.
-                </h3>
-                <p>
-                  At the meantime, you can stay tuned for future blog content on <b>DEV.to</b> (English) and <b>Kotakode</b> (Bahasa Indonesia).
-                </p>
-                <div class="text-right">
-                  <a href="https://dev.to/reinhart1010" class="btn bg-light text-dark">DEV.to</a>
-                  <a href="https://kotakode.com/users/7/reinhart1010" class="btn bg-light text-dark">Kotakode</a>
-                </div>
-              </div>
-              <div class="card rounded-0 m-0 p-0 text-white" style="background: #1b2445">
-                <img src="https://user-images.githubusercontent.com/17312341/95452673-d0a13380-0993-11eb-88e7-b20e3e8cbcbe.png" class="img-fluid">
-                <div class="content">
-                  <p>
-                    <b><a href="https://www.instagram.com/p/CGCc0pxMsiZ/">@hotosm_id on Instagram:</a></b> Setelah 5 bulan berjalan, lebih dari 1.600 titik tempat cuci tangan telah berhasil ditambahkan melalui campaign Hand Washing Station Mapping!⁣<br><br>
-                    Selamat kepada Reinhart Previano yang telah menjadi contributor of the month di bulan September dengan total 16 laporan.<br><br>
-                    Terima kasih kepada seluruh relawan yang telah membantu menambahkan seluruh data ini. Ayo terus tambahkan lokasi tempat cuci tangan di sekitarmu!⁣
-                  </p>
-                  <div class="text-right">
-                    <a href="https://handwashing-station.ushahidi.io" class="btn bg-light text-dark"><b>Learn More</b></a>
-                  </div>
-                </div>
-              </div>
-              <div class="card rounded-0 m-0 bg-secondary text-dark">
-                <code class="">
-                  let candle = new Candle();<br>
-                  let wish = new Wish();<br><br>
-                  candle.ignite();<br>
-                  candle.add(wish).then( function(){<br>
-                  &nbsp;&nbsp;&nbsp;&nbsp;candle.blow();<br>
-                  });
-                </code><br><br>
-                <h3 class="pb-0">
-                  Thank you for all of your wishes!
-                </h3>
-                <h2 class="card-title">Jakarta, 10.10.2020</h2>
-              </div>
-            </div>
+          <div id="card-container">
+            <!-- To be automatically filled --> 
           </div>
         </div>
         <hr>
         <h2 id="partners">Partners and Relations</h2>
-        <details class="collapse-panel w-400 mw-full">
+        <!-- <details class="collapse-panel w-400 mw-full">
           <summary class="collapse-header">
             Abersoft Technologies
           </summary>
@@ -439,7 +712,7 @@
               <li><a href="https://abersoft.se/" target="_blank">Official Website</a></li>
             </ul>
           </div>
-        </details>
+        </details> -->
         <details class="collapse-panel w-400 mw-full">
           <summary class="collapse-header">
             Bakso Malang Ratu
@@ -593,5 +866,71 @@
 
   <!-- Halfmoon JS -->
   <script src="https://cdn.jsdelivr.net/npm/halfmoon@1.1.0/js/halfmoon.min.js"></script>
+  <script>
+  var adaptiveCard = new AdaptiveCards.AdaptiveCard();
+  adaptiveCard.hostConfig = new AdaptiveCards.HostConfig({
+    spacing: {
+      padding: "3rem"
+    },
+    actions: {
+      buttonSpacing: 4,
+      actionAlignment: 'right'
+    },
+    fontFamily: '-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"'
+  });
+  AdaptiveCards.processMarkdown = function(text) { return markdownit().render(text); }
+  var xhr = new XMLHttpRequest();
+  xhr.onreadystatechange = function() {
+    if (xhr.readyState == XMLHttpRequest.DONE) {
+      loadCards(xhr.responseText);
+    }
+  }
+  xhr.open('GET', '/data/cards.json', true);
+  xhr.send(null);
+
+  function loadCards(list){
+    let data = null;
+    try {
+      data = JSON.parse(list);
+    } catch (e) {
+      return;
+    }
+    if (!Array.isArray(data)) return;
+    data.forEach(function (card){
+      if (card.$schema && card.$schema == "http://adaptivecards.io/schemas/adaptive-card.json"){
+        adaptiveCard.parse(card);
+        var renderedCard = adaptiveCard.render();
+        document.getElementById('card-container').appendChild(renderedCard);
+      } else switch (card.type){
+        case "Custom.iframe":
+          var draft = '<div class="card m-0 p-0 rounded-0"><iframe src="' + (card.src || card.url) + '" style="width: 100%; height: 50vh; border: none" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>This card requires &lt;iframe&gt; rendering, which is not supported by your browser.</iframe>'
+          if (card.body){
+            draft += '<div class="content">';
+            if (card.body.title && card.body.title != ""){
+              draft += '<h3>' + card.body.title + '</h3>';
+            }
+            if (card.body.subtitle && card.body.subtitle != ""){
+              draft += '<p>' + card.body.subtitle + '</p>';
+            }
+            if (card.url && card.url != ""){
+              draft += '<div class="text-right"><a href="' + card.url + '" target="_blank" class="btn btn-primary"><b>Learn More</b></a></div>';
+            }
+            draft += '</div>';
+          }
+          draft += '</div>';
+          document.getElementById('card-container').innerHTML += draft
+          break;
+        case "Custom.rawHTML":
+          if (card.body){
+            document.getElementById('card-container').innerHTML += card.body
+          }
+          break;
+        default:
+          console.err("Unable to render card of type:" + card.type);
+      }
+    });
+  }
+  </script>
+  <script async src="https://www.instagram.com/embed.js"></script>
 </body>
 </html>
