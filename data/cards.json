@@ -1,15 +1,7 @@
 [
     {
         "type": "Custom.rawHTML",
-        "body": "<div class=\"card rounded-0 m-0 bg-secondary text-dark\"> <code class=\"\"> let candle = new Candle();<br> let wish = new Wish();<br><br> candle.ignite();<br> candle.add(wish).then( function(){<br> &nbsp;&nbsp;&nbsp;&nbsp;candle.blow();<br> }); </code><br><br><h3 class=\"pb-0\">Celebrating 19 Years since 2001.<br>Thank you for all of your wishes!</h3><h2 class=\"card-title\">Jakarta, 10.10.2020</h2></div>"
-    },
-    {
-        "type": "Custom.rawHTML",
-        "body": "<div class=\"card rounded-0 m-0 p-0 text-white\" style=\"background: linear-gradient(77.5deg, rgba(50,70,133,1) -2.5%, rgba(38,55,107,1) 22.5%, rgba(12,22,49,1) 75%)\"> <img src=\"https://user-images.githubusercontent.com/17312341/95489784-846ce800-09c1-11eb-85a6-00d2b3b13250.png\" class=\"img-fluid\" alt=\"COMPUTERUN 2020: INSIGHT\"><div class=\"content\"><h3> Registration is now open!</h2><p> Compete now in our <b>Business-IT Case</b> or <b>Mobile Application Development</b> competitions and show us what you’re made of 👊🏼</p><div class=\"text-right\"> <a href=\"https://computerun.id\" class=\"btn btn-primary\"><b>Register</b></a></div></div></div>"
-    },
-    {
-        "type": "Custom.rawHTML",
-        "body": "<div class=\"card rounded-0 m-0 bg-primary text-white\"><h3> Blogs are coming soon.</h3><p> At the meantime, you can stay tuned for future blog content on <b>DEV.to</b> (English) and <b>Kotakode</b> (Bahasa Indonesia).</p><div class=\"text-right\"> <a href=\"https://dev.to/reinhart1010\" class=\"btn bg-light text-dark\">DEV.to</a> <a href=\"https://kotakode.com/users/7/reinhart1010\" class=\"btn bg-light text-dark\">Kotakode</a></div></div>"
+        "body": "<div class=\"card rounded-0 m-0 bg-dark text-white\"><h2><span style=\"font-weight: normal\">H</span>31.10,<br>WORLD!</h2><h2 class=\"card-title\">Welcome to my new homepage!</h2><p>It has been a long site since we have met, from the late days of primary school up to the early days of the COVID-19 pandemic.</p><p>While you are exploring this website, could it be a great idea for me to advertise your works, campaigns, and businesses <b>right on this page</b>? Send me an email, Direct Message or Personal Chat if you're interested.</p></div>"
     },
     {
         "type": "Custom.rawHTML",
@@ -17,7 +9,15 @@
     },
     {
         "type": "Custom.rawHTML",
-        "body": "<div class=\"card rounded-0 m-0 p-0 w3-metro-purple text-white\"> <img src=\"https://user-images.githubusercontent.com/17312341/95454939-4e1a7300-0997-11eb-86fa-62178d465dce.png\" class=\"img-fluid\" alt=\"HIMTI ELECTION 2020\"><div class=\"content\"><h3> Now Open for SoCS BINUS University</h3><p> Let's vote for the next official HIMTI leaders, who will lead HIMTI to become South East Asia's renowned Student Association by 2025!<br><br> <b>Voting Period:</b> October 04-18, 2020</p><div class=\"text-right\"> <a href=\"https://election.himti.or.id\" class=\"btn bg-light text-dark\"><b>Vote Now</b></a></div></div></div>"
+        "body": "<div class=\"card rounded-0 m-0 p-0 text-white\" style=\"background: linear-gradient(77.5deg, rgba(50,70,133,1) -2.5%, rgba(38,55,107,1) 22.5%, rgba(12,22,49,1) 75%)\"> <img src=\"https://user-images.githubusercontent.com/17312341/95489784-846ce800-09c1-11eb-85a6-00d2b3b13250.png\" class=\"img-fluid\" alt=\"COMPUTERUN 2020: INSIGHT\"><div class=\"content\"><h3> Registration is now open!</h2><p> Compete now in our <b>Business-IT Case</b> or <b>Mobile Application Development</b> competitions and show us what you’re made of 👊🏼</p><div class=\"text-right\"> <a href=\"https://computerun.id\" class=\"btn btn-primary\"><b>Register</b></a></div></div></div>"
+    },
+    {
+        "type": "Custom.rawHTML",
+        "body": "<div class=\"card rounded-0 m-0 p-0 w3-metro-purple text-white\"> <img src=\"https://user-images.githubusercontent.com/17312341/97774907-54fb6680-1b8e-11eb-8b79-9b5e2e23c4fc.png\" class=\"img-fluid\" alt=\"HIMTI Charity Workshop\"><div class=\"content\"><h3>HIMTI Charity Workshop: Interactive Website</h3><p>HIMTI sebagai himpunan dari Teknik Informatika BINUS University mengadakan Charity Workshop 2020 🙇 Kami membuat Charity Workshop yang berbayar dan hasil dari pengumpulan dana akan kami alokasikan kepada institusi 🏢</p><div class=\"text-right\"> <a href=\"https://forms.gle/mWy35scH2KE29CyAA\" class=\"btn bg-light text-dark\"><b>Register Now</b></a></div></div></div>"
+    },
+    {
+        "type": "Custom.rawHTML",
+        "body": "<div class=\"card rounded-0 m-0 bg-primary text-white\"><h3> Blogs are coming soon.</h3><p> At the meantime, you can stay tuned for future blog content on <b>DEV.to</b> (English) and <b>Kotakode</b> (Bahasa Indonesia).</p><div class=\"text-right\"> <a href=\"https://dev.to/reinhart1010\" class=\"btn bg-light text-dark\">DEV.to</a> <a href=\"https://kotakode.com/users/7/reinhart1010\" class=\"btn bg-light text-dark\">Kotakode</a></div></div>"
     },
     {
         "type": "Custom.rawHTML",
@@ -25,6 +25,6 @@
     },
     {
         "type": "Custom.rawHTML",
-        "body": "<div class=\"card rounded-0 m-0 bg-dark text-white\"><h2><span style=\"font-weight: normal\">H</span>31.10,<br>WORLD!</h2><h2 class=\"card-title\">The wait is <u>not</u> over yet!</h2><p>Stay tuned for amazing announcements on events and projects from Reinhart. <b>See you in October 31, 2020!</b></p></div>"
+        "body": "<div class=\"card rounded-0 m-0 bg-secondary text-dark\"> <code class=\"\"> let candle = new Candle();<br> let wish = new Wish();<br><br> candle.ignite();<br> candle.add(wish).then( function(){<br> &nbsp;&nbsp;&nbsp;&nbsp;candle.blow();<br> }); </code><br><br><h3 class=\"pb-0\">Celebrating 19 Years since 2001.<br>Thank you for all of your wishes!</h3><h2 class=\"card-title\">Jakarta, 10.10.2020</h2></div>"
     }
 ]
