@@ -923,6 +923,46 @@
         var renderedCard = adaptiveCard.render();
         document.getElementById('card-container').appendChild(renderedCard);
       } else switch (card.type){
+        case "Reinhart.advertisement":
+          var draft = '<div class="card m-0 p-0 rounded-0"';
+          if (card.color) draft += ' style="' + ((card.color.background) ? ('background-color:' + card.color.background + ';') : '') + ((card.color.foreground) ? ('color:' + card.color.foreground + ';') : '')  + '">';
+          if (card.image) draft += '<img src="' + card.image + '" alt="' + card.body.title + '" class="img-fluid">';
+          draft += '<div class="content m-20">';
+          if (card.body.title && !(card.body.options && card.body.options.hideTitle)) draft += '<h3>' + card.body.title + "</h3>";
+          if (card.body.subtitle) draft += '<h4 class="card-title">' + card.body.subtitle + '</h4>';
+          if (card.body.description) draft += '<p>' + card.body.description + '</p>';
+          if (card.events){
+            var i;
+            for (i = 0; i < card.events.length; i++){
+              draft += '<div class="p-10 rounded mb-10" style="background-color:rgba(0,0,0,0.5);color:#ffffff">';
+              if (card.events[i].title){
+                draft += '<h5 class="m-0">' + card.events[i].title + '</h5>';
+                if (card.events[i].location || card.events[i].start || card.events[i].end) draft += '<hr>';
+              }
+              if (card.events[i].location){
+                draft += '<p class="m-0"><svg class="bi" width="18" height="18" fill="white"><use xlink:href="/img/bootstrap-icons.svg#geo-fill"/></svg> <b>' + card.events[i].location + '</b></p>';
+                if (card.events[i].start || card.events[i].end) draft += '<hr>';
+              }
+              if (card.events[i].start){
+                draft += '<p class="m-0"><b>Starts at</b> ' + new Date(card.events[i].start).toString() + '</p>';
+                if (card.events[i].end) draft += '<hr>';
+              }
+              if (card.events[i].end) draft += '<p class="m-0"><b>Ends at</b> ' + new Date(card.events[i].end).toString() + '</p>';
+              draft += '</div>';
+            }
+          }
+          if (card.actions){
+            draft += '<div class="text-right">';
+            var i;
+            for (i = 0; i < card.actions.length; i++){
+              draft += ' <a href="' + card.actions[i].url + '" target="_blank" class="btn bg-light text-dark">' + card.actions[i].title + '</a>';
+            }
+            draft += '</div>';
+          }
+          draft += '</div>';
+          draft += '</div>';
+          document.getElementById('card-container').innerHTML += draft;
+          break;
         case "Custom.iframe":
           var draft = '<div class="card m-0 p-0 rounded-0"><iframe src="' + (card.src || card.url) + '" style="width: 100%; height: 50vh; border: none" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>This card requires &lt;iframe&gt; rendering, which is not supported by your browser.</iframe>'
           if (card.body){
@@ -939,11 +979,11 @@
             draft += '</div>';
           }
           draft += '</div>';
-          document.getElementById('card-container').innerHTML += draft
+          document.getElementById('card-container').innerHTML += draft;
           break;
         case "Custom.rawHTML":
           if (card.body){
-            document.getElementById('card-container').innerHTML += card.body
+            document.getElementById('card-container').innerHTML += card.body;
           }
           break;
         default:
