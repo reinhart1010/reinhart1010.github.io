@@ -492,7 +492,7 @@
         Reinhart Previano K.
       </a>
       <!-- Navbar text -->
-      <span class="navbar-text text-monospace">v19.0</span> <!-- text-monospace = font-family shifted to monospace -->
+      <span class="navbar-text text-monospace">v19.1</span> <!-- text-monospace = font-family shifted to monospace -->
       <!-- Navbar nav -->
       <ul class="navbar-nav d-none d-md-flex"> <!-- d-none = display: none, d-md-flex = display: flex on medium screens and up (width > 768px) -->
         <li class="nav-item">
@@ -928,6 +928,7 @@
           if (card.color) draft += ' style="' + ((card.color.background) ? ('background-color:' + card.color.background + ';') : '') + ((card.color.foreground) ? ('color:' + card.color.foreground + ';') : '')  + '">';
           if (card.image) draft += '<img src="' + card.image + '" alt="' + card.body.title + '" class="img-fluid">';
           draft += '<div class="content m-20">';
+          if (card.body.kicker) draft += '<h4 class="card-title">' + card.body.kicker + '</h4>';
           if (card.body.title && !(card.body.options && card.body.options.hideTitle)) draft += '<h3>' + card.body.title + "</h3>";
           if (card.body.subtitle) draft += '<h4 class="card-title">' + card.body.subtitle + '</h4>';
           if (card.body.description) draft += '<p>' + card.body.description + '</p>';
@@ -935,17 +936,21 @@
             var i;
             for (i = 0; i < card.events.length; i++){
               draft += '<div class="p-10 rounded mb-10" style="background-color:rgba(0,0,0,0.5);color:#ffffff">';
+              var n = Object.keys(card.events[i]).length;
               if (card.events[i].title){
                 draft += '<h5 class="m-0">' + card.events[i].title + '</h5>';
-                if (card.events[i].location || card.events[i].start || card.events[i].end) draft += '<hr>';
+                n--;
+                if (n > 0) draft += '<hr>';
               }
               if (card.events[i].location){
                 draft += '<p class="m-0"><svg class="bi" width="18" height="18" fill="white"><use xlink:href="/img/bootstrap-icons.svg#geo-fill"/></svg> <b>' + card.events[i].location + '</b></p>';
-                if (card.events[i].start || card.events[i].end) draft += '<hr>';
+                n--;
+                if (n > 0) draft += '<hr>';
               }
               if (card.events[i].start){
                 draft += '<p class="m-0"><b>Starts at</b> ' + new Date(card.events[i].start).toString() + '</p>';
-                if (card.events[i].end) draft += '<hr>';
+                n--;
+                if (n > 0) draft += '<hr>';
               }
               if (card.events[i].end) draft += '<p class="m-0"><b>Ends at</b> ' + new Date(card.events[i].end).toString() + '</p>';
               draft += '</div>';

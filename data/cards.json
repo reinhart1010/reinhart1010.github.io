@@ -60,6 +60,28 @@
     },
     {
         "type": "Reinhart.advertisement",
+        "color": {
+            "background": "#673ab7",
+            "foreground": "white"
+        },
+        "author": {
+            "name": "Kotakode"
+        },
+        "body": {
+            "kicker": "<svg class='bi' width='20' height='20' fill='white'><use xlink:href='/img/bootstrap-icons.svg#clipboard-check'/></svg> Bantu kami isi", 
+            "title": "Survei Kepuasan Masyarakat",
+            "subtitle": "dalam menerima informasi dan pelayanan pemerintah melalui aplikasi (JAKI, PIKOBAR, dll.)",
+            "description": "Hasil survei ini akan digunakan dalam perancangan aplikasi sebagai tugas kelompok mata kuliah <b>COMP6056 - Program Design Methods</b> kami."
+        },
+        "actions": [
+            {
+                "title": "Isi di Google Forms",
+                "url": "https://docs.google.com/forms/d/e/1FAIpQLSdexXQgCXbX__FvoGkgmeLyo7Zwp6QzImZEW1MNESXU_6Spbg/viewform"
+            }
+        ]
+    },
+    {
+        "type": "Reinhart.advertisement",
         "image": "https://user-images.githubusercontent.com/17312341/101133246-ebfa8900-363a-11eb-8342-8644e2a7db88.png",
         "color": {
             "background": "#1a4297",
@@ -144,8 +166,8 @@
             "name": "Kotakode"
         },
         "body": {
-            "title": "BINUS UNIVERSITY RECTOR CUP 2020",
-            "subtitle": "Expose Your True Colors"
+            "kicker": "Expose Your True Colors",
+            "title": "BINUS UNIVERSITY RECTOR CUP 2020"
         },
         "events": [
             {
