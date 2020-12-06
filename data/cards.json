@@ -1,11 +1,7 @@
 [
     {
         "type": "Custom.rawHTML",
-        "body": "<div class=\"card rounded-0 m-0 bg-dark text-white\"><h2><span style=\"font-weight: normal\">H</span>31.10,<br>WORLD!</h2><h2 class=\"card-title\">Welcome to my new homepage!</h2><p>It has been a long time since we have met, either from the late days of primary school, or up to the early days of the COVID-19 pandemic.</p><p>While you are exploring this website, could it be a great idea for me to promote your works, businesses, and campaigns <b>right on this page</b>? Send me an email, Direct Message or Personal Chat if you're interested.</p></div>"
-    },
-    {
-        "type": "Custom.rawHTML",
-        "body": "<div class=\"card rounded-0 m-0 bg-success text-dark text-center\"><h3> <svg class=\"bi\" width=\"64\" height=\"64\" fill=\"currentColor\"> <use xlink:href=\"/img/bootstrap-icons.svg#globe\"/> </svg> <svg class=\"bi\" width=\"64\" height=\"64\" fill=\"currentColor\"> <use xlink:href=\"/img/bootstrap-icons.svg#calendar-date\"/> </svg> <svg class=\"bi\" width=\"64\" height=\"64\" fill=\"currentColor\"> <use xlink:href=\"/img/bootstrap-icons.svg#chat-dots\"/> </svg> <br> See All Projects, Events, and Contacts in One Place!</h3><p> If you're on mobile, just click the <b>Menu</b> button on the <b>top-left corner</b> to see all of them.</p></div>"
+        "body": "<div class=\"card rounded-0 m-0 bg-dark text-white\"><h2><span style=\"font-weight: normal\">H</span>31.10,<br>WORLD!</h2><h2 class=\"card-title\">Welcome to my new homepage!</h2><p>It has been a long time since we have met, either from the late days of primary school, or up to the early days of the COVID-19 pandemic.</p><p>If you're reading this in a mobile phone or tablet, tap the <b>Menu</b> icon to view all of my projects, events, and contacts.</p><p>While you are exploring this website, could it be a great idea for me to promote your works, businesses, and campaigns <b>right on this page</b>? Send me an email, Direct Message or Personal Chat if you're interested.</p></div>"
     },
     {
         "type": "Reinhart.advertisement",
@@ -27,10 +23,38 @@
     },
     {
         "type": "Reinhart.advertisement",
-        "image": "https://user-images.githubusercontent.com/17312341/101133961-3b8d8480-363c-11eb-8f13-6d92587d8fc8.png",
+        "image": "https://user-images.githubusercontent.com/17312341/101272960-ab7a4700-37c3-11eb-879d-e91c253f1eca.png",
         "color": {
-            "background": "#e65d2c",
-            "foreground": "white"
+            "background": "#fbe446",
+            "backgroundTop": "black",
+            "foreground": "#19505e",
+            "foregroundTop": "white"
+        },
+        "author": {
+            "name": "BINUS TV",
+            "url": "https://binus.tv"
+        },
+        "body": {
+            "options": {
+                "hideTitle": true
+            },
+            "title": "M-Talk BINUS TV: Dare to be Successful Entrepreneur"
+        },
+        "actions": [
+            {
+                "title": "More Info and Register",
+                "url": "https://linktr.ee/binustvevents"
+            }
+        ]
+    },
+    {
+        "type": "Reinhart.advertisement",
+        "image": "https://user-images.githubusercontent.com/17312341/101136316-b86e2d80-363f-11eb-8cd2-06e06422dcbc.png",
+        "color": {
+            "background": "#a0f2c2",
+            "backgroundTop": "#484848",
+            "foreground": "black",
+            "foregroundTop": "white"
         },
         "author": {
             "name": "Kotakode",
@@ -40,18 +64,158 @@
             "options": {
                 "hideTitle": true
             },
-            "title": "BNID &times; Kotakode Talks: Chit-Chat Dunia Perkodingan"
+            "title": "Kotakode Blogging Competition 1.0",
+            "subtitle": "Hai sobat Kotakode,",
+            "description": "Kotakode Blog Competition 1.0 akan segera hadir untuk mewadahi ide-ide keren dari temen-temen semua tentang programming!"
         },
         "events": [
             {
-                "start": "2020-12-05T18:00:00+07:00",
-                "location": "Zoom (Link TBA)"
+                "title": "Blog Submission",
+                "start": "2020-12-07T00:00:00+07:00",
+                "end": "2020-12-20T23:59:59+07:00",
+                "location": "Online (www.kotakode.com)"
+            },
+            {
+                "title": "Winner Announcement",
+                "start": "2020-12-23T00:00:00+07:00",
+                "location": "Online (www.kotakode.com)"
             }
         ],
         "actions": [
             {
-                "title": "Daftar Sekarang (Gratis)",
-                "url": "https://bit.ly/bnid-talks"
+                "title": "Info Selengkapnya",
+                "url": "https://www.instagram.com/p/CISqtY1g0ZH/"
+            }
+        ]
+    },
+    {
+        "type": "Reinhart.advertisement",
+        "image": "https://user-images.githubusercontent.com/17312341/101273074-fd6f9c80-37c4-11eb-9eaf-dccfccd8bf87.png",
+        "color": {
+            "background": "#edd557",
+            "backgroundTop": "#fafcfb",
+            "foreground": "#19505e",
+            "foregroundTop": "black"
+        },
+        "author": {
+            "name": "HIMPAR BINUS University",
+            "url": "https://instagram.com/himparbinus"
+        },
+        "body": {
+            "options": {
+                "hideTitle": true
+            },
+            "title": "M-Talk BINUS TV: Dare to be Successful Entrepreneur"
+        },
+        "actions": [
+            {
+                "title": "More Info",
+                "url": "https://www.instagram.com/p/CIHsrh3n7gm/"
+            },
+            {
+                "title": "Register",
+                "url": "https://bit.ly/WebinarCHSEHIMPAR"
+            }
+        ]
+    },
+    {
+        "type": "Reinhart.advertisement",
+        "image": "https://user-images.githubusercontent.com/17312341/101272149-2a6b8180-37bc-11eb-8bfe-2a1ec6e8021b.png",
+        "color": {
+            "background": "#080c0b",
+            "backgroundTop": "#101e1f",
+            "foreground": "white"
+        },
+        "author": {
+            "name": "BNEC Asian English Olympics",
+            "url": "http://aeo.mybnec.org/"
+        },
+        "body": {
+            "kicker": "BINUS English Club", 
+            "title": "Asian English Olympics 2021",
+            "description": "It's time for Asia to shine once again.<br><b>Together, we can do it!</b>"
+        },
+        "actions": [
+            {
+                "title": "More Info and Register",
+                "url": "https://aeo.mybnec.org"
+            }
+        ]
+    },
+    {
+        "type": "Reinhart.advertisement",
+        "image": "https://bm5cdn.azureedge.net/banner/20201202165016BN000253382.jpg",
+        "color": {
+            "background": "#c51965",
+            "foreground": "white"
+        },
+        "author": {
+            "name": "Rector Cup BINUS University",
+            "url": "https://instagram.com/binusrectorcup/"
+        },
+        "body": {
+            "kicker": "Expose Your True Colors",
+            "title": "BINUS UNIVERSITY RECTOR CUP 2020"
+        },
+        "events": [
+            {
+                "start": "2020-12-14T00:00:00+07:00",
+                "end": "2020-12-18T23:59:59+07:00",
+                "location": "Online"
+            }
+        ],
+        "actions": [
+            {
+                "title": "Learn More",
+                "url": "https://www.instagram.com/binusrectorcup/"
+            },
+            {
+                "title": "Register",
+                "url": "https://tinyurl.com/RegistrationofRectorCup2020"
+            }
+        ]
+    },
+
+    {
+        "type": "Reinhart.advertisement",
+        "image": "https://user-images.githubusercontent.com/17312341/101234812-3b04f480-36f5-11eb-9fdc-251fb65129c1.png",
+        "color": {
+            "background": "#b99d85",
+            "backgroundTop": "#cce7e8",
+            "foreground": "white",
+            "foregroundTop": "#0e5498"
+        },
+        "author": {
+            "name": "HIMPAR BINUS University",
+            "url": "https://instagram.com/himparbinus"
+        },
+        "body": {
+            "options": {
+                "hideTitle": true
+            },
+            "title": "HIMPAR BINUS Essay Competition"
+        },
+        "events": [
+            {
+                "title": "Registration and Submission",
+                "start": "2020-12-01T00:00:00+07:00",
+                "end": "2021-01-01T23:59:59+07:00",
+                "location": "Online (bit.ly/HIMPARESSAY)"
+            },
+            {
+                "title": "Winner Announcement",
+                "start": "2021-01-12T00:00:00+07:00",
+                "location": "Online"
+            }
+        ],
+        "actions": [
+            {
+                "title": "Info Lengkap",
+                "url": "https://www.instagram.com/p/CIQSuPOnU-W/"
+            },
+            {
+                "title": "Ikut Sekarang",
+                "url": "https://bit.ly/HIMPARESSAY"
             }
         ]
     },
@@ -102,153 +266,10 @@
             "subtitle": "Hola mahasiswa SOCS !!",
             "description": "Tahun ini, HIMTI akan mengunjungi kantor aplikasi dompet digital ternama di Indonesia, yaitu DANA.<br><br>Yuk langsung daftarkan diri kalian <b>(100% GRATIS)</b> dan dapatkan benefits berupa SAT Point, E-Certificate, Knowledge, dan Networking!"
         },
-        "events": [
-            {
-                "start": "2020-12-10T09:20:00+07:00",
-                "end": "2020-12-10T11:00:00+07:00",
-                "location": "Zoom (Link TBA)"
-            }
-        ],
         "actions": [
             {
                 "title": "Join Us Now",
                 "url": "https://bit.ly/compvisHIMTI2020"
-            }
-        ]
-    },
-    {
-        "type": "Reinhart.advertisement",
-        "image": "https://user-images.githubusercontent.com/17312341/101136316-b86e2d80-363f-11eb-8cd2-06e06422dcbc.png",
-        "color": {
-            "background": "#a0f2c2",
-            "backgroundTop": "#484848",
-            "foreground": "black",
-            "foregroundTop": "white"
-        },
-        "author": {
-            "name": "Kotakode",
-            "url": "https://kotakode.com"
-        },
-        "body": {
-            "options": {
-                "hideTitle": true
-            },
-            "title": "Kotakode Blogging Competition 1.0",
-            "subtitle": "Hai sobat Kotakode,",
-            "description": "Kotakode Blog Competition 1.0 akan segera hadir untuk mewadahi ide-ide keren dari temen-temen semua tentang programming!"
-        },
-        "events": [
-            {
-                "title": "Blog Submission",
-                "start": "2020-12-07T00:00:00+07:00",
-                "end": "2020-12-20T23:59:59+07:00",
-                "location": "Online (www.kotakode.com)"
-            },
-            {
-                "title": "Winner Announcement",
-                "start": "2020-12-23T00:00:00+07:00",
-                "location": "Online (www.kotakode.com)"
-            }
-        ],
-        "actions": [
-            {
-                "title": "Info Selengkapnya",
-                "url": "https://www.instagram.com/p/CISqtY1g0ZH/"
-            }
-        ]
-    },
-    {
-        "type": "Reinhart.advertisement",
-        "color": {
-            "background": "#673ab7",
-            "foreground": "white"
-        },
-        "body": {
-            "kicker": "<svg class='bi' width='20' height='20' fill='white'><use xlink:href='/img/bootstrap-icons.svg#clipboard-check'/></svg> Bantu kami isi", 
-            "title": "Survei Kepuasan Masyarakat",
-            "subtitle": "dalam menerima informasi dan pelayanan pemerintah melalui aplikasi (JAKI, PIKOBAR, dll.)",
-            "description": "Hasil survei ini akan digunakan dalam perancangan aplikasi sebagai tugas kelompok mata kuliah <b>COMP6056 - Program Design Methods</b> kami."
-        },
-        "actions": [
-            {
-                "title": "Isi di Google Forms",
-                "url": "https://docs.google.com/forms/d/e/1FAIpQLSdexXQgCXbX__FvoGkgmeLyo7Zwp6QzImZEW1MNESXU_6Spbg/viewform"
-            }
-        ]
-    },
-    {
-        "type": "Reinhart.advertisement",
-        "image": "https://bm5cdn.azureedge.net/banner/20201202165016BN000253382.jpg",
-        "color": {
-            "background": "#c51965",
-            "foreground": "white"
-        },
-        "author": {
-            "name": "Rector Cup BINUS University",
-            "url": "https://instagram.com/binusrectorcup/"
-        },
-        "body": {
-            "kicker": "Expose Your True Colors",
-            "title": "BINUS UNIVERSITY RECTOR CUP 2020"
-        },
-        "events": [
-            {
-                "start": "2020-12-14T00:00:00+07:00",
-                "end": "2020-12-18T23:59:59+07:00",
-                "location": "Online"
-            }
-        ],
-        "actions": [
-            {
-                "title": "Learn More",
-                "url": "https://www.instagram.com/binusrectorcup/"
-            },
-            {
-                "title": "Register",
-                "url": "https://tinyurl.com/RegistrationofRectorCup2020"
-            }
-        ]
-    },
-    {
-        "type": "Reinhart.advertisement",
-        "image": "https://user-images.githubusercontent.com/17312341/101234812-3b04f480-36f5-11eb-9fdc-251fb65129c1.png",
-        "color": {
-            "background": "#b99d85",
-            "backgroundTop": "#cce7e8",
-            "foreground": "white",
-            "foregroundTop": "#0e5498"
-        },
-        "author": {
-            "name": "HIMPAR BINUS University",
-            "url": "https://instagram.com/himparbinus"
-        },
-        "body": {
-            "options": {
-                "hideTitle": true
-            },
-            "title": "HIMPAR BINUS Essay Competition"
-        },
-        "events": [
-            {
-                "title": "Registration and Submission",
-                "start": "2020-12-01T00:00:00+07:00",
-                "end": "2021-01-01T23:59:59+07:00",
-                "location": "Online (bit.ly/HIMPARESSAY)"
-            },
-            {
-                "title": "Winner Announcement",
-                "start": "2021-01-12T00:00:00+07:00",
-                "location": "Online"
-            }
-        ],
-        "actions": [
-            {
-                "title": "Info Lengkap",
-                "url": "https://www.instagram.com/p/CIQSuPOnU-W/"
-            },
-            {
-                "title": "Ikut Sekarang",
-                "url": "https://bit.ly/HIMPARESSAY"
             }
         ]
     },
