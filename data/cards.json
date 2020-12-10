@@ -5,24 +5,6 @@
     },
     {
         "type": "Reinhart.advertisement",
-        "image": "https://bm5cdn.azureedge.net/banner/202012041038181000842151.jpeg",
-        "color": {
-            "background": "#8f8647",
-            "backgroundTop": "#baab48",
-            "foreground": "white"
-        },
-        "body": {
-            "title": "Selamat Ulang Tahun BINUS TV yang ke-11!"
-        },
-        "actions": [
-            {
-                "title": "Visit BINUS TV",
-                "url": "https://binus.tv"
-            }
-        ]
-    },
-    {
-        "type": "Reinhart.advertisement",
         "image": "https://user-images.githubusercontent.com/17312341/101272960-ab7a4700-37c3-11eb-879d-e91c253f1eca.png",
         "color": {
             "background": "#fbe446",
@@ -49,42 +31,28 @@
     },
     {
         "type": "Reinhart.advertisement",
-        "image": "https://user-images.githubusercontent.com/17312341/101136316-b86e2d80-363f-11eb-8cd2-06e06422dcbc.png",
+        "image": "https://miro.medium.com/max/2400/1*OttaSy_jcQlW0TZYOKMmdA.png",
         "color": {
-            "background": "#a0f2c2",
-            "backgroundTop": "#484848",
-            "foreground": "black",
-            "foregroundTop": "white"
+            "background": "#5d9bc7",
+            "foreground": "white"
         },
         "author": {
-            "name": "Kotakode",
-            "url": "https://kotakode.com"
+            "name": "WebThings",
+            "url": "https://webthings.io"
         },
         "body": {
-            "options": {
-                "hideTitle": true
-            },
-            "title": "Kotakode Blogging Competition 1.0",
-            "subtitle": "Hai sobat Kotakode,",
-            "description": "Kotakode Blog Competition 1.0 akan segera hadir untuk mewadahi ide-ide keren dari temen-temen semua tentang programming!"
+            "title": "Introducing WebThings 1.0",
+            "subtitle": "Flown the nest from Mozilla",
+            "description": "An open-source implementation of <b>W3C Web of Things standards</b> for monitoring and controlling devices over the web"
         },
-        "events": [
-            {
-                "title": "Blog Submission",
-                "start": "2020-12-07T00:00:00+07:00",
-                "end": "2020-12-20T23:59:59+07:00",
-                "location": "Online (www.kotakode.com)"
-            },
-            {
-                "title": "Winner Announcement",
-                "start": "2020-12-23T00:00:00+07:00",
-                "location": "Online (www.kotakode.com)"
-            }
-        ],
         "actions": [
             {
-                "title": "Info Selengkapnya",
-                "url": "https://www.instagram.com/p/CISqtY1g0ZH/"
+                "title": "Read Annoucement",
+                "url": "https://hacks.mozilla.org/2020/12/flying-the-nest-webthings-gateway-1-0/"
+            },
+            {
+                "title": "Visit Homepage",
+                "url": "https://webthings.io/"
             }
         ]
     },
@@ -92,7 +60,7 @@
         "type": "Reinhart.advertisement",
         "image": "https://user-images.githubusercontent.com/17312341/101273074-fd6f9c80-37c4-11eb-9eaf-dccfccd8bf87.png",
         "color": {
-            "background": "#edd557",
+            "background": "#235b8c",
             "backgroundTop": "#fafcfb",
             "foreground": "#19505e",
             "foregroundTop": "black"
@@ -105,7 +73,7 @@
             "options": {
                 "hideTitle": true
             },
-            "title": "M-Talk BINUS TV: Dare to be Successful Entrepreneur"
+            "title": "Seminar \"Pentingnya CHSE di Era New Normal\""
         },
         "actions": [
             {
@@ -115,6 +83,100 @@
             {
                 "title": "Register",
                 "url": "https://bit.ly/WebinarCHSEHIMPAR"
+            }
+        ]
+    },
+    {
+        "type": "Reinhart.advertisement",
+        "image": "https://user-images.githubusercontent.com/17312341/101720507-6cf0cf00-3ad8-11eb-954c-7635ab2a96af.png",
+        "color": {
+            "background": "#a7b4ab",
+            "backgroundTop": "#484848",
+            "foreground": "black",
+            "foregroundTop": "white"
+        },
+        "author": {
+            "name": "Kotakode",
+            "url": "https://kotakode.com"
+        },
+        "body": {
+            "options": {
+                "hideTitle": true
+            },
+            "title": "Kotakode Blogging Competition 1.0"
+        },
+        "actions": [
+            {
+                "title": "Info dan Peraturan",
+                "url": "http://bit.ly/KotakodeBlogCompetition"
+            },
+            {
+                "title": "Ikut Sekarang",
+                "url": "https://kotakode.com/blogs"
+            }
+        ]
+    },
+    {
+        "type": "Reinhart.advertisement",
+        "image": "https://user-images.githubusercontent.com/17312341/101721829-6fa0f380-3adb-11eb-9dbe-741443dc3747.png",
+        "author": {
+            "name": "BINUS Career",
+            "url": "https://www.instagram.com/binuscareer/"
+        },
+        "body": {
+            "options": {
+                "hideTitle": true
+            },
+            "title": "BINUS Virtual Job Expo 36",
+            "description": "Untuk tahu kapan di buka registrasinya kamu bisa add LINE kita di <b>@binuscareer</b> karena kita akan broadcast link pendaftaranya di LINE.<br><br>Ayo siapkan diri kalian demi masa depan yang cemerlang ✨"
+        },
+        "actions": [
+            {
+                "title": "Contact & Register",
+                "url": "https://line.me/R/ti/p/@binuscareer"
+            }
+        ]
+    },
+    {
+        "type": "Reinhart.advertisement",
+        "image": "https://user-images.githubusercontent.com/17312341/101234812-3b04f480-36f5-11eb-9fdc-251fb65129c1.png",
+        "color": {
+            "background": "#b99d85",
+            "backgroundTop": "#cce7e8",
+            "foreground": "white",
+            "foregroundTop": "#0e5498"
+        },
+        "author": {
+            "name": "HIMPAR BINUS University",
+            "url": "https://instagram.com/himparbinus"
+        },
+        "body": {
+            "options": {
+                "hideTitle": true
+            },
+            "title": "HIMPAR BINUS Essay Competition"
+        },
+        "events": [
+            {
+                "title": "Registration and Submission",
+                "start": "2020-12-01T00:00:00+07:00",
+                "end": "2021-01-01T23:59:59+07:00",
+                "location": "Online (bit.ly/HIMPARESSAY)"
+            },
+            {
+                "title": "Winner Announcement",
+                "start": "2021-01-12T00:00:00+07:00",
+                "location": "Online"
+            }
+        ],
+        "actions": [
+            {
+                "title": "Info Lengkap",
+                "url": "https://www.instagram.com/p/CIQSuPOnU-W/"
+            },
+            {
+                "title": "Ikut Sekarang",
+                "url": "https://bit.ly/HIMPARESSAY"
             }
         ]
     },
@@ -175,101 +237,21 @@
             }
         ]
     },
-
     {
         "type": "Reinhart.advertisement",
-        "image": "https://user-images.githubusercontent.com/17312341/101234812-3b04f480-36f5-11eb-9fdc-251fb65129c1.png",
+        "image": "https://bm5cdn.azureedge.net/banner/202012041038181000842151.jpeg",
         "color": {
-            "background": "#b99d85",
-            "backgroundTop": "#cce7e8",
-            "foreground": "white",
-            "foregroundTop": "#0e5498"
-        },
-        "author": {
-            "name": "HIMPAR BINUS University",
-            "url": "https://instagram.com/himparbinus"
-        },
-        "body": {
-            "options": {
-                "hideTitle": true
-            },
-            "title": "HIMPAR BINUS Essay Competition"
-        },
-        "events": [
-            {
-                "title": "Registration and Submission",
-                "start": "2020-12-01T00:00:00+07:00",
-                "end": "2021-01-01T23:59:59+07:00",
-                "location": "Online (bit.ly/HIMPARESSAY)"
-            },
-            {
-                "title": "Winner Announcement",
-                "start": "2021-01-12T00:00:00+07:00",
-                "location": "Online"
-            }
-        ],
-        "actions": [
-            {
-                "title": "Info Lengkap",
-                "url": "https://www.instagram.com/p/CIQSuPOnU-W/"
-            },
-            {
-                "title": "Ikut Sekarang",
-                "url": "https://bit.ly/HIMPARESSAY"
-            }
-        ]
-    },
-    {
-        "type": "Reinhart.advertisement",
-        "image": "https://miro.medium.com/max/2400/1*OttaSy_jcQlW0TZYOKMmdA.png",
-        "color": {
-            "background": "#5d9bc7",
+            "background": "#8f8647",
+            "backgroundTop": "#baab48",
             "foreground": "white"
         },
-        "author": {
-            "name": "WebThings",
-            "url": "https://webthings.io"
-        },
         "body": {
-            "title": "Introducing WebThings 1.0",
-            "subtitle": "Flown the nest from Mozilla",
-            "description": "An open-source implementation of <b>W3C Web of Things standards</b> for monitoring and controlling devices over the web"
+            "title": "Selamat Ulang Tahun BINUS TV yang ke-11!"
         },
         "actions": [
             {
-                "title": "Read Annoucement",
-                "url": "https://hacks.mozilla.org/2020/12/flying-the-nest-webthings-gateway-1-0/"
-            },
-            {
-                "title": "Visit Homepage",
-                "url": "https://webthings.io/"
-            }
-        ]
-    },
-    {
-        "type": "Reinhart.advertisement",
-        "image": "https://user-images.githubusercontent.com/17312341/101133246-ebfa8900-363a-11eb-8342-8644e2a7db88.png",
-        "color": {
-            "background": "#1a4297",
-            "backgroundTop": "#0f8fea",
-            "foreground": "white"
-        },
-        "author": {
-            "name": "HIMTI BINUS University",
-            "url": "https://instagram.com/himti_binus"
-        },
-        "body": {
-            "options": {
-                "hideTitle": true
-            },
-            "title": "HIMTI Virtual Company Visit",
-            "subtitle": "Hola mahasiswa SOCS !!",
-            "description": "Tahun ini, HIMTI akan mengunjungi kantor aplikasi dompet digital ternama di Indonesia, yaitu DANA.<br><br>Yuk langsung daftarkan diri kalian <b>(100% GRATIS)</b> dan dapatkan benefits berupa SAT Point, E-Certificate, Knowledge, dan Networking!"
-        },
-        "actions": [
-            {
-                "title": "Join Us Now",
-                "url": "https://bit.ly/compvisHIMTI2020"
+                "title": "Visit BINUS TV",
+                "url": "https://binus.tv"
             }
         ]
     },
