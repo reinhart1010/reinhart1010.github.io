@@ -5,84 +5,35 @@
     },
     {
         "type": "Reinhart.advertisement",
-        "image": "https://user-images.githubusercontent.com/17312341/101272960-ab7a4700-37c3-11eb-879d-e91c253f1eca.png",
+        "image": "https://bm5cdn.azureedge.net/banner/20201202165016BN000253382.jpg",
         "color": {
-            "background": "#fbe446",
-            "backgroundTop": "black",
-            "foreground": "#19505e",
-            "foregroundTop": "white"
-        },
-        "author": {
-            "name": "BINUS TV",
-            "url": "https://binus.tv"
-        },
-        "body": {
-            "options": {
-                "hideTitle": true
-            },
-            "title": "M-Talk BINUS TV: Dare to be Successful Entrepreneur"
-        },
-        "actions": [
-            {
-                "title": "More Info and Register",
-                "url": "https://linktr.ee/binustvevents"
-            }
-        ]
-    },
-    {
-        "type": "Reinhart.advertisement",
-        "image": "https://miro.medium.com/max/2400/1*OttaSy_jcQlW0TZYOKMmdA.png",
-        "color": {
-            "background": "#5d9bc7",
+            "background": "#c51965",
             "foreground": "white"
         },
         "author": {
-            "name": "WebThings",
-            "url": "https://webthings.io"
+            "name": "Rector Cup BINUS University",
+            "url": "https://instagram.com/binusrectorcup/"
         },
         "body": {
-            "title": "Introducing WebThings 1.0",
-            "subtitle": "Flown the nest from Mozilla",
-            "description": "An open-source implementation of <b>W3C Web of Things standards</b> for monitoring and controlling devices over the web"
+            "kicker": "It's on!",
+            "title": "BINUS UNIVERSITY RECTOR CUP 2020",
+            "subtitle": "Expose Your True Colors"
         },
-        "actions": [
+        "events": [
             {
-                "title": "Read Annoucement",
-                "url": "https://hacks.mozilla.org/2020/12/flying-the-nest-webthings-gateway-1-0/"
-            },
-            {
-                "title": "Visit Homepage",
-                "url": "https://webthings.io/"
+                "start": "2020-12-14T00:00:00+07:00",
+                "end": "2020-12-18T23:59:59+07:00",
+                "location": "Online"
             }
-        ]
-    },
-    {
-        "type": "Reinhart.advertisement",
-        "image": "https://user-images.githubusercontent.com/17312341/101273074-fd6f9c80-37c4-11eb-9eaf-dccfccd8bf87.png",
-        "color": {
-            "background": "#235b8c",
-            "backgroundTop": "#fafcfb",
-            "foreground": "#19505e",
-            "foregroundTop": "black"
-        },
-        "author": {
-            "name": "HIMPAR BINUS University",
-            "url": "https://instagram.com/himparbinus"
-        },
-        "body": {
-            "options": {
-                "hideTitle": true
-            },
-            "title": "Seminar \"Pentingnya CHSE di Era New Normal\""
-        },
+        ],
         "actions": [
             {
-                "title": "More Info",
-                "url": "https://www.instagram.com/p/CIHsrh3n7gm/"
+                "title": "Learn More",
+                "url": "https://www.instagram.com/binusrectorcup/"
             },
             {
                 "title": "Register",
-                "url": "https://bit.ly/WebinarCHSEHIMPAR"
+                "url": "https://tinyurl.com/RegistrationofRectorCup2020"
             }
         ]
     },
@@ -118,6 +69,32 @@
     },
     {
         "type": "Reinhart.advertisement",
+        "image": "https://user-images.githubusercontent.com/17312341/101272960-ab7a4700-37c3-11eb-879d-e91c253f1eca.png",
+        "color": {
+            "background": "#fbe446",
+            "backgroundTop": "black",
+            "foreground": "#19505e",
+            "foregroundTop": "white"
+        },
+        "author": {
+            "name": "BINUS TV",
+            "url": "https://binus.tv"
+        },
+        "body": {
+            "options": {
+                "hideTitle": true
+            },
+            "title": "M-Talk BINUS TV: Dare to be Successful Entrepreneur"
+        },
+        "actions": [
+            {
+                "title": "More Info and Register",
+                "url": "https://linktr.ee/binustvevents"
+            }
+        ]
+    },
+    {
+        "type": "Reinhart.advertisement",
         "image": "https://user-images.githubusercontent.com/17312341/101721829-6fa0f380-3adb-11eb-9dbe-741443dc3747.png",
         "author": {
             "name": "BINUS Career",
@@ -134,6 +111,62 @@
             {
                 "title": "Contact & Register",
                 "url": "https://line.me/R/ti/p/@binuscareer"
+            }
+        ]
+    },
+    {
+        "type": "Reinhart.advertisement",
+        "image": "https://user-images.githubusercontent.com/17312341/102207021-03b9f300-3f00-11eb-866b-eda3dfb631b4.png",
+        "color": {
+            "background": "#fcb333",
+            "backgroundTop": "#243153",
+            "foreground": "black",
+            "foregroundTop": "white"
+        },
+        "author": {
+            "name": "HIMSISFO BINUS University",
+            "url": "https://instagram.com/himsisfo_binus"
+        },
+        "body": {
+            "options": {
+                "hideTitle": true
+            },
+            "title": "CREATION (Creative Idea and Innovation) Online Seminar"
+        },
+        "actions": [
+            {
+                "title": "Register",
+                "url": "https://bit.ly/Creation-Himsisfo"
+            }
+        ]
+    },
+    {
+        "type": "Reinhart.advertisement",
+        "image": "https://user-images.githubusercontent.com/17312341/101273074-fd6f9c80-37c4-11eb-9eaf-dccfccd8bf87.png",
+        "color": {
+            "background": "#235b8c",
+            "backgroundTop": "#fafcfb",
+            "foreground": "#19505e",
+            "foregroundTop": "black"
+        },
+        "author": {
+            "name": "HIMPAR BINUS University",
+            "url": "https://instagram.com/himparbinus"
+        },
+        "body": {
+            "options": {
+                "hideTitle": true
+            },
+            "title": "Seminar \"Pentingnya CHSE di Era New Normal\""
+        },
+        "actions": [
+            {
+                "title": "More Info",
+                "url": "https://www.instagram.com/p/CIHsrh3n7gm/"
+            },
+            {
+                "title": "Register",
+                "url": "https://bit.ly/WebinarCHSEHIMPAR"
             }
         ]
     },
@@ -201,57 +234,6 @@
             {
                 "title": "More Info and Register",
                 "url": "https://aeo.mybnec.org"
-            }
-        ]
-    },
-    {
-        "type": "Reinhart.advertisement",
-        "image": "https://bm5cdn.azureedge.net/banner/20201202165016BN000253382.jpg",
-        "color": {
-            "background": "#c51965",
-            "foreground": "white"
-        },
-        "author": {
-            "name": "Rector Cup BINUS University",
-            "url": "https://instagram.com/binusrectorcup/"
-        },
-        "body": {
-            "kicker": "Expose Your True Colors",
-            "title": "BINUS UNIVERSITY RECTOR CUP 2020"
-        },
-        "events": [
-            {
-                "start": "2020-12-14T00:00:00+07:00",
-                "end": "2020-12-18T23:59:59+07:00",
-                "location": "Online"
-            }
-        ],
-        "actions": [
-            {
-                "title": "Learn More",
-                "url": "https://www.instagram.com/binusrectorcup/"
-            },
-            {
-                "title": "Register",
-                "url": "https://tinyurl.com/RegistrationofRectorCup2020"
-            }
-        ]
-    },
-    {
-        "type": "Reinhart.advertisement",
-        "image": "https://bm5cdn.azureedge.net/banner/202012041038181000842151.jpeg",
-        "color": {
-            "background": "#8f8647",
-            "backgroundTop": "#baab48",
-            "foreground": "white"
-        },
-        "body": {
-            "title": "Selamat Ulang Tahun BINUS TV yang ke-11!"
-        },
-        "actions": [
-            {
-                "title": "Visit BINUS TV",
-                "url": "https://binus.tv"
             }
         ]
     },
