@@ -1,7 +1,72 @@
 [
     {
-        "type": "Custom.rawHTML",
-        "body": "<div class=\"card rounded-0 m-0 bg-dark text-white\"><h2><span style=\"font-weight: normal\">H</span>31.10,<br>WORLD!</h2><h2 class=\"card-title\">Welcome to my new homepage!</h2><p>It has been a long time since we have met, either from the late days of primary school, or up to the early days of the COVID-19 pandemic.</p><p>If you're reading this in a mobile phone or tablet, tap the <b>Menu</b> icon to view all of my projects, events, and contacts.</p><p>While you are exploring this website, could it be a great idea for me to promote your works, businesses, and campaigns <b>right on this page</b>? Send me an email, Direct Message or Personal Chat if you're interested.</p></div>"
+        "type": "Reinhart.advertisement",
+        "image": "https://user-images.githubusercontent.com/17312341/102435611-80a4b400-4049-11eb-83d7-69d64505a2a8.png",
+        "color": {
+            "background": "#f3f0e7",
+            "foreground": "black"
+        },
+        "body": {
+            "title": "<u>#SelaMAT</u> kepada 👁️👄👁️ - Rokaru",
+            "subtitle": "Andrew C, Andrew MT, Stanley",
+            "description": "Untuk memenangkan <b>Juara 1</b> dalam kompetisi <b>The 2020 Bina Nusantara Hackathon \"Fostering and Empowering Indonesia\"</b>"
+        }
+    },
+    {
+        "type": "Reinhart.advertisement",
+        "image": "https://user-images.githubusercontent.com/17312341/101273074-fd6f9c80-37c4-11eb-9eaf-dccfccd8bf87.png",
+        "color": {
+            "background": "#235b8c",
+            "backgroundTop": "#fafcfb",
+            "foreground": "#19505e",
+            "foregroundTop": "black"
+        },
+        "author": {
+            "name": "HIMPAR BINUS University",
+            "url": "https://instagram.com/himparbinus"
+        },
+        "body": {
+            "options": {
+                "hideTitle": true
+            },
+            "title": "Seminar \"Pentingnya CHSE di Era New Normal\""
+        },
+        "actions": [
+            {
+                "title": "More Info",
+                "url": "https://www.instagram.com/p/CIHsrh3n7gm/"
+            },
+            {
+                "title": "Register",
+                "url": "https://bit.ly/WebinarCHSEHIMPAR"
+            }
+        ]
+    },
+    {
+        "type": "Reinhart.advertisement",
+        "image": "https://user-images.githubusercontent.com/17312341/102207021-03b9f300-3f00-11eb-866b-eda3dfb631b4.png",
+        "color": {
+            "background": "#fcb333",
+            "backgroundTop": "#243153",
+            "foreground": "black",
+            "foregroundTop": "white"
+        },
+        "author": {
+            "name": "HIMSISFO BINUS University",
+            "url": "https://instagram.com/himsisfo_binus"
+        },
+        "body": {
+            "options": {
+                "hideTitle": true
+            },
+            "title": "CREATION (Creative Idea and Innovation) Online Seminar"
+        },
+        "actions": [
+            {
+                "title": "Register",
+                "url": "https://bit.ly/Creation-Himsisfo"
+            }
+        ]
     },
     {
         "type": "Reinhart.advertisement",
@@ -69,32 +134,6 @@
     },
     {
         "type": "Reinhart.advertisement",
-        "image": "https://user-images.githubusercontent.com/17312341/101272960-ab7a4700-37c3-11eb-879d-e91c253f1eca.png",
-        "color": {
-            "background": "#fbe446",
-            "backgroundTop": "black",
-            "foreground": "#19505e",
-            "foregroundTop": "white"
-        },
-        "author": {
-            "name": "BINUS TV",
-            "url": "https://binus.tv"
-        },
-        "body": {
-            "options": {
-                "hideTitle": true
-            },
-            "title": "M-Talk BINUS TV: Dare to be Successful Entrepreneur"
-        },
-        "actions": [
-            {
-                "title": "More Info and Register",
-                "url": "https://linktr.ee/binustvevents"
-            }
-        ]
-    },
-    {
-        "type": "Reinhart.advertisement",
         "image": "https://user-images.githubusercontent.com/17312341/101721829-6fa0f380-3adb-11eb-9dbe-741443dc3747.png",
         "author": {
             "name": "BINUS Career",
@@ -111,62 +150,6 @@
             {
                 "title": "Contact & Register",
                 "url": "https://line.me/R/ti/p/@binuscareer"
-            }
-        ]
-    },
-    {
-        "type": "Reinhart.advertisement",
-        "image": "https://user-images.githubusercontent.com/17312341/102207021-03b9f300-3f00-11eb-866b-eda3dfb631b4.png",
-        "color": {
-            "background": "#fcb333",
-            "backgroundTop": "#243153",
-            "foreground": "black",
-            "foregroundTop": "white"
-        },
-        "author": {
-            "name": "HIMSISFO BINUS University",
-            "url": "https://instagram.com/himsisfo_binus"
-        },
-        "body": {
-            "options": {
-                "hideTitle": true
-            },
-            "title": "CREATION (Creative Idea and Innovation) Online Seminar"
-        },
-        "actions": [
-            {
-                "title": "Register",
-                "url": "https://bit.ly/Creation-Himsisfo"
-            }
-        ]
-    },
-    {
-        "type": "Reinhart.advertisement",
-        "image": "https://user-images.githubusercontent.com/17312341/101273074-fd6f9c80-37c4-11eb-9eaf-dccfccd8bf87.png",
-        "color": {
-            "background": "#235b8c",
-            "backgroundTop": "#fafcfb",
-            "foreground": "#19505e",
-            "foregroundTop": "black"
-        },
-        "author": {
-            "name": "HIMPAR BINUS University",
-            "url": "https://instagram.com/himparbinus"
-        },
-        "body": {
-            "options": {
-                "hideTitle": true
-            },
-            "title": "Seminar \"Pentingnya CHSE di Era New Normal\""
-        },
-        "actions": [
-            {
-                "title": "More Info",
-                "url": "https://www.instagram.com/p/CIHsrh3n7gm/"
-            },
-            {
-                "title": "Register",
-                "url": "https://bit.ly/WebinarCHSEHIMPAR"
             }
         ]
     },
@@ -239,6 +222,6 @@
     },
     {
         "type": "Custom.rawHTML",
-        "body": "<div class=\"card rounded-0 m-0 bg-secondary text-dark\"> <code class=\"\"> let candle = new Candle();<br> let wish = new Wish();<br><br> candle.ignite();<br> candle.add(wish).then( function(){<br> &nbsp;&nbsp;&nbsp;&nbsp;candle.blow();<br> }); </code><br><br><h3 class=\"pb-0\">Celebrating 19 Years since 2001.<br>Thank you for all of your wishes!</h3><h2 class=\"card-title\">Jakarta, 10.10.2020</h2></div>"
+        "body": "<div class=\"card rounded-0 m-0 bg-dark text-white\"><h2><span style=\"font-weight: normal\">H</span>31.10,<br>WORLD!</h2><h2 class=\"card-title\">Welcome to my new homepage!</h2><p>It has been a long time since we have met, either from the late days of primary school, or up to the early days of the COVID-19 pandemic.</p><p>If you're reading this in a mobile phone or tablet, tap the <b>Menu</b> icon to view all of my projects, events, and contacts.</p><p>While you are exploring this website, could it be a great idea for me to promote your works, businesses, and campaigns <b>right on this page</b>? Send me an email, Direct Message or Personal Chat if you're interested.</p></div>"
     }
 ]
