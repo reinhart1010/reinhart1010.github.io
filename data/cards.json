@@ -2,6 +2,20 @@
     {
         "type": "Reinhart.advertisement",
         "color": {
+            "background": "#da2778",
+            "foreground": "white"
+        },
+        "image": "https://user-images.githubusercontent.com/17312341/104357916-5e1a9380-5540-11eb-8e87-e9b964adef0c.png",
+        "body": {
+            "options": {
+                "hideTitle": true
+            },
+            "title": "Selamat Ulang Tahun yang ke-17!"
+        }
+    },
+    {
+        "type": "Reinhart.advertisement",
+        "color": {
             "background": "#121e3f",
             "foreground": "white"
         },
@@ -14,22 +28,6 @@
             {
                 "title": "More Info",
                 "url": "https://www.instagram.com/computerun/"
-            }
-        ]
-    },
-    {
-        "type": "Reinhart.advertisement",
-        "color": {
-            "background": "#EC4899",
-            "foreground": "#A5F3FC"
-        },
-        "body": {
-            "title": "Title"
-        },
-        "actions": [
-            {
-                "title": "Get Reinhartify Premium",
-                "url": "https://www.instagram.com/reinhart1010"
             }
         ]
     },
