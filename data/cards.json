@@ -1,200 +1,78 @@
 [
     {
         "type": "Reinhart.advertisement",
-        "image": "https://user-images.githubusercontent.com/17312341/102435611-80a4b400-4049-11eb-83d7-69d64505a2a8.png",
         "color": {
-            "background": "#f3f0e7",
-            "foreground": "black"
+            "background": "#121e3f",
+            "foreground": "white"
         },
         "body": {
-            "title": "<u>#SelaMAT</u> kepada 👁️👄👁️ - Rokaru",
-            "subtitle": "Andrew C, Andrew MT, Stanley",
-            "description": "Untuk memenangkan <b>Juara 1</b> dalam kompetisi <b>The 2020 Bina Nusantara Hackathon \"Fostering and Empowering Indonesia\"</b>"
-        }
-    },
-    {
-        "type": "Reinhart.advertisement",
-        "image": "https://user-images.githubusercontent.com/17312341/101273074-fd6f9c80-37c4-11eb-9eaf-dccfccd8bf87.png",
-        "color": {
-            "background": "#235b8c",
-            "backgroundTop": "#fafcfb",
-            "foreground": "#19505e",
-            "foregroundTop": "black"
-        },
-        "author": {
-            "name": "HIMPAR BINUS University",
-            "url": "https://instagram.com/himparbinus"
-        },
-        "body": {
-            "options": {
-                "hideTitle": true
-            },
-            "title": "Seminar \"Pentingnya CHSE di Era New Normal\""
+            "kicker": "A big <u>#ThankYou</u> to all for",
+            "title": "COMPUTERUN 2020: INSIGHT",
+            "subtitle": "See you on the next, exciting COMPUTERUN event!"
         },
         "actions": [
             {
                 "title": "More Info",
-                "url": "https://www.instagram.com/p/CIHsrh3n7gm/"
-            },
-            {
-                "title": "Register",
-                "url": "https://bit.ly/WebinarCHSEHIMPAR"
+                "url": "https://www.instagram.com/computerun/"
             }
         ]
     },
     {
         "type": "Reinhart.advertisement",
-        "image": "https://user-images.githubusercontent.com/17312341/102207021-03b9f300-3f00-11eb-866b-eda3dfb631b4.png",
         "color": {
-            "background": "#fcb333",
-            "backgroundTop": "#243153",
-            "foreground": "black",
-            "foregroundTop": "white"
-        },
-        "author": {
-            "name": "HIMSISFO BINUS University",
-            "url": "https://instagram.com/himsisfo_binus"
+            "background": "#EC4899",
+            "foreground": "#A5F3FC"
         },
         "body": {
-            "options": {
-                "hideTitle": true
-            },
-            "title": "CREATION (Creative Idea and Innovation) Online Seminar"
+            "title": "Title"
         },
         "actions": [
             {
-                "title": "Register",
-                "url": "https://bit.ly/Creation-Himsisfo"
+                "title": "Get Reinhartify Premium",
+                "url": "https://www.instagram.com/reinhart1010"
             }
         ]
     },
     {
         "type": "Reinhart.advertisement",
-        "image": "https://bm5cdn.azureedge.net/banner/20201202165016BN000253382.jpg",
+        "image": "https://user-images.githubusercontent.com/17312341/104301104-d447d780-54f9-11eb-8272-a13a59b84a1b.png",
         "color": {
-            "background": "#c51965",
+            "background": "#0094ff",
             "foreground": "white"
         },
-        "author": {
-            "name": "Rector Cup BINUS University",
-            "url": "https://instagram.com/binusrectorcup/"
-        },
         "body": {
-            "kicker": "It's on!",
-            "title": "BINUS UNIVERSITY RECTOR CUP 2020",
-            "subtitle": "Expose Your True Colors"
+            "title": "Use the same WhatsApp number for Signal and Telegram.",
+            "description": "Also supports iMessage, KakaoTalk, LINE, and WeChat."
         },
-        "events": [
-            {
-                "start": "2020-12-14T00:00:00+07:00",
-                "end": "2020-12-18T23:59:59+07:00",
-                "location": "Online"
-            }
-        ],
         "actions": [
             {
-                "title": "Learn More",
-                "url": "https://www.instagram.com/binusrectorcup/"
+                "title": "⬇️ Get Signal",
+                "url": "https://signal.org/"
             },
             {
-                "title": "Register",
-                "url": "https://tinyurl.com/RegistrationofRectorCup2020"
+                "title": "⬇️ Get Telegram",
+                "url": "https://telegram.org/"
             }
         ]
     },
     {
         "type": "Reinhart.advertisement",
-        "image": "https://user-images.githubusercontent.com/17312341/101720507-6cf0cf00-3ad8-11eb-954c-7635ab2a96af.png",
         "color": {
-            "background": "#a7b4ab",
-            "backgroundTop": "#484848",
-            "foreground": "black",
-            "foregroundTop": "white"
-        },
-        "author": {
-            "name": "Kotakode",
-            "url": "https://kotakode.com"
+            "background": "#683292",
+            "foreground": "white"
         },
         "body": {
-            "options": {
-                "hideTitle": true
-            },
-            "title": "Kotakode Blogging Competition 1.0"
-        },
-        "actions": [
-            {
-                "title": "Info dan Peraturan",
-                "url": "http://bit.ly/KotakodeBlogCompetition"
-            },
-            {
-                "title": "Ikut Sekarang",
-                "url": "https://kotakode.com/blogs"
-            }
-        ]
+            "title": "Thank You, Ms. Marilou Sergote!",
+            "subtitle": "Biology Teacher and Photographer at PENABUR Secondary Tanjung Duren",
+            "description": "for teaching our class with great heart and kindness throughout the years."
+        }
     },
     {
-        "type": "Reinhart.advertisement",
-        "image": "https://user-images.githubusercontent.com/17312341/101721829-6fa0f380-3adb-11eb-9dbe-741443dc3747.png",
-        "author": {
-            "name": "BINUS Career",
-            "url": "https://www.instagram.com/binuscareer/"
-        },
+        "type": "Custom.iframe",
+        "url": "https://www.youtube.com/embed/Pdw0COlVPLw",
         "body": {
-            "options": {
-                "hideTitle": true
-            },
-            "title": "BINUS Virtual Job Expo 36",
-            "description": "Untuk tahu kapan di buka registrasinya kamu bisa add LINE kita di <b>@binuscareer</b> karena kita akan broadcast link pendaftaranya di LINE.<br><br>Ayo siapkan diri kalian demi masa depan yang cemerlang ✨"
-        },
-        "actions": [
-            {
-                "title": "Contact & Register",
-                "url": "https://line.me/R/ti/p/@binuscareer"
-            }
-        ]
-    },
-    {
-        "type": "Reinhart.advertisement",
-        "image": "https://user-images.githubusercontent.com/17312341/101234812-3b04f480-36f5-11eb-9fdc-251fb65129c1.png",
-        "color": {
-            "background": "#b99d85",
-            "backgroundTop": "#cce7e8",
-            "foreground": "white",
-            "foregroundTop": "#0e5498"
-        },
-        "author": {
-            "name": "HIMPAR BINUS University",
-            "url": "https://instagram.com/himparbinus"
-        },
-        "body": {
-            "options": {
-                "hideTitle": true
-            },
-            "title": "HIMPAR BINUS Essay Competition"
-        },
-        "events": [
-            {
-                "title": "Registration and Submission",
-                "start": "2020-12-01T00:00:00+07:00",
-                "end": "2021-01-01T23:59:59+07:00",
-                "location": "Online (bit.ly/HIMPARESSAY)"
-            },
-            {
-                "title": "Winner Announcement",
-                "start": "2021-01-12T00:00:00+07:00",
-                "location": "Online"
-            }
-        ],
-        "actions": [
-            {
-                "title": "Info Lengkap",
-                "url": "https://www.instagram.com/p/CIQSuPOnU-W/"
-            },
-            {
-                "title": "Ikut Sekarang",
-                "url": "https://bit.ly/HIMPARESSAY"
-            }
-        ]
+            "title": "( ͡° ͜ʖ ͡°)"
+        }
     },
     {
         "type": "Reinhart.advertisement",
@@ -209,7 +87,7 @@
             "url": "http://aeo.mybnec.org/"
         },
         "body": {
-            "kicker": "BINUS English Club", 
+            "kicker": "BINUS English Club (BNEC)", 
             "title": "Asian English Olympics 2021",
             "description": "It's time for Asia to shine once again.<br><b>Together, we can do it!</b>"
         },
@@ -219,6 +97,19 @@
                 "url": "https://aeo.mybnec.org"
             }
         ]
+    },
+    {
+        "type": "Reinhart.advertisement",
+        "image": "https://user-images.githubusercontent.com/17312341/102435611-80a4b400-4049-11eb-83d7-69d64505a2a8.png",
+        "color": {
+            "background": "#f3f0e7",
+            "foreground": "black"
+        },
+        "body": {
+            "title": "<u>#SelaMAT</u> kepada 👁️👄👁️ - Rokaru",
+            "subtitle": "Andrew C, Andrew MT, Stanley",
+            "description": "Untuk memenangkan <b>Juara 1</b> dalam kompetisi <b>The 2020 Bina Nusantara Hackathon \"Fostering and Empowering Indonesia\"</b>"
+        }
     },
     {
         "type": "Custom.rawHTML",

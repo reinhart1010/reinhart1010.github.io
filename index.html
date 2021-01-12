@@ -492,7 +492,7 @@
         Reinhart Previano K.
       </a>
       <!-- Navbar text -->
-      <span class="navbar-text text-monospace">v19.2</span> <!-- text-monospace = font-family shifted to monospace -->
+      <span class="navbar-text text-monospace">v19.3</span> <!-- text-monospace = font-family shifted to monospace -->
       <!-- Navbar nav -->
       <ul class="navbar-nav d-none d-md-flex"> <!-- d-none = display: none, d-md-flex = display: flex on medium screens and up (width > 768px) -->
         <li class="nav-item">
@@ -989,7 +989,7 @@
         case "Custom.iframe":
           var draft = '<div class="card m-0 p-0 rounded-0"><iframe src="' + (card.src || card.url) + '" style="width: 100%; height: 50vh; border: none" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>This card requires &lt;iframe&gt; rendering, which is not supported by your browser.</iframe>'
           if (card.body){
-            draft += '<div class="content">';
+            draft += '<div class="content m-20 mt-10">';
             if (card.body.title && card.body.title != ""){
               draft += '<h3>' + card.body.title + '</h3>';
             }
@@ -997,7 +997,7 @@
               draft += '<p>' + card.body.subtitle + '</p>';
             }
             if (card.url && card.url != ""){
-              draft += '<div class="text-right"><a href="' + card.url + '" target="_blank" class="btn btn-primary"><b>Learn More</b></a></div>';
+              draft += '<div class="text-right"><a href="' + card.url + '" target="_blank" class="btn btn-primary"><b>Open in separate tab</b></a></div>';
             }
             draft += '</div>';
           }
