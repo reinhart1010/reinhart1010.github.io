@@ -1,0 +1,143 @@
+---
+layout: default
+---
+
+<div class="content">
+  <h3>Recent Blog Posts</h3>
+  <div class="container-fluid">
+  {% for post in site.posts limit:5 %}
+  <a href="{{ post.url }}" class="sidebar-link sidebar-link-with-icon">
+    <span class="sidebar-icon">
+      <svg class="bi" width="18" height="18" fill="currentColor">
+        <use xlink:href="/assets/img/bootstrap-icons.svg#file-post-fill"/>
+      </svg>
+    </span>
+    {{ post.title }}
+  </a>
+  {% endfor %}
+  </div>
+  <h3>Announcements</h3>
+  <div class="container-fluid">
+    <div id="card-container">
+      <!-- To be automatically filled --> 
+    </div>
+  </div>
+</div>
+<script>
+var adaptiveCard = new AdaptiveCards.AdaptiveCard();
+adaptiveCard.hostConfig = new AdaptiveCards.HostConfig({
+  spacing: {
+    padding: "3rem"
+  },
+  actions: {
+    buttonSpacing: 4,
+    actionAlignment: 'right'
+  },
+  fontFamily: '-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"'
+});
+AdaptiveCards.processMarkdown = function(text) { return markdownit().render(text); }
+var xhr = new XMLHttpRequest();
+xhr.onreadystatechange = function() {
+  if (xhr.readyState == XMLHttpRequest.DONE) {
+    loadCards(xhr.responseText);
+  }
+}
+xhr.open('GET', '/data/cards.json', true);
+xhr.send(null);
+
+function loadCards(list){
+  let data = null;
+  try {
+    data = JSON.parse(list);
+  } catch (e) {
+    return;
+  }
+  if (!Array.isArray(data)) return;
+  data.forEach(function (card){
+    if (card.$schema && card.$schema == "http://adaptivecards.io/schemas/adaptive-card.json"){
+      adaptiveCard.parse(card);
+      var renderedCard = adaptiveCard.render();
+      document.getElementById('card-container').appendChild(renderedCard);
+    } else switch (card.type){
+      case "Reinhart.advertisement":
+        var draft = '<div class="card m-0 p-0 rounded-0"';
+        if (card.color) draft += ' style="' + ((card.color.background) ? ('background-color:' + card.color.background + ';') : '') + ((card.color.foreground) ? ('color:' + card.color.foreground + ';') : '') + '"';
+        draft += '>';
+        if (card.author) switch (card.author.name){
+          case 'Reinhart':
+            draft += '<p class="px-20 py-10 m-0" style="background-color:' + ((card.color && card.color.background) ? ((card.color.backgroundTop) ? card.color.backgroundTop : card.color.background) : 'inherit') + ';color:' + ((card.color && card.color.foreground) ? ((card.color.foregroundTop) ? card.color.foregroundTop : card.color.foreground) : 'inherit') + '">Official Post from <b>Reinhart</b></p>';
+            break;
+          default:
+            draft += '<p class="px-20 py-10 m-0" style="background-color:' + ((card.color && card.color.background) ? ((card.color.backgroundTop) ? card.color.backgroundTop : card.color.background) : 'inherit') + ';color:' + ((card.color && card.color.foreground) ? ((card.color.foregroundTop) ? card.color.foregroundTop : card.color.foreground) : 'inherit') + '">Shared from <b><a style="color:inherit; text-decoration:underline;" href="' + card.author.url + '" target="_blank">' + card.author.name + '</a></b></p>';
+        }
+        if (card.image) draft += '<img src="' + card.image + '" alt="' + card.body.title + '" class="img-fluid">';
+        draft += '<div class="content m-20 mt-10">';
+        if (card.body.kicker) draft += '<h4 class="card-title">' + card.body.kicker + '</h4>';
+        if (card.body.title && !(card.body.options && card.body.options.hideTitle)) draft += '<h3>' + card.body.title + "</h3>";
+        if (card.body.subtitle) draft += '<h4 class="card-title">' + card.body.subtitle + '</h4>';
+        if (card.body.description) draft += '<p>' + card.body.description + '</p>';
+        if (card.events){
+          var i;
+          for (i = 0; i < card.events.length; i++){
+            draft += '<div class="p-10 rounded mb-10" style="background-color:rgba(0,0,0,0.5);color:#ffffff">';
+            var n = Object.keys(card.events[i]).length;
+            if (card.events[i].title){
+              draft += '<h5 class="m-0">' + card.events[i].title + '</h5>';
+              n--;
+              if (n > 0) draft += '<hr>';
+            }
+            if (card.events[i].location){
+              draft += '<p class="m-0"><svg class="bi" width="18" height="18" fill="white"><use xlink:href="/img/bootstrap-icons.svg#geo-fill"/></svg> <b>' + card.events[i].location + '</b></p>';
+              n--;
+              if (n > 0) draft += '<hr>';
+            }
+            if (card.events[i].start){
+              draft += '<p class="m-0"><b>Starts at</b> ' + new Date(card.events[i].start).toString() + '</p>';
+              n--;
+              if (n > 0) draft += '<hr>';
+            }
+            if (card.events[i].end) draft += '<p class="m-0"><b>Ends at</b> ' + new Date(card.events[i].end).toString() + '</p>';
+            draft += '</div>';
+          }
+        }
+        if (card.actions){
+          draft += '<div class="text-right">';
+          var i;
+          for (i = 0; i < card.actions.length; i++){
+            draft += ' <a href="' + card.actions[i].url + '" target="_blank" class="btn bg-light text-dark">' + card.actions[i].title + '</a>';
+          }
+          draft += '</div>';
+        }
+        draft += '</div>';
+        draft += '</div>';
+        document.getElementById('card-container').innerHTML += draft;
+        break;
+      case "Custom.iframe":
+        var draft = '<div class="card m-0 p-0 rounded-0"><iframe src="' + (card.src || card.url) + '" style="width: 100%; height: 50vh; border: none" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>This card requires &lt;iframe&gt; rendering, which is not supported by your browser.</iframe>'
+        if (card.body){
+          draft += '<div class="content m-20 mt-10">';
+          if (card.body.title && card.body.title != ""){
+            draft += '<h3>' + card.body.title + '</h3>';
+          }
+          if (card.body.subtitle && card.body.subtitle != ""){
+            draft += '<p>' + card.body.subtitle + '</p>';
+          }
+          if (card.url && card.url != ""){
+            draft += '<div class="text-right"><a href="' + card.url + '" target="_blank" class="btn btn-primary"><b>Open in separate tab</b></a></div>';
+          }
+          draft += '</div>';
+        }
+        draft += '</div>';
+        document.getElementById('card-container').innerHTML += draft;
+        break;
+      case "Custom.rawHTML":
+        if (card.body){
+          document.getElementById('card-container').innerHTML += card.body;
+        }
+        break;
+      default:
+        console.err("Unable to render card of type:" + card.type);
+    }
+  });
+}
+</script>

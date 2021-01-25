@@ -1,0 +1,22 @@
+title: Reinhart Previano K.
+description: Blog repository
+
+plugins:
+  - jekyll-archives
+#  - jekyll-sitemap
+  - jekyll-feed
+
+jekyll-archives:
+  enabled: all
+  layouts: 
+    year: archive-date
+    month: archive-date
+    day: archive-date
+    tag: archive-tag
+    category: archive-category
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
+    category: '/category/:name/'

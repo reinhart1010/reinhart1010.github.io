@@ -1,0 +1,198 @@
+<!-- Sidebar links (with icons) and titles -->
+
+<h5 class="sidebar-title">Blogs</h5>
+<div class="sidebar-divider"></div>
+
+{% assign categories = site.categories | sort: [0], "first" %}
+{% for category in categories %}
+<a href="/category/{{ category[0] }}" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#file-post-fill"/>
+    </svg>
+  </span>
+  {{ category[0] }}
+</a>
+{% endfor %}
+<br />
+<h5 class="sidebar-title">Contact</h5>
+<div class="sidebar-divider"></div>
+<a href="https://github.com/reinhart1010" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon bg-dark text-white bg-light-dm text-dark-dm">
+    <i class="fa fa-lg fa-github" aria-hidden="true"></i>
+  </span>
+  GitHub
+</a>
+<a href="https://gitlab.com/reinhart1010" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-dark-orange text-white">
+    <i class="fa fa-lg fa-gitlab" aria-hidden="true"></i>
+  </span>
+  GitLab
+</a>
+<a href="https://twitter.com/reinhart1010" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-blue text-white">
+    <i class="fa fa-lg fa-twitter" aria-hidden="true"></i>
+  </span>
+  Twitter
+</a>
+<br />
+<h5 class="sidebar-title">Working On</h5>
+<div class="sidebar-divider"></div>
+<a href="https://bearcats.dev/innovations" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon text-white" style="background-color: #428dfc">
+    <img src="/assets/img/logo/adab.png" alt="Icon" width="30" height="30">
+  </span>
+  ADAB to Connect<br>
+  Ayo Dengar Ayo Bicara
+</a>
+<a href="https://computerun.id" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon text-white" style="background-color: #0c1631">
+    <img src="/assets/img/logo/computerun-2020.png" alt="Icon">
+  </span>
+  COMPUTERUN 2020:<br>
+  INSIGHT
+</a>
+<a href="https://student.binus.ac.id/fyp/" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon">
+    <img src="/assets/img/logo/binus.ico" alt="Icon">
+  </span>
+  First Year Program (FYP)<br>BINUS University
+</a>
+<a href="https://handwashing-station.ushahidi.io" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon bg-secondary text-dark">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#signpost-split"/>
+    </svg>
+  </span>
+  Handwashing Station<br>Map (HOT-USAID-PDC)
+</a>
+<a href="https://himti.or.id/" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-dark-blue text-white">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#people"/>
+    </svg>
+  </span>
+  HIMTI Intership
+</a>
+<a href="https://reinhart1010/ika" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon bg-success text-dark">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#chat-dots"/>
+    </svg>
+  </span>
+  Ika (Chatbot Framework)
+</a>
+<a href="https://kotakode.com" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-teal text-white">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#box"/>
+    </svg>
+  </span>
+  Kotakode.com
+</a>
+<a href="https://webcompat.com" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon bg-secondary text-dark">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#globe"/>
+    </svg>
+  </span>
+  Webcompat.com
+</a>
+<br />
+<h5 class="sidebar-title">Participating On</h5>
+<div class="sidebar-divider"></div>
+<a href="https://competition.binus.ac.id/icpc2020/" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon">
+    <img src="/assets/img/logo/icpc.ico" alt="Icon" width="30" height="30">
+  </span>
+  ICPC INC 2020
+</a>
+<a href="https://hacktoberfest.digitalocean.com/" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon">
+    <img src="/assets/img/logo/hacktoberfest-2020.ico" alt="Icon" width="30" height="30">
+  </span>
+  Hacktoberfest 2020
+</a>
+<br />
+<h5 class="sidebar-title">Past Projects</h5>
+<div class="sidebar-divider"></div>
+<a href="https://www.instagram.com/eighternitypstd/" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-dark-blue text-white">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#calendar-event"/>
+    </svg>
+  </span>
+  8TERNITY 2017:<br>ANDROMEDA
+</a>
+<a href="https://www.instagram.com/eighternitypstd/" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-dark-orange text-white">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#calendar-event"/>
+    </svg>
+  </span>
+  8TERNITY 2019:<br>CORUSCATE
+</a>
+<a href="https://github.com/bearcatsdev/hacktoberfest19" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-purple text-white">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#code-square"/>
+    </svg>
+  </span>
+  Hacktoberfest 2019<br>@BINUS (MTC)
+</a>
+<a href="https://himtikit.himti.or.id" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-orange text-white">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#globe"/>
+    </svg>
+  </span>
+  HIMTI KIT 2020
+</a>
+<a href="https://hishot.himti.or.id" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-dark-red text-white">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#calendar-event"/>
+    </svg>
+  </span>
+  HISHOT 2020: IGNITE
+</a>
+<a href="https://http.himti.or.id" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-dark-blue text-white">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#calendar-event"/>
+    </svg>
+  </span>
+  HTTP 2020: LINK
+</a>
+<a href="https://gitlab.com/gal_bert/m-oop-final-project" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon">
+    <img src="/assets/img/logo/jackpot-and-maths.png" alt="Icon" width="20" height="20">
+  </span>
+  Jackpot and Maths &mdash;<br>M-OOP Final Project
+</a>
+<a href="https://commonvoice.mozilla.org" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon bg-dark text-white bg-light-dm text-dark-dm">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#mic"/>
+    </svg>
+  </span>
+  Mozilla Common Voice
+</a>
+<br />
+<h5 class="sidebar-title">Past Participations</h5>
+<div class="sidebar-divider"></div>
+<a href="https://hacktoberfest.digitalocean.com" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-purple text-white">
+    <i class="fa fa-lg fa-digitalocean" aria-hidden="true"></i>
+  </span>
+  Hacktoberfest 2019
+</a>
+<a href="https://kotakode.com/challenges" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-teal text-white">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#box"/>
+    </svg>
+  </span>
+  Kotakode Coding Festival
+</a>
+<br />

@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="content p-20" style="background: {{ page.theme_color | default: '#0094ff' }} repeating-linear-gradient(
+  135deg,
+  rgba(0,0,0,0),
+  rgba(0,0,0,0) 20px,
+  rgba(0,0,0,0.1) 20px,
+  rgba(0,0,0,0.1) 40px
+); color: #ffffff; font-size: 1em">
+  <h2 class="m-0">{{ page.title }}</h2>
+  <b>{{ page.date | date: "%b %-d, %Y" }}</b>
+  {% if page.tags != null %}
+    <div class="tags">
+      {% for tag in page.tags %}
+        <a href="{{ "/tag/" | append: tag }}" class="btn bg-light text-primary font-weight-bolder" role="button">#{{page.tagName}}{{tag}}</a>
+      {% endfor %}
+    </div>
+  {% endif %}
+  <!-- <h5>Let there be a #developer #Crewmate #AmongUs,<br>#BuildingTheNation and bringing <code>SELECT * FROM</code> your #DisneyPlus dreams <code>return true;</code><br>As high as #Mulan's (#IndiHome Paket) Phoenix,<br>and as close as the 0s and 1s of #Sayu and #1010.<br><br>Let our mission of #FosteringAndEmpowering may not simply fail at the #SANDBOX,<br>or into the grims of #MasterChefIndonesia's Pressure Tests.<br>Even both #Cyberpunk2077 and #HenryStickminCollection have seen their bright future,<br>because they are actually set in the future.<br><br>Finally, before you go,<br>#MayTheForceBeWithYou against all #Impostors.<br>#StartUp and #FollowYourDream even when there are #NoStraightRoads,<br>as #BrightAsTheSun, said #AsianGames2018.</h5> -->
+</div>
+<div class="blog content">
+{{ content }}
+</div>
