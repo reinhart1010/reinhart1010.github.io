@@ -1,0 +1,5 @@
+@media (prefers-color-scheme: dark) {
+  html, body {color: #ffffff; background-color: #121212}
+  .w3-card, .w3-card-2 {background-color: #272727}
+  .w3-card-4 {background-color: #383838}
+}

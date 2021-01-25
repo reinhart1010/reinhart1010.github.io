@@ -1,0 +1,11 @@
+.navbar-reinhart{
+  position:fixed;
+  bottom:0;
+  z-index:99;
+}
+@media (min-width: 992px){
+  .navbar-reinhart{
+    top:0;
+    bottom:initial;
+  }
+};

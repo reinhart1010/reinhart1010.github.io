@@ -1,0 +1,99 @@
+/* Reinhart P. K. 2018 */
+body{
+  margin: 0
+}
+.contentparent{
+  width: 100%
+}
+.contentcontainer{
+  width: 100%;
+  margin: auto;
+}
+@media screen and (min-width:1276px){
+  .contentcontainer{
+    max-width: 1276px;
+  }
+}
+@media screen and (max-width:1275px){
+  .contentcontainer{
+    max-width: 856px;
+  }
+}
+@media screen and (max-width:855px){
+  .contentcontainer{
+    max-width: 436px;
+  }
+}
+a{
+  text-decoration: underline;
+  color: #3255a4;
+  font-weight: 600;
+}
+.acontainer{line-height: 32px}
+.cardcontainer{
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  align-items: left;
+  justify-content: space-evenly;
+}
+.card{
+  width: 384px;
+  /* 384 = 12px padding + 360px image + 12px padding. Prepare a 3:1 (360*120px) image.*/
+  background-color: #ffffff;
+  border-top: 1px solid #ddd;
+  padding-top: 0;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin: 6px;
+  text-align: left;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  border-radius: 16px;
+  -webkit-box-shadow: #777 0px 3px 3px;
+  -moz-box-shadow: #777 0px 3px 3px;
+  box-shadow: #777 0px 3px 3px;
+}
+.acontainer a{
+  border: 1px solid;
+  border-radius: 4px;
+  padding: 4px;
+  color:inherit;
+  text-decoration: none;
+}
+.titlebar {
+  width: 100%;
+  height: auto;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  color: #000000;
+  background-color: #ffffff
+}
+.titlebar p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* Specific Colors for Cards */
+.c-osm{background-color: #439A06; border:none;}
+.c-discord{background-color: #7289DA; border:none;}
+.c-github{background-color: #333333; border:none;}
+.c-gitter{
+  background-color: #cc2b5e;
+  background: linear-gradient(to left,#cc2b5e,#753a88);
+  background: -webkit-linear-gradient(right,#cc2b5e,#753a88);
+  background: -webkit-gradient(linear,right top,left top,from(#cc2b5e),to(#753a88));
+  border:none;}
+.c-telegram{background-color: #0088CC; border:none;}
+.c-twitter{background-color: #1DA1F2; border:none;}
+.c-quora{background-color: #A82400; border:none;}
+.c-webcompat{background-color: #FFC900; border:none;}
+.c-wikihow{background-color: #93B874; border:none;}
+
+.card img{width:100%}
+.lcountimg{max-width: 300px;}

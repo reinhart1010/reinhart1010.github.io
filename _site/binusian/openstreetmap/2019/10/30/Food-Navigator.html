@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Meta tags -->
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+<meta name="viewport" content="width=device-width" />
+
+<!-- Favicon and title -->
+<title>Reinhart Previano K.</title>
+  <link href="/assets/css/w3-colors-metro.css" rel="stylesheet" />
+
+  <!-- Fork Awesome Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
+
+  <!-- Adaptive Cards JS -->
+  <script src="https://unpkg.com/adaptivecards/dist/adaptivecards.js"></script>
+  <script type="text/javascript" src="https://unpkg.com/markdown-it/dist/markdown-it.js"></script>
+
+  <link rel="stylesheet" href="/assets/style.css">
+
+</head><body class="with-custom-webkit-scrollbars with-custom-css-scrollbars" data-dm-shortcut-enabled="true" data-sidebar-shortcut-enabled="true" data-set-preferred-mode-onload="true">
+  <!-- Modals go here -->
+  <!-- Reference: https://www.gethalfmoon.com/docs/modal -->
+
+  <!-- Page wrapper start -->
+  <div class="page-wrapper with-navbar with-sidebar">
+
+    <!-- Sticky alerts (toasts), empty container -->
+    <!-- Reference: https://www.gethalfmoon.com/docs/sticky-alerts-toasts -->
+    <div class="sticky-alerts"></div>
+
+    <!-- Navbar start -->
+    <nav class="navbar">
+      <!-- Reference: https://www.gethalfmoon.com/docs/navbar -->
+      <!-- Navbar content (with toggle sidebar button) -->
+      <div class="navbar-content">
+        <button class="btn btn-action" type="button" onclick="halfmoon.toggleSidebar()">
+          <svg class="bi" width="32" height="32" fill="currentColor">
+            <use xlink:href="/assets/img/bootstrap-icons.svg#list"/>
+          </svg>
+          <span class="sr-only">Toggle sidebar</span> <!-- sr-only = show only on screen readers -->
+        </button>
+      </div>
+      <!-- Navbar brand -->
+      <a href="/" class="navbar-brand">
+        Reinhart Previano K.
+      </a>
+      <!-- Navbar text -->
+      <span class="navbar-text text-monospace">v19.3</span> <!-- text-monospace = font-family shifted to monospace -->
+      <!-- Navbar nav -->
+      <ul class="navbar-nav d-none d-md-flex"> <!-- d-none = display: none, d-md-flex = display: flex on medium screens and up (width > 768px) -->
+        <li class="nav-item">
+          <a href="#explore" class="nav-link">Explore</a>
+        </li>
+        <li class="nav-item">
+          <a href="#partners" class="nav-link">Partners and Relations</a>
+        </li>
+      </ul>
+      <!-- Navbar content (with the dropdown menu) -->
+      <div class="navbar-content d-md-none ml-auto"> <!-- d-md-none = display: none on medium screens and up (width > 768px), ml-auto = margin-left: auto -->
+        <div class="dropdown with-arrow">
+          <button class="btn btn-action" data-toggle="dropdown" type="button" id="navbar-dropdown-toggle-btn-1">
+            <svg class="bi" width="32" height="32" fill="currentColor">
+              <use xlink:href="/assets/img/bootstrap-icons.svg#three-dots-vertical"/>
+            </svg>
+          </button>
+          <div class="dropdown-menu dropdown-menu-right w-200" aria-labelledby="navbar-dropdown-toggle-btn-1"> <!-- w-200 = width: 20rem (200px) -->
+            <a href="#explore" class="dropdown-item">Explore</a>
+            <a href="#partners" class="dropdown-item">Partners and Relations</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Sidebar start -->
+    <div class="sidebar">
+      <!-- Sidebar links (with icons) and titles -->
+
+<h5 class="sidebar-title">Blogs</h5>
+<div class="sidebar-divider"></div>
+
+
+
+<a href="/category/binusian" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#file-post-fill"/>
+    </svg>
+  </span>
+  binusian
+</a>
+
+<a href="/category/openstreetmap" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#file-post-fill"/>
+    </svg>
+  </span>
+  openstreetmap
+</a>
+
+<a href="/category/updates" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#file-post-fill"/>
+    </svg>
+  </span>
+  updates
+</a>
+
+<a href="/category/web-development" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#file-post-fill"/>
+    </svg>
+  </span>
+  web-development
+</a>
+
+<br />
+<h5 class="sidebar-title">Contact</h5>
+<div class="sidebar-divider"></div>
+<a href="https://github.com/reinhart1010" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon bg-dark text-white bg-light-dm text-dark-dm">
+    <i class="fa fa-lg fa-github" aria-hidden="true"></i>
+  </span>
+  GitHub
+</a>
+<a href="https://gitlab.com/reinhart1010" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-dark-orange text-white">
+    <i class="fa fa-lg fa-gitlab" aria-hidden="true"></i>
+  </span>
+  GitLab
+</a>
+<a href="https://twitter.com/reinhart1010" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-blue text-white">
+    <i class="fa fa-lg fa-twitter" aria-hidden="true"></i>
+  </span>
+  Twitter
+</a>
+<br />
+<h5 class="sidebar-title">Working On</h5>
+<div class="sidebar-divider"></div>
+<a href="https://bearcats.dev/innovations" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon text-white" style="background-color: #428dfc">
+    <img src="/assets/img/logo/adab.png" alt="Icon" width="30" height="30">
+  </span>
+  ADAB to Connect<br>
+  Ayo Dengar Ayo Bicara
+</a>
+<a href="https://computerun.id" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon text-white" style="background-color: #0c1631">
+    <img src="/assets/img/logo/computerun-2020.png" alt="Icon">
+  </span>
+  COMPUTERUN 2020:<br>
+  INSIGHT
+</a>
+<a href="https://student.binus.ac.id/fyp/" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon">
+    <img src="/assets/img/logo/binus.ico" alt="Icon">
+  </span>
+  First Year Program (FYP)<br>BINUS University
+</a>
+<a href="https://handwashing-station.ushahidi.io" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon bg-secondary text-dark">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#signpost-split"/>
+    </svg>
+  </span>
+  Handwashing Station<br>Map (HOT-USAID-PDC)
+</a>
+<a href="https://himti.or.id/" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-dark-blue text-white">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#people"/>
+    </svg>
+  </span>
+  HIMTI Intership
+</a>
+<a href="https://reinhart1010/ika" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon bg-success text-dark">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#chat-dots"/>
+    </svg>
+  </span>
+  Ika (Chatbot Framework)
+</a>
+<a href="https://kotakode.com" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-teal text-white">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#box"/>
+    </svg>
+  </span>
+  Kotakode.com
+</a>
+<a href="https://webcompat.com" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon bg-secondary text-dark">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#globe"/>
+    </svg>
+  </span>
+  Webcompat.com
+</a>
+<br />
+<h5 class="sidebar-title">Participating On</h5>
+<div class="sidebar-divider"></div>
+<a href="https://competition.binus.ac.id/icpc2020/" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon">
+    <img src="/assets/img/logo/icpc.ico" alt="Icon" width="30" height="30">
+  </span>
+  ICPC INC 2020
+</a>
+<a href="https://hacktoberfest.digitalocean.com/" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon">
+    <img src="/assets/img/logo/hacktoberfest-2020.ico" alt="Icon" width="30" height="30">
+  </span>
+  Hacktoberfest 2020
+</a>
+<br />
+<h5 class="sidebar-title">Past Projects</h5>
+<div class="sidebar-divider"></div>
+<a href="https://www.instagram.com/eighternitypstd/" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-dark-blue text-white">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#calendar-event"/>
+    </svg>
+  </span>
+  8TERNITY 2017:<br>ANDROMEDA
+</a>
+<a href="https://www.instagram.com/eighternitypstd/" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-dark-orange text-white">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#calendar-event"/>
+    </svg>
+  </span>
+  8TERNITY 2019:<br>CORUSCATE
+</a>
+<a href="https://github.com/bearcatsdev/hacktoberfest19" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-purple text-white">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#code-square"/>
+    </svg>
+  </span>
+  Hacktoberfest 2019<br>@BINUS (MTC)
+</a>
+<a href="https://himtikit.himti.or.id" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-orange text-white">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#globe"/>
+    </svg>
+  </span>
+  HIMTI KIT 2020
+</a>
+<a href="https://hishot.himti.or.id" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-dark-red text-white">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#calendar-event"/>
+    </svg>
+  </span>
+  HISHOT 2020: IGNITE
+</a>
+<a href="https://http.himti.or.id" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-dark-blue text-white">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#calendar-event"/>
+    </svg>
+  </span>
+  HTTP 2020: LINK
+</a>
+<a href="https://gitlab.com/gal_bert/m-oop-final-project" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon">
+    <img src="/assets/img/logo/jackpot-and-maths.png" alt="Icon" width="20" height="20">
+  </span>
+  Jackpot and Maths &mdash;<br>M-OOP Final Project
+</a>
+<a href="https://commonvoice.mozilla.org" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon bg-dark text-white bg-light-dm text-dark-dm">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#mic"/>
+    </svg>
+  </span>
+  Mozilla Common Voice
+</a>
+<br />
+<h5 class="sidebar-title">Past Participations</h5>
+<div class="sidebar-divider"></div>
+<a href="https://hacktoberfest.digitalocean.com" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-purple text-white">
+    <i class="fa fa-lg fa-digitalocean" aria-hidden="true"></i>
+  </span>
+  Hacktoberfest 2019
+</a>
+<a href="https://kotakode.com/challenges" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-teal text-white">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#box"/>
+    </svg>
+  </span>
+  Kotakode Coding Festival
+</a>
+<br />
+    </div>
+    <!-- Sidebar end -->
+
+    <!-- Content wrapper start -->
+    <div class="content-wrapper">
+      <div class="content p-20" style="background: #0094ff repeating-linear-gradient(
+  135deg,
+  rgba(0,0,0,0),
+  rgba(0,0,0,0) 20px,
+  rgba(0,0,0,0.1) 20px,
+  rgba(0,0,0,0.1) 40px
+); color: #ffffff; font-size: 1em">
+  <h2 class="m-0">Food Navigator</h2>
+  <b class="font-size-16">October 30, 2019 | <a class="inline badge" href="/category/binusian">@binusian</a> <a class="inline badge" href="/category/openstreetmap">@openstreetmap</a>  <a class="inline badge" href="/tag/init-import">#init-import</a> <a class="inline badge" href="/tag/indonesian">#indonesian</a> </b>
+  <!-- <h5>Let there be a #developer #Crewmate #AmongUs,<br>#BuildingTheNation and bringing <code>SELECT * FROM</code> your #DisneyPlus dreams <code>return true;</code><br>As high as #Mulan's (#IndiHome Paket) Phoenix,<br>and as close as the 0s and 1s of #Sayu and #1010.<br><br>Let our mission of #FosteringAndEmpowering may not simply fail at the #SANDBOX,<br>or into the grims of #MasterChefIndonesia's Pressure Tests.<br>Even both #Cyberpunk2077 and #HenryStickminCollection have seen their bright future,<br>because they are actually set in the future.<br><br>Finally, before you go,<br>#MayTheForceBeWithYou against all #Impostors.<br>#StartUp and #FollowYourDream even when there are #NoStraightRoads,<br>as #BrightAsTheSun, said #AsianGames2018.</h5> -->
+</div>
+<div class="blog content">
+<p><strong>Kunjungi langsung di https://reinhart1010.github.io/foodnavigator</strong></p>
+
+<p>Food Navigator adalah salah satu webapp sederhana yang menunjukkan lokasi restoran terdekat. Cukup pilih salah satu titik dan detail restoran tersebut akan muncul secara instan.</p>
+
+<p><img src="https://user-images.githubusercontent.com/17312341/70808403-319ec000-1df2-11ea-9016-da62adc756c4.png" alt="image" /></p>
+
+<h2 id="latar-belakang">Latar Belakang</h2>
+<p>Ide ini muncul dari suatu kesalahan dalam publikasi <a href="https://drive.google.com/file/d/166TokJAsSh4MXmaX1VmHaL1Zvtosft8w/view">Warta Jemaat Penerimaan Mahasiswa Baru 2019</a> <a href="http://scdc.binus.ac.id/po">PO BINUS</a>, yang menyertakan gambar denah restoran sekitar kampus Kemanggisan (Anggrek, Kijang, Syahdan) dalam resolusi yang sangat rendah. Alhasil, sebagian besar teks dan legenda restoran tersebut tidak dapat terlihat dengan jelas.</p>
+
+<p><img src="https://user-images.githubusercontent.com/17312341/70808436-43806300-1df2-11ea-9584-35a94998a13a.png" alt="image" /></p>
+
+<p>Kemudian, sebagai salah satu <a href="https://www.openstreetmap.org/user/Reinhart%20Previano">kontributor OpenStreetMap</a> saya mulai mencoba menerapkan tag baru di Indonesia, di antaranya yang menyangkut metode pembayaran (kartu debit, kartu kredit, dll.) serta pesan-antar (delivery). Saya sebelumnya juga mempublikasikan beberapa artikel di OpenStreetMap, di antaranya (dalam bahasa inggris):</p>
+
+<ul>
+  <li>Mapping Indonesian Payment Systems and Proposal for New Payment Tags</li>
+  <li>Testing Delivery Subkeys for Food-Ordering Apps</li>
+</ul>
+
+<p>Terakhir, desain menu “buka melalui aplikasi” awalnya dirancang untuk situs acara <a href="https://web.archive.org/web/20191030053755/https://hacktoberfest.mtcbin.us/">Hacktoberfest 2019 @BINUS</a> (diarsipkan melalui <a href="https://www.archive.org/">Internet Archive</a>) yang diselenggarakan oleh Mobile Tech Community BINUS (serta DigitalOcean dan DEV). Kode sumber situs tersebut tersedia dalam <a href="https://web.archive.org/web/20191030053755/https://hacktoberfest.mtcbin.us/">GitHub</a>.</p>
+
+<p><img src="https://user-images.githubusercontent.com/17312341/70808624-a96cea80-1df2-11ea-808c-8831ccc000ad.png" alt="image" /></p>
+
+<h2 id="fitur-dasar">Fitur Dasar</h2>
+<p>Dalam versi pertama ini, ada beberapa fitur dasar yang dapat dinikmati secara langsung. Pertama, situs ini <strong>juga bisa berfungsi di tempat-tempat di luar seluruh kampus BINUS yang ada</strong>, seperti Australia, Jepang, bahkan Walt Disney World (Amerika Serikat)!</p>
+
+<p><img src="https://user-images.githubusercontent.com/17312341/70808669-bf7aab00-1df2-11ea-85ca-9e5de20a28c6.png" alt="image" />
+<img src="https://user-images.githubusercontent.com/17312341/70808675-c86b7c80-1df2-11ea-9625-287232205397.png" alt="image" />
+<img src="https://user-images.githubusercontent.com/17312341/70808687-cbff0380-1df2-11ea-9f15-a5d812083f72.png" alt="image" /></p>
+
+<p>Ini semua bisa terjadi karena database restoran yang ditampilkan berasal dari <a href="https://www.openstreetmap.org">OpenStreetMap</a> melalui <a href="http://overpass-api.de/">OverPass API</a>, yang memungkinkan pencarian data tempat di OpenStreetMap secara cepat.</p>
+
+<p>Kemudian, ada beberapa restoran yang sudah memiliki detail pembayaran yang lengkap, mulai dari tunai sampai non-tunai. <strong>Fitur ini pasti akan membantu kalian untuk mencari restoran yang bisa dapat cashback. Benar, kan?</strong></p>
+
+<p><img src="https://user-images.githubusercontent.com/17312341/70808781-fea8fc00-1df2-11ea-83c0-a615adeabb51.png" alt="image" /></p>
+
+<p>Data seperti fasilitas, metode pembayaran tersebut juga dicatat melalui OpenStreetMap. Misalnya, untuk Bakmi Effata saya bisa menambahkan tag <code class="language-plaintext highlighter-rouge">payment:gopay_id=yes</code> dan <code class="language-plaintext highlighter-rouge">delivery:grabfood=yes</code> untuk menandakan bahwa restoran tersebut dapat menerima pembayaran melalui GoPay dan pesan antar melalui GrabFood. (selengkapnya di https://www.openstreetmap.org/node/6924753117)</p>
+
+<p><img src="https://user-images.githubusercontent.com/17312341/70808806-0d8fae80-1df3-11ea-8a38-41b64e218fa8.png" alt="image" /></p>
+
+<p>Jika kalian meng-klik tombol <strong>Open With…</strong>, ada menu khusus yang menunggu kalian. Selain melihat lokasi restoran tersebut di situs/aplikasi peta pilihan (misalnya Google Maps), kalian juga bisa meng-klik <strong>tombol GoFood dan GrabFood untuk langsung pesan melalui aplikasi masing-masing</strong>. Dan seperti yang kalian lihat pada gambar di atas, link tersebut tersimpan dalam <em>tag</em> <code class="language-plaintext highlighter-rouge">delivery:gofood:ref</code> dan <code class="language-plaintext highlighter-rouge">delivery:grabfood:ref</code> dalam data OpenStreetMap.</p>
+
+<h2 id="ketersediaan-data">Ketersediaan Data</h2>
+<p>Saat ini, ada beberapa data tempat yang belum lengkap. Misalnya, di sekitar Kemanggisan, baru ada beberapa tempat saja yang dicatat:</p>
+
+<ul>
+  <li>A&amp;W (BINUS Anggrek)*</li>
+  <li>Ayam Geprek Pak Gembus^</li>
+  <li>Bakso Agung*</li>
+  <li>Baso Aci Juara^</li>
+  <li>Caldera Fried Chicken*</li>
+  <li>Crossroads Cafe (BINUS Anggrek)*</li>
+  <li>Chatime^</li>
+  <li>D’COST</li>
+  <li>Dhapu Kupi*</li>
+  <li>Gulu-Gulu^</li>
+  <li>Happy Bowl^</li>
+  <li>Janji Jiwa^</li>
+  <li>Food Court BINUS Kijang</li>
+  <li>Food Court Lt. 5 BINUS Anggrek</li>
+  <li>KFC</li>
+  <li>Mucca*</li>
+  <li>PomPom*</li>
+  <li>Pondok Maem*</li>
+  <li>Restoran Padang ACC*</li>
+  <li>Seblak Raos*</li>
+  <li>Starbucks (BINUS Anggrek)*</li>
+  <li>Warung Ibu Febri*</li>
+  <li>Yume Tei*</li>
+</ul>
+
+<p>*Belum Lengkap, ^Hampir Lengkap</p>
+
+<p>Kalian bisa juga menambahkan data baru melalui OpenStreetMap, dan setiap pembaruan pada <a href="https://www.openstreetmap.org">OpenStreetMap</a> akan tersedia dalam Food Navigator secara instan. Ke depannya, saya akan membuat panduan singkat untuk menambahkan tag khusus yang kompatibel dengan Food Navigator. <strong>Selamat (nyari) makan!</strong></p>
+
+<p><strong>Kunjungi langsung di https://reinhart1010.github.io/foodnavigator</strong></p>
+
+</div>
+    </div>
+    <!-- Content wrapper end -->
+
+  </div>
+  <!-- Page wrapper end -->
+
+  <!-- Halfmoon JS -->
+  <script src="https://cdn.jsdelivr.net/npm/halfmoon@1.1.0/js/halfmoon.min.js"></script>
+</body>
+</html>

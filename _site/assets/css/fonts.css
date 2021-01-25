@@ -1,0 +1,44 @@
+@import url("https://rsms.me/inter/inter-ui.css");
+@import url("http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+/* Font Family */
+body{
+  font-family: "Inter UI", -apple-system, BlinkMacSystemFont, "Roboto", "Liberation Sans", "Helvetica", "Arimo", "Arial", sans-serif;
+  line-height: 1.4
+  color: #111111;
+  background-color: #f8f8f8;
+}
+.f-mnt{font-family: "Montserrat", "Inter UI", -apple-system, BlinkMacSystemFont, "Roboto", "Liberation Sans", "Helvetica", "Arimo", "Arial", sans-serif;}
+.f-rpk{font-size: 2rem}
+.t-left{text-align: left}
+.t-center{text-align: center}
+.t-right{text-align: right}
+.t-justify{text-align: justify}
+
+/* Font Sizes */
+h1{font-size:1.75rem;letter-spacing:0.137255663596502pt;}
+h2{font-size:1.375rem;letter-spacing:0.147957546370294pt;}
+h3{font-size:1.25rem;letter-spacing:0.151688405939469pt;}
+h4{font-size:1.125rem;letter-spacing:0.155504161345603pt;}
+body, .p1, h5{font-size:1rem;letter-spacing:0.159406744396367pt;}
+.p2, h6{font-size:0.875rem;letter-spacing:0.163398130857781pt;}
+.c1{font-size:0.75rem;letter-spacing:0.167480341454487pt;}
+.c2{font-size:0.6875rem;letter-spacing:0.169556149824687pt;}
+
+@media screen and (min-height:641px), (min-width:641px) {
+  h1{font-size:2.25rem;letter-spacing:0.12406513028028pt;}
+  h2{font-size:1.5rem;letter-spacing:0.144309693810739pt;}
+}
+
+@media print {
+  .title{font-size:1.75rem;letter-spacing:0.137255663596502pt;}
+  h1{font-size:1.5rem;letter-spacing:0.144309693810739pt;}
+  h2{font-size:1.375rem;letter-spacing:0.147957546370294pt;}
+  h3,h4{font-size:1.25rem;letter-spacing:0.151688405939469pt;}
+  .subtitle,h5,h6{font-size:1.125rem;letter-spacing:0.155504161345603pt;}
+  body, .p1{font-size:0.75rem;letter-spacing:0.167480341454487pt;}
+  .p2{font-size:0.6875rem;letter-spacing:0.169556149824687pt;}
+  .c1{font-size:0.625rem;letter-spacing:0.171655442892788pt;}
+  .c2{font-size:0.5625rem;letter-spacing:0.173778486353371pt;}
+}
