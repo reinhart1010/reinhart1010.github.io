@@ -1,6 +1,8 @@
 title: Reinhart Previano K.
 description: Blog repository
 
+destination: docs/
+
 plugins:
   - jekyll-archives
 #  - jekyll-sitemap
