@@ -12,7 +12,12 @@ layout: default
         <use xlink:href="/assets/img/bootstrap-icons.svg#file-post-fill"/>
       </svg>
     </span>
-    {{ post.title }}
+    <span>
+      <b>{{ post.title }}</b><br>
+      <span>
+        {{ post.date | date: "%B %-d, %Y" }} | {% for category in post.categories %}<span class="inline badge">@{{category}}</span> {% endfor %} {% for tag in post.tags %}<span class="inline badge">#{{tag}}</span> {% endfor %}
+      </span>
+    </span>
   </a>
   {% endfor %}
   </div>
