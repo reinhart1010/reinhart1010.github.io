@@ -67,11 +67,15 @@ pipeline {
                     if (isUnix()) {
                         sh "git config user.name \"Reinhart Previano Koentjoro\""
                         sh "git config user.email \"reinhart_previano@yahoo.com\""
-                        sh "git add * && git commit -m \"Data Update " + new Date().format("yyMMdd.HHmm", TimeZone.getTimeZone('UTC')) + "\" && git push github HEAD:master && git push gitlab HEAD:refs/heads/master"
+                        sh "git add * && git commit -m \"Data Update " + new Date().format("yyMMdd.HHmm", TimeZone.getTimeZone('UTC')) + "\""
+                        sh "git push github HEAD:refs/heads/master"
+                        sh "git push gitlab HEAD:refs/heads/master"
                     } else {
                         bat "git config user.name \"Reinhart Previano Koentjoro\""
                         bat "git config user.email \"reinhart_previano@yahoo.com\""
-                        bat "git add * && git commit -m \"Data Update " + new Date().format("yyMMdd.HHmm", TimeZone.getTimeZone('UTC')) + "\" && git push github HEAD:master && git push gitlab HEAD:refs/heads/master"
+                        bat "git add * && git commit -m \"Data Update " + new Date().format("yyMMdd.HHmm", TimeZone.getTimeZone('UTC')) + "\""
+                        bat "git push github HEAD:refs/heads/master"
+                        bat "git push gitlab HEAD:refs/heads/master"
                     }
                 }
             }
