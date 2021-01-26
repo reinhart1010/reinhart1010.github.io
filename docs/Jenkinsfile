@@ -61,17 +61,17 @@ pipeline {
                 }
             }
         }
-        stage('Commit builds to GitHub'){
+        stage('Commit builds'){
             steps {
                 script {
                     if (isUnix()) {
                         sh "git config user.name \"Reinhart Previano Koentjoro\""
                         sh "git config user.email \"reinhart_previano@yahoo.com\""
-                        sh "git add * && git commit -m \"Data Update " + new Date().format("yyMMdd.HHmm", TimeZone.getTimeZone('UTC')) + "\" && git push origin master"
+                        sh "git add * && git commit -m \"Data Update " + new Date().format("yyMMdd.HHmm", TimeZone.getTimeZone('UTC')) + "\" && git push origin github HEAD:master && git push origin gitlab HEAD:refs/heads/master"
                     } else {
                         bat "git config user.name \"Reinhart Previano Koentjoro\""
                         bat "git config user.email \"reinhart_previano@yahoo.com\""
-                        bat "git add * && git commit -m \"Data Update " + new Date().format("yyMMdd.HHmm", TimeZone.getTimeZone('UTC')) + "\" && git push origin master"
+                        bat "git add * && git commit -m \"Data Update " + new Date().format("yyMMdd.HHmm", TimeZone.getTimeZone('UTC')) + "\" && git push origin github HEAD:master && git push origin gitlab HEAD:refs/heads/master"
                     }
                 }
             }
