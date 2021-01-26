@@ -13,11 +13,11 @@ pipeline {
                         if (isUnix()) {
                             sh "git init"
                             sh "git remote add -f github git@github.com:reinhart1010/reinhart1010.github.io"
-                            sh "git remote add -f gitlab git@gitlab.com:reinhart1010/reinhart1010.gitlab.io"
+                            sh "git remote add -f gitlab git@gitlab.com:reinhart1010/reinhart1010.gitlab.io.git"
                         } else {
                             bat "git init"
                             bat "git remote add -f github git@github.com:reinhart1010/reinhart1010.github.io"
-                            bat "git remote add -f gitlab git@gitlab.com:reinhart1010/reinhart1010.gitlab.io"
+                            bat "git remote add -f gitlab git@gitlab.com:reinhart1010/reinhart1010.gitlab.io.git"
                         }
                     }
                     catch(e) {
@@ -30,11 +30,9 @@ pipeline {
             steps {
                 script {
                     if (isUnix()) {
-                        sh "git checkout master"
                         sh "git merge github/master --allow-unrelated-histories"
                         sh "git merge gitlab/master --allow-unrelated-histories"
                     } else {
-                        bat "git checkout master"
                         bat "git merge github/master --allow-unrelated-histories"
                         bat "git merge gitlab/master --allow-unrelated-histories"
                     }
