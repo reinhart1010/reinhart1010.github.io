@@ -12,11 +12,11 @@ pipeline {
                     try {
                         if (isUnix()) {
                             sh "git init"
-                            sh "git remote add -f github git@github.com:reinhart1010/reinhart1010.github.io"
+                            //sh "git remote add -f github git@github.com:reinhart1010/reinhart1010.github.io"
                             sh "git remote add -f gitlab git@gitlab.com:reinhart1010/reinhart1010.gitlab.io.git"
                         } else {
                             bat "git init"
-                            bat "git remote add -f github git@github.com:reinhart1010/reinhart1010.github.io"
+                            //bat "git remote add -f github git@github.com:reinhart1010/reinhart1010.github.io"
                             bat "git remote add -f gitlab git@gitlab.com:reinhart1010/reinhart1010.gitlab.io.git"
                         }
                     }
