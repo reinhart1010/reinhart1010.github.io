@@ -1,8 +1,9 @@
 ---
 layout: default
 ---
-
-<div class="content p-20" style="background: {{ page.theme_color | default: '#0094ff' }} repeating-linear-gradient(
+{% assign current_universe = page.categories.last | default: page.title | default: "home" %}
+{% assign theme_color = site.data.categories[current_universe].theme_color | default: "NULL" %}
+<div class="content p-20" style="background: {{ page.theme_color | default: site.data.colors[theme_color.primary].600 | default: site.data.colors[theme_color].600 | default: '#0094ff' }} repeating-linear-gradient(
   135deg,
   rgba(0,0,0,0),
   rgba(0,0,0,0) 20px,

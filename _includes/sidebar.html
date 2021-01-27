@@ -1,19 +1,23 @@
 <!-- Sidebar links (with icons) and titles -->
 
-<h5 class="sidebar-title">Blogs</h5>
+<h5 class="sidebar-title">Quick Links</h5>
 <div class="sidebar-divider"></div>
-
-{% assign categories = site.categories | sort: [0], "first" %}
-{% for category in categories %}
-<a href="/category/{{ category[0] }}" class="sidebar-link sidebar-link-with-icon">
+<a href="/" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#house-fill"/>
+    </svg>
+  </span>
+  Homepage
+</a>
+<a href="#select-universe" class="sidebar-link sidebar-link-with-icon">
   <span class="sidebar-icon">
     <svg class="bi" width="18" height="18" fill="currentColor">
       <use xlink:href="/assets/img/bootstrap-icons.svg#file-post-fill"/>
     </svg>
   </span>
-  {{ category[0] }}
+  Blog Categories
 </a>
-{% endfor %}
 <br />
 <h5 class="sidebar-title">Contact</h5>
 <div class="sidebar-divider"></div>

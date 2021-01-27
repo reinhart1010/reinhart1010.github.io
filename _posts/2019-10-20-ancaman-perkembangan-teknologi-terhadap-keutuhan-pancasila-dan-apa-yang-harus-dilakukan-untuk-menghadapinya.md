@@ -7,7 +7,6 @@ tags: [id-id]
 > Berikut ini adalah jawaban terhadap salah satu tugas kuliah [CHAR6013 - Character Building: Pancasila](https://curriculum.binus.ac.id/course/char6013/) di [BINUS University](https://binus.ac.id) (Universitas Bina Nusantara).
 
 ## Pembukaan
-
 Pada tahun 2015, sebuah survei memperlihatkan bahwa masyarakat beberapa negara termasuk Indonesia beranggapan lebih banyak menggunakan "Facebook" daripada "Internet". Meskipun Facebook sendiri merupakan suatu layanan berbasis Internet, adapun juga masyarakat yang beranggapan bahwa "Facebook adalah Internet". (Sumber: https://qz.com/333313/milliions-of-facebook-users-have-no-idea-theyre-using-the-internet/). Survei tersebut dilakukan oleh Geopoll di Amerika Serikat, Brazil, Nigeria, Indonesia, dan India.
 
 Pernyataan tersebut sempat menggemparkan dunia, termasuk organisasi-organisasi internasional yang berkecimpung dalam TIK, internet, dan privasi digital, termasuk Mozilla (Sumber: https://internethealthreport.org/v01/web-literacy/) dan Electronic Frontier Foundation / EFF (Sumber: https://www.eff.org/deeplinks/2014/07/net-neutrality-and-global-digital-divide). Salah satu alasan jelas dari kegemparan tersebut adalah rasa takut akan Facebook untuk mendominasi dunia melalui internet beserta layanannya.

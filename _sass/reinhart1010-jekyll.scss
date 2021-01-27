@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700;900&display=swap');
-@import url('https://cdn.jsdelivr.net/npm/halfmoon@1.1.0/css/halfmoon-variables.min.css');
+@import url('https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/css/halfmoon-variables.min.css');
 
 :root {
   --heading-font-weight: 900;
@@ -8,6 +8,12 @@
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: "Red Hat Display", Montserrat, "Century Gothic", sans-serif;
+}
+
+.universe-title {
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 4px;
 }
 
 .card-title {
