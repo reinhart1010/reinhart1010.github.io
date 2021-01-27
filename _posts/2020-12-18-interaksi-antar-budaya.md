@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Interaksi Antar Budaya"
-categories: [binus, character-buiding, char6013]
+categories: [binus, character-building, char6013]
 tags: [id-id]
 ---
 > Berikut ini adalah jawaban terhadap salah satu tugas kuliah [CHAR6013 - Character Building: Pancasila](https://curriculum.binus.ac.id/course/char6013/) di [BINUS University](https://binus.ac.id) (Universitas Bina Nusantara).

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Persaudaraan sebagai Kunci Utama Kewarganegaraan Indonesia"
-categories: [binus, character-buiding, char6014]
+categories: [binus, character-building, char6014]
 tags: [id-id]
 ---
 > Berikut ini adalah jawaban terhadap salah satu tugas kuliah [CHAR6014 - Character Building: Kewarganegaraan](https://curriculum.binus.ac.id/course/char6014/) di [BINUS University](https://binus.ac.id) (Universitas Bina Nusantara).
