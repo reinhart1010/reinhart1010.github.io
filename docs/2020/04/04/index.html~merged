@@ -58,15 +58,11 @@
     
     
     <nav class="navbar justify-content-between justify-content-lg-start"
-    
-      style="background-color: #D97706; color: white;"
     >
       <!-- Reference: https://www.gethalfmoon.com/docs/navbar -->
       <!-- Navbar content (with toggle sidebar button) -->
       <div class="navbar-content">
         <button class="btn btn-action" type="button" onclick="halfmoon.toggleSidebar()"
-        
-          style="background: none; border: none; box-shadow: none; color: white"
         >
           <i class="fa fa-bars" aria-hidden="true"></i>
           <span class="sr-only">Toggle sidebar</span> <!-- sr-only = show only on screen readers -->
@@ -75,10 +71,8 @@
 
       <div class="navbar-content ml-auto">
         <a class="btn universe-title" href="#select-universe"
-        
-          style="background: none; border: none; box-shadow: none; color: white"
         >
-          char6014 <i class="fa fa-chevron-down" aria-hidden="true"></i>
+          home <i class="fa fa-chevron-down" aria-hidden="true"></i>
         </a>
       </div>
 
@@ -125,8 +119,6 @@
         <div class="dropdown with-arrow">
 <<<<<<< HEAD
           <button class="btn btn-action" data-toggle="dropdown" type="button" id="navbar-dropdown-toggle-btn-1"
-          
-            style="background: none; border: none; box-shadow: none; color: white"
           >
             <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
           </button>
@@ -410,18 +402,13 @@
 <<<<<<< HEAD
 <h5 class="sidebar-title">Quick Links</h5>
 <div class="sidebar-divider"></div>
+<<<<<<< HEAD:docs/2020/04/04/index.html
 <a href="/" class="sidebar-link sidebar-link-with-icon">
-  <span class="sidebar-icon">
-    <svg class="bi" width="18" height="18" fill="currentColor">
-      <use xlink:href="/assets/img/bootstrap-icons.svg#house-fill"/>
-    </svg>
-  </span>
-  Homepage
-</a>
-<a href="#select-universe" class="sidebar-link sidebar-link-with-icon">
+=======
 =======
 <h5 class="sidebar-title">Blogs</h5>
 <div class="sidebar-divider"></div>
+>>>>>>> dabe96bb08ed63d3d392bdd93ab57b0b1caed11c
 
 
 
@@ -471,6 +458,17 @@
 </a>
 
 <a href="/category/kotakode" class="sidebar-link sidebar-link-with-icon">
+<<<<<<< HEAD
+>>>>>>> dabe96bb08ed63d3d392bdd93ab57b0b1caed11c:docs/category/socs/index.html
+  <span class="sidebar-icon">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#house-fill"/>
+    </svg>
+  </span>
+  Homepage
+</a>
+<a href="#select-universe" class="sidebar-link sidebar-link-with-icon">
+=======
   <span class="sidebar-icon">
     <svg class="bi" width="18" height="18" fill="currentColor">
       <use xlink:href="/assets/img/bootstrap-icons.svg#file-post-fill"/>
@@ -489,9 +487,12 @@
 <<<<<<< HEAD
   Blog Categories
 </a>
+<<<<<<< HEAD:docs/2020/04/04/index.html
+=======
 =======
   openstreetmap
 </a>
+>>>>>>> dabe96bb08ed63d3d392bdd93ab57b0b1caed11c
 
 <a href="/category/socs" class="sidebar-link sidebar-link-with-icon">
   <span class="sidebar-icon">
@@ -520,6 +521,9 @@
   web-development
 </a>
 
+<<<<<<< HEAD
+>>>>>>> dabe96bb08ed63d3d392bdd93ab57b0b1caed11c:docs/category/socs/index.html
+=======
 >>>>>>> dabe96bb08ed63d3d392bdd93ab57b0b1caed11c
 <br />
 <h5 class="sidebar-title">Contact</h5>
@@ -711,53 +715,25 @@
     <div class="content-wrapper">
       <div class="content">
 <<<<<<< HEAD
-  <h1>CHAR6014 - Character Building: Kewarganegaraan</h1>
+<<<<<<< HEAD:docs/2020/04/04/index.html
 =======
-  <h1>Posts under 'char6014'</h1>
 >>>>>>> dabe96bb08ed63d3d392bdd93ab57b0b1caed11c
+  <h1>Archive of posts from April 4, 2020</h1>
   <ul class="posts">
-    
-      <li>
-        <span class="post-date">Jul 1, 2020</span>
-        <a class="post-link" href="/binus/character-buiding/char6014/2020/07/01/nasionalisme-dalam-bingkai-kesatuan-bangsa-menuju-indonesia-maju.html">Nasionalisme dalam Bingkai Kesatuan Bangsa Menuju Indonesia Maju</a>
-      </li>
-    
-      <li>
-        <span class="post-date">May 13, 2020</span>
-        <a class="post-link" href="/binus/character-buiding/char6014/2020/05/13/upaya-mewujudkan-ketahanan-nasional-di-tengah-pandemi-covid-19.html">Upaya mewujudkan Ketahanan Nasional di Tengah Pandemi COVID-19</a>
-      </li>
-    
-      <li>
-        <span class="post-date">May 1, 2020</span>
-        <a class="post-link" href="/binus/character-buiding/char6014/2020/05/01/design-thinking-dengan-kearifan-lokal-indonesia.html">Design Thinking dengan Kearifan Lokal Indonesia</a>
-      </li>
     
       <li>
         <span class="post-date">Apr 4, 2020</span>
         <a class="post-link" href="/binus/character-buiding/char6014/2020/04/04/bangga-akan-produk-indonesia.html">Bangga akan Produk Indonesia</a>
-      </li>
-    
-      <li>
-        <span class="post-date">Mar 28, 2020</span>
-        <a class="post-link" href="/binus/character-buiding/char6014/2020/03/28/pentingnya-pemahaman-dan-kesukarelaan-masyarakat-dalam-membayar-pajak.html">Pentingnya Pemahaman dan Kesukarelaan Masyarakat dalam Membayar Pajak</a>
-      </li>
-    
-      <li>
-        <span class="post-date">Mar 27, 2020</span>
-        <a class="post-link" href="/binus/character-buiding/char6014/2020/03/27/persaudaraan-sebagai-kunci-utama-kewarganegaraan-indonesia.html">Persaudaraan sebagai Kunci Utama Kewarganegaraan Indonesia</a>
-      </li>
-    
-      <li>
-        <span class="post-date">Mar 16, 2020</span>
-        <a class="post-link" href="/binus/character-buiding/char6014/2020/03/16/pendidikan-indonesia-sebagai-hak-masyarakat-yang-bermasalah.html">Pendidikan Indonesia sebagai Hak Masyarakat yang Bermasalah</a>
-      </li>
-    
-      <li>
-        <span class="post-date">Nov 29, 2019</span>
 <<<<<<< HEAD
-        <a class="post-link" href="/binus/character-buiding/char6013/char6014/2019/11/29/multikulturalisme-sebagai-fondasi-kesejahteraan-indonesia.html">Multikulturalisme sebagai Fondasi Kesejahteraan Indonesia</a>
 =======
-        <a class="post-link" href="/binus/character-buiding/char6014/2019/11/29/multikulturalisme-sebagai-fondasi-kesejahteraan-indonesia.html">Multikulturalisme sebagai Fondasi Kesejahteraan Indonesia</a>
+  <h1>Posts under 'socs'</h1>
+  <ul class="posts">
+    
+      <li>
+        <span class="post-date">Dec 13, 2019</span>
+        <a class="post-link" href="/binus/socs/2019/12/13/surat-terbuka-untuk-rapat-komti-school-of-computer-science.html">Surat Terbuka untuk Rapat Komti School of Computer Science</a>
+>>>>>>> dabe96bb08ed63d3d392bdd93ab57b0b1caed11c:docs/category/socs/index.html
+=======
 >>>>>>> dabe96bb08ed63d3d392bdd93ab57b0b1caed11c
       </li>
     
