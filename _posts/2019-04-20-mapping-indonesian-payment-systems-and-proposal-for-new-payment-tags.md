@@ -2,7 +2,7 @@
 layout: post
 title: "Mapping Indonesian Payment Systems and Proposal for New Payment Tags"
 categories: [openstreetmap]
-tags: [init-import, english]
+tags: [en-us]
 as_seen_on:
   - title: OpenStreetMap
     url: https://www.openstreetmap.org/user/Reinhart%20Previano/diary/48246

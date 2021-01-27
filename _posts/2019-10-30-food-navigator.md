@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Food Navigator"
-categories: [binusian, openstreetmap]
-tags: [init-import, indonesian]
+categories: [binus, openstreetmap, food-navigator]
+tags: [id-id]
 ---
 
-**Kunjungi langsung di https://reinhart1010.github.io/foodnavigator**
+**Kunjungi langsung di <https://reinhart1010.github.io/foodnavigator>**
 
 Food Navigator adalah salah satu webapp sederhana yang menunjukkan lokasi restoran terdekat. Cukup pilih salah satu titik dan detail restoran tersebut akan muncul secara instan. 
 

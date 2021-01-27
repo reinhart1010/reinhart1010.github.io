@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Surat Terbuka untuk Rapat Komti School of Computer Science"
-categories: [binusian]
-tags: [indonesian]
+categories: [binus, socs]
+tags: [id-id]
 ---
 
 Multikulturalisme itu sangat penting untuk dijaga masyarakat Indonesia. Demikian juga berlaku untuk para programmer Indonesia. Karena itu, kita harus menghargai dan menghormati masyarakat Indonesia yang memutuskan untuk menggunakan perangkat dan sistem komputer yang berbeda-beda.

@@ -2,7 +2,7 @@
 layout: post
 title: "Upgrading Transjakarta Networks to Public Transport V2 Schema"
 categories: [openstreetmap]
-tags: [init-import, english]
+tags: [en-us]
 ---
 
 I am currently working to improve Transjakarta, one of Jakarta's major BRT/Busway operators, to comply with [Public Transport Version 2 schema](https://wiki.openstreetmap.org/wiki/Public_transport) in OpenStreetMap, though Version 3 is [being purposed](https://wiki.openstreetmap.org/wiki/Proposed_features/Refined_Public_Transport).

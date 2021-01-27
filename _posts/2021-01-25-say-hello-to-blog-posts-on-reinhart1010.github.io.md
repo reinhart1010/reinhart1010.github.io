@@ -2,6 +2,7 @@
 layout: post
 title: Say hello to blog posts on reinhart1010.github.io (and .gitlab.io)
 categories: [updates]
+tags: [en-us]
 ---
 ![image](https://user-images.githubusercontent.com/17312341/105946926-b900ce80-609a-11eb-911d-8b0109b66b9d.png)
 
