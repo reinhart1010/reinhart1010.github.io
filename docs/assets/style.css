@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: "Red Hat Dis
 .dark-mode .ac-pushButton.style-destructive.disabled, .dark-mode .ac-pushButton.style-destructive.disabled:focus, .dark-mode .ac-pushButton.style-destructive.disabled:hover, .dark-mode .ac-pushButton.style-destructive:disabled { color: var(--dm-button-danger-text-color); background-color: var(--dm-button-danger-bg-color); background-image: var(--dm-button-danger-bg-image); border-color: var(--dm-button-danger-border-color); -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; outline: 0; }
 
 /* Blog content */
-.blog.content { font-size: 1.25em; line-height: 1.75; }
+.blog.content { font-size: 1.25em; line-height: 1.75; word-wrap: break-word; }
 
 .blog.content img { max-width: 100%; }
 
