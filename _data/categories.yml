@@ -14,16 +14,22 @@ character-building:
   theme_color: 
     primary: "light_blue"
     secondary: "amber"
-openstreetmap:
-  name: "OpenStreetMap"
-  description: "Archives from OpenStreetMap user diaries"
-  theme_color: "green"
+food-navigator:
+  name: "Food Navigator"
+  description: "Updates on the Food Navigator app"
+  theme_color: "orange"
+home:
+  theme_color: "reinhart_blue"
 kotakode:
   name: "Kotakode"
   description: "Archives from Kotakode.com blogs"
   theme_color: 
     primary: "teal"
     secondary: "amber"
+openstreetmap:
+  name: "OpenStreetMap"
+  description: "Archives from OpenStreetMap user diaries"
+  theme_color: "green"
 socs:
   name: "School of Computer Science (SOCS), BINUS UNIVERSITY"
   theme_color: 
