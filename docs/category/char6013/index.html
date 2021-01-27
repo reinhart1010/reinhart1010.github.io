@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Meta tags -->
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+<meta name="viewport" content="width=device-width" />
+
+<!-- Favicon and title -->
+<title>Reinhart Previano K.</title>
+  <link href="/assets/css/w3-colors-metro.css" rel="stylesheet" />
+
+  <!-- Fork Awesome Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
+
+  <!-- Adaptive Cards JS -->
+  <script src="https://unpkg.com/adaptivecards/dist/adaptivecards.js"></script>
+  <script type="text/javascript" src="https://unpkg.com/markdown-it/dist/markdown-it.js"></script>
+
+  <link rel="stylesheet" href="/assets/style.css">
+
+</head><body class="with-custom-webkit-scrollbars with-custom-css-scrollbars" data-dm-shortcut-enabled="true" data-sidebar-shortcut-enabled="true" data-set-preferred-mode-onload="true">
+  <!-- Modals go here -->
+  <!-- Reference: https://www.gethalfmoon.com/docs/modal -->
+
+  <!-- Page wrapper start -->
+  <div class="page-wrapper with-navbar with-sidebar">
+
+    <!-- Sticky alerts (toasts), empty container -->
+    <!-- Reference: https://www.gethalfmoon.com/docs/sticky-alerts-toasts -->
+    <div class="sticky-alerts"></div>
+
+    <!-- Navbar start -->
+    <nav class="navbar">
+      <!-- Reference: https://www.gethalfmoon.com/docs/navbar -->
+      <!-- Navbar content (with toggle sidebar button) -->
+      <div class="navbar-content">
+        <button class="btn btn-action" type="button" onclick="halfmoon.toggleSidebar()">
+          <svg class="bi" width="32" height="32" fill="currentColor">
+            <use xlink:href="/assets/img/bootstrap-icons.svg#list"/>
+          </svg>
+          <span class="sr-only">Toggle sidebar</span> <!-- sr-only = show only on screen readers -->
+        </button>
+      </div>
+      <!-- Navbar brand -->
+      <a href="/" class="navbar-brand">
+        Reinhart Previano K.
+      </a>
+      <!-- Navbar text -->
+      <span class="navbar-text text-monospace">v19.3</span> <!-- text-monospace = font-family shifted to monospace -->
+      <!-- Navbar nav -->
+      <ul class="navbar-nav d-none d-md-flex"> <!-- d-none = display: none, d-md-flex = display: flex on medium screens and up (width > 768px) -->
+        <li class="nav-item">
+          <a href="#explore" class="nav-link">Explore</a>
+        </li>
+        <li class="nav-item">
+          <a href="#partners" class="nav-link">Partners and Relations</a>
+        </li>
+      </ul>
+      <!-- Navbar content (with the dropdown menu) -->
+      <div class="navbar-content d-md-none ml-auto"> <!-- d-md-none = display: none on medium screens and up (width > 768px), ml-auto = margin-left: auto -->
+        <div class="dropdown with-arrow">
+          <button class="btn btn-action" data-toggle="dropdown" type="button" id="navbar-dropdown-toggle-btn-1">
+            <svg class="bi" width="32" height="32" fill="currentColor">
+              <use xlink:href="/assets/img/bootstrap-icons.svg#three-dots-vertical"/>
+            </svg>
+          </button>
+          <div class="dropdown-menu dropdown-menu-right w-200" aria-labelledby="navbar-dropdown-toggle-btn-1"> <!-- w-200 = width: 20rem (200px) -->
+            <a href="#explore" class="dropdown-item">Explore</a>
+            <a href="#partners" class="dropdown-item">Partners and Relations</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Sidebar start -->
+    <div class="sidebar">
+      <!-- Sidebar links (with icons) and titles -->
+
+<h5 class="sidebar-title">Blogs</h5>
+<div class="sidebar-divider"></div>
+
+
+
+<a href="/category/binus" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#file-post-fill"/>
+    </svg>
+  </span>
+  binus
+</a>
+
+<a href="/category/char6013" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#file-post-fill"/>
+    </svg>
+  </span>
+  char6013
+</a>
+
+<a href="/category/char6014" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#file-post-fill"/>
+    </svg>
+  </span>
+  char6014
+</a>
+
+<a href="/category/character-buiding" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#file-post-fill"/>
+    </svg>
+  </span>
+  character-buiding
+</a>
+
+<a href="/category/food-navigator" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#file-post-fill"/>
+    </svg>
+  </span>
+  food-navigator
+</a>
+
+<a href="/category/kotakode" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#file-post-fill"/>
+    </svg>
+  </span>
+  kotakode
+</a>
+
+<a href="/category/openstreetmap" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#file-post-fill"/>
+    </svg>
+  </span>
+  openstreetmap
+</a>
+
+<a href="/category/socs" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#file-post-fill"/>
+    </svg>
+  </span>
+  socs
+</a>
+
+<a href="/category/updates" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#file-post-fill"/>
+    </svg>
+  </span>
+  updates
+</a>
+
+<a href="/category/web-development" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#file-post-fill"/>
+    </svg>
+  </span>
+  web-development
+</a>
+
+<br />
+<h5 class="sidebar-title">Contact</h5>
+<div class="sidebar-divider"></div>
+<a href="https://github.com/reinhart1010" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon bg-dark text-white bg-light-dm text-dark-dm">
+    <i class="fa fa-lg fa-github" aria-hidden="true"></i>
+  </span>
+  GitHub
+</a>
+<a href="https://gitlab.com/reinhart1010" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-dark-orange text-white">
+    <i class="fa fa-lg fa-gitlab" aria-hidden="true"></i>
+  </span>
+  GitLab
+</a>
+<a href="https://twitter.com/reinhart1010" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-blue text-white">
+    <i class="fa fa-lg fa-twitter" aria-hidden="true"></i>
+  </span>
+  Twitter
+</a>
+<br />
+<h5 class="sidebar-title">Working On</h5>
+<div class="sidebar-divider"></div>
+<a href="https://bearcats.dev/innovations" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon text-white" style="background-color: #428dfc">
+    <img src="/assets/img/logo/adab.png" alt="Icon" width="30" height="30">
+  </span>
+  ADAB to Connect<br>
+  Ayo Dengar Ayo Bicara
+</a>
+<a href="https://student.binus.ac.id/fyp/" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon">
+    <img src="/assets/img/logo/binus.ico" alt="Icon">
+  </span>
+  First Year Program (FYP)<br>BINUS University
+</a>
+<a href="https://handwashing-station.ushahidi.io" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon bg-secondary text-dark">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#signpost-split"/>
+    </svg>
+  </span>
+  Handwashing Station<br>Map (HOT-USAID-PDC)
+</a>
+<a href="https://himti.or.id/" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-dark-blue text-white">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#people"/>
+    </svg>
+  </span>
+  HIMTI Intership
+</a>
+<a href="https://reinhart1010/ika" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon bg-success text-dark">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#chat-dots"/>
+    </svg>
+  </span>
+  Ika (Chatbot Framework)
+</a>
+<a href="https://kotakode.com" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-teal text-white">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#box"/>
+    </svg>
+  </span>
+  Kotakode.com
+</a>
+<a href="https://webcompat.com" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon bg-secondary text-dark">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#globe"/>
+    </svg>
+  </span>
+  Webcompat.com
+</a>
+<br />
+<h5 class="sidebar-title">Participating On</h5>
+<div class="sidebar-divider"></div>
+<i>None</i>
+<br />
+<h5 class="sidebar-title">Past Projects</h5>
+<div class="sidebar-divider"></div>
+<a href="https://www.instagram.com/eighternitypstd/" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-dark-blue text-white">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#calendar-event"/>
+    </svg>
+  </span>
+  8TERNITY 2017:<br>ANDROMEDA
+</a>
+<a href="https://www.instagram.com/eighternitypstd/" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-dark-orange text-white">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#calendar-event"/>
+    </svg>
+  </span>
+  8TERNITY 2019:<br>CORUSCATE
+</a>
+<a href="https://computerun.id" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon text-white" style="background-color: #0c1631">
+    <img src="/assets/img/logo/computerun-2020.png" alt="Icon">
+  </span>
+  COMPUTERUN 2020:<br>
+  INSIGHT
+</a>
+<a href="https://github.com/bearcatsdev/hacktoberfest19" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-purple text-white">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#code-square"/>
+    </svg>
+  </span>
+  Hacktoberfest 2019<br>@BINUS (MTC)
+</a>
+<a href="https://himtikit.himti.or.id" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-orange text-white">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#globe"/>
+    </svg>
+  </span>
+  HIMTI KIT 2020
+</a>
+<a href="https://hishot.himti.or.id" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-dark-red text-white">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#calendar-event"/>
+    </svg>
+  </span>
+  HISHOT 2020: IGNITE
+</a>
+<a href="https://http.himti.or.id" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-dark-blue text-white">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#calendar-event"/>
+    </svg>
+  </span>
+  HTTP 2020: LINK
+</a>
+<a href="https://gitlab.com/gal_bert/m-oop-final-project" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon">
+    <img src="/assets/img/logo/jackpot-and-maths.png" alt="Icon" width="20" height="20">
+  </span>
+  Jackpot and Maths &mdash;<br>M-OOP Final Project
+</a>
+<a href="https://commonvoice.mozilla.org" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon bg-dark text-white bg-light-dm text-dark-dm">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#mic"/>
+    </svg>
+  </span>
+  Mozilla Common Voice
+</a>
+<br />
+<h5 class="sidebar-title">Past Participations</h5>
+<div class="sidebar-divider"></div>
+<a href="https://hacktoberfest.digitalocean.com" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-purple text-white">
+    <i class="fa fa-lg fa-digitalocean" aria-hidden="true"></i>
+  </span>
+  Hacktoberfest 2019
+</a>
+<a href="https://hacktoberfest.digitalocean.com/" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon">
+    <img src="/assets/img/logo/hacktoberfest-2020.ico" alt="Icon" width="30" height="30">
+  </span>
+  Hacktoberfest 2020
+</a>
+<a href="https://competition.binus.ac.id/icpc2020/" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon">
+    <img src="/assets/img/logo/icpc.ico" alt="Icon" width="30" height="30">
+  </span>
+  ICPC INC 2020
+</a>
+<a href="https://kotakode.com/challenges" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-teal text-white">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#box"/>
+    </svg>
+  </span>
+  Kotakode Coding Festival
+</a>
+<br />
+    </div>
+    <!-- Sidebar end -->
+
+    <!-- Content wrapper start -->
+    <div class="content-wrapper">
+      <div class="content">
+  <h1>Posts under 'char6013'</h1>
+  <ul class="posts">
+    
+      <li>
+        <span class="post-date">Dec 18, 2020</span>
+        <a class="post-link" href="/binus/character-buiding/char6013/2020/12/18/interaksi-antar-budaya.html">Interaksi Antar Budaya</a>
+      </li>
+    
+      <li>
+        <span class="post-date">Oct 20, 2019</span>
+        <a class="post-link" href="/binus/character-buiding/char6013/2019/10/20/ancaman-perkembangan-teknologi-terhadap-keutuhan-pancasila-dan-apa-yang-harus-dilakukan-untuk-menghadapinya.html">Ancaman Perkembangan Teknologi terhadap Keutuhan Pancasila dan Apa yang Harus Dilakukan untuk Menghadapinya</a>
+      </li>
+    
+  </ul>
+</div>
+
+    </div>
+    <!-- Content wrapper end -->
+
+  </div>
+  <!-- Page wrapper end -->
+
+  <!-- Halfmoon JS -->
+  <script src="https://cdn.jsdelivr.net/npm/halfmoon@1.1.0/js/halfmoon.min.js"></script>
+</body>
+</html>
