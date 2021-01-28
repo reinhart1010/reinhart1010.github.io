@@ -7,18 +7,28 @@ plugins:
   - jekyll-archives
 #  - jekyll-sitemap
   - jekyll-feed
+  - jekyll-paginate
+
+plugins_dir: [jekyll-paginate]
 
 jekyll-archives:
   enabled: all
   layouts: 
-    year: archive-date
-    month: archive-date
-    day: archive-date
+    year: archive-year
+    month: archive-month
+    day: archive-day
     tag: archive-tag
     category: archive-category
   permalinks:
-    year: '/:year/'
-    month: '/:year/:month/'
-    day: '/:year/:month/:day/'
-    tag: '/tag/:name/'
-    category: '/category/:name/'
+    year: '/posts/:year/'
+    month: '/posts/:year/:month/'
+    day: '/posts/:year/:month/:day/'
+    tag: '/posts/tag/:name/'
+    category: '/posts/category/:name/'
+
+highlighter: rouge
+
+permalink: /posts/:year/:month/:day/:title:output_ext
+
+paginate: 12
+paginate_path: "/posts/page:num/"

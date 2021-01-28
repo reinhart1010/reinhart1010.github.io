@@ -1,3 +1,5 @@
+all:
+  name: "All/Other"
 binus:
   name: "BINUS UNIVERSITY"
   theme_color: 
@@ -8,7 +10,10 @@ char6013:
   theme_color: "red"
 char6014:
   name: "CHAR6014 - Character Building: Kewarganegaraan"
-  theme_color: "amber"
+  theme_color: "yellow"
+char6015:
+  name: "CHAR6015 - Character Building: Agama"
+  theme_color: "violet"
 character-building:
   name: "Character Building courses at BINUS UNIVERSITY"
   theme_color: 
@@ -35,3 +40,6 @@ socs:
   theme_color: 
     primary: "light_blue"
     secondary: "amber"
+updates:
+  name: "Updates on <u>@reinhart1010</u>"
+  theme_color: "reinhart_blue"

@@ -111,6 +111,6 @@
     },
     {
         "type": "Custom.rawHTML",
-        "body": "<div class=\"card rounded-0 m-0 bg-dark text-white\"><h2><span style=\"font-weight: normal\">H</span>31.10,<br>WORLD!</h2><h2 class=\"card-title\">Welcome to my new homepage!</h2><p>It has been a long time since we have met, either from the late days of primary school, or up to the early days of the COVID-19 pandemic.</p><p>If you're reading this in a mobile phone or tablet, tap the <b>Menu</b> icon to view all of my projects, events, and contacts.</p><p>While you are exploring this website, could it be a great idea for me to promote your works, businesses, and campaigns <b>right on this page</b>? Send me an email, Direct Message or Personal Chat if you're interested.</p></div>"
+        "body": "<div class=\"card mx-0 my-10 bg-dark text-white\"><h2><span style=\"font-weight: normal\">H</span>31.10,<br>WORLD!</h2><h2 class=\"card-title\">Welcome to my new homepage!</h2><p>It has been a long time since we have met, either from the late days of primary school, or up to the early days of the COVID-19 pandemic.</p><p>If you're reading this in a mobile phone or tablet, tap the <b>Menu</b> icon to view all of my projects, events, and contacts.</p><p>While you are exploring this website, could it be a great idea for me to promote your works, businesses, and campaigns <b>right on this page</b>? Send me an email, Direct Message or Personal Chat if you're interested.</p></div>"
     }
 ]

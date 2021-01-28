@@ -6,3 +6,5 @@ gemspec
 gem 'jekyll-archives'
 gem 'jekyll-feed'
 gem 'jekyll-sitemap'
+gem 'jekyll-paginate'
+gem 'rouge'

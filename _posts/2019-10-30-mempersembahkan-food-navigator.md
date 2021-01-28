@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Food Navigator"
+title: "Mempersembahkan Food Navigator"
 categories: [binus, openstreetmap, food-navigator]
 tags: [id-id]
 ---
@@ -75,4 +75,4 @@ Saat ini, ada beberapa data tempat yang belum lengkap. Misalnya, di sekitar Kema
 
 Kalian bisa juga menambahkan data baru melalui OpenStreetMap, dan setiap pembaruan pada [OpenStreetMap](https://www.openstreetmap.org) akan tersedia dalam Food Navigator secara instan. Ke depannya, saya akan membuat panduan singkat untuk menambahkan tag khusus yang kompatibel dengan Food Navigator. **Selamat (nyari) makan!**
 
-**Kunjungi langsung di https://reinhart1010.github.io/foodnavigator**
+**Kunjungi langsung di <https://reinhart1010.github.io/foodnavigator>**

@@ -70,7 +70,7 @@ Objek yang terkandung di dalam `elemenHtml` ini memiliki atribut `innerHTML` unt
 elemenHtml.innerHTML = "Hello <i>JavaScript</i>!";
 ```
 
-> **Catatan**: Jika elemen tersebut memiliki atribut lain, misalnya <i class="color-red">, kamu harus melakukan salah satu dari dua hal ini:
+> **Catatan**: Jika elemen tersebut memiliki atribut lain, misalnya `<i class="color-red">`, kamu harus melakukan salah satu dari dua hal ini:
 >
 > 1. Mengganti karakter `"` di dalam tag HTML tersebut menjadi `\"` (Escaped character), misalnya `"Hello <i class=\"color-red\">JavaScript</i>!"`
 > 2. Mengganti karakter `"` di awal dan akhir string HTML menjadi `'` atau ```, misalnya `'Hello <i class="color-red">JavaScript</i>!'`

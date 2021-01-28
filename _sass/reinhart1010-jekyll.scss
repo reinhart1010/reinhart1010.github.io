@@ -4,6 +4,29 @@
 :root {
   --heading-font-weight: 900;
   --sidebar-title-font-weight: 700;
+  --code-color-1: #4FB6C3;
+  --code-color-2: #4FB6C3;
+  --code-color-3: #2563EB;
+  --code-color-4: #C026D3;
+  --code-color-5: #E11D48;
+  --code-color-6: #D97706;
+  --code-color-7: #65A30D;
+  --code-color-8: #0891B2;
+}
+
+@media (prefers-color-scheme: dark){
+  :root {
+    --heading-font-weight: 900;
+    --sidebar-title-font-weight: 700;
+    --code-color-1: #4FB6C3;
+    --code-color-2: #4FB6C3;
+    --code-color-3: #93C5FD;
+    --code-color-4: #F0ABFC;
+    --code-color-5: #FDA4AF;
+    --code-color-6: #FCD34D;
+    --code-color-7: #BEF264;
+    --code-color-8: #67E8F9;
+  }
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -22,7 +45,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 #card-container {
   column-count: 3;
-  column-gap: 0;
 }
 
 #card-container > * {
@@ -446,4 +468,103 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 .blog.content img {
   max-width: 100%;
+}
+
+/* Render blockquotes as cards */
+.blog.content blockquote,
+.dark-mode .blog.content blockquote {
+  background-image:none;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+}
+.blog.content blockquote {
+  position:relative;
+  margin:0;
+  margin-top:1.5em;
+  margin-bottom:1.5em;
+  padding:2rem;
+  color:rgba(0,0,0,.85);
+  background-color:var(--gray-color-light);
+  border-radius:.4rem;
+  border:1px solid rgba(0,0,0,.2)
+}
+.blog.content blockquote p:first-child {
+  margin-top: 0;
+}
+.blog.content blockquote p:last-child {
+  margin-bottom: 0;
+}
+.dark-mode .blog.content blockquote {
+  color:rgba(255,255,255,.8);
+  background-color:var(--dark-color-dark);
+  border-color:rgba(0,0,0,.2)
+}
+
+.blog.content pre {
+  word-wrap: none;
+  overflow-x: scroll;
+}
+
+.highlight {
+  .c     { color: #5B6370; font-style: italic } // Comment
+  .err   { color: #960050; background-color: #1e0010; } // Error
+  .k     { color: var(--code-color-4); font-weight: bold; } // Keyword
+  .o     { font-weight: bold } // Operator
+  .cm    { color: #5B6370; font-style: italic } // Comment.Multiline
+  .cp    { color: #5B6370; font-weight: bold } // Comment.Preproc
+  .c1    { color: #5B6370; font-style: italic } // Comment.Single
+  .cs    { color: #5B6370; font-weight: bold; font-style: italic } // Comment.Special
+  .gd    { color: #000; background-color: #fdd } // Generic.Deleted
+  .gd .x { color: #000; background-color: #faa } // Generic.Deleted.Specific
+  .ge    { font-style: italic } // Generic.Emph
+  .gr    { color: #a00 } // Generic.Error
+  .gh    { color: #5B6370 } // Generic.Heading
+  .gi    { color: #a6e22e; background-color: #dfd } // Generic.Inserted
+  .gi .x { color: #a6e22e; background-color: #afa } // Generic.Inserted.Specific
+  .go    { color: #888 } // Generic.Output
+  .gp    { color: #555 } // Generic.Prompt
+  .gs    { font-weight: bold } // Generic.Strong
+  .gu    { color: #aaa } // Generic.Subheading
+  .gt    { color: #a00 } // Generic.Traceback
+  .kc    { font-weight: bold } // Keyword.Constant
+  .kd    { color: var(--code-color-4); font-weight: bold } // Keyword.Declaration
+  .kp    { font-weight: bold } // Keyword.Pseudo
+  .kr    { font-weight: bold } // Keyword.Reserved
+  .kt    { color: #458; font-weight: bold } // Keyword.Type
+  .m     { color: var(--code-color-8) } // Literal.Number
+  .s     { color: var(--code-color-7) } // Literal.String
+  .na    { color: var(--code-color-6) } // Name.Attribute
+  .nb    { color: var(--code-color-8) } // Name.Builtin
+  .nc    { color: var(--code-color-6); font-weight: bold } // Name.Class
+  .nd    { color: var(--code-color-8); } // Name.Decorator
+  .no    { color: var(--code-color-8) } // Name.Constant
+  .ni    { color: var(--code-color-6) } // Name.Entity
+  .ne    { color: #900; font-weight: bold } // Name.Exception
+  .nf    { color: var(--code-color-3); font-weight: bold } // Name.Function
+  .nn    { color: #555 } // Name.Namespace
+  .nt    { color: var(--code-color-5) } // Name.Tag
+  .nv    { color: var(--code-color-5) } // Name.Variable
+  .ow    { font-weight: bold } // Operator.Word
+  .w     { color: #bbb } // Text.Whitespace
+  .mf    { color: var(--code-color-8) } // Literal.Number.Float
+  .mh    { color: var(--code-color-8) } // Literal.Number.Hex
+  .mi    { color: var(--code-color-8) } // Literal.Number.Integer
+  .mo    { color: var(--code-color-8) } // Literal.Number.Oct
+  .sb    { color: var(--code-color-7) } // Literal.String.Backtick
+  .sc    { color: var(--code-color-7) } // Literal.String.Char
+  .sd    { color: #5B6370 } // Literal.String.Doc
+  .s2    { color: var(--code-color-7) } // Literal.String.Double
+  .se    { color: var(--code-color-7) } // Literal.String.Escape
+  .sh    { color: var(--code-color-7) } // Literal.String.Heredoc
+  .si    { color: var(--code-color-7) } // Literal.String.Interpol
+  .sx    { color: var(--code-color-7) } // Literal.String.Other
+  .sr    { color: #009926 } // Literal.String.Regex
+  .s1    { color: var(--code-color-7) } // Literal.String.Single
+  .ss    { color: #990073 } // Literal.String.Symbol
+  .bp    { color: #999 } // Name.Builtin.Pseudo
+  .vc    { color: #008080 } // Name.Variable.Class
+  .vg    { color: #008080 } // Name.Variable.Global
+  .vi    { color: #008080 } // Name.Variable.Instance
+  .il    { color: var(--code-color-8) } // Literal.Number.Integer.Long
 }

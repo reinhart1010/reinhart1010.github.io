@@ -1,17 +1,39 @@
 ---
 layout: page
 ---
-
 <div class="content">
-  <h1>Posts tagged #{{ page.title }}</h1>
+  <h1>All/Other</h1>
+  <h3>Page {{ paginator.page }} out of {{ paginator.total_pages }}</h3>
   {% assign count = 0 %}
-  {% assign count_limit = site.paginate | times: 5 %}
   <!-- The posts (generated from Jekyll) are loaded into this template, to be mixed -->
+  <!-- Pagination links -->
+  <div class="pagination font-size-18 mb-10">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}" class="btn btn-lg btn-rounded btn-secondary shadow-lg w-150">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i> Previous
+      </a>
+    {% else %}
+      <a class="btn btn-lg btn-rounded disabled w-150">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i> Previous
+      </a></span>
+    {% endif %}
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="btn btn-lg btn-rounded btn-primary shadow-lg w-150">
+        Next <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+    {% else %}
+      <a class="btn btn-lg btn-rounded disabled w-150">
+        Next <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a></span>
+    {% endif %}
+  </div>
   <pre id="raw_json" class="d-none">
   [
-    {% for post in page.posts limit: count_limit %}
-    {% assign category_name = post.categories.last %}{% assign theme_color = site.data.categories[category_name].theme_color | default: "NULL" %}{% assign theme_color_primary = site.data.colors[theme_color.primary].600 | default: site.data.colors[theme_color].600 | default: "NULL" %}
+    {% for post in paginator.posts limit: site.paginate %}
     {% if count > 0 %},{% endif %}
+    {% assign category_name = post.categories.last %}
+    {% assign theme_color = site.data.categories[category_name].theme_color | default: "NULL" %}
+    {% assign theme_color_primary = site.data.colors[theme_color.primary].600 | default: site.data.colors[theme_color].600 | default: "NULL" %}
     {"type": "Reinhart.article", {% if post.cover_image %}"image": "{{ post.cover_image }}",{% endif %}
       {% if theme_color_primary != "NULL" %}
       "color": {
@@ -35,11 +57,11 @@ layout: page
     {% endfor %}
   ]
   </pre>
+
   <div class="container-fluid">
     <div id="card-container">
       <!-- To be automatically filled --> 
     </div>
-    <p class="text-center font-size-20 font-weight-bolder">Find more posts <a href="/posts">here</a>.</p>
   </div>
 </div>
 <script>
@@ -60,3 +82,4 @@ function preloadCards(){
 
 setTimeout(preloadCards, 0);
 </script>
+</div>

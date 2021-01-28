@@ -15,31 +15,35 @@ These blog posts are originally scattered across different places, from the [Ope
 
 Since 2013 (Primary School Grade 6), I always wanted to make a website. The original website would simply feature a list of links to my current projects and a blog page.
 
-1. **2013 website, codenamed "Botolcabe".** Hosted on WordPress.com.
+### 1. 2013 website, codenamed "Botolcabe". 
+Hosted on WordPress.com.
 
 ![Website preview](https://user-images.githubusercontent.com/17312341/105942238-6a026b80-6091-11eb-8def-bfd1866ff1b6.png)
 
-2. **2014 Website Project.** This was a part of a school project to develop a simple website with HTML and CSS. However, thanks to JavaScript, **Dark Mode has been included on this site, too!**.
+### 2. 2014 Website Project.
+This was a part of a school project to develop a simple website with HTML and CSS. However, thanks to JavaScript, **Dark Mode has been included on this site, too!**.
 
 ![image](https://user-images.githubusercontent.com/17312341/105943399-bf3f7c80-6093-11eb-8e39-36ee0f750951.png)
 
-3. **Circa 2015, on a free hosting platform.**
+### 3. Circa 2015, on a free hosting platform.
 
 ![Website preview](https://user-images.githubusercontent.com/17312341/105941529-2eb36d00-6090-11eb-93a9-3d0b0db85e73.png)
 
-4. **Website Concept in 2016**
+### 4. Website Concept in 2016
 
 ![Website preview](https://user-images.githubusercontent.com/17312341/105941922-0710d480-6091-11eb-8455-1f60d9196720.png)
 
-5. **Circa 2017.** This is the first website to be hosted on GitHub Pages. Some data contained on this website is controlled by a single JSON file. The remnants of this version still remains on [reinhart1010/reinhart1010.github.io](https://github.com/reinhart1010/reinhart1010.github.io) repository, which is planned to be replaced with YAML-based configuration files stored on [reinhart1010/reinhart1010](https://github.com/reinhart1010/reinhart1010).
+### 5. Circa 2017
+This is the first website to be hosted on GitHub Pages. Some data contained on this website is controlled by a single JSON file. The remnants of this version still remains on [reinhart1010/reinhart1010.github.io](https://github.com/reinhart1010/reinhart1010.github.io) repository, which is planned to be replaced with YAML-based configuration files stored on [reinhart1010/reinhart1010](https://github.com/reinhart1010/reinhart1010).
 
 ![image](https://user-images.githubusercontent.com/17312341/105944803-a2587880-6096-11eb-96d8-3ddf6f4f6534.png)
 
-6. **Late 2019.** Now powered by [Bootstrap](https://getbootstrap.com) and hosted on GitHub Pages. This website was planned to be integrated with a **syndication service** run on Now.sh (now Vercel), which serves all the data (blogs, annoucements, etc.) supplied to the website. This was then scrapped in favor of traditional JSON-based files (soon to be YAML) stored on GitHub.
+### 6. Late 2019
+Now powered by [Bootstrap](https://getbootstrap.com) and hosted on GitHub Pages. This website was planned to be integrated with a **syndication service** run on Now.sh (now Vercel), which serves all the data (blogs, annoucements, etc.) supplied to the website. This was then scrapped in favor of traditional JSON-based files (soon to be YAML) stored on GitHub.
 
 ![image](https://user-images.githubusercontent.com/17312341/105945114-3b878f00-6097-11eb-846c-9e2d7491d375.png)
 
-7. **Late 2019.** At the meantime a new, Cayman-based theme was developed to be placed on another repository dedicated for blog archives. Now, all posts contained from the repository have been moved here.
+At the meantime a new, Cayman-based theme was developed to be placed on another repository dedicated for blog archives. Now, all posts contained from the repository have been moved here.
 
 ![image](https://user-images.githubusercontent.com/17312341/105945416-d2ece200-6097-11eb-908e-687f970442cf.png)
 
