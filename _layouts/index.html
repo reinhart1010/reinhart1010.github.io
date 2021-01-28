@@ -10,8 +10,8 @@ layout: default
     {% for post in site.posts limit: site.paginate %}
     {% if count > 0 %},{% endif %}
     {% assign category_name = post.categories.last %}
-    {% assign theme_color = site.data.categories[category_name].theme_color | default: "NULL" %}
-    {% assign theme_color_primary = site.data.colors[theme_color.primary].600 | default: site.data.colors[theme_color].600 | default: "NULL" %}
+    {% assign theme_color = post.theme_color | default: site.data.categories[category_name].theme_color | default: "NULL" %}
+    {% assign theme_color_primary = post.theme_color | default: site.data.colors[theme_color.primary].600 | default: site.data.colors[theme_color].600 | default: "NULL" %}
     {"type": "Reinhart.article", {% if post.cover_image %}"image": "{{ post.cover_image }}",{% endif %}
       {% if theme_color_primary != "NULL" %}
       "color": {

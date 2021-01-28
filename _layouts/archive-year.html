@@ -9,7 +9,9 @@ layout: page
   <pre id="raw_json" class="d-none">
   [
     {% for post in page.posts %}
-    {% assign category_name = post.categories.last %}{% assign theme_color = site.data.categories[category_name].theme_color | default: "NULL" %}{% assign theme_color_primary = site.data.colors[theme_color.primary].600 | default: site.data.colors[theme_color].600 | default: "NULL" %}
+    {% assign category_name = post.categories.last %}
+    {% assign theme_color = post.theme_color | default: site.data.categories[category_name].theme_color | default: "NULL" %}
+    {% assign theme_color_primary = post.theme_color | default: site.data.colors[theme_color.primary].600 | default: site.data.colors[theme_color].600 | default: "NULL" %}
     {% if count > 0 %},{% endif %}
     {"type": "Reinhart.article", {% if post.cover_image %}"image": "{{ post.cover_image }}",{% endif %}
       {% if theme_color_primary != "NULL" %}

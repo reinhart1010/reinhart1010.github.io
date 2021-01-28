@@ -4,24 +4,22 @@
 <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
 <meta name="viewport" content="width=device-width" />
 
-<!-- Favicon and title -->
-<title>Reinhart Previano K.</title>
 
 <!-- Primary Meta Tags -->
-<title>Reinhart Previano K.</title>
-<meta name="title" content="Reinhart Previano K.">
-<meta name="description" content="">
+<title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+<meta name="title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}">
+<meta name="description" content="{{ page.description }}">
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://reinhart1010.github.io/">
-<meta property="og:title" content="Reinhart Previano K.">
-<meta property="og:description" content="">
+<meta property="og:url" content="{{ page.url | prepend: site.url }}">
+<meta property="og:title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}">
+<meta property="og:description" content="{{ page.description }}">
 <!-- <meta property="og:image" content=""> -->
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="https://reinhart1010.github.io/">
-<meta property="twitter:title" content="Reinhart Previano K.">
-<meta property="twitter:description" content="">
+<meta property="twitter:url" content="{{ page.url | prepend: site.url }}">
+<meta property="twitter:title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}">
+<meta property="twitter:description" content="{{ page.description }}">
 <!-- <meta property="twitter:image" content=""> -->
