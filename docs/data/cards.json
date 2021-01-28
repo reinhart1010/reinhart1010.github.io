@@ -22,79 +22,11 @@
         ]
     },
     {
-        "type": "Reinhart.advertisement",
-        "color": {
-            "background": "#da2778",
-            "foreground": "white"
-        },
-        "image": "https://user-images.githubusercontent.com/17312341/104357916-5e1a9380-5540-11eb-8e87-e9b964adef0c.png",
-        "body": {
-            "options": {
-                "hideTitle": true
-            },
-            "title": "Selamat Ulang Tahun yang ke-17!"
-        }
-    },
-    {
-        "type": "Reinhart.advertisement",
-        "color": {
-            "background": "#121e3f",
-            "foreground": "white"
-        },
-        "body": {
-            "kicker": "A big <u>#ThankYou</u> to all for",
-            "title": "COMPUTERUN 2020: INSIGHT",
-            "subtitle": "See you on the next, exciting COMPUTERUN event!"
-        },
-        "actions": [
-            {
-                "title": "More Info",
-                "url": "https://www.instagram.com/computerun/"
-            }
-        ]
-    },
-    {
-        "type": "Reinhart.advertisement",
-        "color": {
-            "background": "#683292",
-            "foreground": "white"
-        },
-        "body": {
-            "title": "Thank You, Ms. Marilou Sergote!",
-            "subtitle": "Biology Teacher and Photographer at PENABUR Secondary Tanjung Duren",
-            "description": "for teaching our class with great heart and kindness throughout the years."
-        }
-    },
-    {
         "type": "Custom.iframe",
         "url": "https://www.youtube.com/embed/Pdw0COlVPLw",
         "body": {
             "title": "( ͡° ͜ʖ ͡°)"
         }
-    },
-    {
-        "type": "Reinhart.advertisement",
-        "image": "https://user-images.githubusercontent.com/17312341/101272149-2a6b8180-37bc-11eb-8bfe-2a1ec6e8021b.png",
-        "color": {
-            "background": "#080c0b",
-            "backgroundTop": "#101e1f",
-            "foreground": "white"
-        },
-        "author": {
-            "name": "BNEC Asian English Olympics",
-            "url": "http://aeo.mybnec.org/"
-        },
-        "body": {
-            "kicker": "BINUS English Club (BNEC)", 
-            "title": "Asian English Olympics 2021",
-            "description": "It's time for Asia to shine once again.<br><b>Together, we can do it!</b>"
-        },
-        "actions": [
-            {
-                "title": "More Info and Register",
-                "url": "https://aeo.mybnec.org"
-            }
-        ]
     },
     {
         "type": "Reinhart.advertisement",
