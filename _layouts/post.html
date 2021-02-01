@@ -3,15 +3,20 @@ layout: default
 ---
 {% assign current_universe = page.categories.last | default: page.title | default: "home" %}
 {% assign theme_color = site.data.categories[current_universe].theme_color | default: "NULL" %}
-<div class="content p-20" style="background: {{ page.theme_color | default: site.data.colors[theme_color.primary].600 | default: site.data.colors[theme_color].600 | default: '#0094ff' }} repeating-linear-gradient(
+<div class="content" style="background: {{ page.theme_color | default: site.data.colors[theme_color.primary].600 | default: site.data.colors[theme_color].600 | default: '#0094ff' }} repeating-linear-gradient(
   135deg,
   rgba(0,0,0,0),
   rgba(0,0,0,0) 20px,
   rgba(0,0,0,0.1) 20px,
   rgba(0,0,0,0.1) 40px
 ); color: #ffffff; font-size: 1em; word-wrap: break-word;">
-  <h2 class="m-0">{{ page.title }}</h2>
-  <b class="font-size-16">{{ page.date | date: "%B %-d, %Y" }} | {% for category in page.categories %}<a class="inline badge" href="/posts/category/{{category}}">@{{category}}</a> {% endfor %} {% for tag in page.tags %}<a class="inline badge" href="/posts/tag/{{tag}}">#{{tag}}</a> {% endfor %}</b>
+  {% if page.cover_image %}
+    <img class="w-full" src="{{ page.cover_image }}" alt="Cover image">
+  {% endif %}
+  <div class="p-20">
+    <h2 class="m-0">{{ page.title }}</h2>
+    <b class="font-size-16">{{ page.date | date: "%B %-d, %Y" }} | {% for category in page.categories %}<a class="inline badge" href="/posts/category/{{category}}">@{{category}}</a> {% endfor %} {% for tag in page.tags %}<a class="inline badge" href="/posts/tag/{{tag}}">#{{tag}}</a> {% endfor %}</b>
+  </div>
   <!-- <h5>Let there be a #developer #Crewmate #AmongUs,<br>#BuildingTheNation and bringing <code>SELECT * FROM</code> your #DisneyPlus dreams <code>return true;</code><br>As high as #Mulan's (#IndiHome Paket) Phoenix,<br>and as close as the 0s and 1s of #Sayu and #1010.<br><br>Let our mission of #FosteringAndEmpowering may not simply fail at the #SANDBOX,<br>or into the grims of #MasterChefIndonesia's Pressure Tests.<br>Even both #Cyberpunk2077 and #HenryStickminCollection have seen their bright future,<br>because they are actually set in the future.<br><br>Finally, before you go,<br>#MayTheForceBeWithYou against all #Impostors.<br>#StartUp and #FollowYourDream even when there are #NoStraightRoads,<br>as #BrightAsTheSun, said #AsianGames2018.</h5> -->
 </div>
 <div class="blog content">

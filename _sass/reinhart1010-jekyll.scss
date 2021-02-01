@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700;900&display=swap');
 @import url('https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/css/halfmoon-variables.min.css');
+@import url('fonts/iosevka-curly/iosevka-curly.css');
 
 :root {
   --heading-font-weight: 900;
@@ -31,6 +32,11 @@
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: "Red Hat Display", Montserrat, "Century Gothic", sans-serif;
+}
+
+.code, code, kbd, .text-monospace {
+  font-family: "Iosevka Curly Web", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-stretch: expanded;
 }
 
 .universe-title {
