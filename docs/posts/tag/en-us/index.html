@@ -51,6 +51,7 @@
     <!-- Navbar start -->
     
     
+    
     <nav class="navbar justify-content-between justify-content-lg-start"
     >
       <!-- Reference: https://www.gethalfmoon.com/docs/navbar -->
@@ -105,7 +106,7 @@
     <div class="modal modal-full ie-scroll-fix" id="select-universe" tabindex="-1" role="dialog">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
-          <a href="#" class="close" role="button" aria-label="Close">
+          <a onclick="window.history.go(-1); return false;" href="#" class="close" role="button" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </a>
           <div class="container-fluid">
@@ -139,10 +140,32 @@
     
     
     
+    
     <div class="col-12 col-md-6 col-lg-4 font-size-18">
       <div class="card m-10 shadow-lg"
       
-        style="background-color: #0369A1; color: white;"
+        style="background-color: #0094ff; color: white;"
+      
+      >
+        <div class="h-200">
+          <h3 class="mt-0"><i class='fa fa-info-circle' aria-hidden='true'></i> About <u>@reinhart1010</u></h3>
+          <p>
+            </b>
+          </p>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/category/about" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg"
+      
+        style="background-color: #008ed3; color: white;"
       
       >
         <div class="h-200">
@@ -152,20 +175,18 @@
           </p>
         </div>
         <div class="text-right"> <!-- text-right = text-align: right -->
-          <a href="/posts/category/binus" class="btn btn-lg shadow-lg" 
-          
-            style="background-color: #F59E0B; color: white;"
-          ><b>Visit</b></a>
+          <a href="/posts/category/binus" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
         </div>
       </div>
     </div>
     
     
     
+    
     <div class="col-12 col-md-6 col-lg-4 font-size-18">
       <div class="card m-10 shadow-lg"
       
-        style="background-color: #B91C1C; color: white;"
+        style="background-color: #DC2626; color: white;"
       
       >
         <div class="h-200">
@@ -175,20 +196,18 @@
           </p>
         </div>
         <div class="text-right"> <!-- text-right = text-align: right -->
-          <a href="/posts/category/char6013" class="btn btn-lg shadow-lg" 
-          
-            style="background-color: #EF4444; color: white;"
-          ><b>Visit</b></a>
+          <a href="/posts/category/char6013" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
         </div>
       </div>
     </div>
     
     
     
+    
     <div class="col-12 col-md-6 col-lg-4 font-size-18">
       <div class="card m-10 shadow-lg"
       
-        style="background-color: #A16207; color: white;"
+        style="background-color: #CA8A04; color: white;"
       
       >
         <div class="h-200">
@@ -198,20 +217,18 @@
           </p>
         </div>
         <div class="text-right"> <!-- text-right = text-align: right -->
-          <a href="/posts/category/char6014" class="btn btn-lg shadow-lg" 
-          
-            style="background-color: #EAB308; color: white;"
-          ><b>Visit</b></a>
+          <a href="/posts/category/char6014" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
         </div>
       </div>
     </div>
     
     
     
+    
     <div class="col-12 col-md-6 col-lg-4 font-size-18">
       <div class="card m-10 shadow-lg"
       
-        style="background-color: #0369A1; color: white;"
+        style="background-color: #008ed3; color: white;"
       
       >
         <div class="h-200">
@@ -221,20 +238,60 @@
           </p>
         </div>
         <div class="text-right"> <!-- text-right = text-align: right -->
-          <a href="/posts/category/character-building" class="btn btn-lg shadow-lg" 
-          
-            style="background-color: #F59E0B; color: white;"
-          ><b>Visit</b></a>
+          <a href="/posts/category/character-building" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
         </div>
       </div>
     </div>
     
     
     
+    
     <div class="col-12 col-md-6 col-lg-4 font-size-18">
       <div class="card m-10 shadow-lg"
       
-        style="background-color: #C2410C; color: white;"
+        style="background-color: #6bd80b; color: white;"
+      
+      >
+        <div class="h-200">
+          <h3 class="mt-0">CodeNewbie Community Blog Archives</h3>
+          <p>
+            </b>
+          </p>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/category/codenewbie-community" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg"
+      
+        style="background-color: #000000; color: white;"
+      
+      >
+        <div class="h-200">
+          <h3 class="mt-0">DEV Blog Archives</h3>
+          <p>
+            </b>
+          </p>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/category/dev.to" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg"
+      
+        style="background-color: #fa582d; color: white;"
       
       >
         <div class="h-200">
@@ -244,85 +301,102 @@
           </p>
         </div>
         <div class="text-right"> <!-- text-right = text-align: right -->
-          <a href="/posts/category/food-navigator" class="btn btn-lg shadow-lg" 
-          
-            style="background-color: #F97316; color: white;"
-          ><b>Visit</b></a>
+          <a href="/posts/category/food-navigator" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
         </div>
       </div>
     </div>
     
     
     
-    <div class="col-12 col-md-6 col-lg-4 font-size-18">
-      <div class="card m-10 shadow-lg"
-      
-        style="background-color: #0D9488; color: white;"
-      
-      >
-        <div class="h-200">
-          <h3 class="mt-0">Kotakode</h3>
-          <p>
-            Archives from Kotakode.com blogs</b>
-          </p>
-        </div>
-        <div class="text-right"> <!-- text-right = text-align: right -->
-          <a href="/posts/category/kotakode" class="btn btn-lg shadow-lg" 
-          
-            style="background-color: #F59E0B; color: white;"
-          ><b>Visit</b></a>
-        </div>
-      </div>
-    </div>
-    
-    
     
     <div class="col-12 col-md-6 col-lg-4 font-size-18">
       <div class="card m-10 shadow-lg"
       
+        style="background-color: #47b881; color: white;"
+      
       >
         <div class="h-200">
-          <h3 class="mt-0">medium</h3>
+          <h3 class="mt-0">Kotakode Answers and Blog Archives</h3>
           <p>
             </b>
           </p>
         </div>
         <div class="text-right"> <!-- text-right = text-align: right -->
-          <a href="/posts/category/medium" class="btn btn-lg shadow-lg" 
-          ><b>Visit</b></a>
+          <a href="/posts/category/kotakode" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
         </div>
       </div>
     </div>
     
     
     
+    
     <div class="col-12 col-md-6 col-lg-4 font-size-18">
       <div class="card m-10 shadow-lg"
       
-        style="background-color: #4D7C0F; color: white;"
+        style="background-color: #000000; color: white;"
       
       >
         <div class="h-200">
-          <h3 class="mt-0">OpenStreetMap</h3>
+          <h3 class="mt-0">Medium Blog Archives</h3>
           <p>
-            Archives from OpenStreetMap user diaries</b>
+            </b>
           </p>
         </div>
         <div class="text-right"> <!-- text-right = text-align: right -->
-          <a href="/posts/category/openstreetmap" class="btn btn-lg shadow-lg" 
-          
-            style="background-color: #84CC16; color: white;"
-          ><b>Visit</b></a>
+          <a href="/posts/category/medium" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
         </div>
       </div>
     </div>
     
     
     
+    
     <div class="col-12 col-md-6 col-lg-4 font-size-18">
       <div class="card m-10 shadow-lg"
       
-        style="background-color: #0369A1; color: white;"
+        style="background-color: #cdebb0; color: #0c8416;"
+      
+      >
+        <div class="h-200">
+          <h3 class="mt-0">OpenStreetMap User Diary Archives</h3>
+          <p>
+            </b>
+          </p>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/category/openstreetmap" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg"
+      
+        style="background-color: #ff4d4f; color: white;"
+      
+      >
+        <div class="h-200">
+          <h3 class="mt-0"><i class='fa fa-briefcase' aria-hidden='true'></i> Project Announcements and Archive</h3>
+          <p>
+            </b>
+          </p>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/category/projects" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg"
+      
+        style="background-color: #008ed3; color: white;"
       
       >
         <div class="h-200">
@@ -332,13 +406,11 @@
           </p>
         </div>
         <div class="text-right"> <!-- text-right = text-align: right -->
-          <a href="/posts/category/socs" class="btn btn-lg shadow-lg" 
-          
-            style="background-color: #F59E0B; color: white;"
-          ><b>Visit</b></a>
+          <a href="/posts/category/socs" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
         </div>
       </div>
     </div>
+    
     
     
     
@@ -353,11 +425,11 @@
           </p>
         </div>
         <div class="text-right"> <!-- text-right = text-align: right -->
-          <a href="/posts/category/support" class="btn btn-lg shadow-lg" 
-          ><b>Visit</b></a>
+          <a href="/posts/category/support" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
         </div>
       </div>
     </div>
+    
     
     
     
@@ -372,34 +444,32 @@
           </p>
         </div>
         <div class="text-right"> <!-- text-right = text-align: right -->
-          <a href="/posts/category/tutorials" class="btn btn-lg shadow-lg" 
-          ><b>Visit</b></a>
+          <a href="/posts/category/tutorials" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
         </div>
       </div>
     </div>
+    
     
     
     
     <div class="col-12 col-md-6 col-lg-4 font-size-18">
       <div class="card m-10 shadow-lg"
       
-        style="background-color: #0c74dd; color: white;"
+        style="background-color: #0094ff; color: white;"
       
       >
         <div class="h-200">
-          <h3 class="mt-0">Updates on <u>@reinhart1010</u></h3>
+          <h3 class="mt-0"><i class='fa fa-bell' aria-hidden='true'></i> Updates on <u>@reinhart1010</u></h3>
           <p>
             </b>
           </p>
         </div>
         <div class="text-right"> <!-- text-right = text-align: right -->
-          <a href="/posts/category/updates" class="btn btn-lg shadow-lg" 
-          
-            style="background-color: #0094ff; color: white;"
-          ><b>Visit</b></a>
+          <a href="/posts/category/updates" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
         </div>
       </div>
     </div>
+    
     
     
     
@@ -414,8 +484,7 @@
           </p>
         </div>
         <div class="text-right"> <!-- text-right = text-align: right -->
-          <a href="/posts/category/web-development" class="btn btn-lg shadow-lg" 
-          ><b>Visit</b></a>
+          <a href="/posts/category/web-development" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
         </div>
       </div>
     </div>
@@ -645,109 +714,198 @@
   
   <!-- The posts (generated from Jekyll) are loaded into this template, to be mixed -->
   <pre id="raw_json" class="d-none">
-  [
-    
-    
-    
-    
-    
-    {"type": "Reinhart.article", 
-      
-      "color": {
-        "background": "#0a87f0",
-        "foreground": "white"
-      },
-      
-      "body": {
-        "subtitle": "January 25, 2021",
-        "title": "Say hello to blog posts on reinhart1010.github.io (and .gitlab.io)",
-        "description": "&lt;span class='dark-mode bg-transparent'&gt;&lt;a href='/posts/category/updates' class='inline badge font-size-16'&gt;@updates&lt;/a&gt;  &lt;a href='/posts/tag/en-us' class='inline badge font-size-16'&gt;#en-us&lt;/a&gt; &lt;/span&gt;"
-      },
-      "actions": [
-          {
-              "title": "More Info",
-              "url": "/posts/2021/01/25/say-hello-to-blog-posts-on-reinhart1010.github.io.html"
-          }
-      ]
-    }
-    
-    
-    
-    
-    
-    ,
-    {"type": "Reinhart.article", 
-      
-      "color": {
-        "background": "#65A30D",
-        "foreground": "white"
-      },
-      
-      "body": {
-        "subtitle": "September 25, 2019",
-        "title": "Testing Delivery Subkeys for Food-Ordering Apps",
-        "description": "&lt;span class='dark-mode bg-transparent'&gt;&lt;a href='/posts/category/openstreetmap' class='inline badge font-size-16'&gt;@openstreetmap&lt;/a&gt;  &lt;a href='/posts/tag/en-us' class='inline badge font-size-16'&gt;#en-us&lt;/a&gt; &lt;/span&gt;"
-      },
-      "actions": [
-          {
-              "title": "More Info",
-              "url": "/posts/2019/09/25/testing-delivery-subkeys-for-food-ordering-apps.html"
-          }
-      ]
-    }
-    
-    
-    
-    
-    
-    ,
-    {"type": "Reinhart.article", 
-      
-      "color": {
-        "background": "#65A30D",
-        "foreground": "white"
-      },
-      
-      "body": {
-        "subtitle": "June 21, 2019",
-        "title": "Upgrading Transjakarta Networks to Public Transport V2 Schema",
-        "description": "&lt;span class='dark-mode bg-transparent'&gt;&lt;a href='/posts/category/openstreetmap' class='inline badge font-size-16'&gt;@openstreetmap&lt;/a&gt;  &lt;a href='/posts/tag/en-us' class='inline badge font-size-16'&gt;#en-us&lt;/a&gt; &lt;/span&gt;"
-      },
-      "actions": [
-          {
-              "title": "More Info",
-              "url": "/posts/2019/06/21/upgrading-transjakarta-networks-to-public-transport-v2-schema.html"
-          }
-      ]
-    }
-    
-    
-    
-    
-    
-    ,
-    {"type": "Reinhart.article", 
-      
-      "color": {
-        "background": "#65A30D",
-        "foreground": "white"
-      },
-      
-      "body": {
-        "subtitle": "April 20, 2019",
-        "title": "Mapping Indonesian Payment Systems and Proposal for New Payment Tags",
-        "description": "&lt;span class='dark-mode bg-transparent'&gt;&lt;a href='/posts/category/openstreetmap' class='inline badge font-size-16'&gt;@openstreetmap&lt;/a&gt;  &lt;a href='/posts/tag/en-us' class='inline badge font-size-16'&gt;#en-us&lt;/a&gt; &lt;/span&gt;"
-      },
-      "actions": [
-          {
-              "title": "More Info",
-              "url": "/posts/2019/04/20/mapping-indonesian-payment-systems-and-proposal-for-new-payment-tags.html"
-          }
-      ]
-    }
-    
-    
+    [
+
+
+
+
+
+
+
+{"type": "Reinhart.article", "image": "https://dev-to-uploads.s3.amazonaws.com/i/8tkxpx3acuet4bd4igdw.jpg",
+  
+  "color": {
+    "background": "#0e1732",
+    "foreground": "white"
+  },
+  
+  "body": {
+    "subtitle": "February 2, 2021",
+    "title": "COMPUTERUN 2020 Website",
+    "description": "&lt;span class='dark-mode bg-transparent'&gt;&lt;a href='/posts/category/dev.to' class='inline badge font-size-16' style='color:white; border-color:white;'&gt;@dev.to&lt;/a&gt; &lt;a href='/posts/category/web-development' class='inline badge font-size-16' style='color:white; border-color:white;'&gt;@web-development&lt;/a&gt; &lt;a href='/posts/category/projects' class='inline badge font-size-16' style='color:white; border-color:white;'&gt;@projects&lt;/a&gt;  &lt;a href='/posts/tag/en-us' class='inline badge font-size-16' style='color:white; border-color:white;'&gt;#en-us&lt;/a&gt; &lt;a href='/posts/tag/showdev' class='inline badge font-size-16' style='color:white; border-color:white;'&gt;#showdev&lt;/a&gt; &lt;a href='/posts/tag/webdev' class='inline badge font-size-16' style='color:white; border-color:white;'&gt;#webdev&lt;/a&gt; &lt;/span&gt;"
+  },
+  "actions": [
+      {
+          "title": "More Info",
+          "url": "/posts/2021/02/02/computerun-2020-website.html"
+      }
   ]
+}
+
+
+,
+
+
+
+
+
+{"type": "Reinhart.article", 
+  
+  "color": {
+    "background": "#0094ff",
+    "foreground": "white"
+  },
+  
+  "body": {
+    "subtitle": "January 25, 2021",
+    "title": "Say hello to blog posts on reinhart1010.github.io (and .gitlab.io)",
+    "description": "&lt;span class='dark-mode bg-transparent'&gt;&lt;a href='/posts/category/updates' class='inline badge font-size-16' style='color:white; border-color:white;'&gt;@updates&lt;/a&gt;  &lt;a href='/posts/tag/en-us' class='inline badge font-size-16' style='color:white; border-color:white;'&gt;#en-us&lt;/a&gt; &lt;/span&gt;"
+  },
+  "actions": [
+      {
+          "title": "More Info",
+          "url": "/posts/2021/01/25/say-hello-to-blog-posts-on-reinhart1010.github.io.html"
+      }
+  ]
+}
+
+
+,
+
+
+
+
+
+{"type": "Reinhart.article", 
+  
+  "color": {
+    "background": "#0094ff",
+    "foreground": "white"
+  },
+  
+  "body": {
+    "subtitle": "January 17, 2021",
+    "title": "Hello from Indonesia",
+    "description": "&lt;span class='dark-mode bg-transparent'&gt;&lt;a href='/posts/category/codenewbie-community' class='inline badge font-size-16' style='color:white; border-color:white;'&gt;@codenewbie-community&lt;/a&gt; &lt;a href='/posts/category/about' class='inline badge font-size-16' style='color:white; border-color:white;'&gt;@about&lt;/a&gt;  &lt;a href='/posts/tag/en-us' class='inline badge font-size-16' style='color:white; border-color:white;'&gt;#en-us&lt;/a&gt; &lt;/span&gt;"
+  },
+  "actions": [
+      {
+          "title": "More Info",
+          "url": "/posts/2021/01/17/hello-from-indonesia.html"
+      }
+  ]
+}
+
+
+,
+
+
+
+
+
+{"type": "Reinhart.article", 
+  
+  "color": {
+    "background": "#cdebb0",
+    "foreground": "#0c8416"
+  },
+  
+  "body": {
+    "subtitle": "September 30, 2019",
+    "title": "Transjakarta Corridor 9 PTV2 Update Progress",
+    "description": "&lt;span class='dark-mode bg-transparent'&gt;&lt;a href='/posts/category/openstreetmap' class='inline badge font-size-16' style='color:#0c8416; border-color:#0c8416;'&gt;@openstreetmap&lt;/a&gt;  &lt;a href='/posts/tag/en-us' class='inline badge font-size-16' style='color:#0c8416; border-color:#0c8416;'&gt;#en-us&lt;/a&gt; &lt;/span&gt;"
+  },
+  "actions": [
+      {
+          "title": "More Info",
+          "url": "/posts/2019/09/30/transjakarta-corridor-9-ptv2-update-progress.html"
+      }
+  ]
+}
+
+
+,
+
+
+
+
+
+{"type": "Reinhart.article", 
+  
+  "color": {
+    "background": "#cdebb0",
+    "foreground": "#0c8416"
+  },
+  
+  "body": {
+    "subtitle": "September 25, 2019",
+    "title": "Testing Delivery Subkeys for Food-Ordering Apps",
+    "description": "&lt;span class='dark-mode bg-transparent'&gt;&lt;a href='/posts/category/openstreetmap' class='inline badge font-size-16' style='color:#0c8416; border-color:#0c8416;'&gt;@openstreetmap&lt;/a&gt;  &lt;a href='/posts/tag/en-us' class='inline badge font-size-16' style='color:#0c8416; border-color:#0c8416;'&gt;#en-us&lt;/a&gt; &lt;/span&gt;"
+  },
+  "actions": [
+      {
+          "title": "More Info",
+          "url": "/posts/2019/09/25/testing-delivery-subkeys-for-food-ordering-apps.html"
+      }
+  ]
+}
+
+
+,
+
+
+
+
+
+{"type": "Reinhart.article", 
+  
+  "color": {
+    "background": "#cdebb0",
+    "foreground": "#0c8416"
+  },
+  
+  "body": {
+    "subtitle": "June 21, 2019",
+    "title": "Upgrading Transjakarta Networks to Public Transport V2 Schema",
+    "description": "&lt;span class='dark-mode bg-transparent'&gt;&lt;a href='/posts/category/openstreetmap' class='inline badge font-size-16' style='color:#0c8416; border-color:#0c8416;'&gt;@openstreetmap&lt;/a&gt;  &lt;a href='/posts/tag/en-us' class='inline badge font-size-16' style='color:#0c8416; border-color:#0c8416;'&gt;#en-us&lt;/a&gt; &lt;/span&gt;"
+  },
+  "actions": [
+      {
+          "title": "More Info",
+          "url": "/posts/2019/06/21/upgrading-transjakarta-networks-to-public-transport-v2-schema.html"
+      }
+  ]
+}
+
+
+,
+
+
+
+
+
+{"type": "Reinhart.article", 
+  
+  "color": {
+    "background": "#cdebb0",
+    "foreground": "#0c8416"
+  },
+  
+  "body": {
+    "subtitle": "April 20, 2019",
+    "title": "Mapping Indonesian Payment Systems and Proposal for New Payment Tags",
+    "description": "&lt;span class='dark-mode bg-transparent'&gt;&lt;a href='/posts/category/openstreetmap' class='inline badge font-size-16' style='color:#0c8416; border-color:#0c8416;'&gt;@openstreetmap&lt;/a&gt;  &lt;a href='/posts/tag/en-us' class='inline badge font-size-16' style='color:#0c8416; border-color:#0c8416;'&gt;#en-us&lt;/a&gt; &lt;/span&gt;"
+  },
+  "actions": [
+      {
+          "title": "More Info",
+          "url": "/posts/2019/04/20/mapping-indonesian-payment-systems-and-proposal-for-new-payment-tags.html"
+      }
+  ]
+}
+
+
+]
   </pre>
   <div class="container-fluid">
     <div id="card-container">
