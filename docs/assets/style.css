@@ -1,10 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700;900&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/css/halfmoon-variables.min.css");
+@import url("fonts/iosevka-curly/iosevka-curly.css");
 :root { --heading-font-weight: 900; --sidebar-title-font-weight: 700; --code-color-1: #4FB6C3; --code-color-2: #4FB6C3; --code-color-3: #2563EB; --code-color-4: #C026D3; --code-color-5: #E11D48; --code-color-6: #D97706; --code-color-7: #65A30D; --code-color-8: #0891B2; }
 
 @media (prefers-color-scheme: dark) { :root { --heading-font-weight: 900; --sidebar-title-font-weight: 700; --code-color-1: #4FB6C3; --code-color-2: #4FB6C3; --code-color-3: #93C5FD; --code-color-4: #F0ABFC; --code-color-5: #FDA4AF; --code-color-6: #FCD34D; --code-color-7: #BEF264; --code-color-8: #67E8F9; } }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: "Red Hat Display", Montserrat, "Century Gothic", sans-serif; }
+
+.code, code, kbd, .text-monospace { font-family: "Iosevka Curly Web", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-stretch: expanded; }
 
 .universe-title { text-transform: uppercase; font-weight: 900; letter-spacing: 4px; }
 
@@ -116,7 +119,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: "Red Hat Dis
 
 .dark-mode .blog.content blockquote { color: rgba(255, 255, 255, 0.8); background-color: var(--dark-color-dark); border-color: rgba(0, 0, 0, 0.2); }
 
-.blog.content pre { word-wrap: none; overflow-x: scroll; }
+.blog.content pre { word-wrap: none; overflow-x: scroll; padding: 20px; border-radius: 4px; background-color: rgba(0, 0, 0, 0.05); }
+
+.dark-mode .blog.content pre { background-color: rgba(0, 0, 0, 0.3); }
 
 .highlight .c { color: #5B6370; font-style: italic; }
 
