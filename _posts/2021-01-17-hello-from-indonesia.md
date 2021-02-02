@@ -1,11 +1,12 @@
 ---
 layout: post
-title: Hello from Indonesia
-categories: [codenewbie-community, about]
+title: Hello from Indonesia 🇮🇩
+categories: [about, codenewbie]
+description: This is a reply on CodeNewbie Community’s first Welcome Thread
 tags: [en-us]
 as_seen_on:
-  - url: https://community.codenewbie.org/reinhart1010/comment/cn
-    site_type: codenewbie
+  - site_type: codenewbie
+    url: https://community.codenewbie.org/reinhart1010/comment/cn
 ---
 > This is a reply on **CodeNewbie Community's first Welcome Thread** at <https://community.codenewbie.org/jess/welcome-thread-v0-346b/>
 

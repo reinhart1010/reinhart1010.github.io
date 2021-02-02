@@ -15,6 +15,14 @@ Nama bahasa pemrograman ini juga terinspirasi dari kesenangan masyarakat Indones
 
 Tujuan utama dari bahasa pemrograman KopiHati ini adalah, ya, memperkenalkan masyarakat Indonesia dalam dunia pemrograman. KopiHati memiliki berbagai sintaks yang fleksibel dan mudah dimengerti oleh sebagian besar masyarakat Indonesia, dan rencananya bahasa ini dapat dilokalisir ke bahasa daerah dan *slang* yang berada di Indonesia.
 
+## Di-compile atau di-intepret?
+Salah satu pertanyaan yang sering ditanyakan setiap ada bahasa pemrograman baru adalah, apakah bahasa ini akan di-compile (misalnya C, C++, dan TypeScript) atau di-intepret (layaknya JavaScript, PHP, dan Python). **Saat ini, bahasa KopiHati masih belum memiliki compiler atau intepreter**, namun saya sendiri merencanakan agar kodingan bahasa ini dapat di-intepret dalam bahasa pemrograman lainnya, layaknya kodingan [Vala](https://wiki.gnome.org/Projects/Vala) dan [Shakespeare (SPL)](http://shakespearelang.sourceforge.net/) yang dapat di-compile ke dalam bahasa C (dan kemudian ke bahasa mesin/Assembly melalui GCC).
+
+Rencananya, kodingan KopiHati ini dapat diintepretasikan ke dalam **Python**. Bahkan, jika memungkinkan, intepreter ini akan dapat memanggil *library* dan *framework* KopiHati, Python, dan C/C++ (melalui *binding* Python) secara bersamaan. Selain intepretasi, kodingan ini juga direncanakan untuk dapat di-compile sampai ke level C/C++ melalui **Cython**.
+
+Skema intepretasi dan kompilasi seperti ini memang direncanakan untuk mempermudah pengembangan software berbasis KopiHati dengan memperpanjang dukungan terhadap *library* Python dan C/C++ yang sudah ada.
+
+## Contoh "Hello, World!"
 Sebuah program "Hello, World!" dalam bahasa KopiHati dapat dibuat semudah:
 
 ```
@@ -153,5 +161,4 @@ Namun, hal tersebut tentunya tidak akan terjadi tanpa:
 4. Melakukan studi banding dengan kerajinan sastra dan jurnalistik untuk mengevaluasi efisiensi KopiHati dalam mengajarkan pemrograman bagi masyarakat luas
 5. Membentuk komunitas dan organisasi, seperti [Python Software Foundation](https://www.python.org/psf/) dan [OpenJS Foundation](https://openjsf.org/), untuk melanjutkan pengembangan bahasa pemrograman KopiHati dalam jangka panjang
 
-Demikianlah
-
+Demikianlah pengumuman saya tentang KopiHati ini. Seluruh update tentang bahasa pemrograman ini akan tersedia di <https://reinhart1010.github.io/posts/category/kopihati>, dan jika memungkinkan, juga dipublikasikan di [Kotakode](https://kotakode.com/blogs). Untuk sementara waktu, bahasa pemrograman ini masih **belum** memiliki situs dan akun Instagram sesuai yang direncanakan. Sampai jumpa pada pengumuman berikutnya!

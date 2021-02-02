@@ -3,6 +3,8 @@ description: Blog repository
 
 destination: docs/
 
+future: true
+
 plugins:
   - jekyll-archives
 #  - jekyll-sitemap

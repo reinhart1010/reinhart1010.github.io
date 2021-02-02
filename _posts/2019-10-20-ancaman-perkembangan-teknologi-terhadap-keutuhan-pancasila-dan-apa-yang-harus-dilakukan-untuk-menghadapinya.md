@@ -3,6 +3,9 @@ layout: post
 title: "Ancaman Perkembangan Teknologi terhadap Keutuhan Pancasila dan Apa yang Harus Dilakukan untuk Menghadapinya"
 categories: [binus, character-building, char6013]
 tags: [id-id]
+as_seen_on:
+  - site_type: binusmaya
+    url: https://binusmaya.binus.ac.id/newStudent/#/forum/reader.E35DF831-E12B-4550-8EEE-8F8926068CE1?id=1
 ---
 > Berikut ini adalah jawaban terhadap salah satu tugas kuliah [CHAR6013 - Character Building: Pancasila](https://curriculum.binus.ac.id/course/char6013/) di [BINUS University](https://binus.ac.id) (Universitas Bina Nusantara).
 

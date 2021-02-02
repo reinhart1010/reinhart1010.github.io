@@ -6,7 +6,7 @@ tags: [en-us, showdev, webdev]
 theme_color: "#0e1732"
 cover_image: "https://dev-to-uploads.s3.amazonaws.com/i/8tkxpx3acuet4bd4igdw.jpg"
 as_seen_on:
-  - title: "DEV.to"
+  - site_type: "dev.to"
     url: https://dev.to/reinhart1010/computerun-2020-website-16jf
 ---
 **COMPUTERUN** is a brand new competition and webinar event concept by two student associations at [BINUS University, Indonesia](https://binus.ac.id), which are [HIMSISFO] and [HIMTI]. Despite that the event ended last month, **COMPUTERUN 2020** sets the first installment of the series with a brand new website at <https://computerun.id>.

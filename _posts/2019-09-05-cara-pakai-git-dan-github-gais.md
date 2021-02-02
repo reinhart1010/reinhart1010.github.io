@@ -3,6 +3,9 @@ layout: post
 title: "Cara Pakai Git dan GitHub, gais!"
 categories: [medium, kotakode, tutorials]
 tags: [id-id, git, github]
+cover_image: https://miro.medium.com/1*7bbZhQ022lT_L613oIoaag.png
+theme_color: "#f6f8fa"
+theme_color_foreground: "#24292e"
 as_seen_on:
   - site_type: kotakode
     url: https://kotakode.com/blogs/5283

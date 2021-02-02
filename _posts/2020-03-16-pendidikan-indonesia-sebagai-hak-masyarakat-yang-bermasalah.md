@@ -3,6 +3,9 @@ layout: post
 title: "Pendidikan Indonesia sebagai Hak Masyarakat yang Bermasalah"
 categories: [binus, character-building, char6014]
 tags: [id-id]
+as_seen_on:
+  - site_type: binusmaya
+    url: https://binusmaya.binus.ac.id/newStudent/#/forum/reader.2BC9CCD6-A377-481D-BC9C-69DD0A332365?id=1
 ---
 > Berikut ini adalah jawaban terhadap salah satu tugas kuliah [CHAR6014 - Character Building: Kewarganegaraan](https://curriculum.binus.ac.id/course/char6014/) di [BINUS University](https://binus.ac.id) (Universitas Bina Nusantara).
 
