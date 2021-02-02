@@ -4,10 +4,9 @@ title: "Mapping Indonesian Payment Systems and Proposal for New Payment Tags"
 categories: [openstreetmap]
 tags: [en-us]
 as_seen_on:
-  - title: OpenStreetMap
+  - site_type: openstreetmap
     url: https://www.openstreetmap.org/user/Reinhart%20Previano/diary/48246
 ---
-
 *This post is neither created nor endorsed by companies involved in establishment of payment systems listed below.*
 
 The OpenStreetMap [payment:](https://wiki.openstreetmap.org/wiki/Key:payment) tag allows mappers to tag stores that accept certain payment methods (cash, debit and credit cards, etc.). Currently, the wiki

@@ -1,45 +1,62 @@
-all:
-  name: "All/Other"
+about:
+  name: "<i class='fa fa-info-circle' aria-hidden='true'></i> About <u>@reinhart1010</u>"
+  theme_color: "#0094ff"
 binus:
   name: "BINUS UNIVERSITY"
   theme_color: 
-    primary: "light_blue"
-    secondary: "amber"
+    primary: "#008ed3"
+    secondary: "#D97706"
+codenewbie-community:
+  name: "CodeNewbie Community Blog Archives"
+  theme_color: "#6bd80b"
 char6013:
   name: "CHAR6013 - Character Building: Pancasila"
-  theme_color: "red"
+  theme_color: "#DC2626"
 char6014:
   name: "CHAR6014 - Character Building: Kewarganegaraan"
-  theme_color: "yellow"
+  theme_color: "#CA8A04"
 char6015:
   name: "CHAR6015 - Character Building: Agama"
-  theme_color: "violet"
+  theme_color: "#7C3AED"
 character-building:
   name: "Character Building courses at BINUS UNIVERSITY"
   theme_color: 
-    primary: "light_blue"
-    secondary: "amber"
+    primary: "#008ed3"
+    secondary: "#D97706"
+dev.to:
+  name: "DEV Blog Archives"
+  theme_color: "#000000"
 food-navigator:
   name: "Food Navigator"
   description: "Updates on the Food Navigator app"
-  theme_color: "orange"
+  theme_color: "#fa582d"
 home:
-  theme_color: "reinhart_blue"
+  theme_color: "#0094ff"
+kopihati:
+  name: "KopiHati"
+  theme_color: "#fecaca"
+  theme_color_foreground: "#7f1d1d"
+  description: "Bahasa pemrograman yang berasal dari kopi, turun ke hati."
 kotakode:
-  name: "Kotakode"
-  description: "Archives from Kotakode.com blogs"
+  name: "Kotakode Answers and Blog Archives"
   theme_color: 
-    primary: "teal"
-    secondary: "amber"
+    primary: "#47b881"
+    secondary: "#fa883a"
+medium:
+  name: "Medium Blog Archives"
+  theme_color: "#000000"
 openstreetmap:
-  name: "OpenStreetMap"
-  description: "Archives from OpenStreetMap user diaries"
-  theme_color: "green"
+  name: "OpenStreetMap User Diary Archives"
+  theme_color: "#cdebb0"
+  theme_color_foreground: "#0c8416"
+projects:
+  name: "<i class='fa fa-briefcase' aria-hidden='true'></i> Project Announcements and Archive"
+  theme_color: "#ff4d4f"
 socs:
   name: "School of Computer Science (SOCS), BINUS UNIVERSITY"
   theme_color: 
-    primary: "light_blue"
-    secondary: "amber"
+    primary: "#008ed3"
+    secondary: "#D97706"
 updates:
-  name: "Updates on <u>@reinhart1010</u>"
-  theme_color: "reinhart_blue"
+  name: "<i class='fa fa-bell' aria-hidden='true'></i> Updates on <u>@reinhart1010</u>"
+  theme_color: "#0094ff"

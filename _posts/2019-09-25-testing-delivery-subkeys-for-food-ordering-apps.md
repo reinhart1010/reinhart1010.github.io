@@ -3,6 +3,9 @@ layout: post
 title:  "Testing Delivery Subkeys for Food-Ordering Apps"
 categories: [openstreetmap]
 tags: [en-us]
+as_seen_on:
+  - site_type: openstreetmap
+    url: https://www.openstreetmap.org/user/Reinhart%20Previano/diary/390762
 ---
 
 As you might have noticed, OpenStreetMap offers the `delivery=` tags/keys to tag places and restaurants which offers food deliveries. But, have you ever wondered how to tag those who do not have their own delivery service, but they **do** accept orders from **food-ordering and delivery apps**?

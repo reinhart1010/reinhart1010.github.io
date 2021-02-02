@@ -2,23 +2,79 @@
 layout: default
 ---
 {% assign current_universe = page.categories.last | default: page.title | default: "home" %}
-{% assign theme_color = site.data.categories[current_universe].theme_color | default: "NULL" %}
-<div class="content" style="background: {{ page.theme_color | default: site.data.colors[theme_color.primary].600 | default: site.data.colors[theme_color].600 | default: '#0094ff' }} repeating-linear-gradient(
+{% assign theme_color = site.data.categories[current_universe].theme_color %}
+{% assign theme_color_foreground = site.data.categories[current_universe].theme_color_foreground %}
+<div style="background: {{ page.theme_color | default: theme_color.primary | default: theme_color | default: '#0094ff' }} repeating-linear-gradient(
   135deg,
   rgba(0,0,0,0),
   rgba(0,0,0,0) 20px,
-  rgba(0,0,0,0.1) 20px,
-  rgba(0,0,0,0.1) 40px
-); color: #ffffff; font-size: 1em; word-wrap: break-word;">
+  rgba(0,0,0,0.05) 20px,
+  rgba(0,0,0,0.05) 40px
+); color: {{ page.theme_color_foreground | default: theme_color_foreground.primary | default: theme_color_foreground | default: 'white'}}; font-size: 1em; word-wrap: break-word;">
   {% if page.cover_image %}
     <img class="w-full" src="{{ page.cover_image }}" alt="Cover image">
   {% endif %}
   <div class="p-20">
-    <h2 class="m-0">{{ page.title }}</h2>
-    <b class="font-size-16">{{ page.date | date: "%B %-d, %Y" }} | {% for category in page.categories %}<a class="inline badge" href="/posts/category/{{category}}">@{{category}}</a> {% endfor %} {% for tag in page.tags %}<a class="inline badge" href="/posts/tag/{{tag}}">#{{tag}}</a> {% endfor %}</b>
+    <h3 class="m-0">{{ page.title }}</h3>
+    <b class="font-size-16">{{ page.date | date: "%B %-d, %Y" }} | 
+      <span class='dark-mode bg-transparent'>{% for category in page.categories %}<a href='/posts/category/{{category}}' class='inline badge font-size-16' style='color:{{ page.theme_color_foreground | default: theme_color_foreground | default: "white" }}; border-color:{{ page.theme_color_foreground | default: theme_color_foreground | default: "white" }};'>@{{category}}</a> {% endfor %} {% for tag in page.tags %}<a href='/posts/tag/{{tag}}' class='inline badge font-size-16' style='color:{{  page.theme_color_foreground | default: theme_color_foreground | default: "white" }}; border-color:{{  page.theme_color_foreground | default: theme_color_foreground | default: "white" }};'>#{{tag}}</a> {% endfor %}</span></b>
   </div>
   <!-- <h5>Let there be a #developer #Crewmate #AmongUs,<br>#BuildingTheNation and bringing <code>SELECT * FROM</code> your #DisneyPlus dreams <code>return true;</code><br>As high as #Mulan's (#IndiHome Paket) Phoenix,<br>and as close as the 0s and 1s of #Sayu and #1010.<br><br>Let our mission of #FosteringAndEmpowering may not simply fail at the #SANDBOX,<br>or into the grims of #MasterChefIndonesia's Pressure Tests.<br>Even both #Cyberpunk2077 and #HenryStickminCollection have seen their bright future,<br>because they are actually set in the future.<br><br>Finally, before you go,<br>#MayTheForceBeWithYou against all #Impostors.<br>#StartUp and #FollowYourDream even when there are #NoStraightRoads,<br>as #BrightAsTheSun, said #AsianGames2018.</h5> -->
 </div>
 <div class="blog content">
+{% if page.as_seen_on %}
+  <blockquote>
+    <h4 class="mp-0">
+      {% if page.tags contains "id-id" %}
+        Kamu bisa like/upvote, kasih komen, dan diskusi tentang post ini di
+      {% else %}
+        You can like/upvote, comment and discuss this article on
+      {% endif %}
+    </h4>
+    {% for impostor in page.as_seen_on %}
+      <a href="{{ impostor.url }}" class="card mw-full m-0 p-0 d-flex">
+        {% if site.data.external_sites[impostor.site_type].img_152 %}
+          <div class="w-50 h-50 m-10 align-self-center">
+            <img src="{{ site.data.external_sites[impostor.site_type].img_152 }}" class="d-block rounded" alt="{{ site.data.external_sites[impostor.site_type].title }} logo">
+          </div>
+        {% endif %}
+        <div class="flex-grow-1 d-flex align-items-center">
+          <div class="p-10 w-full m-auto">
+            <p class="m-0 font-weight-medium text-dark-lm text-light-dm">
+              {{ site.data.external_sites[impostor.site_type].title }} <i class="fa fa-angle-right ml-5" aria-hidden="true"></i>
+            </p>
+          </div>
+        </div>
+    </a>
+    {% endfor %}
+  </blockquote>
+{% endif %}
 {{ content }}
+{% if page.as_seen_on %}
+  <blockquote>
+    <h4 class="mp-0">
+      {% if page.tags contains "id-id" %}
+        Kamu bisa like/upvote, kasih komen, dan diskusi tentang post ini di
+      {% else %}
+        You can like/upvote, comment and discuss this article on
+      {% endif %}
+    </h4>
+    {% for impostor in page.as_seen_on %}
+      <a href="{{ impostor.url }}" class="card mw-full m-0 p-0 d-flex">
+        {% if site.data.external_sites[impostor.site_type].img_152 %}
+          <div class="w-50 h-50 m-10 align-self-center">
+            <img src="{{ site.data.external_sites[impostor.site_type].img_152 }}" class="d-block rounded" alt="{{ site.data.external_sites[impostor.site_type].title }} logo">
+          </div>
+        {% endif %}
+        <div class="flex-grow-1 d-flex align-items-center">
+          <div class="p-10 w-full m-auto">
+            <p class="m-0 font-weight-medium text-dark-lm text-light-dm">
+              {{ site.data.external_sites[impostor.site_type].title }} <i class="fa fa-angle-right ml-5" aria-hidden="true"></i>
+            </p>
+          </div>
+        </div>
+    </a>
+    {% endfor %}
+  </blockquote>
+{% endif %}
 </div>

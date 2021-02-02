@@ -5,7 +5,7 @@ description: Melalui entri blog ini, saya akan membahas tentang DOM dan bagaiman
 categories: [kotakode, web-development]
 tags: [id-id, html, javascript]
 as_seen_on:
-  - title: Kotakode
+  - site_type: kotakode
     url: https://kotakode.com/blogs/3235
 ---
 Dalam mempelajari bahasa pemrograman JavaScript, Anda mungkin pernah diminta untuk mengubah tampilan sebuah tag HTML secara dinamis. Misalnya, sebuah tag `<p>` yang memiliki teks yang berubah-ubah setiap detiknya, atau sebuah tag `<div>` yang memiliki `background-color` yang dapat diubah oleh pengguna setelah pengguna tersebut memasukkan warna baru dalam tag `<input>` dan menge-klik sebuah `<button>`. Masalah-masalah tersebut sering diselesaikan menggunakan JavaScript, namun untuk memahami cara elemen-elemen HTML tersebut diubah Anda perlu mempelajari konsep dan sistem Document Object Model (DOM). Melalui entri blog ini, saya akan membahas tentang DOM dan bagaimana hal tersebut dapat dipakai untuk mengubah atribut-atribut HTML secara mudah.

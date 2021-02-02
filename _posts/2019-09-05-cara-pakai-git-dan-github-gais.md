@@ -4,9 +4,9 @@ title: "Cara Pakai Git dan GitHub, gais!"
 categories: [medium, kotakode, tutorials]
 tags: [id-id, git, github]
 as_seen_on:
-  - title: Kotakode
+  - site_type: kotakode
     url: https://kotakode.com/blogs/5283
-  - title: Medium
+  - site_type: medium
     url: https://medium.com/@reinhartpreviano/cara-pakai-git-dan-github-gais-f50624caf7e6
 ---
 **Halo! Kali ini aku mau menjelaskan cara pakai Git dan GitHub buat kalian semua 👍**

@@ -1,0 +1,17 @@
+dev.to:
+  img_152: https://res.cloudinary.com/practicaldev/image/fetch/s--l0c3Kmql--/c_limit,f_png,fl_progressive,q_80,w_152/https://practicaldev-herokuapp-com.freetls.fastly.net/assets/devlogo-pwa-512.png
+  title: "DEV.to Community"
+binusian_blog:
+  title: "Binusian Blog"
+codenewbie-community:
+  img_152: https://community.codenewbie.org/images/yCxHHuSiCo6wPXSfmuBKi9msd1xIVarzCfwrkmSdTV0/w:512/q:80/mb:500000/aHR0cHM6Ly9kZXYt/dG8tdXBsb2Fkcy5z/My5hbWF6b25hd3Mu/Y29tL2kvOGs2dmY4/bWpleXVwNjA2YXNw/ZGIucG5n
+  title: "CodeNewbie Community"
+kotakode:
+  img_152: https://kotakode.com/favicon.ico
+  title: "Kotakode"
+medium:
+  img_152: https://miro.medium.com/fit/c/152/152/1*sHhtYhaCe2Uc3IU0IgKwIQ.png
+  title: "Medium"
+openstreetmap:
+  img_152: https://www.openstreetmap.org/assets/apple-touch-icon-152x152-af45dc979e972cab863517b2cb33a3dcf3e04e02a2eb2734c6f93edc21fa395d.png
+  title: "OpenStreetMap"

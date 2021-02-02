@@ -28,34 +28,7 @@ layout: page
     {% endif %}
   </div>
   <pre id="raw_json" class="d-none">
-  [
-    {% for post in paginator.posts limit: site.paginate %}
-    {% if count > 0 %},{% endif %}
-    {% assign category_name = post.categories.last %}
-    {% assign theme_color = post.theme_color | default: site.data.categories[category_name].theme_color | default: "NULL" %}
-    {% assign theme_color_primary = post.theme_color | default: site.data.colors[theme_color.primary].600 | default: site.data.colors[theme_color].600 | default: "NULL" %}
-    {"type": "Reinhart.article", {% if post.cover_image %}"image": "{{ post.cover_image }}",{% endif %}
-      {% if theme_color_primary != "NULL" %}
-      "color": {
-        "background": "{{ theme_color_primary }}",
-        "foreground": "white"
-      },
-      {% endif %}
-      "body": {
-        "subtitle": "{{ post.date | date: "%B %-d, %Y" }}",
-        "title": "{{ post.title }}",
-        "description": "{% if post.description %}{{ post.description }}&lt;br&gt;{% endif %}&lt;span {% if theme_color_primary != "NULL" %}class='dark-mode bg-transparent'{% endif %}&gt;{% for category in post.categories %}&lt;a href='/posts/category/{{category}}' class='inline badge font-size-16'&gt;@{{category}}&lt;/a&gt; {% endfor %} {% for tag in post.tags %}&lt;a href='/posts/tag/{{tag}}' class='inline badge font-size-16'&gt;#{{tag}}&lt;/a&gt; {% endfor %}&lt;/span&gt;"
-      },
-      "actions": [
-          {
-              "title": "More Info",
-              "url": "{{ post.url }}"
-          }
-      ]
-    }
-    {% assign count = count | plus: 1 %}
-    {% endfor %}
-  ]
+    {% include card-generator.html posts=paginator.posts count_limit=site.paginate %}
   </pre>
 
   <div class="container-fluid">

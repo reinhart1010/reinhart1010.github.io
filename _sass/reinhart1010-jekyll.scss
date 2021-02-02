@@ -510,6 +510,13 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .blog.content pre {
   word-wrap: none;
   overflow-x: scroll;
+  padding: 20px;
+  border-radius: 4px;
+  background-color: rgba(0,0,0,.05);
+}
+
+.dark-mode .blog.content pre {
+  background-color: rgba(0,0,0,.3);
 }
 
 .highlight {
