@@ -1,4 +1,155 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-02-03T00:01:55+07:00</updated><id>/feed.xml</id><title type="html">Reinhart Previano K.</title><subtitle>Blog repository</subtitle><entry><title type="html">COMPUTERUN 2020 Website</title><link href="/posts/2021/02/02/computerun-2020-website.html" rel="alternate" type="text/html" title="COMPUTERUN 2020 Website" /><published>2021-02-02T00:00:00+07:00</published><updated>2021-02-02T00:00:00+07:00</updated><id>/posts/2021/02/02/computerun-2020-website</id><content type="html" xml:base="/posts/2021/02/02/computerun-2020-website.html">&lt;p&gt;&lt;strong&gt;COMPUTERUN&lt;/strong&gt; is a brand new competition and webinar event concept by two student associations at &lt;a href=&quot;https://binus.ac.id&quot;&gt;BINUS University, Indonesia&lt;/a&gt;, which are &lt;a href=&quot;https://instagram.com/himsisfo_binus&quot;&gt;HIMSISFO&lt;/a&gt; and &lt;a href=&quot;https://himti.or.id&quot;&gt;HIMTI&lt;/a&gt;. Despite that the event ended last month, &lt;strong&gt;COMPUTERUN 2020&lt;/strong&gt; sets the first installment of the series with a brand new website at &lt;a href=&quot;https://computerun.id&quot;&gt;https://computerun.id&lt;/a&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-02-03T15:31:42+07:00</updated><id>/feed.xml</id><title type="html">Reinhart Previano K.</title><subtitle>Blog repository</subtitle><entry><title type="html">Mempersembahkan KopiHati</title><link href="/posts/2021/02/14/mempersembahkan-kopihati.html" rel="alternate" type="text/html" title="Mempersembahkan KopiHati" /><published>2021-02-14T00:00:00+07:00</published><updated>2021-02-14T00:00:00+07:00</updated><id>/posts/2021/02/14/mempersembahkan-kopihati</id><content type="html" xml:base="/posts/2021/02/14/mempersembahkan-kopihati.html">&lt;p&gt;&lt;strong&gt;KopiHati&lt;/strong&gt; merupakan sebuah bahasa pemrograman yang terinspirasi dari sekelompok &lt;em&gt;brand&lt;/em&gt; gerai kopi, minuman, dan kafe di Jakarta, yang sempat mengalami puncak keemasannya pada tahun 2018-2019.&lt;/p&gt;
+
+&lt;p&gt;Nama bahasa pemrograman ini juga terinspirasi dari kesenangan masyarakat Indonesia serta para programmer seluruh dunia dalam meminum kopi. Bahkan, nama bahasa pemrograman “Java” pun sebenarnya berasal dari varian kopi yang sering ditemui di pulau Jawa. Banyak kafe, gerai, dan warung kopi yang bertebaran di seluruh pelosok Indonesia, sedangkan Indonesia ini juga menjadi salah satu pengekspor biji dan bubuk kopi di seluruh dunia. Minuman kopi ini sering pula dijadikan sebagai meme dan bahan candaan bagi para programmer seperti berikut.&lt;/p&gt;
+
+&lt;p&gt;Tujuan utama dari bahasa pemrograman KopiHati ini adalah, ya, memperkenalkan masyarakat Indonesia dalam dunia pemrograman. KopiHati memiliki berbagai sintaks yang fleksibel dan mudah dimengerti oleh sebagian besar masyarakat Indonesia, dan rencananya bahasa ini dapat dilokalisir ke bahasa daerah dan &lt;em&gt;slang&lt;/em&gt; yang berada di Indonesia.&lt;/p&gt;
+
+&lt;h2 id=&quot;di-compile-atau-di-intepret&quot;&gt;Di-compile atau di-intepret?&lt;/h2&gt;
+&lt;p&gt;Salah satu pertanyaan yang sering ditanyakan setiap ada bahasa pemrograman baru adalah, apakah bahasa ini akan di-compile (misalnya C, C++, dan TypeScript) atau di-intepret (layaknya JavaScript, PHP, dan Python). &lt;strong&gt;Saat ini, bahasa KopiHati masih belum memiliki compiler atau intepreter&lt;/strong&gt;, namun saya sendiri merencanakan agar kodingan bahasa ini dapat di-intepret dalam bahasa pemrograman lainnya, layaknya kodingan &lt;a href=&quot;https://wiki.gnome.org/Projects/Vala&quot;&gt;Vala&lt;/a&gt; dan &lt;a href=&quot;http://shakespearelang.sourceforge.net/&quot;&gt;Shakespeare (SPL)&lt;/a&gt; yang dapat di-compile ke dalam bahasa C (dan kemudian ke bahasa mesin/Assembly melalui GCC).&lt;/p&gt;
+
+&lt;p&gt;Rencananya, kodingan KopiHati ini dapat diintepretasikan ke dalam &lt;strong&gt;Python&lt;/strong&gt;. Bahkan, jika memungkinkan, intepreter ini akan dapat memanggil &lt;em&gt;library&lt;/em&gt; dan &lt;em&gt;framework&lt;/em&gt; KopiHati, Python, dan C/C++ (melalui &lt;em&gt;binding&lt;/em&gt; Python) secara bersamaan. Selain intepretasi, kodingan ini juga direncanakan untuk dapat di-compile sampai ke level C/C++ melalui &lt;strong&gt;Cython&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Skema intepretasi dan kompilasi seperti ini memang direncanakan untuk mempermudah pengembangan software berbasis KopiHati dengan memperpanjang dukungan terhadap &lt;em&gt;library&lt;/em&gt; Python dan C/C++ yang sudah ada.&lt;/p&gt;
+
+&lt;h2 id=&quot;contoh-hello-world&quot;&gt;Contoh “Hello, World!”&lt;/h2&gt;
+&lt;p&gt;Sebuah program “Hello, World!” dalam bahasa KopiHati dapat dibuat semudah:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Katakan &quot;Hello, World!&quot;.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;tanpa memerlukan tanda-tanda kurung, titik koma, dan tentunya istilah Inggris seperti:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Python 3
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello, World!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// JavaScript&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;Hello, World!&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// C/C++&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#include &amp;lt;stdio.h&amp;gt;
+&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;puts&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello, World!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// Java (paling buruk)&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Main&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nc&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello, World!&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Setiap blok perintah dalam KopiHati dapat diakhiri dengan tanda titik (“.”, layaknya tanda baca pada umumnya) dan/atau baris berikutnya (“\n”).&lt;/p&gt;
+
+&lt;h2 id=&quot;antara-esoterik-dengan-pseudocode&quot;&gt;Antara Esoterik dengan Pseudocode&lt;/h2&gt;
+&lt;p&gt;Bahasa ini awalnya memang dibentuk sebagai &lt;a href=&quot;https://en.wikipedia.org/wiki/Esoteric_programming_language&quot;&gt;bahasa pemrograman esoterik&lt;/a&gt; layaknya &lt;a href=&quot;https://lhartikk.github.io/ArnoldC/&quot;&gt;ArnoldC&lt;/a&gt;, &lt;a href=&quot;http://www.lolcode.org/&quot;&gt;LOLCODE&lt;/a&gt;, dan &lt;a href=&quot;http://shakespearelang.sourceforge.net/&quot;&gt;Shakespeare Programming Language (SPL)&lt;/a&gt;, sebagai candaan dan meme atas maraknya &lt;em&gt;brand&lt;/em&gt; dan franchise minuman milenial Indonesia seperti &lt;a href=&quot;https://chatime.co.id/&quot;&gt;Chatime&lt;/a&gt;, &lt;a href=&quot;https://www.instagram.com/dumdumthaidrinks/&quot;&gt;Dum Dum&lt;/a&gt;, &lt;a href=&quot;https://www.instagram.com/haus.indonesia/&quot;&gt;Haus!&lt;/a&gt;, &lt;a href=&quot;https://www.koithe.com/en/global/koi-indonesia&quot;&gt;KOI Thé&lt;/a&gt;, &lt;a href=&quot;https://kokumiworld.com/&quot;&gt;Kokumi&lt;/a&gt;, &lt;a href=&quot;https://www.kopikenangan.com/&quot;&gt;Kopi Kenangan&lt;/a&gt;, &lt;a href=&quot;https://www.instagram.com/tigersugarindonesia/&quot;&gt;Tiger Sugar&lt;/a&gt;, &lt;a href=&quot;https://www.xingfutang.co.id/&quot;&gt;Xing Fu Tang&lt;/a&gt;, dan sebagainya. Para &lt;em&gt;brand&lt;/em&gt; minuman tersebut sudah mempunyai akun resmi Instagram, dan karena itu KopiHati dapat menjadi bahasa pemrograman milenial pertama yang memiliki akun resmi di Instagram.&lt;/p&gt;
+
+&lt;p&gt;Namun, setelah dipikir matang-matang, bahasa ini dapat berpotensi menggantikan pseudocode dengan menggunakan bahasa Indonesia dan format perintah yang mudah dibaca. Selain “Hello, World !” tadi, saya juga akan memberikan contoh konsep program yang ditulis dalam bahasa KopiHati.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Katakan &quot;Selamat datang di KopiHati!&quot;.
+Katakan &quot;Nama kamu siapa?&quot;.
+Tunggu jawaban $&quot;nama pelanggan&quot; (n). Misalnya &quot;Nina&quot;.
+
+Kamu perlu tahu, setiap nama variabel dan atribut objek harus diawali dengan $, layaknya PHP.
+
+Perintah ini akan membuat sebuah variabel baru bernama &quot;nama pelanggan&quot;.
+Oh iya, nama kelas, atribut objek, dan variabel boleh pakai spasi asal pakai tanda baca $&quot;...&quot;, $'...', atau $`...`.
+
+Ucapkan &quot;Halo&quot;, $&quot;nama pelanggan&quot;. Seharusnya hasil perintah ini adalah &quot;Halo Nina&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Salah satu keunggulan kode KopiHati seperti di atas adalah saya dapat menulis kata kunci (&lt;em&gt;keyword&lt;/em&gt;) komentar layaknya kalimat biasa. Kata kunci seperti “Kamu perlu…” ini memang sengaja dikhususkan untuk menulis komentar. Sehingga, saya tidak perlu untuk menggunakan simbol khusus seperti &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;//&lt;/code&gt;, dan &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/* ... */&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Sedangkan, kata kunci “Misalnya …” dan “Seharusnya …” ini dapat digunakan untuk menguji fungsi tersebut secara otomatis. Hal ini bertujuan agar para pemrogram KopiHati dapat melaksanakan Unit Testing sederhana secara mudah, tanpa memerlukan script dan framework khusus seperti &lt;a href=&quot;https://mochajs.org/&quot;&gt;Mocha&lt;/a&gt; untuk JavaScript.&lt;/p&gt;
+
+&lt;p&gt;Tipe data dalam KopiHati pun juga sangat disederhanakan, terinspirasi dari salah satu struk belanja franchise kopi di atas dengan Kamus Besar Bahasa Indonesia (KBBI) revisi terkini:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;(a)&lt;/strong&gt;djektiva: Object, karena memiliki deskripsi dan sifat dalam bentuk atribut dan Method&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;(adv)&lt;/strong&gt;erbia: Boolean (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;benar&lt;/code&gt;/&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;salah&lt;/code&gt;), &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;void&lt;/code&gt;, dan &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;undefined&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;(n)&lt;/strong&gt;omina: Kalimat/String, dan tidak ada tipe data &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;char&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;(num)&lt;/strong&gt;eralia: Bilangan (dalam bentuk &lt;em&gt;double-precision floating point&lt;/em&gt;), setara dengan &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Number&lt;/code&gt; dalam JavaScript, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;float&lt;/code&gt; dalam Python, dan &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;double&lt;/code&gt; dalam C, C++, dan Java&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;(pron)&lt;/strong&gt;omina: Pointer&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;(v)&lt;/strong&gt;erba: Function (atau Method dalam Object/adjektiva)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;contoh-tambahan&quot;&gt;Contoh Tambahan&lt;/h2&gt;
+&lt;p&gt;Kodingan di bawah ini adalah contoh tambahan KopiHati dengan blok &lt;strong&gt;if-else&lt;/strong&gt; dan &lt;strong&gt;for loop&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Ini $Jojo (a).
+
+$Jojo punya $&quot;nomor telepon&quot; (n) 080989999.
+
+Perintah tersebut secara otomatis akan menjadikan $Jojo sebuah adjektiva dengan atribut nomina $&quot;nomor telepon&quot; yang memiliki nilai &quot;080989999&quot;.
+
+Berikut ini adalah berbagai cara lain untuk menyetel sebuah atribut dalam Objek/adjektiva
+
+$Jojo ber-$usia (num) 21.
+$alamat $Jojo (n) adalah &quot;Jalan Melati Nomor 1, Jakarta Pusat&quot;.
+$Jojo tidak punya $member (num).
+[&quot;Green Tea Macchiato&quot;, &quot;Hazelnut Milk Tea&quot;, dan &quot;Snow Fairy&quot;] adalah daftar $&quot;minuman favorit&quot; $Jojo (n).
+Perintah ini akan secara otomatis memmbuat sebuah array nomina.
+
+Kamu perlu tahu:
+  Rencananya, komentar dalam program KopiHati dapat ditulis menggunakan **markdown**.
+
+  KopiHati memang didesain untuk mengurangi pemakaian ~~kantong dan sedotan plastik~~
+  berbagai jenis tanda kurung seperti (...), [...], dan {...} agar kodingannya lebih mudah dibaca oleh orang lain.
+Cukup itu saja.
+
+Katakan &quot;Hai Jojo!&quot;
+Katakan [&quot;Kamu mau pesen &quot;, $&quot;minuman favorit&quot; $Jojo pertama, &quot; ?&quot;]
+Tunggu jawaban $pesan (adv). Harus mau atau tidak.
+
+Perintah berikut merupakan sebuah function bernama &quot;kurangi&quot;.
+Ada $&quot;cek pembayaran&quot; (v, $total, $dibayar), isinya:
+  Ada $selisih, isinya $dibayar dikurangi $total.
+  Jika $selisih kurang dari 0, katakan [&quot;Uangnya belum cukup, kurang &quot;, kurang $selisih].
+  Namun, jika $selisih adalah 0, katakan &quot;Uangnya pas ya!&quot;.
+  Namun, jika cinta bertepuk sebelah tangan, katakan [&quot;Kembali &quot;, kurang $selisih].
+Cukup itu saja.
+
+Perintah berikut merupakan sebuah implementasi dari IF-ELSE.
+Jika mau $pesan:
+  Ucapkan &quot;Totalnya Rp.20.000.&quot;
+  Tanya &quot;Masukkan nominal uang yang dibayar&quot; untuk $nominal
+  Jalankan $&quot;cek pembayaran&quot; 20000 dengan $nominal
+Jika tidak, katakan &quot;Oke deh.&quot;
+Cukup itu saja.
+
+Perintah berikut merupakan sebuah FOR LOOP untuk mencetak 5 angka acak/random
+Ulangi cetak (nom) antara 1, 3, 5, 7, 9, 11, dan 13 sebanyak 5 kali.
+
+Perintah di atas sama dengan
+Ulangi 5 kali:
+  Ada $&quot;nomor acak&quot; (nom), isinya antara 1, 3, 5, 7, 9, 11, dan 13.
+  Cetak $&quot;nomor acak&quot;.
+Cukup itu saja.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;roadmap&quot;&gt;Roadmap&lt;/h2&gt;
+&lt;p&gt;Bahasa KopiHati ini memiliki berbagai potensi untuk menjadi sebuah bahasa pemrograman yang:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;mudah dipahami dan dipelajari,&lt;/li&gt;
+  &lt;li&gt;dapat diterjemahkan dalam bahasa lain,&lt;/li&gt;
+  &lt;li&gt;memiliki fitur-fitur modern seperti &lt;em&gt;in-built unit testing&lt;/em&gt; di atas,&lt;/li&gt;
+  &lt;li&gt;memiliki komunitas besar yang terdiri atas para programmer dan non-programmer (misalnya jurnalis), dan&lt;/li&gt;
+  &lt;li&gt;dapat dipakai sebagai sebuah bahasa pemrograman matang untuk pengembangan software dan aplikasi baik di dalam kalangan individu maupun &lt;em&gt;enterprise&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Namun, hal tersebut tentunya tidak akan terjadi tanpa:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Standarisasi spesifikasi dan skema sintaks KopiHati&lt;/li&gt;
+  &lt;li&gt;Pembuatan &lt;em&gt;intepreter&lt;/em&gt; resmi untuk menguji spesifikasi dan menjalankan kodingan KopiHati&lt;/li&gt;
+  &lt;li&gt;Pembuatan module dan &lt;em&gt;library&lt;/em&gt; system yang dapat dipakai dalam program KopiHati lainnya&lt;/li&gt;
+  &lt;li&gt;Melakukan studi banding dengan kerajinan sastra dan jurnalistik untuk mengevaluasi efisiensi KopiHati dalam mengajarkan pemrograman bagi masyarakat luas&lt;/li&gt;
+  &lt;li&gt;Membentuk komunitas dan organisasi, seperti &lt;a href=&quot;https://www.python.org/psf/&quot;&gt;Python Software Foundation&lt;/a&gt; dan &lt;a href=&quot;https://openjsf.org/&quot;&gt;OpenJS Foundation&lt;/a&gt;, untuk melanjutkan pengembangan bahasa pemrograman KopiHati dalam jangka panjang&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Demikianlah pengumuman saya tentang KopiHati ini. Seluruh update tentang bahasa pemrograman ini akan tersedia di &lt;a href=&quot;https://reinhart1010.github.io/posts/category/kopihati&quot;&gt;https://reinhart1010.github.io/posts/category/kopihati&lt;/a&gt;, dan jika memungkinkan, juga dipublikasikan di &lt;a href=&quot;https://kotakode.com/blogs&quot;&gt;Kotakode&lt;/a&gt;. Untuk sementara waktu, bahasa pemrograman ini masih &lt;strong&gt;belum&lt;/strong&gt; memiliki situs dan akun Instagram sesuai yang direncanakan. Sampai jumpa pada pengumuman berikutnya!&lt;/p&gt;</content><author><name></name></author><category term="kotakode" /><category term="projects" /><category term="kopihati" /><category term="id-id" /><summary type="html">KopiHati merupakan sebuah bahasa pemrograman yang terinspirasi dari sekelompok brand gerai kopi, minuman, dan kafe di Jakarta, yang sempat mengalami puncak keemasannya pada tahun 2018-2019.</summary></entry><entry><title type="html">COMPUTERUN 2020 Website</title><link href="/posts/2021/02/02/computerun-2020-website.html" rel="alternate" type="text/html" title="COMPUTERUN 2020 Website" /><published>2021-02-02T00:00:00+07:00</published><updated>2021-02-02T00:00:00+07:00</updated><id>/posts/2021/02/02/computerun-2020-website</id><content type="html" xml:base="/posts/2021/02/02/computerun-2020-website.html">&lt;p&gt;&lt;strong&gt;COMPUTERUN&lt;/strong&gt; is a brand new competition and webinar event concept by two student associations at &lt;a href=&quot;https://binus.ac.id&quot;&gt;BINUS University, Indonesia&lt;/a&gt;, which are &lt;a href=&quot;https://instagram.com/himsisfo_binus&quot;&gt;HIMSISFO&lt;/a&gt; and &lt;a href=&quot;https://himti.or.id&quot;&gt;HIMTI&lt;/a&gt;. Despite that the event ended last month, &lt;strong&gt;COMPUTERUN 2020&lt;/strong&gt; sets the first installment of the series with a brand new website at &lt;a href=&quot;https://computerun.id&quot;&gt;https://computerun.id&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;The website was initially made using a custom CSS framework, since other frameworks such as &lt;a href=&quot;https://getbootstrap.com&quot;&gt;Bootstrap&lt;/a&gt; and &lt;a href=&quot;https://tailwindcss.com&quot;&gt;Tailwind CSS&lt;/a&gt; cannot keep up with the complexity of the event’s design system. We sooner decided to include and patch Bootstrap to make it work with the rest of the website, though.&lt;/p&gt;
 
@@ -144,7 +295,7 @@
 
 &lt;p&gt;Here’s a sneak peek of it.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/17312341/105941415-f90e8400-608f-11eb-8eb9-f163d000ecd7.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="updates" /><category term="en-us" /><summary type="html"></summary></entry><entry><title type="html">Hello from Indonesia</title><link href="/posts/2021/01/17/hello-from-indonesia.html" rel="alternate" type="text/html" title="Hello from Indonesia" /><published>2021-01-17T00:00:00+07:00</published><updated>2021-01-17T00:00:00+07:00</updated><id>/posts/2021/01/17/hello-from-indonesia</id><content type="html" xml:base="/posts/2021/01/17/hello-from-indonesia.html">&lt;blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/17312341/105941415-f90e8400-608f-11eb-8eb9-f163d000ecd7.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="updates" /><category term="en-us" /><summary type="html"></summary></entry><entry><title type="html">Hello from Indonesia 🇮🇩</title><link href="/posts/2021/01/17/hello-from-indonesia.html" rel="alternate" type="text/html" title="Hello from Indonesia 🇮🇩" /><published>2021-01-17T00:00:00+07:00</published><updated>2021-01-17T00:00:00+07:00</updated><id>/posts/2021/01/17/hello-from-indonesia</id><content type="html" xml:base="/posts/2021/01/17/hello-from-indonesia.html">&lt;blockquote&gt;
   &lt;p&gt;This is a reply on &lt;strong&gt;CodeNewbie Community’s first Welcome Thread&lt;/strong&gt; at &lt;a href=&quot;https://community.codenewbie.org/jess/welcome-thread-v0-346b/&quot;&gt;https://community.codenewbie.org/jess/welcome-thread-v0-346b/&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -156,7 +307,7 @@
 
 &lt;p&gt;I’m looking forward to share some of the programming and web development tips, as well as to see how would this community to grow and empower each other.&lt;/p&gt;
 
-&lt;p&gt;By the way, your posts are great!&lt;/p&gt;</content><author><name></name></author><category term="codenewbie-community" /><category term="about" /><category term="en-us" /><summary type="html">This is a reply on CodeNewbie Community’s first Welcome Thread at https://community.codenewbie.org/jess/welcome-thread-v0-346b/</summary></entry><entry><title type="html">Mengenal lebih dalam tentang HTML Document Object Model (DOM)</title><link href="/posts/2020/12/19/mengenal-lebih-dalam-tentang-html-document-object-model-(dom).html" rel="alternate" type="text/html" title="Mengenal lebih dalam tentang HTML Document Object Model (DOM)" /><published>2020-12-19T00:00:00+07:00</published><updated>2020-12-19T00:00:00+07:00</updated><id>/posts/2020/12/19/mengenal-lebih-dalam-tentang-html-document-object-model-(dom)</id><content type="html" xml:base="/posts/2020/12/19/mengenal-lebih-dalam-tentang-html-document-object-model-(dom).html">&lt;p&gt;Dalam mempelajari bahasa pemrograman JavaScript, Anda mungkin pernah diminta untuk mengubah tampilan sebuah tag HTML secara dinamis. Misalnya, sebuah tag &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;p&amp;gt;&lt;/code&gt; yang memiliki teks yang berubah-ubah setiap detiknya, atau sebuah tag &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;div&amp;gt;&lt;/code&gt; yang memiliki &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;background-color&lt;/code&gt; yang dapat diubah oleh pengguna setelah pengguna tersebut memasukkan warna baru dalam tag &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;input&amp;gt;&lt;/code&gt; dan menge-klik sebuah &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;button&amp;gt;&lt;/code&gt;. Masalah-masalah tersebut sering diselesaikan menggunakan JavaScript, namun untuk memahami cara elemen-elemen HTML tersebut diubah Anda perlu mempelajari konsep dan sistem Document Object Model (DOM). Melalui entri blog ini, saya akan membahas tentang DOM dan bagaimana hal tersebut dapat dipakai untuk mengubah atribut-atribut HTML secara mudah.&lt;/p&gt;
+&lt;p&gt;By the way, your posts are great!&lt;/p&gt;</content><author><name></name></author><category term="about" /><category term="codenewbie" /><category term="en-us" /><summary type="html">This is a reply on CodeNewbie Community’s first Welcome Thread at https://community.codenewbie.org/jess/welcome-thread-v0-346b/</summary></entry><entry><title type="html">Mengenal lebih dalam tentang HTML Document Object Model (DOM)</title><link href="/posts/2020/12/19/mengenal-lebih-dalam-tentang-html-document-object-model-(dom).html" rel="alternate" type="text/html" title="Mengenal lebih dalam tentang HTML Document Object Model (DOM)" /><published>2020-12-19T00:00:00+07:00</published><updated>2020-12-19T00:00:00+07:00</updated><id>/posts/2020/12/19/mengenal-lebih-dalam-tentang-html-document-object-model-(dom)</id><content type="html" xml:base="/posts/2020/12/19/mengenal-lebih-dalam-tentang-html-document-object-model-(dom).html">&lt;p&gt;Dalam mempelajari bahasa pemrograman JavaScript, Anda mungkin pernah diminta untuk mengubah tampilan sebuah tag HTML secara dinamis. Misalnya, sebuah tag &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;p&amp;gt;&lt;/code&gt; yang memiliki teks yang berubah-ubah setiap detiknya, atau sebuah tag &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;div&amp;gt;&lt;/code&gt; yang memiliki &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;background-color&lt;/code&gt; yang dapat diubah oleh pengguna setelah pengguna tersebut memasukkan warna baru dalam tag &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;input&amp;gt;&lt;/code&gt; dan menge-klik sebuah &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;button&amp;gt;&lt;/code&gt;. Masalah-masalah tersebut sering diselesaikan menggunakan JavaScript, namun untuk memahami cara elemen-elemen HTML tersebut diubah Anda perlu mempelajari konsep dan sistem Document Object Model (DOM). Melalui entri blog ini, saya akan membahas tentang DOM dan bagaimana hal tersebut dapat dipakai untuk mengubah atribut-atribut HTML secara mudah.&lt;/p&gt;
 
 &lt;p&gt;Saya akan memulainya dengan sebuah tag &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; yang berisikan teks “Hello, World!”. Sangat sederhana, bukan?&lt;/p&gt;
 
@@ -244,7 +395,122 @@
 
 &lt;p&gt;Selain &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;document.getElementById()&lt;/code&gt;, bahasa pemrograman JavaScript juga memiliki beberapa perintah lain untuk memilih elemen HTML berdasarkan nama tag (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;document.getElementsByTagName()&lt;/code&gt;) dan nama class (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;document.getElementsByClassName()&lt;/code&gt;). Setiap Class dan nama (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;img&amp;gt;&lt;/code&gt;, dsb.) di HTML dapat dipakai di dalam lebih dari satu tag, karena itu kedua fungsi ini akan mengembalikan sekumpulan objek &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Element&lt;/code&gt; yang masih dapat diakses layaknya sebuah Array (misal: menggunakan fungsi &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Array.forEach()&lt;/code&gt;). Bahasa JavaScript juga memiliki fitur &lt;strong&gt;Query Selector&lt;/strong&gt; (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;document.querySelector()&lt;/code&gt; dan &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;document.querySelectorAll()&lt;/code&gt;) yang berfungsi untuk memilih elemen HTML berdasarkan &lt;em&gt;query&lt;/em&gt; yang sering dipakai di dalam CSS untuk mengatur tampilan elemen tersebut, misalnya &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#home div.card&lt;/code&gt; untuk memilih sebuah &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;div class=&quot;card&quot;&amp;gt;&lt;/code&gt; yang berada di dalam sebuah elemen dengan ID &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;home&lt;/code&gt;. Anda mungkin pernah menggunakan fitur ini dalam library &lt;strong&gt;JQuery&lt;/strong&gt; melalui perintah &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$(&quot;#home div.card&quot;)&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;Nah, demikianlah penjelasan saya tentang DOM untuk saat ini. Menurut saya, DOM sendiri akan cukup mudah untuk dipelajari jika Anda pernah mengubah atribut-atribut HTML baik melalui CSS maupun meng-edit tag HTML itu sendiri. Jika Anda ingin mengetahui jenis Methods atau Events yang dapat dimiliki oleh tag HTML tertentu, Anda dapat melihat keseluruhan dokumentasi tag tersebut di situs &lt;a href=&quot;https://mdn.mozilla.org&quot;&gt;MDN (Mozilla Developer Network) Web Docs&lt;/a&gt; yang cukup lengkap dibandingkan situs lainnya, misalnya W3Schools.com. Misalnya, saya dapat mengunjungi laman https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video#Events untuk melihat jenis-jenis Event (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;onplay&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;oncomplete&lt;/code&gt;, dll.) yang terdapat dalam sebuah tag &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;video&amp;gt;&lt;/code&gt;. Sampai jumpa di entri blog berikutnya!&lt;/p&gt;</content><author><name></name></author><category term="kotakode" /><category term="web-development" /><category term="id-id" /><category term="html" /><category term="javascript" /><summary type="html">Dalam mempelajari bahasa pemrograman JavaScript, Anda mungkin pernah diminta untuk mengubah tampilan sebuah tag HTML secara dinamis. Misalnya, sebuah tag &amp;lt;p&amp;gt; yang memiliki teks yang berubah-ubah setiap detiknya, atau sebuah tag &amp;lt;div&amp;gt; yang memiliki background-color yang dapat diubah oleh pengguna setelah pengguna tersebut memasukkan warna baru dalam tag &amp;lt;input&amp;gt; dan menge-klik sebuah &amp;lt;button&amp;gt;. Masalah-masalah tersebut sering diselesaikan menggunakan JavaScript, namun untuk memahami cara elemen-elemen HTML tersebut diubah Anda perlu mempelajari konsep dan sistem Document Object Model (DOM). Melalui entri blog ini, saya akan membahas tentang DOM dan bagaimana hal tersebut dapat dipakai untuk mengubah atribut-atribut HTML secara mudah.</summary></entry><entry><title type="html">Nasionalisme dalam Bingkai Kesatuan Bangsa Menuju Indonesia Maju</title><link href="/posts/2020/07/01/nasionalisme-dalam-bingkai-kesatuan-bangsa-menuju-indonesia-maju.html" rel="alternate" type="text/html" title="Nasionalisme dalam Bingkai Kesatuan Bangsa Menuju Indonesia Maju" /><published>2020-07-01T00:00:00+07:00</published><updated>2020-07-01T00:00:00+07:00</updated><id>/posts/2020/07/01/nasionalisme-dalam-bingkai-kesatuan-bangsa-menuju-indonesia-maju</id><content type="html" xml:base="/posts/2020/07/01/nasionalisme-dalam-bingkai-kesatuan-bangsa-menuju-indonesia-maju.html">&lt;blockquote&gt;
+&lt;p&gt;Nah, demikianlah penjelasan saya tentang DOM untuk saat ini. Menurut saya, DOM sendiri akan cukup mudah untuk dipelajari jika Anda pernah mengubah atribut-atribut HTML baik melalui CSS maupun meng-edit tag HTML itu sendiri. Jika Anda ingin mengetahui jenis Methods atau Events yang dapat dimiliki oleh tag HTML tertentu, Anda dapat melihat keseluruhan dokumentasi tag tersebut di situs &lt;a href=&quot;https://mdn.mozilla.org&quot;&gt;MDN (Mozilla Developer Network) Web Docs&lt;/a&gt; yang cukup lengkap dibandingkan situs lainnya, misalnya W3Schools.com. Misalnya, saya dapat mengunjungi laman https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video#Events untuk melihat jenis-jenis Event (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;onplay&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;oncomplete&lt;/code&gt;, dll.) yang terdapat dalam sebuah tag &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;video&amp;gt;&lt;/code&gt;. Sampai jumpa di entri blog berikutnya!&lt;/p&gt;</content><author><name></name></author><category term="kotakode" /><category term="web-development" /><category term="id-id" /><category term="html" /><category term="javascript" /><category term="kotakode-competiton" /><summary type="html">Dalam mempelajari bahasa pemrograman JavaScript, Anda mungkin pernah diminta untuk mengubah tampilan sebuah tag HTML secara dinamis. Misalnya, sebuah tag &amp;lt;p&amp;gt; yang memiliki teks yang berubah-ubah setiap detiknya, atau sebuah tag &amp;lt;div&amp;gt; yang memiliki background-color yang dapat diubah oleh pengguna setelah pengguna tersebut memasukkan warna baru dalam tag &amp;lt;input&amp;gt; dan menge-klik sebuah &amp;lt;button&amp;gt;. Masalah-masalah tersebut sering diselesaikan menggunakan JavaScript, namun untuk memahami cara elemen-elemen HTML tersebut diubah Anda perlu mempelajari konsep dan sistem Document Object Model (DOM). Melalui entri blog ini, saya akan membahas tentang DOM dan bagaimana hal tersebut dapat dipakai untuk mengubah atribut-atribut HTML secara mudah.</summary></entry><entry><title type="html">Apa perbedaan get() dan first()? Bagaimana contoh pemakaiannya?</title><link href="/posts/2020/09/23/apa-perbedaan-get-dan-first-bagaimana-contoh-pemakaiannya.html" rel="alternate" type="text/html" title="Apa perbedaan get() dan first()? Bagaimana contoh pemakaiannya?" /><published>2020-09-23T00:00:00+07:00</published><updated>2020-09-23T00:00:00+07:00</updated><id>/posts/2020/09/23/apa-perbedaan-get-dan-first-bagaimana-contoh-pemakaiannya</id><content type="html" xml:base="/posts/2020/09/23/apa-perbedaan-get-dan-first-bagaimana-contoh-pemakaiannya.html">&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Berikut ini adalah jawaban dari sebuah pertanyaan yang ditanyakan melalui situs Kotakode.&lt;/strong&gt; Klik link di atas untuk melihat pertanyaan aslinya.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Di dalam Laravel, perintah &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;get()&lt;/code&gt; ditujukan untuk mengambil hasil dari sebuah pencarian database, sedangkan &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;first()&lt;/code&gt; ditujukan untuk mengambil &lt;strong&gt;hasil pertama&lt;/strong&gt; dari sebuah pencarian database. Berikut adalah contoh perbedaan antara kedua fungsi tersebut.&lt;/p&gt;
+
+&lt;p&gt;Contoh table &lt;strong&gt;pelanggan&lt;/strong&gt; (di MySQL/MariaDB)&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;id&lt;/th&gt;
+      &lt;th&gt;nama&lt;/th&gt;
+      &lt;th&gt;email&lt;/th&gt;
+      &lt;th&gt;kota&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;Agus&lt;/td&gt;
+      &lt;td&gt;agus@example.com&lt;/td&gt;
+      &lt;td&gt;Jakarta&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;Aldi&lt;/td&gt;
+      &lt;td&gt;aldi@example.com&lt;/td&gt;
+      &lt;td&gt;Surabaya&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;Dita&lt;/td&gt;
+      &lt;td&gt;dita@example.com&lt;/td&gt;
+      &lt;td&gt;Semarang&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;Budi&lt;/td&gt;
+      &lt;td&gt;budi@example.com&lt;/td&gt;
+      &lt;td&gt;Jakarta&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Jika kita menggunakan perintah &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$result = DB::table('pelanggan')-&amp;gt;where('kota','Jakarta')-&amp;gt;get();&lt;/code&gt; maka sekarang nilai dari variabel &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$result&lt;/code&gt; adalah:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[
+  [
+    'id' =&amp;gt; 1,
+    'nama' =&amp;gt; 'Agus',
+    'email' =&amp;gt; 'agus@example.com',
+    'kota' =&amp;gt; 'Jakarta'
+  ],
+  [
+    'id' =&amp;gt; 4,
+    'nama' =&amp;gt; 'Budi',
+    'email' =&amp;gt; 'budi@example.com',
+    'kota' =&amp;gt; 'Jakarta'
+  ]
+]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Sedangkan, jika kita menggunakan perintah &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$result = DB::table('pelanggan')-&amp;gt;where('kota','Jakarta')-&amp;gt;first();&lt;/code&gt; maka sekarang nilai dari variabel &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$result&lt;/code&gt; adalah hasil pertama pada array &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$result&lt;/code&gt; pada contoh sebelumnya, yaitu:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[
+  'id' =&amp;gt; 1,
+  'nama' =&amp;gt; 'Agus',
+  'email' =&amp;gt; 'agus@example.com',
+  'kota' =&amp;gt; 'Jakarta'
+]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Di sini, perintah &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;first()&lt;/code&gt; dapat memudahkan Anda untuk melakukan &lt;em&gt;query&lt;/em&gt; database berdasarkan column atau property yang unik seperti ID pelanggan. Karena itu, perintah:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;DB::table('pelanggan')-&amp;gt;where('kota','Jakarta')-&amp;gt;first();
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;akan menghasilkan hasil yang sama dengan&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;DB::table('pelanggan')-&amp;gt;where('kota','Jakarta')-&amp;gt;get()[0];
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Demikian penjelasan dari saya, terima kasih.&lt;/p&gt;</content><author><name></name></author><category term="kotakode" /><category term="id-id" /><category term="laravel" /><summary type="html">Berikut ini adalah jawaban dari sebuah pertanyaan yang ditanyakan melalui situs Kotakode. Klik link di atas untuk melihat pertanyaan aslinya.</summary></entry><entry><title type="html">Apa perbedaanya dari menggunakan https atau ssh untuk git clone?</title><link href="/posts/2020/08/07/apa-perbedaanya-dari-menggunakan-https-atau-ssh-untuk-git-clone.html" rel="alternate" type="text/html" title="Apa perbedaanya dari menggunakan https atau ssh untuk git clone?" /><published>2020-08-07T00:00:00+07:00</published><updated>2020-08-07T00:00:00+07:00</updated><id>/posts/2020/08/07/apa-perbedaanya-dari-menggunakan-https-atau-ssh-untuk-git-clone</id><content type="html" xml:base="/posts/2020/08/07/apa-perbedaanya-dari-menggunakan-https-atau-ssh-untuk-git-clone.html">&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Berikut ini adalah jawaban dari sebuah pertanyaan yang ditanyakan melalui situs Kotakode. Klik link di atas untuk melihat pertanyaan aslinya.&lt;/strong&gt;&lt;/p&gt;
+
+  &lt;p&gt;Seringkali ketika mencoba untuk &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git clone&lt;/code&gt; sebuah repository, bisa milih antara menggunakan &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ssh&lt;/code&gt; atau &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;https&lt;/code&gt;. Ada yang tahu apa perbedaanya dan kapan untuk menggunakannya?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Ya, Git sendiri memang dapat menggunakan  baik protokol SSH maupun HTTPS. Di sini, saya merekomendasikan untuk menggunakan HTTPS dengan berbagai pertimbangan.&lt;/p&gt;
+
+&lt;h2 id=&quot;1-produktivitas&quot;&gt;1. Produktivitas&lt;/h2&gt;
+&lt;p&gt;Proses otentikasi Git melalui HTTPS saat ini bergantung pada username dan password (atau Access Token). Sedangkan, otentikasi Git melalui SSH bergantung kepada &lt;em&gt;public key&lt;/em&gt; SSH yang disimpan oleh perangkat komputer yang mengaksesnya. Di sini, proses &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git remote&lt;/code&gt; menggunakan SSH dapat memangkas banyak waktu yang sering terpakai untuk mengetik username dan password tersebut setiap kali saat melakukan push dan/atau pull. Karena itu, jika Anda sering bekerja dalam satu komputer, &lt;em&gt;workstation&lt;/em&gt;, atau &lt;em&gt;laptop&lt;/em&gt;, Git melalui SSH tentunya akan membuat pekerjaan menjadi produktif.&lt;/p&gt;
+
+&lt;h2 id=&quot;2-keamanan&quot;&gt;2. Keamanan&lt;/h2&gt;
+&lt;p&gt;Proses mengetik username dan password tersebut tentunya tidak selalu aman, mengingat adanya program &lt;em&gt;spyware&lt;/em&gt; seperti &lt;em&gt;keylogger&lt;/em&gt; yang sering dipakai untuk mendapatkan akses akun serta data pribadi.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;GitHub sendiri sedang berencana untuk mewajibkan Personal Access Token serta menolak &lt;em&gt;password&lt;/em&gt; dalam proses otentikasi Git melalui HTTPS. Dengan demikian, keamanan proses otentikasi HTTPS di GitHub akan sama dengan SSH&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;SSH juga tidak direkomendasikan untuk Anda yang sedang menggunakan komputer yang sering dipakai oleh orang lain (misalnya dalam warnet dan laboratorium komputer), karena pasangan private-public key tersebut dapat sewaktu-waktu ditemukan oleh pengguna lain. Namun, jika hal tersebut memang terjadi, Anda dapat langsung menonaktifkan akses Git terhadap perangkat tersebut, membuat pasangan key yang baru, serta memberi akses masuk menggunakan public key yang baru.&lt;/p&gt;
+
+&lt;h2 id=&quot;jika-ssh-memang-lebih-aman-kenapa-github-masih-merekomendasikan-untuk-menggunakan-https&quot;&gt;Jika SSH memang lebih aman, kenapa GitHub masih merekomendasikan untuk menggunakan HTTPS?&lt;/h2&gt;
+
+&lt;p&gt;Jika Anda menggunakan SSH, Anda harus:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Menginstall program SSH Client berbasis CLI, seperti OpenSSH bukan PuTTY&lt;/li&gt;
+  &lt;li&gt;Membuat pasangan kunci melalui &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ssh-keygen&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Menambahkan public key ke server Git (GitHub/GitLab/BitBucket/dll.)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Jika Anda seorang pemula di dalam dunia Open Source (dan bahkan dunia Command Line Interface / CLI), ketiga hal tersebut dapat terlihat susah untuk dilakukan, dibandingkan dengan hanya memasukkan username dan password saat ingin melakukan push dan/atau pull. Hal ini juga dapat menjadi salah satu masalah utama dalam menggunakan GitLab, karena GitLab sendiri merekomendasikan SSH (meskipun masih dapat menerima HTTPS) sedangkan para penggunanya belum menyetel public key untuk melakukan push kepada server remote di GitLab.&lt;/p&gt;
+
+&lt;p&gt;Selain itu, setiap akun GitHub/GitLab/BitBucket/dll. hanya dapat menerima satu public key SSH saya. Jika Anda memiliki lebih dari satu akun, Anda harus membuat pasangan key SSH baru, serta mengkonfigurasi client SSH untuk menggunakan pasangan key yang berbeda untuk &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Host&lt;/code&gt; yang berbeda.&lt;/p&gt;</content><author><name></name></author><category term="kotakode" /><category term="id-id" /><category term="git" /><summary type="html">Berikut ini adalah jawaban dari sebuah pertanyaan yang ditanyakan melalui situs Kotakode. Klik link di atas untuk melihat pertanyaan aslinya. Seringkali ketika mencoba untuk git clone sebuah repository, bisa milih antara menggunakan ssh atau https. Ada yang tahu apa perbedaanya dan kapan untuk menggunakannya?</summary></entry><entry><title type="html">Nasionalisme dalam Bingkai Kesatuan Bangsa Menuju Indonesia Maju</title><link href="/posts/2020/07/01/nasionalisme-dalam-bingkai-kesatuan-bangsa-menuju-indonesia-maju.html" rel="alternate" type="text/html" title="Nasionalisme dalam Bingkai Kesatuan Bangsa Menuju Indonesia Maju" /><published>2020-07-01T00:00:00+07:00</published><updated>2020-07-01T00:00:00+07:00</updated><id>/posts/2020/07/01/nasionalisme-dalam-bingkai-kesatuan-bangsa-menuju-indonesia-maju</id><content type="html" xml:base="/posts/2020/07/01/nasionalisme-dalam-bingkai-kesatuan-bangsa-menuju-indonesia-maju.html">&lt;blockquote&gt;
   &lt;p&gt;Berikut ini adalah jawaban terhadap salah satu tugas kuliah &lt;a href=&quot;https://curriculum.binus.ac.id/course/char6014/&quot;&gt;CHAR6014 - Character Building: Kewarganegaraan&lt;/a&gt; di &lt;a href=&quot;https://binus.ac.id&quot;&gt;BINUS University&lt;/a&gt; (Universitas Bina Nusantara).&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -256,45 +522,4 @@
 
 &lt;p&gt;Terakhir, nasionalisme dapat memberikan kesadaran bagi masyarakat Indonesia untuk tetap mempedulikan Indonesia dan membela negara dalam segala hal. Kedua hal tersebut sangat penting bagi Indonesia untuk menghadapi tantangan-tantangan di masa depan, baik internal maupun eksternal, yang dapat menggerus persatuan dan kesatuan Indonesia. Kasus radikalisasi yang terjadi beberapa tahun lalu seharusnya menjadi pelajaran, bahwa Indonesia harus berani melawan gerakan-gerakan yang menentang Indonesia, termasuk Pancasila yang menjadi bagian penting dalam konstitusi negara Indonesia. Dengan ada rasa nasionalisme yang kuat, Indonesia dapat menjadi lebih tangguh dalam menjaga keutuhan dan ketahanan bangsa dan negara. Kedua hal tersebut tentunya akan mempercepat upaya-upaya Indonesia untuk menjadi lebih maju dan kuat.&lt;/p&gt;
 
-&lt;p&gt;*Pada umumnya kearifan lokal tidak dapat dipisahkan dengan bahasa masyarakat itu sendiri, misalnya kearifan lokal suku Jawa yang tentunya menggunakan bahasa Jawa. Karena itu, istilah “kearifan bangsa Indonesia” digunakan untuk menghindari konflik makna dengan kearifan kebudayaan atau daerah lokal.&lt;/p&gt;</content><author><name></name></author><category term="binus" /><category term="character-building" /><category term="char6014" /><category term="id-id" /><summary type="html">Berikut ini adalah jawaban terhadap salah satu tugas kuliah CHAR6014 - Character Building: Kewarganegaraan di BINUS University (Universitas Bina Nusantara).</summary></entry><entry><title type="html">Upaya mewujudkan Ketahanan Nasional di Tengah Pandemi COVID-19</title><link href="/posts/2020/05/13/upaya-mewujudkan-ketahanan-nasional-di-tengah-pandemi-covid-19.html" rel="alternate" type="text/html" title="Upaya mewujudkan Ketahanan Nasional di Tengah Pandemi COVID-19" /><published>2020-05-13T00:00:00+07:00</published><updated>2020-05-13T00:00:00+07:00</updated><id>/posts/2020/05/13/upaya-mewujudkan-ketahanan-nasional-di-tengah-pandemi-covid-19</id><content type="html" xml:base="/posts/2020/05/13/upaya-mewujudkan-ketahanan-nasional-di-tengah-pandemi-covid-19.html">&lt;blockquote&gt;
-  &lt;p&gt;Berikut ini adalah jawaban terhadap salah satu tugas kuliah &lt;a href=&quot;https://curriculum.binus.ac.id/course/char6014/&quot;&gt;CHAR6014 - Character Building: Kewarganegaraan&lt;/a&gt; di &lt;a href=&quot;https://binus.ac.id&quot;&gt;BINUS University&lt;/a&gt; (Universitas Bina Nusantara).&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Ketika berbicara tentang ketahanan nasional, mungkin kita hanya memikirkan aspek militer saja, seperti kecanggihan alutsista dan kekuatan personil. Memang benar bahwa tugas utama dari Kementerian Pertahanan sendiri ialah mengatur angkatan bersenjata dan urusan militer. Namun, kita sering lupa bahwa ketahanan nasional juga menyangkut aspek ketahanan pangan, sosial, politik, ekonomi, dan aspek-aspek kehidupan lainnya yang turut membantu pembangunan dan kesejahteraan Indonesia. Dan seperti yang kita ketahui saat ini, pandemi COVID-19 telah menghantam berbagai macam aspek ketahanan nasional yang juga berpotensi untuk menimbulkan kekacauan dan perpecahan nasional.&lt;/p&gt;
-
-&lt;p&gt;Saat ini, berbagai tindakan dan gerakan telah dilakukan Indonesia, baik pemerintah maupun masyarakat, untuk memerangi pandemi ini beserta dampak-dampak negatif secara bersama. Hal ini memang wajar dan benar karena UUD 1945 mewajibkan setiap warga negara untuk membela negara. Namun, upaya-upaya tersebut harus disertai dengan strategi yang cerdas, agar pembangunan Indonesia sendiri dapat dilanjutkan dengan resiko penyebaran yang minimal. Sekarang pertanyaannya adalah, sebagai warga negara apa yang saya dapat lakukan untuk berjuang bersama?&lt;/p&gt;
-
-&lt;h2 id=&quot;1-memerangi-berita-palsu&quot;&gt;1. Memerangi berita palsu.&lt;/h2&gt;
-&lt;p&gt;Masyarakat harus waspada terhadap hoaks dan teori konspirasi yang palsu dan ditujukan untuk meningkatkan/menurunkan popularitas pihak tertentu. Misalnya, muncul teori di AS bahwa penyebaran COVID-19 disebabkan oleh konektivitas 5G, padahal secara ilmiah teori tersebut terbukti tidak benar. Hal-hal ini akan mempengaruhi persepsi masyarakat terhadap COVID-19, dan berpotensi mengakibatkan masalah mental dan sosial.&lt;/p&gt;
-
-&lt;h2 id=&quot;2-menjaga-ketahanan-mikroekonomi&quot;&gt;2. Menjaga ketahanan mikroekonomi.&lt;/h2&gt;
-&lt;p&gt;Kita harus saling bekerjasama untuk memfasilitasi kegiatan usaha dan perdagangan, meskipun harus dilakukan di dalam rumah masing-masing dan/atau dengan jarak jauh. Salah satu contoh dari upaya ini adalah mengembangkan dan menggunakan aplikasi-aplikasi online yang ternyata sangat dibutuhkan dalam situasi saat ini. Bahkan, masyarakat Indonesia juga harus bangga bahwa sebagian dari aplikasi tersebut merupakan buatan bangsa sendiri.&lt;/p&gt;
-
-&lt;h2 id=&quot;3-tetap-menjaga-kondusifitas-masyarakat&quot;&gt;3. Tetap menjaga kondusifitas masyarakat.&lt;/h2&gt;
-&lt;p&gt;Masyarakat Indonesia dapat menjadi kondusif jika tidak terprovokasi untuk melakukan hal-hal yang dapat merusak keutuhan masyarakat dan negara. Jika dalam pemilihan presiden sebelumnya hal ini menjadi masalah utama, pandemi COVID-19 dapat dimanfaatkan oleh pihak tertentu untuk melakukan provokasi yang sama. Dengan menjaga kondusifitas tersebut, maka masyarakat Indonesia dapat diajak dengan mudah untuk bekerjasama memerangi COVID-19.&lt;/p&gt;</content><author><name></name></author><category term="binus" /><category term="character-building" /><category term="char6014" /><category term="id-id" /><summary type="html">Berikut ini adalah jawaban terhadap salah satu tugas kuliah CHAR6014 - Character Building: Kewarganegaraan di BINUS University (Universitas Bina Nusantara).</summary></entry><entry><title type="html">Design Thinking dengan Kearifan Lokal Indonesia</title><link href="/posts/2020/05/01/design-thinking-dengan-kearifan-lokal-indonesia.html" rel="alternate" type="text/html" title="Design Thinking dengan Kearifan Lokal Indonesia" /><published>2020-05-01T00:00:00+07:00</published><updated>2020-05-01T00:00:00+07:00</updated><id>/posts/2020/05/01/design-thinking-dengan-kearifan-lokal-indonesia</id><content type="html" xml:base="/posts/2020/05/01/design-thinking-dengan-kearifan-lokal-indonesia.html">&lt;blockquote&gt;
-  &lt;p&gt;Berikut ini adalah jawaban terhadap salah satu tugas kuliah &lt;a href=&quot;https://curriculum.binus.ac.id/course/char6014/&quot;&gt;CHAR6014 - Character Building: Kewarganegaraan&lt;/a&gt; di &lt;a href=&quot;https://binus.ac.id&quot;&gt;BINUS University&lt;/a&gt; (Universitas Bina Nusantara).&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Kearifan lokal adalah salah satu warisan budaya Indonesia, yang berlandaskan atas tradisi dan moral kebudayaan. Kearifan lokal dapat juga disebut sebagai kekayaan intelektual suatu budaya, karena memiliki unsur-unsur asli yang tidak dapat terpisahkan dari budaya itu sendiri.&lt;/p&gt;
-
-&lt;p&gt;Pergeseran budaya dan nilai moral saat ini menuntut kembali perjuangan untuk mempertahankan dan melestarikan kearifan lokal. Hal ini disebabkan karena globalisasi telah memicu adanya pertukaran budaya secara besar-besaran, yang berdampak pada setiap aspek kehidupan dan kebudayaan masyarakat. Misalnya, tradisi meminum teh sebagai minuman berkhasiat kekaisaran China kini telah diadopsi sebagai kebiasaan masyarakat Inggris setiap paginya. Adapun juga pakaian jas yang awalnya dipakai di dalam kerajaan-kerajaan Eropa, sekarang dikenal dan dipakai dunia untuk kepentingan formal.&lt;/p&gt;
-
-&lt;p&gt;Kearifan lokal sebenarnya merupakan penerapan dari pemahaman, gagasan, dan solusi dalam produk-produk yang dibuat dan dilestarikan kebudayaan. Karena itu, setiap produk yang ada dapat dikategorikan sebagai kearifan lokal bila terdapat masalah dan tujuan yang melatarbelakanginya. Misalnya, &lt;em&gt;pizza&lt;/em&gt; awalnya dibuat sebagai solusi pangan bagi masyarakat miskin di Italia, sama halnya dengan kerupuk bagi Indonesia yang sedang ditindas oleh penjajahan Belanda.&lt;/p&gt;
-
-&lt;p&gt;Sebenarnya, dunia modern telah menginterpretasikan kearifan lokal dalam sistem Design Thinking, yakni upaya untuk membuat produk berdasarkan masalah-masalah yang sedang terjadi. Di Indonesia, &lt;em&gt;mini market kini&lt;/em&gt; berevolusi dari sekadar tempat penjualan produk sehari-hari menjadi tempat istirahat, pengiriman paket (&lt;em&gt;AlfaTrex&lt;/em&gt;, &lt;em&gt;Indo Paket&lt;/em&gt;), pembelian tiket, pembayaran tagihan, bahkan sebagai pintu akses untuk layanan keuangan digital (ATM, top-up uang elektronik, layanan pengiriman uang) untuk memenuhi kebutuhan masyarakat yang semakin luas. Gebrakan-gebrakan seperti ojek online dan bimbel online pun juga terjadi untuk menyelesaikan berbagai masalah masyarakat dengan gagasan dan inovasi dari masyarakat itu sendiri.&lt;/p&gt;
-
-&lt;p&gt;Hal tersebut sudah cukup membuktikan bahwa kearifan lokal, secara nilai dan prinsip yang melatarbelakanginya, sebenarnya sudah dilestarikan secara baik untuk memajukan kehidupan dan kesejahteraan masyarakat. Namun, produk warisan budaya Indonesia tetap perlu untuk dilestarikan, apalagi jika sudah diakui dan dikukuhkan oleh UNESCO beserta lembaga internasional lainnya. Sama halnya dengan aturan kekayaan intelektual saat ini (hak cipta, merek dagang, paten, dll.), produk-produk warisan budaya Indonesia dapat saja diambil alih (misalnya Malaysia) atau bahkan musnah bila tidak dapat dilestarikan dengan baik.&lt;/p&gt;
-
-&lt;p&gt;*Produk Budaya: Kebiasaan, seni rupa, kebijakan, produk dan alat lainnya&lt;/p&gt;</content><author><name></name></author><category term="binus" /><category term="character-building" /><category term="char6014" /><category term="id-id" /><summary type="html">Berikut ini adalah jawaban terhadap salah satu tugas kuliah CHAR6014 - Character Building: Kewarganegaraan di BINUS University (Universitas Bina Nusantara).</summary></entry><entry><title type="html">Bangga akan Produk Indonesia</title><link href="/posts/2020/04/04/bangga-akan-produk-indonesia.html" rel="alternate" type="text/html" title="Bangga akan Produk Indonesia" /><published>2020-04-04T00:00:00+07:00</published><updated>2020-04-04T00:00:00+07:00</updated><id>/posts/2020/04/04/bangga-akan-produk-indonesia</id><content type="html" xml:base="/posts/2020/04/04/bangga-akan-produk-indonesia.html">&lt;blockquote&gt;
-  &lt;p&gt;Berikut ini adalah jawaban terhadap salah satu tugas kuliah &lt;a href=&quot;https://curriculum.binus.ac.id/course/char6014/&quot;&gt;CHAR6014 - Character Building: Kewarganegaraan&lt;/a&gt; di &lt;a href=&quot;https://binus.ac.id&quot;&gt;BINUS University&lt;/a&gt; (Universitas Bina Nusantara).&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Apa lagi yang harus kita banggakan sebagai warga Indonesia, jika negara kita memiliki banyak persoalan? Kita sendiri mengetahui bahwa Indonesia sering dicap buruk oleh luar seperti sebagai negara terkorup dan negara polutan. Setiap negara, bahkan yang maju pun tentu memiliki berbagai persoalan, namun tetap saja kemajuan yang mereka capai masih dapat mereka banggakan karena menerima pengakuan internasional.&lt;/p&gt;
-
-&lt;p&gt;Untuk dapat membanggakan diri sebagai warga Indonesia, kita harus melihat keunggulan Indonesia dengan cara yang sama dengan melihat luar negeri. Setidaknya Indonesia unggul dalam menunjukkan kebudayaan, ciri khas, serta produk-produk berkualitas. Saya percaya Anda sudah mendengar banyak tentang keindahan alam, keberagaman budaya, &lt;em&gt;Gotong Royong&lt;/em&gt;, dan &lt;em&gt;Bhineka Tunggal Ika&lt;/em&gt;. Pada kesempatan ini saya membahas beragam produk unggulan yang telah diproduksi oleh Indonesia dan patut untuk dibanggakan.&lt;/p&gt;
-
-&lt;p&gt;Dengan menyebutkan beberapa merek dagang, kopi (&lt;em&gt;Kapal Api&lt;/em&gt;, &lt;em&gt;Tora Bika&lt;/em&gt;), mi instan (&lt;em&gt;Indomie&lt;/em&gt;) obat-obatan (&lt;em&gt;Tolak Angin&lt;/em&gt;), sepatu (&lt;em&gt;Bata&lt;/em&gt;), waralaba toko kue (&lt;em&gt;BreadTalk&lt;/em&gt;, &lt;em&gt;J.CO&lt;/em&gt;), kereta api (&lt;em&gt;INKA&lt;/em&gt;), dan bahkan alutsista militer (&lt;em&gt;Dirgantara Indonesia&lt;/em&gt;, &lt;em&gt;Pindad&lt;/em&gt;) adalah sebagian dari produk Indonesia yang berhasil mendunia. Selain produk industrial, Indonesia juga unggul dalam produk layanan, aplikasi, dan ekonomi kreatif. Para perusahaan asal Indonesia seperti &lt;em&gt;Gojek&lt;/em&gt; dan &lt;em&gt;Traveloka&lt;/em&gt; pun sudah beroperasi di luar negeri, di antaranya Singapura dan Thailand. Pada tahun 2019, &lt;em&gt;Agate Studios&lt;/em&gt; (pengembang game yang berasal dari Bandung) telah merilis salah satu video game secara global untuk &lt;em&gt;PlayStation 4&lt;/em&gt; dan &lt;em&gt;Nintendo Switch&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Selain produk dan merek lokal, Indonesia secara eksklusif juga telah memproduksi produk merek asing dalam bentuk sepeda motor (&lt;em&gt;Yamaha NMAX&lt;/em&gt; &amp;amp; &lt;em&gt;Lexi&lt;/em&gt;) yang berhasil meraih penghargaan di luar negeri. Hal dan efek serupa pun didorong oleh faktor regulasi untuk meningkatkan kemampuan industri Indonesia, salah satunya kebijakan TKDN (Tingkat Kandungan Dalam Negeri) yang dikeluarkan oleh Kemkominfo-Kemenperin-Kemendag yang mewajibkan peralatan elektronik tertentu (seperti ponsel 4G) di pasar Indonesia untuk diproduksi sebagian oleh masyarakat Indonesia.&lt;/p&gt;
-
-&lt;p&gt;Untuk dapat menjaga kebanggan kita sebagai warga Indonesia, kita harus melestarikannya. Inilah alasan di balik kemenangan atas Malaysia dalam merebutkan seni dan pakaian Batik dalam pengakuan internasional. Dan karena itu memang benar bagi kita untuk mencintai produk-produk Indonesia, namun lebih dari itu kita juga harus mengusahakan dengan maksimal agar semakin banyak produk dan keunggulan Indonesia untuk diakui secara internasional.&lt;/p&gt;</content><author><name></name></author><category term="binus" /><category term="character-building" /><category term="char6014" /><category term="id-id" /><summary type="html">Berikut ini adalah jawaban terhadap salah satu tugas kuliah CHAR6014 - Character Building: Kewarganegaraan di BINUS University (Universitas Bina Nusantara).</summary></entry></feed>
+&lt;p&gt;*Pada umumnya kearifan lokal tidak dapat dipisahkan dengan bahasa masyarakat itu sendiri, misalnya kearifan lokal suku Jawa yang tentunya menggunakan bahasa Jawa. Karena itu, istilah “kearifan bangsa Indonesia” digunakan untuk menghindari konflik makna dengan kearifan kebudayaan atau daerah lokal.&lt;/p&gt;</content><author><name></name></author><category term="binus" /><category term="character-building" /><category term="char6014" /><category term="id-id" /><summary type="html">Berikut ini adalah jawaban terhadap salah satu tugas kuliah CHAR6014 - Character Building: Kewarganegaraan di BINUS University (Universitas Bina Nusantara).</summary></entry></feed>

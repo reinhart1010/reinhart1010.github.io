@@ -11,8 +11,6 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
 
-plugins_dir: [jekyll-paginate]
-
 jekyll-archives:
   enabled: all
   layouts: 

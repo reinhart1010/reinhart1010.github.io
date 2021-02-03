@@ -15,7 +15,7 @@ layout: default
     <img class="w-full" src="{{ page.cover_image }}" alt="Cover image">
   {% endif %}
   <div class="p-20">
-    <h3 class="m-0">{{ page.title }}</h3>
+    <h2 class="m-0">{{ page.title }}</h2>
     <b class="font-size-16">{{ page.date | date: "%B %-d, %Y" }} | 
       <span class='dark-mode bg-transparent'>{% for category in page.categories %}<a href='/posts/category/{{category}}' class='inline badge font-size-16' style='color:{{ page.theme_color_foreground | default: theme_color_foreground | default: "white" }}; border-color:{{ page.theme_color_foreground | default: theme_color_foreground | default: "white" }};'>@{{category}}</a> {% endfor %} {% for tag in page.tags %}<a href='/posts/tag/{{tag}}' class='inline badge font-size-16' style='color:{{  page.theme_color_foreground | default: theme_color_foreground | default: "white" }}; border-color:{{  page.theme_color_foreground | default: theme_color_foreground | default: "white" }};'>#{{tag}}</a> {% endfor %}</span></b>
   </div>
