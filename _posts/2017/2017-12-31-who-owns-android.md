@@ -9,9 +9,7 @@ as_seen_on:
 ---
 > **This is an answer to a question asked on Quora.** Click the above link to read other replies.
 
-Android was originally founded by [Andy Rubin](https://en.m.wikipedia.org/wiki/Andy_Rubin)
-
-in 2003 under the company name Android, Inc. It is correct that he previously worked for Apple and Microsoft, however he quit Apple, Inc. at about 15 years before the original iPhone was launched.
+Android was originally founded by [Andy Rubin](https://en.m.wikipedia.org/wiki/Andy_Rubin) in 2003 under the company name Android, Inc. It is correct that he previously worked for Apple and Microsoft, however he quit Apple, Inc. at about 15 years before the original iPhone was launched.
 
 At 2005, Google finished their acquisition of Android, Inc. Hence, **Google** becomes the author of Android.
 

@@ -19,6 +19,6 @@ medium:
 openstreetmap:
   img_152: /assets/img/logo/152/openstreetmap.png
   title: "OpenStreetMap"
-openstreetmap:
+quora:
   img_152: /assets/img/logo/152/quora.png
   title: "Quora"
