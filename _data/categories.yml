@@ -56,6 +56,9 @@ openstreetmap:
 projects:
   name: "<i class='fa fa-briefcase' aria-hidden='true'></i> Project Announcements and Archive"
   theme_color: "#ff4d4f"
+quora:
+  name: "Quora answers and blog archives"
+  theme_color: "#b92b27"
 rebrand20:
   name: "<u>@reinhart1010</u>'s 20th Birthday Rebrand Exploration"
   theme_color_foreground: "#67e8f9"

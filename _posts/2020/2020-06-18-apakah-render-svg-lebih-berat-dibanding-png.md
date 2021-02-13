@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Apakah render svg lebih berat dibanding png?
-categories: [kotakode]
+categories: [qna, kotakode]
 tags: [id-id, react-native]
 as_seen_on:
   - site_type: kotakode

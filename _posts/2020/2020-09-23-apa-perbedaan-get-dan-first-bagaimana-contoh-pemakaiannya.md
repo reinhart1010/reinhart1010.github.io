@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Apa perbedaan get() dan first()? Bagaimana contoh pemakaiannya?
-categories: [kotakode]
+categories: [qna, kotakode]
 tags: [id-id, laravel]
 as_seen_on:
   - site_type: kotakode
