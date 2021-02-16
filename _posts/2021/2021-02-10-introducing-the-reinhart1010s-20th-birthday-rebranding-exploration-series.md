@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Introducing the @reinhart1010 Rebrand Exploration Series"
+title: "Introducing the @reinhart1010's 20th Birthday Rebrand Exploration Series"
 categories: [updates, design-exploration, rebrand20]
 tags: [en-us]
 ---
