@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Meta] Apa yang akan kita pelajari untuk Semester 4 MAT B23?"
-categories: [binus, socs, mat]
+categories: [binus, binus-socs, binus-mat]
 tags: [id-id]
 cover_image: https://user-images.githubusercontent.com/17312341/107489967-d6b25580-6bbb-11eb-97de-aeffc18df182.png
 ---

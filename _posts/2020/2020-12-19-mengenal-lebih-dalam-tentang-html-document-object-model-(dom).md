@@ -2,8 +2,8 @@
 layout: post
 title: Mengenal lebih dalam tentang HTML Document Object Model (DOM)
 description: Melalui entri blog ini, saya akan membahas tentang DOM dan bagaimana hal tersebut dapat dipakai untuk mengubah atribut-atribut HTML secara mudah.
-categories: [kotakode, web-development]
-tags: [id-id, html, javascript, kotakode-competiton]
+categories: [kotakode]
+tags: [id-id, webdev, html, javascript, kotakode-competiton]
 as_seen_on:
   - site_type: kotakode
     url: https://kotakode.com/blogs/3235

@@ -6,23 +6,23 @@ binus:
   theme_color: 
     primary: "#008ed3"
     secondary: "#D97706"
-codenewbie:
-  name: "CodeNewbie Community Blog Archives"
-  theme_color: "#6bd80b"
-char6013:
-  name: "CHAR6013 - Character Building: Pancasila"
-  theme_color: "#DC2626"
-char6014:
-  name: "CHAR6014 - Character Building: Kewarganegaraan"
-  theme_color: "#CA8A04"
-char6015:
-  name: "CHAR6015 - Character Building: Agama"
-  theme_color: "#7C3AED"
-character-building:
-  name: "Character Building courses at BINUS UNIVERSITY"
+binus-character-building:
+  name: "BINUS Character Building (CB) Assignment Archives"
   theme_color: 
     primary: "#008ed3"
     secondary: "#D97706"
+binus-mat:
+  name: "Mobile Application and Technology, BINUS University"
+  theme_color: "#fde047"
+  theme_color_foreground: "#713f12"
+binus-socs:
+  name: "School of Computer Science (SOCS), BINUS University"
+  theme_color: 
+    primary: "#008ed3"
+    secondary: "#D97706"
+codenewbie:
+  name: "CodeNewbie Community Blog Archives"
+  theme_color: "#68b723"
 dev.to:
   name: "DEV Blog Archives"
   theme_color: "#000000"
@@ -42,10 +42,6 @@ kotakode:
   theme_color: 
     primary: "#47b881"
     secondary: "#fa883a"
-mat:
-  name: "Mobile Application and Technology, BINUS University"
-  theme_color: "#fde047"
-  theme_color_foreground: "#713f12"
 medium:
   name: "Medium Blog Archives"
   theme_color: "#000000"
@@ -63,11 +59,6 @@ rebrand20:
   name: "<u>@reinhart1010</u>'s 20th Birthday Rebrand Exploration"
   theme_color_foreground: "#67e8f9"
   theme_color: "#164e63"
-socs:
-  name: "School of Computer Science (SOCS), BINUS UNIVERSITY"
-  theme_color: 
-    primary: "#008ed3"
-    secondary: "#D97706"
 updates:
   name: "<i class='fa fa-bell' aria-hidden='true'></i> Updates on <u>@reinhart1010</u>"
   theme_color: "#0094ff"

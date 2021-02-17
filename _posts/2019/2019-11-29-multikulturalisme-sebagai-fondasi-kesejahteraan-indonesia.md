@@ -1,7 +1,10 @@
 ---
 layout: post
 title: "Multikulturalisme sebagai Fondasi Kesejahteraan Indonesia"
-categories: [binus, character-building, char6014, char6013]
+categories: 
+categories: [binus, binus-character-building]
+tags: [id-id, char6013, char6014]
+theme_color: "#DC2626"
 tags: [id-id]
 ---
 > Berikut ini adalah jawaban terhadap salah satu tugas kuliah [CHAR6013 - Character Building: Pancasila](https://curriculum.binus.ac.id/course/char6013/) dan [CHAR6014 - Character Building: Kewarganegaraan](https://curriculum.binus.ac.id/course/char6014/) di [BINUS University](https://binus.ac.id) (Universitas Bina Nusantara).

@@ -3,6 +3,7 @@ layout: post
 title: "Introducing the @reinhart1010's 20th Birthday Rebrand Exploration Series"
 categories: [updates, design-exploration, rebrand20]
 tags: [en-us]
+cover_image: https://user-images.githubusercontent.com/17312341/108173799-2bf8e480-7131-11eb-850d-6436e6a4a160.jpg
 ---
 ## The current Reinhart logo looks like, oh, well...
 

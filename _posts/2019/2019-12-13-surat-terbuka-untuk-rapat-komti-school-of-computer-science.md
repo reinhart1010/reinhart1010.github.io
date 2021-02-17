@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Surat Terbuka untuk Rapat Komti School of Computer Science"
-categories: [binus, socs]
+categories: [binus, binus-socs]
 tags: [id-id]
 ---
 

@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "Interaksi Antar Budaya"
-categories: [binus, character-building, char6013]
+categories: [binus, binus-character-building]
+tags: [id-id, char6013]
+theme_color: "#DC2626"
 tags: [id-id]
 as_seen_on:
   - site_type: binusmaya

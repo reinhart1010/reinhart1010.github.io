@@ -22,12 +22,12 @@ You might have also seen the cursor in different places, especially in the world
 
 <iframe class="w-full h-300" src="https://www.youtube.com/embed/GApEgSszb34" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
 
-## Brand Customizability
+## Unique, Magical, Personal, and Specialized
 **If this cursor concept finally made into the rebrand, what would it look like?** The closest answer to the question which I can show you for now is this.
 
 ![image](https://user-images.githubusercontent.com/17312341/108114960-12718180-70cc-11eb-8e3c-9da26e658c46.png)
 
-The idea behind it is to imagine a typical fantasy RPG world, but instead of blades and magic we have flying cursors. One of the most prominent aspects of these worlds is that people often have different kinds of swords with unique characteristics and abilities.
+The idea behind it is to imagine a typical fantasy RPG world, but instead of blades and magic we have flying cursors all around the place. One of the most prominent aspects of these worlds is that people often have different kinds of swords with unique characteristics and abilities.
 
 **When these magical swords are replaced with flying cursors, this means that the cursors should be unique, personal, and specialized.** And in fact, many people do not actually know that these cursors are customisable. Windows users can simply use any `.cur` or `.ani` files to replace their default cursor icons, while users on the Linux world can create a `x-cursor-theme`-compatible cursor theme for use in desktop environments. macOS users do not need to worry, though, as software such as [Mousescape](https://github.com/alexzielenski/Mousecape) are available to change the overall appearance of your cursor.
 
@@ -35,5 +35,10 @@ There are a bunch of custom mouse designs found on the Internet, such as the lon
 ![image](https://user-images.githubusercontent.com/17312341/107154315-ead03a00-69a4-11eb-8395-d37e330e4395.png)
 
 ## Conclusion, and why the heck would Reinhart use this for his next rebrand?
+The cursor has inspired people to explore, design, and create things, which aligns with the [Empowerment](/posts/2021/02/14/introducing-the-reinhart1010-rebranding-exploration-series.html) and [Regeneration](/posts/2021/02/14/introducing-the-reinhart1010-rebranding-exploration-series.html)principles that should make into the future brand. Additionally, the cursor has been used to improve people's lives and create newer technologies (e.g. touch screens, mobile phones, voice assistance) which could replace the cursor itself.
 
-The cursor has inspired people to explore and even create their own cursor, which aligns with the [Empowerment](/posts/2021/02/14/introducing-the-reinhart1010-rebranding-exploration-series.html) principle of the future brand. Additionally, as described earlier, the cursor has been used to improve people's lives and create technologies which could replace the cursor itself, such as touch screens and voice assistants on mobile phones. This also aligns with the [Regeneration](/posts/2021/02/14/introducing-the-reinhart1010-rebranding-exploration-series.html) principle, hence this concept fully satisfies with the brand requirement.
+However, the cursor is **not** the only candidate for the brand. In fact, there are many other interesting things which could draw the inspiration behind the new brand including [cards](https://material.io/components/cards), one of the most essential (and overused) components in user interface designs.
+
+There will be many exciting discoveries on what the future brand would be, so please keep an eye for updates and feedbacks on this site (epecially <https://reinhart1010.github.io/posts/category/rebrand20/>), and possibly through my [Telegram](https://t.me/reinhart1010) and [Twitter](https://twitter.com/reinhart1010) for polls.
+
+See you soon.

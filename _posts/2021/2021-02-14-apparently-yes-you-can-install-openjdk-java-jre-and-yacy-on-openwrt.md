@@ -1,12 +1,16 @@
 ---
 layout: post
 title: "Apparently Yes! You can install OpenJDK (Java) JRE and YaCy on OpenWrt"
-categories: [dev.to]
-tags: [en-us, raspberrypi, openwrt, showdev, todayilearned]
+categories: [dev.to, searchlab.eu, twitter]
+tags: [en-us, yacy, raspberrypi, openwrt, showdev, todayilearned]
 cover_image: https://dev-to-uploads.s3.amazonaws.com/i/vfvwx66omp58xws95y3q.png
 as_seen_on:
   - site_type: "dev.to"
     url: "https://dev.to/reinhart1010/apparently-yes-you-can-install-openjdk-java-jre-and-yacy-on-openwrt-1e33"
+  - site_type: "searchlab.eu"
+    url: "https://searchlab.eu/t/yacy-finally-runs-on-large-openwrt-devices-thanks-to-alpine-linux/658"
+  - site_type: "twitter"
+    url: "https://twitter.com/reinhart1010/status/1361954085528686596"
 ---
 
 > **IMPORTANT NOTE:** This guide is meant for OpenWrt-installed devices with really large memory and storage space, which in this case a [Raspberry Pi 3 (Model B)](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/) with 1GB of RAM and 32GB of storage (loaded on a MicroSD Card). **Most routers do not support those gigantic space, so they might not be capable on running YaCy at all.**
@@ -63,11 +67,17 @@ cd "${old_pwd}"
 mv $tmp_dir/usr/lib/jvm/java-1.8-openjdk /overlay/opt/java-1.8-openjdk
 ```
 
-The above script requires a special program named `curl`, which is not installed by default in OpenWrt. Additionally, OpenJDK also requires `libstdcpp6` and `libnss`
+The above script requires a special program named `curl`, which is not installed by default in OpenWrt. Additionally, OpenJDK also requires `libstdcpp6`, `libjpeg` (substituted by `libjpeg-turbo`), `libnss`, and `liblcms`. Note that `liblcms` is also not available on `opkg`, so I decided to install it from [Alpine repository](http://dl-cdn.alpinelinux.org/alpine/edge/community/aarch64/) (Hint: Alpine's `.apk` is simply a `.tar.gz` file) to `/usr/lib`.
 
 ```sh
 # Don't forget to run "opkg update" first!
-opkg install curl libstdcpp6 libnss
+opkg install curl libstdcpp6 libjpeg liblcms2.so.2 libnss
+```
+
+```sh
+wget http://dl-cdn.alpinelinux.org/alpine/edge/community/aarch64/liblcms-1.19-r8.apk
+tar xvzf liblcms-1.19-r8
+mv usr/bin/liblcms* /usr/bin/
 ```
 
 Once these dependencies are installed, you can run the previous script to install OpenJDK under `/overlay/opt/java-1.8-openjdk`.

@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "Ancaman Perkembangan Teknologi terhadap Keutuhan Pancasila dan Apa yang Harus Dilakukan untuk Menghadapinya"
-categories: [binus, character-building, char6013]
-tags: [id-id]
+categories: [binus, binus-character-building]
+tags: [id-id, char6013]
+theme_color: "#DC2626"
 as_seen_on:
   - site_type: binusmaya
     url: https://binusmaya.binus.ac.id/newStudent/#/forum/reader.E35DF831-E12B-4550-8EEE-8F8926068CE1?id=1

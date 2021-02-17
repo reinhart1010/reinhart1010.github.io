@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "Pendidikan Indonesia sebagai Hak Masyarakat yang Bermasalah"
-categories: [binus, character-building, char6014]
-tags: [id-id]
+categories: [binus, binus-character-building]
+tags: [id-id, char6014]
+theme_color: "#CA8A04"
 as_seen_on:
   - site_type: binusmaya
     url: https://binusmaya.binus.ac.id/newStudent/#/forum/reader.2BC9CCD6-A377-481D-BC9C-69DD0A332365?id=1

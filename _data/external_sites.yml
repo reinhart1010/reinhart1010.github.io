@@ -13,6 +13,9 @@ codenewbie:
 kotakode:
   img_152: /assets/img/logo/152/kotakode.jpg
   title: "Kotakode"
+linkedin:
+  img_152: /assets/img/logo/152/linkedin.png
+  title: "LinkedIn"
 medium:
   img_152: /assets/img/logo/152/medium.png
   title: "Medium"
@@ -22,3 +25,12 @@ openstreetmap:
 quora:
   img_152: /assets/img/logo/152/quora.png
   title: "Quora"
+searchlab.eu:
+  img_152: /assets/img/logo/152/searchlab.eu.png
+  title: "SearchLab (Discourse Forum)"
+telegram:
+  img_152: /assets/img/logo/152/telegram.svg
+  title: "Telegram"
+twitter:
+  img_152: /assets/img/logo/152/twitter.png
+  title: "Twitter"

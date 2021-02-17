@@ -31,22 +31,24 @@ layout: default
         You can like/upvote, comment and discuss this article on
       {% endif %}
     </h4>
-    {% for impostor in page.as_seen_on %}
-      <a href="{{ impostor.url }}" class="card mw-full m-0 p-0 d-flex">
-        {% if site.data.external_sites[impostor.site_type].img_152 %}
-          <div class="w-50 h-50 m-10 align-self-center">
-            <img src="{{ site.data.external_sites[impostor.site_type].img_152 }}" class="d-block rounded" alt="{{ site.data.external_sites[impostor.site_type].title }} logo">
+    <div class="d-flex flex-wrap">
+      {% for impostor in page.as_seen_on %}
+        <a href="{{ impostor.url }}" class="card mw-full m-0 p-0 d-flex w-full w-md-half">
+          {% if site.data.external_sites[impostor.site_type].img_152 %}
+            <div class="w-50 h-50 m-10 align-self-center">
+              <img src="{{ site.data.external_sites[impostor.site_type].img_152 }}" class="d-block rounded" alt="{{ site.data.external_sites[impostor.site_type].title }} logo">
+            </div>
+          {% endif %}
+          <div class="flex-grow-1 d-flex align-items-center">
+            <div class="p-10 w-full m-auto">
+              <p class="m-0 font-weight-medium text-dark-lm text-light-dm">
+                {{ site.data.external_sites[impostor.site_type].title }} <i class="fa fa-angle-right ml-5" aria-hidden="true"></i>
+              </p>
+            </div>
           </div>
-        {% endif %}
-        <div class="flex-grow-1 d-flex align-items-center">
-          <div class="p-10 w-full m-auto">
-            <p class="m-0 font-weight-medium text-dark-lm text-light-dm">
-              {{ site.data.external_sites[impostor.site_type].title }} <i class="fa fa-angle-right ml-5" aria-hidden="true"></i>
-            </p>
-          </div>
-        </div>
-    </a>
-    {% endfor %}
+      </a>
+      {% endfor %}
+    </div>
   </blockquote>
 {% endif %}
 {{ content }}
@@ -59,22 +61,24 @@ layout: default
         You can like/upvote, comment and discuss this article on
       {% endif %}
     </h4>
-    {% for impostor in page.as_seen_on %}
-      <a href="{{ impostor.url }}" class="card mw-full m-0 p-0 d-flex">
-        {% if site.data.external_sites[impostor.site_type].img_152 %}
-          <div class="w-50 h-50 m-10 align-self-center">
-            <img src="{{ site.data.external_sites[impostor.site_type].img_152 }}" class="d-block rounded" alt="{{ site.data.external_sites[impostor.site_type].title }} logo">
+    <div class="d-flex flex-wrap">
+      {% for impostor in page.as_seen_on %}
+        <a href="{{ impostor.url }}" class="card mw-full m-0 p-0 d-flex w-full w-md-half">
+          {% if site.data.external_sites[impostor.site_type].img_152 %}
+            <div class="w-50 h-50 m-10 align-self-center">
+              <img src="{{ site.data.external_sites[impostor.site_type].img_152 }}" class="d-block rounded" alt="{{ site.data.external_sites[impostor.site_type].title }} logo">
+            </div>
+          {% endif %}
+          <div class="flex-grow-1 d-flex align-items-center">
+            <div class="p-10 w-full m-auto">
+              <p class="m-0 font-weight-medium text-dark-lm text-light-dm">
+                {{ site.data.external_sites[impostor.site_type].title }} <i class="fa fa-angle-right ml-5" aria-hidden="true"></i>
+              </p>
+            </div>
           </div>
-        {% endif %}
-        <div class="flex-grow-1 d-flex align-items-center">
-          <div class="p-10 w-full m-auto">
-            <p class="m-0 font-weight-medium text-dark-lm text-light-dm">
-              {{ site.data.external_sites[impostor.site_type].title }} <i class="fa fa-angle-right ml-5" aria-hidden="true"></i>
-            </p>
-          </div>
-        </div>
-    </a>
-    {% endfor %}
+      </a>
+      {% endfor %}
+    </div>
   </blockquote>
 {% endif %}
 </div>

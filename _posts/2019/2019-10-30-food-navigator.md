@@ -4,8 +4,6 @@ title: "Mempersembahkan Food Navigator"
 categories: [projects, binus, openstreetmap, food-navigator]
 tags: [id-id]
 cover_image: https://reinhart1010.github.io/foodnavigator/src/images/logo-og.jpg
-theme_color: "#ffffff"
-theme_color_foreground: "#fa582d"
 as_seen_on:
   - site_type: binusian_blog
     url: http://reinhart1010.blog.binusian.org/2019/10/30/food-navigator/
