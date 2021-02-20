@@ -2,7 +2,7 @@
 layout: post
 title: "COMPUTERUN 2020 Website"
 categories: [dev.to, projects]
-tags: [en-us, showdev, webdev]
+tags: [en-us, showdev, webdev, computerun2020]
 theme_color: "#0e1732"
 cover_image: "https://dev-to-uploads.s3.amazonaws.com/i/8tkxpx3acuet4bd4igdw.jpg"
 as_seen_on:

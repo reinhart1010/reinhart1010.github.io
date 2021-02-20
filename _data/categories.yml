@@ -59,6 +59,8 @@ rebrand20:
   name: "<u>@reinhart1010</u>'s 20th Birthday Rebrand Exploration"
   theme_color_foreground: "#67e8f9"
   theme_color: "#164e63"
+twitter:
+  name: "Twitter Thread Archives"
 updates:
   name: "<i class='fa fa-bell' aria-hidden='true'></i> Updates on <u>@reinhart1010</u>"
   theme_color: "#0094ff"

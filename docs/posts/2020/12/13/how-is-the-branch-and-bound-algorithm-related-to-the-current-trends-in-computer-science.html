@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Meta tags -->
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+<meta name="viewport" content="width=device-width" />
+
+
+<!-- Primary Meta Tags -->
+<title>How is the Branch and Bound algorithm related to the current trends in Computer Science? - Reinhart Previano K.</title>
+<meta name="title" content="How is the Branch and Bound algorithm related to the current trends in Computer Science? - Reinhart Previano K.">
+<meta name="description" content="">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://0.0.0.0:4000/posts/2020/12/13/how-is-the-branch-and-bound-algorithm-related-to-the-current-trends-in-computer-science.html">
+<meta property="og:title" content="How is the Branch and Bound algorithm related to the current trends in Computer Science? - Reinhart Previano K.">
+<meta property="og:description" content="">
+<meta property="og:image" content="">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="http://0.0.0.0:4000/posts/2020/12/13/how-is-the-branch-and-bound-algorithm-related-to-the-current-trends-in-computer-science.html">
+<meta property="twitter:title" content="How is the Branch and Bound algorithm related to the current trends in Computer Science? - Reinhart Previano K.">
+<meta property="twitter:description" content="">
+<meta property="twitter:image" content="">
+  <link href="/assets/css/w3-colors-metro.css" rel="stylesheet" />
+
+  <!-- Fork Awesome Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
+
+  <!-- Adaptive Cards JS -->
+  <script src="https://unpkg.com/adaptivecards/dist/adaptivecards.js"></script>
+  <script type="text/javascript" src="https://unpkg.com/markdown-it/dist/markdown-it.js"></script>
+
+  <link rel="stylesheet" href="/assets/style.css">
+
+</head><body class="with-custom-webkit-scrollbars with-custom-css-scrollbars" data-dm-shortcut-enabled="true" data-sidebar-shortcut-enabled="true" data-set-preferred-mode-onload="true">
+  <!-- Modals go here -->
+  <!-- Reference: https://www.gethalfmoon.com/docs/modal -->
+
+  <!-- Page wrapper start -->
+  <div class="page-wrapper with-navbar with-sidebar">
+
+    <!-- Sticky alerts (toasts), empty container -->
+    <!-- Reference: https://www.gethalfmoon.com/docs/sticky-alerts-toasts -->
+    <div class="sticky-alerts"></div>
+
+    <!-- Navbar start -->
+    
+    
+    
+    <nav class="navbar justify-content-between justify-content-lg-start"
+    
+      style="background-color: #008ed3;"
+    >
+      <!-- Reference: https://www.gethalfmoon.com/docs/navbar -->
+      <!-- Navbar content (with toggle sidebar button) -->
+      <div class="navbar-content">
+        <button class="btn btn-action font-size-18" type="button" onclick="halfmoon.toggleSidebar()"
+        
+          style="background: none; border: none; box-shadow: none; color: white;"
+        >
+          <i class="fa fa-bars" aria-hidden="true"></i>
+          <span class="sr-only">Toggle sidebar</span> <!-- sr-only = show only on screen readers -->
+        </button>
+      </div>
+
+      <!-- Navbar brand -->
+      <a href="/" class="navbar-brand d-none d-md-block"
+      
+        style="color: white;"
+      >
+        Reinhart Previano K.
+      </a>
+      <!-- Navbar text -->
+      <span class="navbar-text text-monospace d-none d-md-block"
+      
+        style="color: white;"
+      >v19.4</span>
+
+      <!-- Universe Dropdown -->
+      <div class="navbar-content ml-auto">
+        <a class="btn universe-title font-size-18" href="#select-universe"
+        
+          style="background: none; border: none; box-shadow: none; color: white;"
+        >
+        binus socs <i class="fa fa-chevron-down" aria-hidden="true"></i>
+        </a>
+      </div>
+
+      <!-- Navbar nav -->
+      <!-- <ul class="navbar-nav d-none d-md-flex">
+        <li class="nav-item font-size-18">
+          <a href="/" class="nav-link">Home</a>
+        </li>
+      </ul> -->
+      <!-- Navbar content (with the dropdown menu) -->
+      <!-- <div class="navbar-content d-md-none ml-auto">
+        <div class="dropdown with-arrow">
+          <button class="btn btn-action font-size-18" data-toggle="dropdown" type="button" id="navbar-dropdown-toggle-btn-1"
+          
+            style="background: none; border: none; box-shadow: none; color: white"
+          >
+            <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+          </button>
+          <div class="dropdown-menu dropdown-menu-right w-200" aria-labelledby="navbar-dropdown-toggle-btn-1">
+            <a href="/" class="dropdown-item">Homepage</a>
+          </div>
+        </div>
+      </div> -->
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Full-screen modal -->
+    <div class="modal modal-full ie-scroll-fix" id="select-universe" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <a onclick="window.history.go(-1); return false;" href="#" class="close" role="button" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </a>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xl-10 offset-xl-1">
+                <!-- Article here -->
+                <h1 class="mt-20 pt-20">Select Category</h1>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg">
+        <div class="h-200">
+          <h3 class="mt-0"><i class="fa fa-home text-primary" aria-hidden="true"></i> Home</h3>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/" class="btn btn-lg btn-primary shadow-lg"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg">
+        <div class="h-200">
+          <h3 class="mt-0"><i class="fa fa-rss-square text-danger" aria-hidden="true"></i> All/Other Posts</h3>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/collection/posts" class="btn btn-lg btn-danger shadow-lg"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg"
+      
+        style="background-color: #0094ff; color: white;"
+      
+      >
+        <div class="h-200">
+          <h3 class="mt-0"><i class='fa fa-info-circle' aria-hidden='true'></i> About <u>@reinhart1010</u></h3>
+          <p>
+            </b>
+          </p>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/category/about" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg"
+      
+        style="background-color: #008ed3; color: white;"
+      
+      >
+        <div class="h-200">
+          <h3 class="mt-0">BINUS UNIVERSITY</h3>
+          <p>
+            </b>
+          </p>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/category/binus" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg"
+      
+        style="background-color: #fde047; color: #713f12;"
+      
+      >
+        <div class="h-200">
+          <h3 class="mt-0">Mobile Application and Technology, BINUS University</h3>
+          <p>
+            </b>
+          </p>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/category/binus-mat" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg"
+      
+        style="background-color: #008ed3; color: white;"
+      
+      >
+        <div class="h-200">
+          <h3 class="mt-0">School of Computer Science (SOCS), BINUS University</h3>
+          <p>
+            </b>
+          </p>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/category/binus-socs" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg"
+      
+        style="background-color: #68b723; color: white;"
+      
+      >
+        <div class="h-200">
+          <h3 class="mt-0">CodeNewbie Community Blog Archives</h3>
+          <p>
+            </b>
+          </p>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/category/codenewbie" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg"
+      
+      >
+        <div class="h-200">
+          <h3 class="mt-0">design-exploration</h3>
+          <p>
+            </b>
+          </p>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/category/design-exploration" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg"
+      
+        style="background-color: #000000; color: white;"
+      
+      >
+        <div class="h-200">
+          <h3 class="mt-0">DEV Blog Archives</h3>
+          <p>
+            </b>
+          </p>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/category/dev.to" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg"
+      
+        style="background-color: #fa582d; color: white;"
+      
+      >
+        <div class="h-200">
+          <h3 class="mt-0">Food Navigator</h3>
+          <p>
+            Updates on the Food Navigator app</b>
+          </p>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/category/food-navigator" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg"
+      
+      >
+        <div class="h-200">
+          <h3 class="mt-0">ika</h3>
+          <p>
+            </b>
+          </p>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/category/ika" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg"
+      
+        style="background-color: #fecaca; color: #7f1d1d;"
+      
+      >
+        <div class="h-200">
+          <h3 class="mt-0">KopiHati</h3>
+          <p>
+            Bahasa pemrograman yang berasal dari kopi, turun ke hati.</b>
+          </p>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/category/kopihati" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg"
+      
+        style="background-color: #47b881; color: white;"
+      
+      >
+        <div class="h-200">
+          <h3 class="mt-0">Kotakode Answers and Blog Archives</h3>
+          <p>
+            </b>
+          </p>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/category/kotakode" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg"
+      
+        style="background-color: #000000; color: white;"
+      
+      >
+        <div class="h-200">
+          <h3 class="mt-0">Medium Blog Archives</h3>
+          <p>
+            </b>
+          </p>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/category/medium" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg"
+      
+        style="background-color: #cdebb0; color: #0c8416;"
+      
+      >
+        <div class="h-200">
+          <h3 class="mt-0">OpenStreetMap User Diary Archives</h3>
+          <p>
+            </b>
+          </p>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/category/openstreetmap" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg"
+      
+      >
+        <div class="h-200">
+          <h3 class="mt-0">product-information</h3>
+          <p>
+            </b>
+          </p>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/category/product-information" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg"
+      
+        style="background-color: #ff4d4f; color: white;"
+      
+      >
+        <div class="h-200">
+          <h3 class="mt-0"><i class='fa fa-briefcase' aria-hidden='true'></i> Project Announcements and Archive</h3>
+          <p>
+            </b>
+          </p>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/category/projects" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg"
+      
+        style="background-color: #b92b27; color: white;"
+      
+      >
+        <div class="h-200">
+          <h3 class="mt-0">Quora answers and blog archives</h3>
+          <p>
+            </b>
+          </p>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/category/quora" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg"
+      
+        style="background-color: #164e63; color: #67e8f9;"
+      
+      >
+        <div class="h-200">
+          <h3 class="mt-0"><u>@reinhart1010</u>'s 20th Birthday Rebrand Exploration</h3>
+          <p>
+            </b>
+          </p>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/category/rebrand20" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg"
+      
+      >
+        <div class="h-200">
+          <h3 class="mt-0">support</h3>
+          <p>
+            </b>
+          </p>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/category/support" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg"
+      
+      >
+        <div class="h-200">
+          <h3 class="mt-0">tutorials</h3>
+          <p>
+            </b>
+          </p>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/category/tutorials" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg"
+      
+      >
+        <div class="h-200">
+          <h3 class="mt-0">Twitter Thread Archives</h3>
+          <p>
+            </b>
+          </p>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/category/twitter" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg"
+      
+        style="background-color: #0094ff; color: white;"
+      
+      >
+        <div class="h-200">
+          <h3 class="mt-0"><i class='fa fa-bell' aria-hidden='true'></i> Updates on <u>@reinhart1010</u></h3>
+          <p>
+            </b>
+          </p>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/category/updates" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sidebar start -->
+    <div class="sidebar">
+      <!-- Sidebar links (with icons) and titles -->
+
+<h5 class="sidebar-title">Quick Links</h5>
+<div class="sidebar-divider"></div>
+<a href="/" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#house-fill"/>
+    </svg>
+  </span>
+  Homepage
+</a>
+<a href="#select-universe" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#file-post-fill"/>
+    </svg>
+  </span>
+  Blog Categories
+</a>
+<br />
+<h5 class="sidebar-title">Contact</h5>
+<div class="sidebar-divider"></div>
+<a href="https://github.com/reinhart1010" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon bg-dark text-white bg-light-dm text-dark-dm">
+    <i class="fa fa-lg fa-github" aria-hidden="true"></i>
+  </span>
+  GitHub
+</a>
+<a href="https://gitlab.com/reinhart1010" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-dark-orange text-white">
+    <i class="fa fa-lg fa-gitlab" aria-hidden="true"></i>
+  </span>
+  GitLab
+</a>
+<a href="https://twitter.com/reinhart1010" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-blue text-white">
+    <i class="fa fa-lg fa-twitter" aria-hidden="true"></i>
+  </span>
+  Twitter
+</a>
+<br />
+<h5 class="sidebar-title">Working On</h5>
+<div class="sidebar-divider"></div>
+<a href="https://bearcats.dev/innovations" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon text-white" style="background-color: #428dfc">
+    <img src="/assets/img/logo/adab.png" alt="Icon" width="30" height="30">
+  </span>
+  ADAB to Connect<br>
+  Ayo Dengar Ayo Bicara
+</a>
+<a href="https://student.binus.ac.id/fyp/" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon">
+    <img src="/assets/img/logo/binus.ico" alt="Icon">
+  </span>
+  First Year Program (FYP)<br>BINUS University
+</a>
+<a href="https://handwashing-station.ushahidi.io" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon bg-secondary text-dark">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#signpost-split"/>
+    </svg>
+  </span>
+  Handwashing Station<br>Map (HOT-USAID-PDC)
+</a>
+<a href="https://himti.or.id/" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-dark-blue text-white">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#people"/>
+    </svg>
+  </span>
+  HIMTI Intership
+</a>
+<a href="https://reinhart1010/ika" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon bg-success text-dark">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#chat-dots"/>
+    </svg>
+  </span>
+  Ika (Chatbot Framework)
+</a>
+<a href="https://kotakode.com" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-teal text-white">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#box"/>
+    </svg>
+  </span>
+  Kotakode.com
+</a>
+<a href="https://webcompat.com" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon bg-secondary text-dark">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#globe"/>
+    </svg>
+  </span>
+  Webcompat.com
+</a>
+<br />
+<h5 class="sidebar-title">Participating On</h5>
+<div class="sidebar-divider"></div>
+<i>None</i>
+<br />
+<h5 class="sidebar-title">Past Projects</h5>
+<div class="sidebar-divider"></div>
+<a href="https://www.instagram.com/eighternitypstd/" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-dark-blue text-white">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#calendar-event"/>
+    </svg>
+  </span>
+  8TERNITY 2017:<br>ANDROMEDA
+</a>
+<a href="https://www.instagram.com/eighternitypstd/" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-dark-orange text-white">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#calendar-event"/>
+    </svg>
+  </span>
+  8TERNITY 2019:<br>CORUSCATE
+</a>
+<a href="https://computerun.id" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon text-white" style="background-color: #0c1631">
+    <img src="/assets/img/logo/computerun-2020.png" alt="Icon">
+  </span>
+  COMPUTERUN 2020:<br>
+  INSIGHT
+</a>
+<a href="https://github.com/bearcatsdev/hacktoberfest19" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-purple text-white">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#code-square"/>
+    </svg>
+  </span>
+  Hacktoberfest 2019<br>@BINUS (MTC)
+</a>
+<a href="https://himtikit.himti.or.id" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-orange text-white">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#globe"/>
+    </svg>
+  </span>
+  HIMTI KIT 2020
+</a>
+<a href="https://hishot.himti.or.id" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-dark-red text-white">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#calendar-event"/>
+    </svg>
+  </span>
+  HISHOT 2020: IGNITE
+</a>
+<a href="https://http.himti.or.id" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-dark-blue text-white">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#calendar-event"/>
+    </svg>
+  </span>
+  HTTP 2020: LINK
+</a>
+<a href="https://gitlab.com/gal_bert/m-oop-final-project" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon">
+    <img src="/assets/img/logo/jackpot-and-maths.png" alt="Icon" width="20" height="20">
+  </span>
+  Jackpot and Maths &mdash;<br>M-OOP Final Project
+</a>
+<a href="https://commonvoice.mozilla.org" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon bg-dark text-white bg-light-dm text-dark-dm">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#mic"/>
+    </svg>
+  </span>
+  Mozilla Common Voice
+</a>
+<br />
+<h5 class="sidebar-title">Past Participations</h5>
+<div class="sidebar-divider"></div>
+<a href="https://hacktoberfest.digitalocean.com" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-purple text-white">
+    <i class="fa fa-lg fa-digitalocean" aria-hidden="true"></i>
+  </span>
+  Hacktoberfest 2019
+</a>
+<a href="https://hacktoberfest.digitalocean.com/" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon">
+    <img src="/assets/img/logo/hacktoberfest-2020.ico" alt="Icon" width="30" height="30">
+  </span>
+  Hacktoberfest 2020
+</a>
+<a href="https://competition.binus.ac.id/icpc2020/" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon">
+    <img src="/assets/img/logo/icpc.ico" alt="Icon" width="30" height="30">
+  </span>
+  ICPC INC 2020
+</a>
+<a href="https://kotakode.com/challenges" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-teal text-white">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#box"/>
+    </svg>
+  </span>
+  Kotakode Coding Festival
+</a>
+<br />
+    </div>
+    <!-- Sidebar end -->
+
+    <!-- Content wrapper start -->
+    <div class="content-wrapper">
+      
+
+
+<div style="background: #7C3AED repeating-linear-gradient(
+  135deg,
+  rgba(0,0,0,0),
+  rgba(0,0,0,0) 20px,
+  rgba(0,0,0,0.05) 20px,
+  rgba(0,0,0,0.05) 40px
+); color: white; font-size: 1em; word-wrap: break-word;">
+  
+  <div class="p-20">
+    <h2 class="m-0">How is the Branch and Bound algorithm related to the current trends in Computer Science?</h2>
+    <b class="font-size-16">December 13, 2020 | 
+      <span class='dark-mode bg-transparent'><a href='/posts/category/binus' class='inline badge font-size-16' style='color:white; border-color:white;'>@binus</a> <a href='/posts/category/binus-socs' class='inline badge font-size-16' style='color:white; border-color:white;'>@binus-socs</a>  <a href='/posts/tag/en-us' class='inline badge font-size-16' style='color:white; border-color:white;'>#en-us</a> <a href='/posts/tag/answers' class='inline badge font-size-16' style='color:white; border-color:white;'>#answers</a> <a href='/posts/tag/comp6049' class='inline badge font-size-16' style='color:white; border-color:white;'>#comp6049</a> </span></b>
+  </div>
+  <!-- <h5>Let there be a #developer #Crewmate #AmongUs,<br>#BuildingTheNation and bringing <code>SELECT * FROM</code> your #DisneyPlus dreams <code>return true;</code><br>As high as #Mulan's (#IndiHome Paket) Phoenix,<br>and as close as the 0s and 1s of #Sayu and #1010.<br><br>Let our mission of #FosteringAndEmpowering may not simply fail at the #SANDBOX,<br>or into the grims of #MasterChefIndonesia's Pressure Tests.<br>Even both #Cyberpunk2077 and #HenryStickminCollection have seen their bright future,<br>because they are actually set in the future.<br><br>Finally, before you go,<br>#MayTheForceBeWithYou against all #Impostors.<br>#StartUp and #FollowYourDream even when there are #NoStraightRoads,<br>as #BrightAsTheSun, said #AsianGames2018.</h5> -->
+</div>
+<div class="blog content">
+
+  <blockquote>
+    <h4 class="mp-0">
+      
+        You can also like/upvote, comment and discuss this article on
+      
+    </h4>
+    <div class="d-flex flex-wrap">
+      
+        <a href="https://binusmaya.binus.ac.id/newStudent/#/forum/reader.5B7E5C78-3CFD-456A-B8D8-C21690754639?id=1" class="card mw-full m-0 p-0 d-flex w-full w-lg-half">
+          
+            <div class="w-50 h-50 m-10 align-self-center">
+              <img src="/assets/img/logo/152/binus-university.png" class="d-block rounded" alt="BINUSMAYA (Akses Terbatas / Restricted) logo">
+            </div>
+          
+          <div class="flex-grow-1 d-flex align-items-center">
+            <div class="p-10 w-full m-auto">
+              <p class="m-0 font-weight-medium text-dark-lm text-light-dm">
+                BINUSMAYA (Akses Terbatas / Restricted) <i class="fa fa-angle-right ml-5" aria-hidden="true"></i>
+              </p>
+            </div>
+          </div>
+      </a>
+      
+    </div>
+  </blockquote>
+
+<blockquote>
+  <p><strong>The following article is used as an answer to a <a href="https://curriculum.binus.ac.id/course/comp6049/">COMP6049 - Algorithm Design and Analysis</a> course assignment at <a href="https://binus.ac.id">BINUS University</a>.</strong></p>
+
+  <p>Branch and Bound algorithm is not a new concept in computer science. It has been here for such a long time (firstly proposed in 1960). With recent advancements in the computer science domain, how can you explain the relation of branch and bound algorithm with the current trend in computer science?</p>
+
+  <p>Please refer to this paper: <a href="https://www.sciencedirect.com/science/article/pii/S1572528616000062">https://www.sciencedirect.com/science/article/pii/S1572528616000062</a></p>
+</blockquote>
+
+<p>On this post I will <strong>not</strong> explain the mechanism behind the Branch and Bound algorithm, since the question refers to the relationship between the algorithm with the trends of Computer Science.</p>
+
+<p>The “Branch and Bound” can be regarded as one of the popular algorithms used to optimize the common searching process of a tree or a graph. However, the paper explained that the effectiveness of this algorithm depends on two factors, which are the domain of search and the algorithms used for each process (Search, Branch, Prune) ran by the algorithm. This also means that newer algorithms for one or some of these processes could bring a significant change in effectiveness and performance of the entire Branch and Bound algorithm. Noting that the algorithm was originally proposed in 1960, this could reflect that a single algorithm could be refined, refined, and further refined along with the advancement of researches in computer science.</p>
+
+<p>Another example which also reflects the situation is the compression algorithm, where a single text compression method can be further refined by defining the dictionary and the compressed version of the text, which can be further refined by compressing the combination of bits of the original text, rather than remembering the ASCII or Unicode codes for each characters. This compression method can also be refined by defining the data structure of the dictionary, such as the Huffman Tree and Code as explained in the previous topics. Eventually, the Huffman method has been replaced by another compression method which has several advantages compared to the Huffman method. The same refinement process are still happening in the research and study on the field of computer science.</p>
+
+<p>However, choosing the “best” algorithm does <strong>not</strong> mean that the algorithm chosen will be effective for every domain of input, or in this case, graphs and trees which contain the nodes to be searched. This has led into the development of two types of solutions in the development of computer algorithms, colloquially names “general solution” and “specific solution”, which are also applied on other fields of computer science, including artificial intelligence.</p>
+
+<h2 id="comments">Comments</h2>
+<script async src="https://comments.app/js/widget.js?3" data-comments-app-website="Fgvl3H7Y" data-limit="5" data-page-id="/posts/2020/12/13/how-is-the-branch-and-bound-algorithm-related-to-the-current-trends-in-computer-science" data-color="#7C3AED"></script>
+
+
+  <blockquote>
+    <h4 class="mp-0">
+      
+        You can also like/upvote, comment and discuss this article on
+      
+    </h4>
+    <div class="d-flex flex-wrap">
+      
+        <a href="https://binusmaya.binus.ac.id/newStudent/#/forum/reader.5B7E5C78-3CFD-456A-B8D8-C21690754639?id=1" class="card mw-full m-0 p-0 d-flex w-full w-lg-half">
+          
+            <div class="w-50 h-50 m-10 align-self-center">
+              <img src="/assets/img/logo/152/binus-university.png" class="d-block rounded" alt="BINUSMAYA (Akses Terbatas / Restricted) logo">
+            </div>
+          
+          <div class="flex-grow-1 d-flex align-items-center">
+            <div class="p-10 w-full m-auto">
+              <p class="m-0 font-weight-medium text-dark-lm text-light-dm">
+                BINUSMAYA (Akses Terbatas / Restricted) <i class="fa fa-angle-right ml-5" aria-hidden="true"></i>
+              </p>
+            </div>
+          </div>
+      </a>
+      
+    </div>
+  </blockquote>
+
+</div>
+    </div>
+    <!-- Content wrapper end -->
+
+  </div>
+  <!-- Page wrapper end -->
+
+  <!-- Halfmoon JS -->
+  <script>
+    var adaptiveCard = new AdaptiveCards.AdaptiveCard();
+    adaptiveCard.hostConfig = new AdaptiveCards.HostConfig({
+      spacing: {
+        padding: "3rem"
+      },
+      actions: {
+        buttonSpacing: 4,
+        actionAlignment: 'right'
+      },
+      fontFamily: '-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"'
+    });
+    AdaptiveCards.processMarkdown = function(text) { return markdownit().render(text); }
+    function loadCards(data){
+      data.forEach(function (card){
+        if (card.$schema && card.$schema == "http://adaptivecards.io/schemas/adaptive-card.json"){
+          adaptiveCard.parse(card);
+          var renderedCard = adaptiveCard.render();
+          document.getElementById('card-container').appendChild(renderedCard);
+        } else switch (card.type){
+          case "Reinhart.advertisement":
+          case "Reinhart.article":
+            var draft = '<div class="card my-10 mx-0 p-0"';
+            if (card.color) draft += ' style="' + ((card.color.background) ? ('background-color:' + card.color.background + ';') : '') + ((card.color.foreground) ? ('color:' + card.color.foreground + ';') : '') + '"';
+            draft += '>';
+            if (card.author) switch (card.author.name){
+              case 'Reinhart':
+                draft += '<p class="px-20 py-10 m-0" style="background-color:' + ((card.color && card.color.background) ? ((card.color.backgroundTop) ? card.color.backgroundTop : card.color.background) : 'inherit') + ';color:' + ((card.color && card.color.foreground) ? ((card.color.foregroundTop) ? card.color.foregroundTop : card.color.foreground) : 'inherit') + '">Official Post from <b>Reinhart</b></p>';
+                break;
+              default:
+                draft += '<p class="px-20 py-10 m-0" style="background-color:' + ((card.color && card.color.background) ? ((card.color.backgroundTop) ? card.color.backgroundTop : card.color.background) : 'inherit') + ';color:' + ((card.color && card.color.foreground) ? ((card.color.foregroundTop) ? card.color.foregroundTop : card.color.foreground) : 'inherit') + '">Shared from <b><a style="color:inherit; text-decoration:underline;" href="' + card.author.url + '" target="_blank">' + card.author.name + '</a></b></p>';
+            }
+            if (card.image) draft += '<img src="' + card.image + '" alt="' + card.body.title + '" class="img-fluid">';
+            draft += '<div class="content m-20 mt-10">';
+            if (card.body.kicker) draft += '<h5 class="card-title">' + card.body.kicker + '</h5>';
+            if (card.body.title && !(card.body.options && card.body.options.hideTitle)) draft += (card.type == "Reinhart.advertisement" ? '<h3>' : '<h4 class="mb-5">') + card.body.title + (card.type == "Reinhart.advertisement" ? '</h3>' : '</h4>');
+            if (card.body.subtitle) draft += '<h5 class="card-title">' + card.body.subtitle + '</h5>';
+            if (card.body.description) draft += '<p class="font-size-18">' + card.body.description + '</p>';
+            if (card.events){
+              var i;
+              for (i = 0; i < card.events.length; i++){
+                draft += '<div class="p-10 rounded mb-10" style="background-color:rgba(0,0,0,0.5);color:#ffffff">';
+                var n = Object.keys(card.events[i]).length;
+                if (card.events[i].title){
+                  draft += '<h5 class="m-0">' + card.events[i].title + '</h5>';
+                  n--;
+                  if (n > 0) draft += '<hr>';
+                }
+                if (card.events[i].location){
+                  draft += '<p class="m-0"><svg class="bi" width="18" height="18" fill="white"><use xlink:href="/img/bootstrap-icons.svg#geo-fill"/></svg> <b>' + card.events[i].location + '</b></p>';
+                  n--;
+                  if (n > 0) draft += '<hr>';
+                }
+                if (card.events[i].start){
+                  draft += '<p class="m-0"><b>Starts at</b> ' + new Date(card.events[i].start).toString() + '</p>';
+                  n--;
+                  if (n > 0) draft += '<hr>';
+                }
+                if (card.events[i].end) draft += '<p class="m-0"><b>Ends at</b> ' + new Date(card.events[i].end).toString() + '</p>';
+                draft += '</div>';
+              }
+            }
+            if (card.actions){
+              draft += '<div class="text-right" style="line-height: 5rem">';
+              var i;
+              for (i = 0; i < card.actions.length; i++){
+                draft += ' <a href="' + card.actions[i].url + (card.type == "Reinhart.advertisement" || card.actions[i].openInExternal ? ' target="_blank"' : '') + '" class="btn btn-lg shadow-lg bg-light text-dark"><b>' + card.actions[i].title + '</b></a>';
+              }
+              draft += '</div>';
+            }
+            draft += '</div>';
+            draft += '</div>';
+            document.getElementById('card-container').innerHTML += draft;
+            break;
+          case "Custom.iframe":
+            var draft = '<div class="card my-10 mx-0 p-0"><iframe src="' + (card.src || card.url) + '" class="rounded-top" style="width: 100%; height: 50vh; border: none" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>This card requires &lt;iframe&gt; rendering, which is not supported by your browser.</iframe>'
+            if (card.body){
+              draft += '<div class="content m-20 mt-10">';
+              if (card.body.title && card.body.title != ""){
+                draft += '<h3>' + card.body.title + '</h3>';
+              }
+              if (card.body.subtitle && card.body.subtitle != ""){
+                draft += '<p>' + card.body.subtitle + '</p>';
+              }
+              if (card.url && card.url != ""){
+                draft += '<div class="text-right"><a href="' + card.url + '" target="_blank" class="btn btn-lg shadow-lg btn-primary"><b>Open in separate tab</b></a></div>';
+              }
+              draft += '</div>';
+            }
+            draft += '</div>';
+            document.getElementById('card-container').innerHTML += draft;
+            break;
+          case "Custom.rawHTML":
+            if (card.body){
+              document.getElementById('card-container').innerHTML += card.body;
+            }
+            break;
+          default:
+            console.err("Unable to render card of type:" + card.type);
+        }
+      });
+    }
+    function shuffle(array) {
+        let counter = array.length;
+
+        // While there are elements in the array
+        while (counter > 0) {
+            // Pick a random index
+            let index = Math.floor(Math.random() * counter);
+
+            // Decrease counter by 1
+            counter--;
+
+            // And swap the last element with it
+            let temp = array[counter];
+            array[counter] = array[index];
+            array[index] = temp;
+        }
+
+        return array;
+    }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/js/halfmoon.min.js"></script>
+</body>
+</html>

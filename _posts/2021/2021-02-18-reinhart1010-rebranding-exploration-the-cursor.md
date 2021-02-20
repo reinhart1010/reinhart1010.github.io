@@ -4,6 +4,11 @@ title: "@reinhart1010 Rebrand Exploration: The Cursor"
 categories: [design-exploration, rebrand20]
 tags: [en-us]
 cover_image: https://user-images.githubusercontent.com/17312341/108116853-c2e08500-70ce-11eb-9f95-9697d5fe6b84.jpg
+as_seen_on:
+  - site_type: linkedin
+    url: https://www.linkedin.com/posts/reinhart-previano-koentjoro-895b401b2_reinhart1010-rebrand-exploration-the-cursor-activity-6768495442817880064-s4D3
+  - site_type: twitter
+    url: https://twitter.com/reinhart1010/status/1362729484944769024
 ---
 > This is the first post of the recently-announced [@reinhart1010 Rebrand Exploration Series](/posts/2021/02/14/introducing-the-reinhart1010-rebranding-exploration-series.html).
 

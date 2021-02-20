@@ -2,8 +2,8 @@
 layout: post
 title: Apa perbedaanya dari menggunakan https atau ssh untuk git clone?
 description: Seringkali ketika mencoba untuk git clone sebuah repository, bisa milih antara menggunakan ssh atau https. Ada yang tahu apa perbedaanya dan kapan untuk menggunakannya?
-categories: [qna, kotakode]
-tags: [id-id, git]
+categories: [kotakode]
+tags: [id-id, reinhartmenjawab, git]
 as_seen_on:
   - site_type: kotakode
     url: https://kotakode.com/pertanyaan/691/

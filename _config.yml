@@ -9,26 +9,45 @@ plugins:
   - jekyll-archives
 #  - jekyll-sitemap
   - jekyll-feed
-  - jekyll-paginate
+  - jekyll-paginate-v2
+#  - jekyll-paginate
 
 jekyll-archives:
-  enabled: all
+  enabled: [year, month, day]
   layouts: 
     year: archive-year
     month: archive-month
     day: archive-day
-    tag: archive-tag
-    category: archive-category
   permalinks:
     year: '/posts/:year/'
     month: '/posts/:year/:month/'
     day: '/posts/:year/:month/:day/'
-    tag: '/posts/tag/:name/'
-    category: '/posts/category/:name/'
 
 highlighter: rouge
 
 permalink: /posts/:year/:month/:day/:title:output_ext
 
-paginate: 12
-paginate_path: "/posts/page:num/"
+pagination:
+  enabled: true
+  per_page: 12
+  permalink: "/:num/"
+  sort_reverse: true
+  title: ':title - page :num'
+
+autopages:
+  enabled: true
+  categories:
+    layouts: 
+      - 'archive-category.html'
+    permalink: '/posts/category/:cat'
+    title: 'Posts in category @:cat'
+  collections:
+    layouts: 
+      - 'archive-collection.html'
+    permalink: '/posts/collection/:coll'
+    title: 'Posts in collection ":coll"'
+  tags:
+    layouts: 
+      - 'archive-tag.html'
+    permalink: '/posts/tag/:tag'
+    title: 'Posts tagged #:tag'

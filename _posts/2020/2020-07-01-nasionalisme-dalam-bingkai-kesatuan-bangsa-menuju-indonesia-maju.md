@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Nasionalisme dalam Bingkai Kesatuan Bangsa Menuju Indonesia Maju"
-categories: [binus, binus-character-building]
-tags: [id-id, char6014]
+categories: [binus]
+tags: [id-id, character-building, char6014]
 theme_color: "#CA8A04"
 tags: [id-id]
 ---

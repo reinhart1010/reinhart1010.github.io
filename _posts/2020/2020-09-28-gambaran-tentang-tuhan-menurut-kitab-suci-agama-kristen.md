@@ -1,9 +1,10 @@
 ---
 layout: post
 title: Gambaran tentang Tuhan menurut Kitab Suci (agama Kristen)
-categories: [binus, binus-character-building]
-tags: [id-id, char6015]
-theme_color: "#a56de2"
+categories: [binus]
+tags: [id-id, character-building, char6015]
+theme_color: "#f9c440"
+theme_color_foreground: "#000000"
 as_seen_on:
   - site_type: binusmaya
     url: https://binusmaya.binus.ac.id/newStudent/#/forum/reader.11C1956E-D068-4137-9EA7-18A2FC002008?id=1

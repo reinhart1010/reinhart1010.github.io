@@ -1,10 +1,9 @@
 ---
 layout: post
 title: "Interaksi Antar Budaya"
-categories: [binus, binus-character-building]
-tags: [id-id, char6013]
+categories: [binus]
+tags: [id-id, character-building, char6013]
 theme_color: "#DC2626"
-tags: [id-id]
 as_seen_on:
   - site_type: binusmaya
     url: https://binusmaya.binus.ac.id/newStudent/#/forum/reader.5588F7FF-CB96-4222-9E83-B101D71A908E?id=1

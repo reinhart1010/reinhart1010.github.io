@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Apakah render svg lebih berat dibanding png?
-categories: [qna, kotakode]
-tags: [id-id, react-native]
+description: File SVG seringkali lebih ringan dibanding PNG karena mereka scalable. Tapi, apakah ada drawback dari sisi performance pada saat SVG di render di layar? Specifically, kalau kita menggunakan library renderer seperti react-native-svg
+categories: [kotakode]
+tags: [id-id, reinhartmenjawab, svg, react-native]
 as_seen_on:
   - site_type: kotakode
     url: https://kotakode.com/pertanyaan/173/

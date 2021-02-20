@@ -1,9 +1,12 @@
 ---
 layout: default
+pagination: 
+  enabled: true
 ---
 
 <div class="content">
   {% assign count = 0 %}
+  {% assign count_limit = site.pagination.per_page | times: 5 %}
   <!-- The posts (generated from Jekyll) are loaded into this template, to be mixed -->
   <pre id="raw_json" class="d-none">
   {% include card-generator.html posts=site.posts count_limit=count_limit %}

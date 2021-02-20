@@ -25,7 +25,11 @@
     <div class="sticky-alerts"></div>
 
     <!-- Navbar start -->
-    {% assign current_universe = page.categories.last | default: page.title | default: "home" %}
+    {% if page.url contains "/posts/tag/" %}
+      {% assign current_universe = "home" %}
+    {% else %}
+      {% assign current_universe = page.categories.last | default: page.autopages.display_name | default: page.title | default: "home" %}
+    {% endif %}
     {% assign theme_color = site.data.categories[current_universe].theme_color | default: "NULL" %}
     {% assign theme_color_foreground = site.data.categories[current_universe].theme_color_foreground %}
     <nav class="navbar justify-content-between justify-content-lg-start"
@@ -63,7 +67,7 @@
         {% if theme_color != "NULL" %}
           style="background: none; border: none; box-shadow: none; color: {{ theme_color_foreground.primary | default: theme_color_foreground | default: 'white'}};"
         {% endif %}>
-          {{current_universe | replace: "-", " "}} <i class="fa fa-chevron-down" aria-hidden="true"></i>
+        {{current_universe | replace: "-", " "}} <i class="fa fa-chevron-down" aria-hidden="true"></i>
         </a>
       </div>
 

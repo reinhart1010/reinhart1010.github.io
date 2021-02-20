@@ -1,0 +1,7 @@
+en-us:
+  description: All of English-written posts
+id-id:
+  description: Seluruh daftar post yang ditulis menggunakan Bahasa Indonesia
+showdev:
+  description: <b>Show DEV!</b> Show off what you've built!
+  imported: [dev.to]

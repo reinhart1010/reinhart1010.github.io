@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Alam dan Lingkungan menurut agama Kristen
-categories: [binus, binus-character-building]
-tags: [id-id, char6015]
-theme_color: "#a56de2"
+title: Alam dan lingkungan menurut agama Kristen
+categories: [binus]
+tags: [id-id, character-building, char6015]
+theme_color: "#f9c440"
+theme_color_foreground: "#000000"
 as_seen_on:
   - site_type: binusmaya
     url: https://binusmaya.binus.ac.id/newStudent/#/forum/reader.F4E191B3-EDFC-44F9-B195-F93D79AE381B?id=1

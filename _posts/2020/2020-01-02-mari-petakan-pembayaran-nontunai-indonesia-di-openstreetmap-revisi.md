@@ -2,14 +2,17 @@
 layout: post
 title:  "Mari Petakan Pembayaran Nontunai Indonesia di OpenStreetMap! (Revisi)"
 categories: [openstreetmap]
+cover_image: https://webcompat.com/uploads/2020/1/f485f04c-80bd-42b6-a791-b465dd58e4da.jpeg
 tags: [id-id]
+theme_color: "#3b2041"
+theme_color_foreground: "#ffffff"
 as_seen_on:
   - site_type: openstreetmap
     url: https://www.openstreetmap.org/user/Reinhart Previano/diary/391780
+  - site_type: twitter
+    url: https://twitter.com/reinhart1010/status/1212588398206013441
 ---
 **Pertama-tama, saya mengucapkan Selamat Tahun Baru yang ke 2020!!!**
-
-[![Screenshot Description](https://webcompat.com/uploads/2020/1/f485f04c-80bd-42b6-a791-b465dd58e4da-thumb.jpeg)](https://webcompat.com/uploads/2020/1/f485f04c-80bd-42b6-a791-b465dd58e4da.jpeg)
 
 Dengan maraknya program Gerakan Nasional Non Tunai (GNNT) yang diselenggarakan pemerintah sejak 2014, saya mengajak para penyunting peta (editor/mapper) untuk bersama-sama memetakan metode pembayaran yang diterima di Indonesia, misalnya dalam restoran, kafe, tempat parkir, halte, jalan tol, tetokoan, dan lain-lain.
 

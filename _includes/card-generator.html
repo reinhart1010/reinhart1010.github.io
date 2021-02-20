@@ -16,7 +16,7 @@
   "body": {
     "subtitle": "{{ post.date | date: "%B %-d, %Y" }}",
     "title": "{{ post.title }}",
-    "description": "{% if post.description %}{{ post.description }}&lt;br&gt;{% endif %}&lt;span {% if theme_color_primary != "NULL" %}class='dark-mode bg-transparent'{% endif %}&gt;{% for category in post.categories %}&lt;a href='/posts/category/{{category}}' class='inline badge font-size-16' {% if theme_color_primary != "NULL" %}style='color:{{ theme_color_primary_foreground }}; border-color:{{ theme_color_primary_foreground }};'{% endif %}&gt;@{{category}}&lt;/a&gt; {% endfor %} {% for tag in post.tags %}&lt;a href='/posts/tag/{{tag}}' class='inline badge font-size-16' {% if theme_color_primary != "NULL" %}style='color:{{ theme_color_primary_foreground }}; border-color:{{ theme_color_primary_foreground }};'{% endif %}&gt;#{{tag}}&lt;/a&gt; {% endfor %}&lt;/span&gt;"
+    "description": "{% if post.description %}&lt;p class='font-weight-medium'&gt;{{ post.description }}&lt;/p&gt;{% endif %}&lt;span {% if theme_color_primary != "NULL" %}class='dark-mode bg-transparent'{% endif %}&gt;{% for category in post.categories %}&lt;a href='/posts/category/{{category}}' class='inline badge font-size-16' {% if theme_color_primary != "NULL" %}style='color:{{ theme_color_primary_foreground }}; border-color:{{ theme_color_primary_foreground }};'{% endif %}&gt;@{{category}}&lt;/a&gt; {% endfor %} {% for tag in post.tags %}&lt;a href='/posts/tag/{{tag}}' class='inline badge font-size-16' {% if theme_color_primary != "NULL" %}style='color:{{ theme_color_primary_foreground }}; border-color:{{ theme_color_primary_foreground }};'{% endif %}&gt;#{{tag}}&lt;/a&gt; {% endfor %}&lt;/span&gt;"
   },
   "actions": [
       {

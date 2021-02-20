@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Who owns Android?
-categories: [qna, quora]
-tags: [en-us, android]
+categories: [quora]
+tags: [en-us, answers, android]
 as_seen_on:
   - site_type: quora
     url: https://qr.ae/pNBhhr

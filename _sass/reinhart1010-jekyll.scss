@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700;900&display=swap');
 @import url('https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/css/halfmoon-variables.min.css');
 @import url('fonts/iosevka-curly/iosevka-curly.css');
+@import url('https://rsms.me/inter/inter.css');
 
 :root {
   --heading-font-weight: 900;
@@ -28,6 +29,11 @@
     --code-color-7: #BEF264;
     --code-color-8: #67E8F9;
   }
+}
+
+body { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  body { font-family: 'Inter var', sans-serif; }
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {

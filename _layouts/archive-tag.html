@@ -1,20 +1,47 @@
 ---
 layout: page
+pagination: 
+  enabled: true
 ---
-
 <div class="content">
-  <h1>Posts tagged #{{ page.title }}</h1>
+  <h1>#{{ page.autopages.display_name }}</h1>
+  {% if site.data.tags[page.autopages.display_name] %}
+    <h3 class="font-weight-normal">{{site.data.tags[page.autopages.display_name].description}}</h3>
+  {% endif %}
   {% assign count = 0 %}
-  {% assign count_limit = site.paginate | times: 5 %}
-  <!-- The posts (generated from Jekyll) are loaded into this template, to be mixed -->
+  {% if paginator.total_pages > 1 %}
+    <h3>Page {{ paginator.page }} out of {{ paginator.total_pages }}</h3>
+    <!-- The posts (generated from Jekyll) are loaded into this template, to be mixed -->
+    <!-- Pagination links -->
+    <div class="pagination font-size-18 mb-10">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}" class="btn btn-lg btn-rounded btn-primary shadow-lg w-150">
+          <i class="fa fa-chevron-left" aria-hidden="true"></i> Previous
+        </a>
+      {% else %}
+        <a class="btn btn-lg btn-rounded disabled w-150">
+          <i class="fa fa-chevron-left" aria-hidden="true"></i> Previous
+        </a></span>
+      {% endif %}
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}" class="btn btn-lg btn-rounded btn-primary shadow-lg w-150">
+          Next <i class="fa fa-chevron-right" aria-hidden="true"></i>
+        </a>
+      {% else %}
+        <a class="btn btn-lg btn-rounded disabled w-150">
+          Next <i class="fa fa-chevron-right" aria-hidden="true"></i>
+        </a></span>
+      {% endif %}
+    </div>
+  {% endif %}
   <pre id="raw_json" class="d-none">
-    {% include card-generator.html posts=page.posts count_limit=count_limit %}
+    {% include card-generator.html posts=paginator.posts count_limit=site.pagination.per_page %}
   </pre>
+
   <div class="container-fluid">
     <div id="card-container">
       <!-- To be automatically filled --> 
     </div>
-    <p class="text-center font-size-20 font-weight-bolder">Find more posts <a href="/posts">here</a>.</p>
   </div>
 </div>
 <script>
@@ -35,3 +62,4 @@ function preloadCards(){
 
 setTimeout(preloadCards, 0);
 </script>
+</div>

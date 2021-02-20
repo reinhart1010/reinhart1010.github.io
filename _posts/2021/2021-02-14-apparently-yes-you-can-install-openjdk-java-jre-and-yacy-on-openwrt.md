@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Apparently Yes! You can install OpenJDK (Java) JRE and YaCy on OpenWrt"
-categories: [dev.to, searchlab.eu, twitter]
+categories: [dev.to]
 tags: [en-us, yacy, raspberrypi, openwrt, showdev, todayilearned]
 cover_image: https://dev-to-uploads.s3.amazonaws.com/i/vfvwx66omp58xws95y3q.png
 as_seen_on:
@@ -35,7 +35,7 @@ Many Linux distributions including Debian, Ubuntu, and Red Hat commonly ship JRE
 
 Fortunately, the folks at Alpine Linux provides a copy of OpenJDK JRE which depends on `musl-libc` instead of `glibc` on their package repository. I decided to modify the install script from [this GitHub Gist](https://gist.github.com/simonswine/64773a80e748f36615e3251234f29d1d) to download the binaries for my Raspberry Pi 3 (OpenJDK JRE 8 using `aarch64` instead of regular `armv7`, since the Pi itself is capable for 64-bit and JRE 8 is required for YaCy to run).
 
-```
+```sh
 #!/bin/sh
 
 set -o errexit

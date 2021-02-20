@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Pendidikan Indonesia sebagai Hak Masyarakat yang Bermasalah"
-categories: [binus, binus-character-building]
-tags: [id-id, char6014]
+categories: [binus]
+tags: [id-id, character-building, char6014]
 theme_color: "#CA8A04"
 as_seen_on:
   - site_type: binusmaya
@@ -21,6 +21,6 @@ Terakhir, dalam praktik pendidikan Indonesia terdapat juga kasus pelecehan sosia
 Berdasarkan ketiga hal di atas, pendidikan Indonesia tentu masih perlu diperbaiki dalam berbagai hal. Ekonomi menjadi salah satu faktor utama penghambat jalannya sistem pendidikan, baik secara infrastruktur maupun pembiayaan oleh masyarakat. Sistem kurikulum dan praktek pendidikan juga menjadi kendala tersendiri, baik belum memenuhi kebutuhan industri global maupun kerap diselewengkan oleh oknum tertentu. Pelecehan sosial dari dan kepada pelajar masih terjadi secara masif, yang berpotensi memberikan pengembangan karakter secara negatif. Jika ketiga masalah tersebut belum terselesaikan secara sempurna, tujuan mulia pembangunan bangsa Indonesia dapat terhambat dan bahkan sulit untuk tercapai.
 
 ## Sumber
-+ Angka Putus Sekolah di Indonesia yang Mengkhawatirkan – IDN Times, https://www.idntimes.com/news/indonesia/helmi/angka-putus-sekolah-di-indonesia-yang-mengkhawatirkan/full
-+ Davos 2020: Here's what you need to know about the future of work – World Economic Forum, https://www.weforum.org/agenda/2020/01/davos-2020-future-work-jobs-skills-what-to-know/ 
-+ Kisah Siswa Bongkar Korupsi Guru di Sekolah Jadi Viral – BangkaPOS.com (TribunNews Bangka Belitung), https://bangka.tribunnews.com/2016/08/23/kisah-siswa-bongkar-korupsi-guru-di-sekolah-jadi-viral
++ Angka Putus Sekolah di Indonesia yang Mengkhawatirkan – IDN Times, <https://www.idntimes.com/news/indonesia/helmi/angka-putus-sekolah-di-indonesia-yang-mengkhawatirkan/full>
++ Davos 2020: Here's what you need to know about the future of work – World Economic Forum, <https://www.weforum.org/agenda/2020/01/davos-2020-future-work-jobs-skills-what-to-know/>
++ Kisah Siswa Bongkar Korupsi Guru di Sekolah Jadi Viral – BangkaPOS.com (TribunNews Bangka Belitung), <https://bangka.tribunnews.com/2016/08/23/kisah-siswa-bongkar-korupsi-guru-di-sekolah-jadi-viral>

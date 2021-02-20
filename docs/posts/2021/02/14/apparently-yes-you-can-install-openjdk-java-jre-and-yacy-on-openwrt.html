@@ -15,14 +15,14 @@
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
-<meta property="og:url" content="/posts/2021/02/14/apparently-yes-you-can-install-openjdk-java-jre-and-yacy-on-openwrt.html">
+<meta property="og:url" content="http://0.0.0.0:4000/posts/2021/02/14/apparently-yes-you-can-install-openjdk-java-jre-and-yacy-on-openwrt.html">
 <meta property="og:title" content="Apparently Yes! You can install OpenJDK (Java) JRE and YaCy on OpenWrt - Reinhart Previano K.">
 <meta property="og:description" content="">
 <meta property="og:image" content="https://dev-to-uploads.s3.amazonaws.com/i/vfvwx66omp58xws95y3q.png">
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="/posts/2021/02/14/apparently-yes-you-can-install-openjdk-java-jre-and-yacy-on-openwrt.html">
+<meta property="twitter:url" content="http://0.0.0.0:4000/posts/2021/02/14/apparently-yes-you-can-install-openjdk-java-jre-and-yacy-on-openwrt.html">
 <meta property="twitter:title" content="Apparently Yes! You can install OpenJDK (Java) JRE and YaCy on OpenWrt - Reinhart Previano K.">
 <meta property="twitter:description" content="">
 <meta property="twitter:image" content="https://dev-to-uploads.s3.amazonaws.com/i/vfvwx66omp58xws95y3q.png">
@@ -53,11 +53,15 @@
     
     
     <nav class="navbar justify-content-between justify-content-lg-start"
+    
+      style="background-color: #000000;"
     >
       <!-- Reference: https://www.gethalfmoon.com/docs/navbar -->
       <!-- Navbar content (with toggle sidebar button) -->
       <div class="navbar-content">
         <button class="btn btn-action font-size-18" type="button" onclick="halfmoon.toggleSidebar()"
+        
+          style="background: none; border: none; box-shadow: none; color: white;"
         >
           <i class="fa fa-bars" aria-hidden="true"></i>
           <span class="sr-only">Toggle sidebar</span> <!-- sr-only = show only on screen readers -->
@@ -66,18 +70,24 @@
 
       <!-- Navbar brand -->
       <a href="/" class="navbar-brand d-none d-md-block"
+      
+        style="color: white;"
       >
         Reinhart Previano K.
       </a>
       <!-- Navbar text -->
       <span class="navbar-text text-monospace d-none d-md-block"
+      
+        style="color: white;"
       >v19.4</span>
 
       <!-- Universe Dropdown -->
       <div class="navbar-content ml-auto">
         <a class="btn universe-title font-size-18" href="#select-universe"
+        
+          style="background: none; border: none; box-shadow: none; color: white;"
         >
-          twitter <i class="fa fa-chevron-down" aria-hidden="true"></i>
+        dev.to <i class="fa fa-chevron-down" aria-hidden="true"></i>
         </a>
       </div>
 
@@ -91,6 +101,8 @@
       <!-- <div class="navbar-content d-md-none ml-auto">
         <div class="dropdown with-arrow">
           <button class="btn btn-action font-size-18" data-toggle="dropdown" type="button" id="navbar-dropdown-toggle-btn-1"
+          
+            style="background: none; border: none; box-shadow: none; color: white"
           >
             <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
           </button>
@@ -132,7 +144,7 @@
           <h3 class="mt-0"><i class="fa fa-rss-square text-danger" aria-hidden="true"></i> All/Other Posts</h3>
         </div>
         <div class="text-right"> <!-- text-right = text-align: right -->
-          <a href="/posts" class="btn btn-lg btn-danger shadow-lg"><b>Visit</b></a>
+          <a href="/posts/collection/posts" class="btn btn-lg btn-danger shadow-lg"><b>Visit</b></a>
         </div>
       </div>
     </div>
@@ -176,27 +188,6 @@
         </div>
         <div class="text-right"> <!-- text-right = text-align: right -->
           <a href="/posts/category/binus" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
-        </div>
-      </div>
-    </div>
-    
-    
-    
-    
-    <div class="col-12 col-md-6 col-lg-4 font-size-18">
-      <div class="card m-10 shadow-lg"
-      
-        style="background-color: #008ed3; color: white;"
-      
-      >
-        <div class="h-200">
-          <h3 class="mt-0">BINUS Character Building (CB) Assignment Archives</h3>
-          <p>
-            </b>
-          </p>
-        </div>
-        <div class="text-right"> <!-- text-right = text-align: right -->
-          <a href="/posts/category/binus-character-building" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
         </div>
       </div>
     </div>
@@ -331,6 +322,25 @@
     <div class="col-12 col-md-6 col-lg-4 font-size-18">
       <div class="card m-10 shadow-lg"
       
+      >
+        <div class="h-200">
+          <h3 class="mt-0">ika</h3>
+          <p>
+            </b>
+          </p>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/category/ika" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg"
+      
         style="background-color: #fecaca; color: #7f1d1d;"
       
       >
@@ -455,25 +465,6 @@
     <div class="col-12 col-md-6 col-lg-4 font-size-18">
       <div class="card m-10 shadow-lg"
       
-      >
-        <div class="h-200">
-          <h3 class="mt-0">qna</h3>
-          <p>
-            </b>
-          </p>
-        </div>
-        <div class="text-right"> <!-- text-right = text-align: right -->
-          <a href="/posts/category/qna" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
-        </div>
-      </div>
-    </div>
-    
-    
-    
-    
-    <div class="col-12 col-md-6 col-lg-4 font-size-18">
-      <div class="card m-10 shadow-lg"
-      
         style="background-color: #b92b27; color: white;"
       
       >
@@ -506,25 +497,6 @@
         </div>
         <div class="text-right"> <!-- text-right = text-align: right -->
           <a href="/posts/category/rebrand20" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
-        </div>
-      </div>
-    </div>
-    
-    
-    
-    
-    <div class="col-12 col-md-6 col-lg-4 font-size-18">
-      <div class="card m-10 shadow-lg"
-      
-      >
-        <div class="h-200">
-          <h3 class="mt-0">searchlab.eu</h3>
-          <p>
-            </b>
-          </p>
-        </div>
-        <div class="text-right"> <!-- text-right = text-align: right -->
-          <a href="/posts/category/searchlab.eu" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
         </div>
       </div>
     </div>
@@ -575,7 +547,7 @@
       
       >
         <div class="h-200">
-          <h3 class="mt-0">twitter</h3>
+          <h3 class="mt-0">Twitter Thread Archives</h3>
           <p>
             </b>
           </p>
@@ -829,7 +801,7 @@
       
 
 
-<div style="background: #0094ff repeating-linear-gradient(
+<div style="background: #000000 repeating-linear-gradient(
   135deg,
   rgba(0,0,0,0),
   rgba(0,0,0,0) 20px,
@@ -842,7 +814,7 @@
   <div class="p-20">
     <h2 class="m-0">Apparently Yes! You can install OpenJDK (Java) JRE and YaCy on OpenWrt</h2>
     <b class="font-size-16">February 14, 2021 | 
-      <span class='dark-mode bg-transparent'><a href='/posts/category/dev.to' class='inline badge font-size-16' style='color:white; border-color:white;'>@dev.to</a> <a href='/posts/category/searchlab.eu' class='inline badge font-size-16' style='color:white; border-color:white;'>@searchlab.eu</a> <a href='/posts/category/twitter' class='inline badge font-size-16' style='color:white; border-color:white;'>@twitter</a>  <a href='/posts/tag/en-us' class='inline badge font-size-16' style='color:white; border-color:white;'>#en-us</a> <a href='/posts/tag/yacy' class='inline badge font-size-16' style='color:white; border-color:white;'>#yacy</a> <a href='/posts/tag/raspberrypi' class='inline badge font-size-16' style='color:white; border-color:white;'>#raspberrypi</a> <a href='/posts/tag/openwrt' class='inline badge font-size-16' style='color:white; border-color:white;'>#openwrt</a> <a href='/posts/tag/showdev' class='inline badge font-size-16' style='color:white; border-color:white;'>#showdev</a> <a href='/posts/tag/todayilearned' class='inline badge font-size-16' style='color:white; border-color:white;'>#todayilearned</a> </span></b>
+      <span class='dark-mode bg-transparent'><a href='/posts/category/dev.to' class='inline badge font-size-16' style='color:white; border-color:white;'>@dev.to</a>  <a href='/posts/tag/en-us' class='inline badge font-size-16' style='color:white; border-color:white;'>#en-us</a> <a href='/posts/tag/yacy' class='inline badge font-size-16' style='color:white; border-color:white;'>#yacy</a> <a href='/posts/tag/raspberrypi' class='inline badge font-size-16' style='color:white; border-color:white;'>#raspberrypi</a> <a href='/posts/tag/openwrt' class='inline badge font-size-16' style='color:white; border-color:white;'>#openwrt</a> <a href='/posts/tag/showdev' class='inline badge font-size-16' style='color:white; border-color:white;'>#showdev</a> <a href='/posts/tag/todayilearned' class='inline badge font-size-16' style='color:white; border-color:white;'>#todayilearned</a> </span></b>
   </div>
   <!-- <h5>Let there be a #developer #Crewmate #AmongUs,<br>#BuildingTheNation and bringing <code>SELECT * FROM</code> your #DisneyPlus dreams <code>return true;</code><br>As high as #Mulan's (#IndiHome Paket) Phoenix,<br>and as close as the 0s and 1s of #Sayu and #1010.<br><br>Let our mission of #FosteringAndEmpowering may not simply fail at the #SANDBOX,<br>or into the grims of #MasterChefIndonesia's Pressure Tests.<br>Even both #Cyberpunk2077 and #HenryStickminCollection have seen their bright future,<br>because they are actually set in the future.<br><br>Finally, before you go,<br>#MayTheForceBeWithYou against all #Impostors.<br>#StartUp and #FollowYourDream even when there are #NoStraightRoads,<br>as #BrightAsTheSun, said #AsianGames2018.</h5> -->
 </div>
@@ -851,12 +823,12 @@
   <blockquote>
     <h4 class="mp-0">
       
-        You can like/upvote, comment and discuss this article on
+        You can also like/upvote, comment and discuss this article on
       
     </h4>
     <div class="d-flex flex-wrap">
       
-        <a href="https://dev.to/reinhart1010/apparently-yes-you-can-install-openjdk-java-jre-and-yacy-on-openwrt-1e33" class="card mw-full m-0 p-0 d-flex w-full w-md-half">
+        <a href="https://dev.to/reinhart1010/apparently-yes-you-can-install-openjdk-java-jre-and-yacy-on-openwrt-1e33" class="card mw-full m-0 p-0 d-flex w-full w-lg-half">
           
             <div class="w-50 h-50 m-10 align-self-center">
               <img src="/assets/img/logo/152/dev.to.png" class="d-block rounded" alt="DEV Community logo">
@@ -871,7 +843,7 @@
           </div>
       </a>
       
-        <a href="https://searchlab.eu/t/yacy-finally-runs-on-large-openwrt-devices-thanks-to-alpine-linux/658" class="card mw-full m-0 p-0 d-flex w-full w-md-half">
+        <a href="https://searchlab.eu/t/yacy-finally-runs-on-large-openwrt-devices-thanks-to-alpine-linux/658" class="card mw-full m-0 p-0 d-flex w-full w-lg-half">
           
             <div class="w-50 h-50 m-10 align-self-center">
               <img src="/assets/img/logo/152/searchlab.eu.png" class="d-block rounded" alt="SearchLab (Discourse Forum) logo">
@@ -886,7 +858,7 @@
           </div>
       </a>
       
-        <a href="https://twitter.com/reinhart1010/status/1361954085528686596" class="card mw-full m-0 p-0 d-flex w-full w-md-half">
+        <a href="https://twitter.com/reinhart1010/status/1361954085528686596" class="card mw-full m-0 p-0 d-flex w-full w-lg-half">
           
             <div class="w-50 h-50 m-10 align-self-center">
               <img src="/assets/img/logo/152/twitter.png" class="d-block rounded" alt="Twitter logo">
@@ -930,35 +902,35 @@
 
 <p>Fortunately, the folks at Alpine Linux provides a copy of OpenJDK JRE which depends on <code class="language-plaintext highlighter-rouge">musl-libc</code> instead of <code class="language-plaintext highlighter-rouge">glibc</code> on their package repository. I decided to modify the install script from <a href="https://gist.github.com/simonswine/64773a80e748f36615e3251234f29d1d">this GitHub Gist</a> to download the binaries for my Raspberry Pi 3 (OpenJDK JRE 8 using <code class="language-plaintext highlighter-rouge">aarch64</code> instead of regular <code class="language-plaintext highlighter-rouge">armv7</code>, since the Pi itself is capable for 64-bit and JRE 8 is required for YaCy to run).</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#!/bin/sh
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#!/bin/sh</span>
 
-set -o errexit
-set -o nounset
-set -o pipefail
-set -x
+<span class="nb">set</span> <span class="nt">-o</span> errexit
+<span class="nb">set</span> <span class="nt">-o</span> nounset
+<span class="nb">set</span> <span class="nt">-o</span> pipefail
+<span class="nb">set</span> <span class="nt">-x</span>
 
-REVISION=8.252.09-r0
-URL=http://dl-cdn.alpinelinux.org/alpine/v3.10/community/aarch64/
-PACKAGES="openjdk8 openjdk8-jre openjdk8-jre-lib openjdk8-jre-base"
+<span class="nv">REVISION</span><span class="o">=</span>8.252.09-r0
+<span class="nv">URL</span><span class="o">=</span>http://dl-cdn.alpinelinux.org/alpine/v3.10/community/aarch64/
+<span class="nv">PACKAGES</span><span class="o">=</span><span class="s2">"openjdk8 openjdk8-jre openjdk8-jre-lib openjdk8-jre-base"</span>
 
-old_pwd=$(pwd)
-tmp_dir=$(mktemp -d -t openjdk8-XXXXXXXXXX)
-trap "rm -rf $tmp_dir" EXIT
+<span class="nv">old_pwd</span><span class="o">=</span><span class="si">$(</span><span class="nb">pwd</span><span class="si">)</span>
+<span class="nv">tmp_dir</span><span class="o">=</span><span class="si">$(</span><span class="nb">mktemp</span> <span class="nt">-d</span> <span class="nt">-t</span> openjdk8-XXXXXXXXXX<span class="si">)</span>
+<span class="nb">trap</span> <span class="s2">"rm -rf </span><span class="nv">$tmp_dir</span><span class="s2">"</span> EXIT
 
-cd "${tmp_dir}"
+<span class="nb">cd</span> <span class="s2">"</span><span class="k">${</span><span class="nv">tmp_dir</span><span class="k">}</span><span class="s2">"</span>
 
-for package in $PACKAGES; do
-    curl -LO "${URL}/${package}-${REVISION}.apk"
-done
+<span class="k">for </span>package <span class="k">in</span> <span class="nv">$PACKAGES</span><span class="p">;</span> <span class="k">do
+    </span>curl <span class="nt">-LO</span> <span class="s2">"</span><span class="k">${</span><span class="nv">URL</span><span class="k">}</span><span class="s2">/</span><span class="k">${</span><span class="nv">package</span><span class="k">}</span><span class="s2">-</span><span class="k">${</span><span class="nv">REVISION</span><span class="k">}</span><span class="s2">.apk"</span>
+<span class="k">done
 
-for package in $PACKAGES; do
-    tar xzf "${package}-${REVISION}.apk"
-done
+for </span>package <span class="k">in</span> <span class="nv">$PACKAGES</span><span class="p">;</span> <span class="k">do
+    </span><span class="nb">tar </span>xzf <span class="s2">"</span><span class="k">${</span><span class="nv">package</span><span class="k">}</span><span class="s2">-</span><span class="k">${</span><span class="nv">REVISION</span><span class="k">}</span><span class="s2">.apk"</span>
+<span class="k">done
 
 
-cd "${old_pwd}"
+</span><span class="nb">cd</span> <span class="s2">"</span><span class="k">${</span><span class="nv">old_pwd</span><span class="k">}</span><span class="s2">"</span>
 
-mv $tmp_dir/usr/lib/jvm/java-1.8-openjdk /overlay/opt/java-1.8-openjdk
+<span class="nb">mv</span> <span class="nv">$tmp_dir</span>/usr/lib/jvm/java-1.8-openjdk /overlay/opt/java-1.8-openjdk
 </code></pre></div></div>
 
 <p>The above script requires a special program named <code class="language-plaintext highlighter-rouge">curl</code>, which is not installed by default in OpenWrt. Additionally, OpenJDK also requires <code class="language-plaintext highlighter-rouge">libstdcpp6</code>, <code class="language-plaintext highlighter-rouge">libjpeg</code> (substituted by <code class="language-plaintext highlighter-rouge">libjpeg-turbo</code>), <code class="language-plaintext highlighter-rouge">libnss</code>, and <code class="language-plaintext highlighter-rouge">liblcms</code>. Note that <code class="language-plaintext highlighter-rouge">liblcms</code> is also not available on <code class="language-plaintext highlighter-rouge">opkg</code>, so I decided to install it from <a href="http://dl-cdn.alpinelinux.org/alpine/edge/community/aarch64/">Alpine repository</a> (Hint: Alpine’s <code class="language-plaintext highlighter-rouge">.apk</code> is simply a <code class="language-plaintext highlighter-rouge">.tar.gz</code> file) to <code class="language-plaintext highlighter-rouge">/usr/lib</code>.</p>
@@ -1007,16 +979,19 @@ opkg <span class="nb">install </span>curl libstdcpp6 libjpeg liblcms2.so.2 libns
 
 <p>And that’s it! YaCy is now accessible on <code class="language-plaintext highlighter-rouge">&lt;your OpenWrt IP address&gt;:8090</code>. Keep in mind that you can still access LuCi the original way, as the YaCy server does not take the regular HTTP ports (80, 443) unless otherwise specified.</p>
 
+<h2 id="comments">Comments</h2>
+<script async src="https://comments.app/js/widget.js?3" data-comments-app-website="Fgvl3H7Y" data-limit="5" data-page-id="/posts/2021/02/14/apparently-yes-you-can-install-openjdk-java-jre-and-yacy-on-openwrt" data-color="#000000"></script>
+
 
   <blockquote>
     <h4 class="mp-0">
       
-        You can like/upvote, comment and discuss this article on
+        You can also like/upvote, comment and discuss this article on
       
     </h4>
     <div class="d-flex flex-wrap">
       
-        <a href="https://dev.to/reinhart1010/apparently-yes-you-can-install-openjdk-java-jre-and-yacy-on-openwrt-1e33" class="card mw-full m-0 p-0 d-flex w-full w-md-half">
+        <a href="https://dev.to/reinhart1010/apparently-yes-you-can-install-openjdk-java-jre-and-yacy-on-openwrt-1e33" class="card mw-full m-0 p-0 d-flex w-full w-lg-half">
           
             <div class="w-50 h-50 m-10 align-self-center">
               <img src="/assets/img/logo/152/dev.to.png" class="d-block rounded" alt="DEV Community logo">
@@ -1031,7 +1006,7 @@ opkg <span class="nb">install </span>curl libstdcpp6 libjpeg liblcms2.so.2 libns
           </div>
       </a>
       
-        <a href="https://searchlab.eu/t/yacy-finally-runs-on-large-openwrt-devices-thanks-to-alpine-linux/658" class="card mw-full m-0 p-0 d-flex w-full w-md-half">
+        <a href="https://searchlab.eu/t/yacy-finally-runs-on-large-openwrt-devices-thanks-to-alpine-linux/658" class="card mw-full m-0 p-0 d-flex w-full w-lg-half">
           
             <div class="w-50 h-50 m-10 align-self-center">
               <img src="/assets/img/logo/152/searchlab.eu.png" class="d-block rounded" alt="SearchLab (Discourse Forum) logo">
@@ -1046,7 +1021,7 @@ opkg <span class="nb">install </span>curl libstdcpp6 libjpeg liblcms2.so.2 libns
           </div>
       </a>
       
-        <a href="https://twitter.com/reinhart1010/status/1361954085528686596" class="card mw-full m-0 p-0 d-flex w-full w-md-half">
+        <a href="https://twitter.com/reinhart1010/status/1361954085528686596" class="card mw-full m-0 p-0 d-flex w-full w-lg-half">
           
             <div class="w-50 h-50 m-10 align-self-center">
               <img src="/assets/img/logo/152/twitter.png" class="d-block rounded" alt="Twitter logo">
