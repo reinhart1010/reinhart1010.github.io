@@ -8,7 +8,11 @@
   </h4>
   <div class="d-flex flex-wrap">
     {% for impostor in include.as_seen_on %}
-      <a rel="syndication" href="{{ impostor.url }}" class="card mw-full m-0 p-0 d-flex w-full w-lg-half u-syndication">
+      {% if include.add_microformat_syndication == "1" %}
+        <a rel="syndication" href="{{ impostor.url }}" class="card mw-full m-0 p-0 d-flex w-full w-lg-half u-syndication">
+      {% else %}
+        <a href="{{ impostor.url }}" class="card mw-full m-0 p-0 d-flex w-full w-lg-half">
+      {% endif %}
         {% if site.data.external_sites[impostor.site_type].img_152 %}
           <div class="w-50 h-50 m-10 align-self-center">
             <img src="{{ site.data.external_sites[impostor.site_type].img_152 }}" class="d-block rounded" alt="{{ site.data.external_sites[impostor.site_type].title }} logo">

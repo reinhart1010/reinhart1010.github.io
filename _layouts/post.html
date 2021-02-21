@@ -31,6 +31,6 @@ layout: default
   <h2 id="comments">Comments</h2>
   <script async src="https://comments.app/js/widget.js?3" data-comments-app-website="Fgvl3H7Y" data-limit="5" data-page-id="{{ page.id }}" data-color="{{ page.theme_color | default: theme_color.primary | default: theme_color | default: '#0094ff' }}"></script>
 
-  {% include as-seen-on.html tags=page.tags as_seen_on=page.as_seen_on %}
+  {% include as-seen-on.html tags=page.tags as_seen_on=page.as_seen_on add_microformat_syndication="1" %}
   </div>
 </div>
