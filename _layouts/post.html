@@ -13,14 +13,15 @@ layout: default
     rgba(0,0,0,0.05) 40px
   ); color: {{ page.theme_color_foreground | default: theme_color_foreground.primary | default: theme_color_foreground | default: 'white'}}; font-size: 1em; word-wrap: break-word;">
     {% if page.cover_image %}
-      <img class="w-full" src="{{ page.cover_image }}" alt="Cover image">
+      <img class="w-full u-photo" src="{{ page.cover_image }}" alt="Cover image">
     {% endif %}
     <div class="p-20">
       <h2 class="m-0 p-name">{{ page.title }}</h2>
+      <a class="u-url d-none" href="{{ page.url }}">{{ page.url }}</a>
       <p class="p-summary d-none">{{ page.description }}</p>
       <a class="p-author h-card d-none" href="{{ page.author.name | default: 'https://reinhart1010.github.io' }}">{{ page.author.name | default: "Reinhart Previano Koentjoro" }}</a>
       <b class="font-size-16"><time class="dt-published" datetime="{{page.date}}">{{ page.date | date: "%B %-d, %Y" }}</time> | 
-        <span class='dark-mode bg-transparent'>{% for category in page.categories %}<a href='/posts/category/{{category}}' class='inline badge font-size-16' style='color:{{ page.theme_color_foreground | default: theme_color_foreground | default: "white" }}; border-color:{{ page.theme_color_foreground | default: theme_color_foreground | default: "white" }};'>@{{category}}</a> {% endfor %} {% for tag in page.tags %}<a href='/posts/tag/{{tag}}' class='inline badge font-size-16' style='color:{{  page.theme_color_foreground | default: theme_color_foreground | default: "white" }}; border-color:{{  page.theme_color_foreground | default: theme_color_foreground | default: "white" }};'>#{{tag}}</a> {% endfor %}</span></b>
+        <span class='dark-mode bg-transparent'>{% for category in page.categories %}<a href='/posts/category/{{category}}' class='inline badge font-size-16 p-category' style='color:{{ page.theme_color_foreground | default: theme_color_foreground | default: "white" }}; border-color:{{ page.theme_color_foreground | default: theme_color_foreground | default: "white" }};'>@{{category}}</a> {% endfor %} {% for tag in page.tags %}<a href='/posts/tag/{{tag}}' class='inline badge font-size-16' style='color:{{  page.theme_color_foreground | default: theme_color_foreground | default: "white" }}; border-color:{{  page.theme_color_foreground | default: theme_color_foreground | default: "white" }};'>#{{tag}}</a> {% endfor %}</span></b>
     </div>
     <!-- <h5>Let there be a #developer #Crewmate #AmongUs,<br>#BuildingTheNation and bringing <code>SELECT * FROM</code> your #DisneyPlus dreams <code>return true;</code><br>As high as #Mulan's (#IndiHome Paket) Phoenix,<br>and as close as the 0s and 1s of #Sayu and #1010.<br><br>Let our mission of #FosteringAndEmpowering may not simply fail at the #SANDBOX,<br>or into the grims of #MasterChefIndonesia's Pressure Tests.<br>Even both #Cyberpunk2077 and #HenryStickminCollection have seen their bright future,<br>because they are actually set in the future.<br><br>Finally, before you go,<br>#MayTheForceBeWithYou against all #Impostors.<br>#StartUp and #FollowYourDream even when there are #NoStraightRoads,<br>as #BrightAsTheSun, said #AsianGames2018.</h5> -->
   </div>
