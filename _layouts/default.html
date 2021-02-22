@@ -30,7 +30,7 @@
     {% else %}
       {% assign current_universe = page.categories.last | default: page.autopages.display_name | default: page.title | default: "home" %}
     {% endif %}
-    {% assign theme_color = site.data.categories[current_universe].theme_color | default: "NULL" %}
+    {% assign theme_color = page.theme_color | default: site.data.categories[current_universe].theme_color | default: "NULL" %}
     {% assign theme_color_foreground = site.data.categories[current_universe].theme_color_foreground %}
     <nav class="navbar justify-content-between justify-content-lg-start"
     {% if theme_color != "NULL" %}
@@ -250,6 +250,26 @@
 
         return array;
     }
+  </script>
+  <script>
+    // Converts all HTML tables to responsive tables
+    var els = document.getElementsByTagName("table");
+
+    Array.prototype.forEach.call(els, function(el) {
+      // Add Halfmoon's "table" and "table-inner-bordered" classes
+      var arr = el.className.split(" ");
+      if (arr.indexOf("table") == -1) {
+        el.className += " table table-bordered table-striped table-hover";
+      }
+
+      // Add a new parent node containing class "table-responsive"
+      var parent = el.parentNode;
+      var wrapper = document.createElement('div');
+      wrapper.className = "table-responsive"
+
+      parent.replaceChild(wrapper, el);
+      wrapper.appendChild(el);
+    });
   </script>
   <script src="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/js/halfmoon.min.js"></script>
 </body>

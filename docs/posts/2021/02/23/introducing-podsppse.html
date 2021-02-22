@@ -1,0 +1,1287 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Meta tags -->
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+<meta name="viewport" content="width=device-width" />
+
+<!-- Primary Meta Tags -->
+<title>Introducing PODSPPSE: Publish (on your) Own Decentralized Site, Partially Publish and Syndicate Elsewhere - Reinhart Previano K.</title>
+<meta name="title" content="Introducing PODSPPSE: Publish (on your) Own Decentralized Site, Partially Publish and Syndicate Elsewhere - Reinhart Previano K.">
+<meta name="description" content="">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://0.0.0.0:4000/posts/2021/02/23/introducing-podsppse.html">
+<meta property="og:title" content="Introducing PODSPPSE: Publish (on your) Own Decentralized Site, Partially Publish and Syndicate Elsewhere - Reinhart Previano K.">
+<meta property="og:description" content="">
+<meta property="og:image" content="">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="http://0.0.0.0:4000/posts/2021/02/23/introducing-podsppse.html">
+<meta property="twitter:title" content="Introducing PODSPPSE: Publish (on your) Own Decentralized Site, Partially Publish and Syndicate Elsewhere - Reinhart Previano K.">
+<meta property="twitter:description" content="">
+<meta property="twitter:image" content="">
+
+<!-- Indieweb / Webmention -->
+<link rel="webmention" href="https://webmention.io/reinhart1010.github.io/webmention" />
+<link rel="pingback" href="https://webmention.io/reinhart1010.github.io/xmlrpc" />
+
+<!-- Mobile-friendly -->
+
+<meta name="theme-color" content="#0094ff"/>
+  <link href="/assets/css/w3-colors-metro.css" rel="stylesheet" />
+
+  <!-- Fork Awesome Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
+
+  <!-- Adaptive Cards JS -->
+  <script src="https://unpkg.com/adaptivecards/dist/adaptivecards.js"></script>
+  <script type="text/javascript" src="https://unpkg.com/markdown-it/dist/markdown-it.js"></script>
+
+  <link rel="stylesheet" href="/assets/style.css">
+
+</head><body class="with-custom-webkit-scrollbars with-custom-css-scrollbars" data-dm-shortcut-enabled="true" data-sidebar-shortcut-enabled="true" data-set-preferred-mode-onload="true">
+  <!-- Modals go here -->
+  <!-- Reference: https://www.gethalfmoon.com/docs/modal -->
+
+  <!-- Page wrapper start -->
+  <div class="page-wrapper with-navbar with-sidebar">
+
+    <!-- Sticky alerts (toasts), empty container -->
+    <!-- Reference: https://www.gethalfmoon.com/docs/sticky-alerts-toasts -->
+    <div class="sticky-alerts"></div>
+
+    <!-- Navbar start -->
+    
+    
+    
+    <nav class="navbar justify-content-between justify-content-lg-start"
+    >
+      <!-- Reference: https://www.gethalfmoon.com/docs/navbar -->
+      <!-- Navbar content (with toggle sidebar button) -->
+      <div class="navbar-content">
+        <button class="btn btn-action font-size-18" type="button" onclick="halfmoon.toggleSidebar()"
+        >
+          <i class="fa fa-bars" aria-hidden="true"></i>
+          <span class="sr-only">Toggle sidebar</span> <!-- sr-only = show only on screen readers -->
+        </button>
+      </div>
+
+      <!-- Navbar brand -->
+      <a href="/" class="navbar-brand d-none d-md-block h-card"
+      >
+        Reinhart Previano K.
+      </a>
+      <!-- Navbar text -->
+      <span class="navbar-text text-monospace d-none d-md-block"
+      >v19.4</span>
+
+      <!-- Universe Dropdown -->
+      <div class="navbar-content ml-auto">
+        <a class="btn universe-title font-size-18" href="#select-universe"
+        >
+        indieweb <i class="fa fa-chevron-down" aria-hidden="true"></i>
+        </a>
+      </div>
+
+      <!-- Navbar nav -->
+      <!-- <ul class="navbar-nav d-none d-md-flex">
+        <li class="nav-item font-size-18">
+          <a href="/" class="nav-link">Home</a>
+        </li>
+      </ul> -->
+      <!-- Navbar content (with the dropdown menu) -->
+      <!-- <div class="navbar-content d-md-none ml-auto">
+        <div class="dropdown with-arrow">
+          <button class="btn btn-action font-size-18" data-toggle="dropdown" type="button" id="navbar-dropdown-toggle-btn-1"
+          >
+            <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+          </button>
+          <div class="dropdown-menu dropdown-menu-right w-200" aria-labelledby="navbar-dropdown-toggle-btn-1">
+            <a href="/" class="dropdown-item">Homepage</a>
+          </div>
+        </div>
+      </div> -->
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Full-screen modal -->
+    <div class="modal modal-full ie-scroll-fix" id="select-universe" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <a onclick="window.history.go(-1); return false;" href="#" class="close" role="button" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </a>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xl-10 offset-xl-1">
+                <!-- Article here -->
+                <h1 class="mt-20 pt-20">Select Category</h1>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg">
+        <div class="h-200">
+          <h3 class="mt-0"><i class="fa fa-home text-primary" aria-hidden="true"></i> Home</h3>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/" class="btn btn-lg btn-primary shadow-lg"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg">
+        <div class="h-200">
+          <h3 class="mt-0"><i class="fa fa-rss-square text-danger" aria-hidden="true"></i> All/Other Posts</h3>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/collection/posts" class="btn btn-lg btn-danger shadow-lg"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg"
+      
+        style="background-color: #0094ff; color: white;"
+      
+      >
+        <div class="h-200">
+          <h3 class="mt-0"><i class='fa fa-info-circle' aria-hidden='true'></i> About <u>@reinhart1010</u></h3>
+          <p>
+            </b>
+          </p>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/category/about" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg"
+      
+        style="background-color: #008ed3; color: white;"
+      
+      >
+        <div class="h-200">
+          <h3 class="mt-0">BINUS UNIVERSITY</h3>
+          <p>
+            </b>
+          </p>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/category/binus" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg"
+      
+        style="background-color: #fde047; color: #713f12;"
+      
+      >
+        <div class="h-200">
+          <h3 class="mt-0">Mobile Application and Technology, BINUS University</h3>
+          <p>
+            </b>
+          </p>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/category/binus-mat" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg"
+      
+        style="background-color: #008ed3; color: white;"
+      
+      >
+        <div class="h-200">
+          <h3 class="mt-0">School of Computer Science (SOCS), BINUS University</h3>
+          <p>
+            </b>
+          </p>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/category/binus-socs" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg"
+      
+        style="background-color: #68b723; color: white;"
+      
+      >
+        <div class="h-200">
+          <h3 class="mt-0">CodeNewbie Community Blog Archives</h3>
+          <p>
+            </b>
+          </p>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/category/codenewbie" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg"
+      
+      >
+        <div class="h-200">
+          <h3 class="mt-0">design-exploration</h3>
+          <p>
+            </b>
+          </p>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/category/design-exploration" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg"
+      
+        style="background-color: #000000; color: white;"
+      
+      >
+        <div class="h-200">
+          <h3 class="mt-0">DEV Blog Archives</h3>
+          <p>
+            </b>
+          </p>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/category/dev.to" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg"
+      
+        style="background-color: #fa582d; color: white;"
+      
+      >
+        <div class="h-200">
+          <h3 class="mt-0">Food Navigator</h3>
+          <p>
+            Updates on the Food Navigator app</b>
+          </p>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/category/food-navigator" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg"
+      
+      >
+        <div class="h-200">
+          <h3 class="mt-0">ika</h3>
+          <p>
+            </b>
+          </p>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/category/ika" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg"
+      
+      >
+        <div class="h-200">
+          <h3 class="mt-0">indieweb</h3>
+          <p>
+            </b>
+          </p>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/category/indieweb" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg"
+      
+        style="background-color: #fecaca; color: #7f1d1d;"
+      
+      >
+        <div class="h-200">
+          <h3 class="mt-0">KopiHati</h3>
+          <p>
+            Bahasa pemrograman yang berasal dari kopi, turun ke hati.</b>
+          </p>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/category/kopihati" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg"
+      
+        style="background-color: #47b881; color: white;"
+      
+      >
+        <div class="h-200">
+          <h3 class="mt-0">Kotakode Answers and Blog Archives</h3>
+          <p>
+            </b>
+          </p>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/category/kotakode" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg"
+      
+        style="background-color: #000000; color: white;"
+      
+      >
+        <div class="h-200">
+          <h3 class="mt-0">Medium Blog Archives</h3>
+          <p>
+            </b>
+          </p>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/category/medium" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg"
+      
+        style="background-color: #cdebb0; color: #0c8416;"
+      
+      >
+        <div class="h-200">
+          <h3 class="mt-0">OpenStreetMap User Diary Archives</h3>
+          <p>
+            </b>
+          </p>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/category/openstreetmap" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg"
+      
+      >
+        <div class="h-200">
+          <h3 class="mt-0">product-information</h3>
+          <p>
+            </b>
+          </p>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/category/product-information" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg"
+      
+        style="background-color: #ff4d4f; color: white;"
+      
+      >
+        <div class="h-200">
+          <h3 class="mt-0"><i class='fa fa-briefcase' aria-hidden='true'></i> Project Announcements and Archive</h3>
+          <p>
+            </b>
+          </p>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/category/projects" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg"
+      
+        style="background-color: #b92b27; color: white;"
+      
+      >
+        <div class="h-200">
+          <h3 class="mt-0">Quora answers and blog archives</h3>
+          <p>
+            </b>
+          </p>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/category/quora" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg"
+      
+        style="background-color: #164e63; color: #67e8f9;"
+      
+      >
+        <div class="h-200">
+          <h3 class="mt-0"><u>@reinhart1010</u>'s 20th Birthday Rebrand Exploration</h3>
+          <p>
+            </b>
+          </p>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/category/rebrand20" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg"
+      
+      >
+        <div class="h-200">
+          <h3 class="mt-0">support</h3>
+          <p>
+            </b>
+          </p>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/category/support" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg"
+      
+      >
+        <div class="h-200">
+          <h3 class="mt-0">tutorials</h3>
+          <p>
+            </b>
+          </p>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/category/tutorials" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg"
+      
+      >
+        <div class="h-200">
+          <h3 class="mt-0">Twitter Thread Archives</h3>
+          <p>
+            </b>
+          </p>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/category/twitter" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg"
+      
+        style="background-color: #0094ff; color: white;"
+      
+      >
+        <div class="h-200">
+          <h3 class="mt-0"><i class='fa fa-bell' aria-hidden='true'></i> Updates on <u>@reinhart1010</u></h3>
+          <p>
+            </b>
+          </p>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/category/updates" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sidebar start -->
+    <div class="sidebar">
+      <!-- Sidebar links (with icons) and titles -->
+
+<h5 class="sidebar-title">Quick Links</h5>
+<div class="sidebar-divider"></div>
+<a href="/" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#house-fill"/>
+    </svg>
+  </span>
+  Homepage
+</a>
+<a href="#select-universe" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#file-post-fill"/>
+    </svg>
+  </span>
+  Blog Categories
+</a>
+<br />
+<h5 class="sidebar-title">Contact</h5>
+<div class="sidebar-divider"></div>
+<a href="https://github.com/reinhart1010" rel="me" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon bg-dark text-white bg-light-dm text-dark-dm">
+    <i class="fa fa-lg fa-github" aria-hidden="true"></i>
+  </span>
+  GitHub
+</a>
+<a href="https://gitlab.com/reinhart1010" rel="me" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-dark-orange text-white">
+    <i class="fa fa-lg fa-gitlab" aria-hidden="true"></i>
+  </span>
+  GitLab
+</a>
+<a href="https://twitter.com/reinhart1010" rel="me" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-blue text-white">
+    <i class="fa fa-lg fa-twitter" aria-hidden="true"></i>
+  </span>
+  Twitter
+</a>
+<br />
+<h5 class="sidebar-title">Working On</h5>
+<div class="sidebar-divider"></div>
+<a href="https://bearcats.dev/innovations" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon text-white" style="background-color: #428dfc">
+    <img src="/assets/img/logo/adab.png" alt="Icon" width="30" height="30">
+  </span>
+  ADAB to Connect<br>
+  Ayo Dengar Ayo Bicara
+</a>
+<a href="https://student.binus.ac.id/fyp/" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon">
+    <img src="/assets/img/logo/binus.ico" alt="Icon">
+  </span>
+  First Year Program (FYP)<br>BINUS University
+</a>
+<a href="https://handwashing-station.ushahidi.io" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon bg-secondary text-dark">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#signpost-split"/>
+    </svg>
+  </span>
+  Handwashing Station<br>Map (HOT-USAID-PDC)
+</a>
+<a href="https://himti.or.id/" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-dark-blue text-white">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#people"/>
+    </svg>
+  </span>
+  HIMTI Intership
+</a>
+<a href="https://reinhart1010/ika" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon bg-success text-dark">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#chat-dots"/>
+    </svg>
+  </span>
+  Ika (Chatbot Framework)
+</a>
+<a href="https://kotakode.com" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-teal text-white">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#box"/>
+    </svg>
+  </span>
+  Kotakode.com
+</a>
+<a href="https://webcompat.com" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon bg-secondary text-dark">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#globe"/>
+    </svg>
+  </span>
+  Webcompat.com
+</a>
+<br />
+<h5 class="sidebar-title">Participating On</h5>
+<div class="sidebar-divider"></div>
+<i>None</i>
+<br />
+<h5 class="sidebar-title">Past Projects</h5>
+<div class="sidebar-divider"></div>
+<a href="https://www.instagram.com/eighternitypstd/" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-dark-blue text-white">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#calendar-event"/>
+    </svg>
+  </span>
+  8TERNITY 2017:<br>ANDROMEDA
+</a>
+<a href="https://www.instagram.com/eighternitypstd/" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-dark-orange text-white">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#calendar-event"/>
+    </svg>
+  </span>
+  8TERNITY 2019:<br>CORUSCATE
+</a>
+<a href="https://computerun.id" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon text-white" style="background-color: #0c1631">
+    <img src="/assets/img/logo/computerun-2020.png" alt="Icon">
+  </span>
+  COMPUTERUN 2020:<br>
+  INSIGHT
+</a>
+<a href="https://github.com/bearcatsdev/hacktoberfest19" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-purple text-white">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#code-square"/>
+    </svg>
+  </span>
+  Hacktoberfest 2019<br>@BINUS (MTC)
+</a>
+<a href="https://himtikit.himti.or.id" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-orange text-white">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#globe"/>
+    </svg>
+  </span>
+  HIMTI KIT 2020
+</a>
+<a href="https://hishot.himti.or.id" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-dark-red text-white">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#calendar-event"/>
+    </svg>
+  </span>
+  HISHOT 2020: IGNITE
+</a>
+<a href="https://http.himti.or.id" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-dark-blue text-white">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#calendar-event"/>
+    </svg>
+  </span>
+  HTTP 2020: LINK
+</a>
+<a href="https://gitlab.com/gal_bert/m-oop-final-project" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon">
+    <img src="/assets/img/logo/jackpot-and-maths.png" alt="Icon" width="20" height="20">
+  </span>
+  Jackpot and Maths &mdash;<br>M-OOP Final Project
+</a>
+<a href="https://commonvoice.mozilla.org" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon bg-dark text-white bg-light-dm text-dark-dm">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#mic"/>
+    </svg>
+  </span>
+  Mozilla Common Voice
+</a>
+<br />
+<h5 class="sidebar-title">Past Participations</h5>
+<div class="sidebar-divider"></div>
+<a href="https://hacktoberfest.digitalocean.com" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-purple text-white">
+    <i class="fa fa-lg fa-digitalocean" aria-hidden="true"></i>
+  </span>
+  Hacktoberfest 2019
+</a>
+<a href="https://hacktoberfest.digitalocean.com/" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon">
+    <img src="/assets/img/logo/hacktoberfest-2020.ico" alt="Icon" width="30" height="30">
+  </span>
+  Hacktoberfest 2020
+</a>
+<a href="https://competition.binus.ac.id/icpc2020/" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon">
+    <img src="/assets/img/logo/icpc.ico" alt="Icon" width="30" height="30">
+  </span>
+  ICPC INC 2020
+</a>
+<a href="https://kotakode.com/challenges" target="_blank" class="sidebar-link sidebar-link-with-icon">
+  <span class="sidebar-icon w3-metro-teal text-white">
+    <svg class="bi" width="18" height="18" fill="currentColor">
+      <use xlink:href="/assets/img/bootstrap-icons.svg#box"/>
+    </svg>
+  </span>
+  Kotakode Coding Festival
+</a>
+<br />
+    </div>
+    <!-- Sidebar end -->
+
+    <!-- Content wrapper start -->
+    <div class="content-wrapper">
+      
+
+
+<div class="h-entry">
+  <div style="background: #0094ff repeating-linear-gradient(
+    135deg,
+    rgba(0,0,0,0),
+    rgba(0,0,0,0) 20px,
+    rgba(0,0,0,0.05) 20px,
+    rgba(0,0,0,0.05) 40px
+  ); color: white; font-size: 1em; word-wrap: break-word;">
+    
+    <div class="p-20">
+      <h2 class="m-0 p-name">Introducing PODSPPSE: Publish (on your) Own Decentralized Site, Partially Publish and Syndicate Elsewhere</h2>
+      <a class="u-url d-none" href="/posts/2021/02/23/introducing-podsppse.html">/posts/2021/02/23/introducing-podsppse.html</a>
+      <p class="p-summary d-none"></p>
+      <a class="p-author h-card d-none" href="https://reinhart1010.github.io">Reinhart Previano Koentjoro</a>
+      <b class="font-size-16"><time class="dt-published" datetime="2021-02-23 00:00:00 +0700">February 23, 2021</time> | 
+        <span class='dark-mode bg-transparent'><a href='/posts/category/updates' class='inline badge font-size-16 p-category' style='color:white; border-color:white;'>@updates</a> <a href='/posts/category/indieweb' class='inline badge font-size-16 p-category' style='color:white; border-color:white;'>@indieweb</a>  <a href='/posts/tag/en-us' class='inline badge font-size-16 p-category' style='color:white; border-color:white;'>#en-us</a> </span></b>
+    </div>
+    <!-- <h5>Let there be a #developer #Crewmate #AmongUs,<br>#BuildingTheNation and bringing <code>SELECT * FROM</code> your #DisneyPlus dreams <code>return true;</code><br>As high as #Mulan's (#IndiHome Paket) Phoenix,<br>and as close as the 0s and 1s of #Sayu and #1010.<br><br>Let our mission of #FosteringAndEmpowering may not simply fail at the #SANDBOX,<br>or into the grims of #MasterChefIndonesia's Pressure Tests.<br>Even both #Cyberpunk2077 and #HenryStickminCollection have seen their bright future,<br>because they are actually set in the future.<br><br>Finally, before you go,<br>#MayTheForceBeWithYou against all #Impostors.<br>#StartUp and #FollowYourDream even when there are #NoStraightRoads,<br>as #BrightAsTheSun, said #AsianGames2018.</h5> -->
+  </div>
+  <div class="blog content e-content">
+  <blockquote>
+  <h4 class="mp-0">
+    
+      You can also like/upvote, comment and discuss this article on
+    
+  </h4>
+  <div class="d-flex flex-wrap">
+    
+  </div>
+  
+    Or by <a href="#comments">commenting on this article</a> or using Webmentions.
+  
+</blockquote>
+  <blockquote>
+  <p><strong>This blog post contains terms which may not be fully understood outside of the <a href="https://indieweb.org/">IndieWeb</a> and federated social network (“Fediverse”) communities, which includes the following:</strong></p>
+
+  <ul>
+    <li><strong>A <a href="https://indieweb.org/silo">silo</a></strong> is a website, app, or service featuring user-generated content</li>
+    <li><strong>External (or third party) silos</strong> are commonly third-party social platforms such as Facebook and Twitter with (often) restrictive features, rules and policies</li>
+    <li><a href="https://indieweb.org/POSSE"><strong>POSSE</strong> (Publish on your Own Site, Syndicate Elsewhere)</a> is a content syndication strategy where every single content are posted directly into the user’s own website (as a personal silo), before publishing links or copies into third party silos</li>
+    <li><a href="https://indieweb.org/PESETAS"><strong>PESETAS</strong> (Publish Elsewhere, Syndicate Everything To A Silo)</a> is a content syndication strategy where every single content are posted on external silos, syndicated into a specific external silo to be featured on the user’s own website (e.g. via Medium or Tumblr’s RSS feeds)</li>
+    <li><a href="https://indieweb.org/PESOS"><strong>PESOS</strong> (Publish Elsewhere, Syndicate on your Own Site)</a> is a content syndication strategy where every single content are posted on external silos, then syndicated into the user’s own website</li>
+    <li><a href="https://en.wikipedia.org/wiki/Fediverse"><strong>Fediverse</strong></a>: A network of interconnected (federated) and intercommunicated social network services, in which popular examples include Mastodon, Diaspora*, Matrix.org and GNU Social</li>
+  </ul>
+</blockquote>
+
+<p><strong>PODSPPSE</strong> is a modification of <strong>POSSE</strong> in which the <del>master</del> main copies of posts are published in own site, where only a selection of these posts are published or syndicated elsewhere. This site is indeed decentralized since it is available on 2 different URLs:</p>
+
+<ul>
+  <li><a href="https://reinhart1010.github.io">https://reinhart1010.github.io</a> (Powered by GitHub Pages), and</li>
+  <li><a href="https://reinhart1010.gitlab.io">https://reinhart1010.gitlab.io</a> (Powered by GitLab Pages).</li>
+</ul>
+
+<p>The main purpose of this is to prepare a Git-based decentralized distribution of blog content, by adding more hosting providers to the roster. This allows copies of posts to have stronger backup strategies and making them more available to the public in the near future.</p>
+
+<h2 id="the-consideration">The Consideration</h2>
+<p>Different social media platforms, blog and forum sites (in which what the folks at IndieWeb called <a href="https://indieweb.org/silo">silos</a>) have unique types of user bases and targets. LinkedIn, for example, is primarily intended for job offers, recruitments, and achievements, while other sites such as StackOverflow are intended for software development. Certain communities such as Tumblr and DeviantArt have unique characteristics and personalities, and even similar communities (e.g. DeviantArt vs Behance vs Dribble) can attract different types of people. Such wide variety of communities and audiences could mean that certain posts, topics, and interests might not be favorable to all of them.</p>
+
+<h2 id="the-strategy">The Strategy</h2>
+<p>This is why the PODSPPSE strategy is used on this website, where only a certain set of blog posts will be syndicated on a specific site. For example, I might not syndicate posts related to BINUS University announcements to LinkedIn, or posts written in Indonesian (Bahasa Indonesia) to <a href="https://dev.to">DEV.to</a>, another blog site dedicated to (primarily English-speaking) software developers. PODSPPSE is still compatible with POSSE</p>
+
+<p>Unlike POSSE, PODSPPSE also allows posts to be created first in a silo before publishing it into own sites. This site is currently created and built manually (i.e. by using a desktop computer instead of an external CI/CD service) using <a href="https://jekyllrb.com">Jekyll</a>, hence it requires a desktop computer in order to update the entire site by running <code class="language-plaintext highlighter-rouge">jekyll build</code>, <code class="language-plaintext highlighter-rouge">git commit</code>, and <code class="language-plaintext highlighter-rouge">git push</code>. Some silos, however, are sometimes handy to post urgent announcements from mobile phones, and some GSLC assignment posts (more on <a href="/posts/2021/02/21/jawaban-jawaban-tugas-gslc-binus-saya-kini-tersedia-di-blog-ini.html">this Indonesian post</a>) have to be published into an internal silo first (i.e. <a href="https://binus.ac.id">BINUSMAYA</a>) before to this site, as a measure against cheating.</p>
+
+<p>Some posts will be PODSPPSE-d as a full copy on certain sites, especially on third party blogging platforms. This allows users of those platforms to use certain exclusive features such as comments, highlights (e.g. in Medium), bookmarks, “save” (e.g. in Instagram) and custom Liquid tags (in Forem-based sites including <a href="https://dev.to">DEV.to</a>) available on respective platforms. Some of these features are currently being brought into this site too, including Webmentions support, Twitter and GitHub activities (via <a href="https://brid.gy">Bridgy</a> and Webmentions), as well as Forem-derived custom Liquid tags.</p>
+
+<blockquote>
+  <h4 id="how-about-the-fediverse">How about the Fediverse?</h4>
+  <p>Fediverse syndication and support for Webmentions (especially via <a href="https://brid.gy">Bridgy</a> or <a href="https://fed.brid.gy/">Bridgy Fed</a>) is currently undergoing further discussion, noting that very few number of Indonesians are participating on the network, while a large set of the fediverse are based on privacy-conscious regions such as the European Union.</p>
+
+  <p>Choosing a local instance is preferable for legal reasons, while I personally have not found any Indonesia-based federated social network instances yet, which at least comply to Indonesian regulations such as Undang-Undang Informasi dan Transaksi Elektronik (UU ITE). I have lost credentials for a Diaspora* and a Mastodon instance/”pod” (where I have not posted anything), so I’ll need to find another new one before syndicating and distributing my own content into the fediverse.</p>
+</blockquote>
+
+<h2 id="list-of-syndicated-places">List of Syndicated Places</h2>
+<p>Otherwise stated, these platforms and services expect content in English.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Platform/Service Name</th>
+      <th>Feature Name</th>
+      <th>Feature Type</th>
+      <th>Target Audience or Usage</th>
+      <th>Syndication Strategy</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://binusmaya.binus.ac.id">BINUSMAYA</a> ➡️ ↩️ 🔒 🔐</td>
+      <td>Forum</td>
+      <td>Forum / Bulletin Board</td>
+      <td>For BINUS University assignments</td>
+      <td>Full copy of original post</td>
+    </tr>
+    <tr>
+      <td><a href="https://dev.to">DEV.to</a> ➡️ ↩️ 🌲</td>
+      <td>Posts</td>
+      <td>Blogs</td>
+      <td>Public, primarily for programming and software development</td>
+      <td>Full copy and link to original post</td>
+    </tr>
+    <tr>
+      <td><a href="https://instagram.com">Instagram</a> 🌲</td>
+      <td>Feed</td>
+      <td>Pictures and Videos</td>
+      <td>For BINUS University students, Tier 1 (family) 2 (friends) and 3 (loose friends) communication list</td>
+      <td>Full (image, video) or summarized copy only</td>
+    </tr>
+    <tr>
+      <td><a href="https://kotakode.com">Kotakode</a> ➡️ ↩️ 🌲</td>
+      <td>Blogs</td>
+      <td>Blogs</td>
+      <td>Public, primarily for programming and software development. Content in Indonesian (Bahasa Indonesia).</td>
+      <td>Full copy and link to original post</td>
+    </tr>
+    <tr>
+      <td><a href="https://kotakode.com">Kotakode</a> ↩️ 🌲</td>
+      <td>Pertanyaan</td>
+      <td>Q&amp;A</td>
+      <td>Public, primarily for programming and software development. Content in Indonesian (Bahasa Indonesia).</td>
+      <td>Full copy only</td>
+    </tr>
+    <tr>
+      <td><a href="https://line.me">LINE</a> 🌲</td>
+      <td>Stories</td>
+      <td>Stories</td>
+      <td>For BINUS University students, Tier 2 (friends) and 3 (loose friends) communication list</td>
+      <td>Full (image, video) or summarized copy only</td>
+    </tr>
+    <tr>
+      <td><a href="https://line.me">LINE</a> ➡️ ↩️ 🌲</td>
+      <td>Timeline</td>
+      <td>Microblogging</td>
+      <td>For BINUS University students, Tier 2 (friends) and 3 (loose friends) communication list</td>
+      <td>Summarized copy and link to original post</td>
+    </tr>
+    <tr>
+      <td><a href="https://linkedin.com">LinkedIn</a> ➡️ ↩️ 🌲</td>
+      <td>Post</td>
+      <td>Blogs</td>
+      <td>For job-related updates and articles</td>
+      <td>Summarized copy and link to original post</td>
+    </tr>
+    <tr>
+      <td><a href="https://linkedin.com">LinkedIn</a> 🌲</td>
+      <td>Stories</td>
+      <td>Stories</td>
+      <td>For job-related updates and articles</td>
+      <td>Full (image, video) or summarized copy only</td>
+    </tr>
+    <tr>
+      <td><a href="https://medium.com">Medium</a> ➡️ ↩️ 🌲</td>
+      <td>Posts</td>
+      <td>Blogs</td>
+      <td>Public, either in English or Indonesian</td>
+      <td>Full copy and link to original post</td>
+    </tr>
+    <tr>
+      <td><a href="https://openstreetmap.org">OpenStreetMap</a> ➡️ ↩️ 🌲</td>
+      <td>Question (id-ID: Pertanyaan)</td>
+      <td>Q&amp;A</td>
+      <td>OpenStreetMap contributors and projects in any language</td>
+      <td>Full copy and link to original post</td>
+    </tr>
+    <tr>
+      <td><a href="https://quora.com">Quora</a> ➡️ ↩️ 🌲</td>
+      <td>Question (id-ID: Pertanyaan)</td>
+      <td>Q&amp;A</td>
+      <td>Public. Target community depending on site language.</td>
+      <td>Full copy only</td>
+    </tr>
+    <tr>
+      <td><a href="https://snapchat.com">Snapchat</a> ➡️ 🔐</td>
+      <td>Stories</td>
+      <td>Stories</td>
+      <td>Tier 2 (friends) communication list</td>
+      <td>Full (image, video) copy and link to original post</td>
+    </tr>
+    <tr>
+      <td><a href="https://telegram.org">Telegram</a> ➡️ ↩️ 🌲</td>
+      <td>Channels</td>
+      <td>Blogs</td>
+      <td>Public, primarily for programming and software development</td>
+      <td>Summarized copy and link to original post</td>
+    </tr>
+    <tr>
+      <td><a href="https://twitter.com">Twitter</a> 🌉 ➡️ ↩️ 🌲</td>
+      <td>Tweets/Threads</td>
+      <td>Microblogging</td>
+      <td>Public, either in English or Indonesian</td>
+      <td>Summarized copy and link to original post</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>🌉 Supports <a href="https://brid.gy">Bridgy</a> integration</li>
+  <li>➡️ Allows direct link to original website</li>
+  <li>↩️ Syndicated copies will be accessible from original website</li>
+  <li>🌲 Link to original copy may be presented <em>a la</em> <a href="https://linktr.ee">Linktree</a> links</li>
+  <li>🔒 Locked (Archived)</li>
+  <li>🔐 Restricted</li>
+</ul>
+
+<h2 id="the-goal">The Goal</h2>
+<p>The main goal of PODSPPSE is indeed the same as POSSE, where my own content can be syndicated across different sites, services, and platforms, while maintaining an archive of posts into an open, distributed places such as GitHub. This allows my posts and content to be further distributed across places and communities in the near future.</p>
+
+  <h2 id="likes">Liked by</h2>
+  <div id="webmentions-likes" class="d-flex flex-row flex-wrap">
+    <p>Not Found</p>
+  </div>
+  <h2 id="reposts">Reposted by</h2>
+  <div id="webmentions-reposts" class="d-flex flex-row flex-wrap">
+    <p>Not Found</p>
+  </div>
+  <h2 id="mentions">Also mentioned in</h2>
+  <ul id="webmentions-mentions">
+    <p>Not Found</p>
+  </ul>
+  <h2 id="comments">Comments</h2>
+  <h3>Via Telegram's DiscussBot</h3>
+  <script async src="https://comments.app/js/widget.js?3" data-comments-app-website="Fgvl3H7Y" data-limit="5" data-page-id="/posts/2021/02/23/introducing-podsppse" data-color="#0094ff"></script>
+  <h3>Via Webmentions</h3>
+  <ul id="webmentions-comments">
+    <p>Not Found</p>
+  </ul>
+  <blockquote>
+  <h4 class="mp-0">
+    
+      You can also like/upvote, comment and discuss this article on
+    
+  </h4>
+  <div class="d-flex flex-wrap">
+    
+  </div>
+  
+    Or by <a href="#comments">commenting on this article</a> or using Webmentions.
+  
+</blockquote>
+  </div>
+  <script>
+    var url = "https://webmention.io/api/mentions.jf2?target=https://reinhart1010.github.io/posts/2021/02/23/introducing-podsppse.html"
+    //var url = "https://webmention.io/api/mentions.jf2?target=https://indieweb.org";
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState == XMLHttpRequest.DONE) {
+        loadWebmentions(xhr.responseText)
+      }
+    }
+    xhr.open('GET', url, true);
+    xhr.send(null);
+
+    function loadWebmentions(raw){
+      var data = {};
+      var likes = [], mentions = [], reposts = [], comments = [];
+      var likesElement = document.getElementById("webmentions-likes");
+      var mentionsElement = document.getElementById("webmentions-mentions");
+      var repostsElement = document.getElementById("webmentions-reposts");
+      var commentsElement = document.getElementById("webmentions-comments");
+      try {
+        data = JSON.parse(raw);
+        if (!data.type || !data.name || data.type != "feed") throw("Not a valid Webmentions.io response");
+      } catch (e){
+        console.error(e);
+        return;
+      }
+      var i;
+      for (i = 0; i < data.children.length; i++){
+        switch (data.children[i]["wm-property"]){
+          case "like-of":
+            likes.push(data.children[i]);
+            break;
+          case "repost-of":
+            reposts.push(data.children[i]);
+            break;
+          case "mention-of":
+            mentions.push(data.children[i]);
+            break;
+          case "in-reply-to":
+            comments.push(data.children[i]);
+            break;
+        }
+      }
+      // Likes
+      if (likes.length > 0) likesElement.innerHTML = "";
+      likes.forEach((like) => {
+        likesElement.innerHTML += "<div><a href='" + like.url + "' target='_blank'><img class='w-50 h-50 m-5 rounded-circle' src='" + like.author.photo + "' alt='" + like.author.name + "'></a></div>"
+      });
+      Array.prototype.forEach.call(document.getElementsByClassName("request-likes"), (el) => {
+        el.innerHTML = likes.length;
+      });
+      // Mentions
+      if (mentions.length > 0) mentionsElement.innerHTML = "";
+      mentions.forEach((like) => {
+        mentionsElement.innerHTML += "<li><b><a href='" + like.url + " target='_blank'>" + ((!like.name || like.name == "") ? "(A blog post)" : like.name) + "</a></b> by <a href='" + like.author.url + " target='_blank'>" + ((!like.author.name || like.author.name == "") ? ((!like.author.url || like.author.url == "") ? like.url : like.author.url) : like.author.name) + "</a></li>"
+      });
+      Array.prototype.forEach.call(document.getElementsByClassName("request-mentions"), (el) => {
+        el.innerHTML = mentions.length;
+      });
+      // Reposts
+      if (reposts.length > 0) repostsElement.innerHTML = "";
+      reposts.forEach((like) => {
+        repostsElement.innerHTML += "<div><a href='" + like.url + "' target='_blank'><img class='w-50 h-50 m-5 rounded-circle' src='" + like.author.photo + "' alt='" + like.author.name + "'></a></div>"
+      });
+      Array.prototype.forEach.call(document.getElementsByClassName("request-reposts"), (el) => {
+        el.innerHTML = reposts.length;
+      });
+      // Comments
+      if (comments.length > 0) commentsElement.innerHTML = "";
+      comments.forEach((like) => {
+        commentsElement.innerHTML += "<li><b><a href='" + like.author.url + " target='_blank'>" + like.author.name + "</a></b> " + like.content.text.split(" ").splice(0, 20).join(" ") + ((like.url) ? (" <a href='" + like.url + "'>(more" + ((like.name) ? (" on \"" + like.name + "\"") : "...") + ")</a>") : "") + "</li>"
+      });
+      Array.prototype.forEach.call(document.getElementsByClassName("request-comments"), (el) => {
+        el.innerHTML = comments.length;
+      });
+    }
+  </script>
+      
+</div>
+    </div>
+    <!-- Content wrapper end -->
+
+  </div>
+  <!-- Page wrapper end -->
+
+  <!-- Halfmoon JS -->
+  <script>
+    var adaptiveCard = new AdaptiveCards.AdaptiveCard();
+    adaptiveCard.hostConfig = new AdaptiveCards.HostConfig({
+      spacing: {
+        padding: "3rem"
+      },
+      actions: {
+        buttonSpacing: 4,
+        actionAlignment: 'right'
+      },
+      fontFamily: '-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"'
+    });
+    AdaptiveCards.processMarkdown = function(text) { return markdownit().render(text); }
+    function loadCards(data){
+      data.forEach(function (card){
+        if (card.$schema && card.$schema == "http://adaptivecards.io/schemas/adaptive-card.json"){
+          adaptiveCard.parse(card);
+          var renderedCard = adaptiveCard.render();
+          document.getElementById('card-container').appendChild(renderedCard);
+        } else switch (card.type){
+          case "Reinhart.advertisement":
+          case "Reinhart.article":
+            var draft = '<div class="card my-10 mx-0 p-0"';
+            if (card.color) draft += ' style="' + ((card.color.background) ? ('background-color:' + card.color.background + ';') : '') + ((card.color.foreground) ? ('color:' + card.color.foreground + ';') : '') + '"';
+            draft += '>';
+            if (card.author) switch (card.author.name){
+              case 'Reinhart':
+                draft += '<p class="px-20 py-10 m-0" style="background-color:' + ((card.color && card.color.background) ? ((card.color.backgroundTop) ? card.color.backgroundTop : card.color.background) : 'inherit') + ';color:' + ((card.color && card.color.foreground) ? ((card.color.foregroundTop) ? card.color.foregroundTop : card.color.foreground) : 'inherit') + '">Official Post from <b>Reinhart</b></p>';
+                break;
+              default:
+                draft += '<p class="px-20 py-10 m-0" style="background-color:' + ((card.color && card.color.background) ? ((card.color.backgroundTop) ? card.color.backgroundTop : card.color.background) : 'inherit') + ';color:' + ((card.color && card.color.foreground) ? ((card.color.foregroundTop) ? card.color.foregroundTop : card.color.foreground) : 'inherit') + '">Shared from <b><a style="color:inherit; text-decoration:underline;" href="' + card.author.url + '" target="_blank">' + card.author.name + '</a></b></p>';
+            }
+            if (card.image) draft += '<img src="' + card.image + '" alt="' + card.body.title + '" class="img-fluid">';
+            draft += '<div class="content m-20 mt-10">';
+            if (card.body.kicker) draft += '<h5 class="card-title">' + card.body.kicker + '</h5>';
+            if (card.body.title && !(card.body.options && card.body.options.hideTitle)) draft += (card.type == "Reinhart.advertisement" ? '<h3>' : '<h4 class="mb-5">') + card.body.title + (card.type == "Reinhart.advertisement" ? '</h3>' : '</h4>');
+            if (card.body.subtitle) draft += '<h5 class="card-title">' + card.body.subtitle + '</h5>';
+            if (card.body.description) draft += '<p class="font-size-18">' + card.body.description + '</p>';
+            if (card.events){
+              var i;
+              for (i = 0; i < card.events.length; i++){
+                draft += '<div class="p-10 rounded mb-10" style="background-color:rgba(0,0,0,0.5);color:#ffffff">';
+                var n = Object.keys(card.events[i]).length;
+                if (card.events[i].title){
+                  draft += '<h5 class="m-0">' + card.events[i].title + '</h5>';
+                  n--;
+                  if (n > 0) draft += '<hr>';
+                }
+                if (card.events[i].location){
+                  draft += '<p class="m-0"><svg class="bi" width="18" height="18" fill="white"><use xlink:href="/img/bootstrap-icons.svg#geo-fill"/></svg> <b>' + card.events[i].location + '</b></p>';
+                  n--;
+                  if (n > 0) draft += '<hr>';
+                }
+                if (card.events[i].start){
+                  draft += '<p class="m-0"><b>Starts at</b> ' + new Date(card.events[i].start).toString() + '</p>';
+                  n--;
+                  if (n > 0) draft += '<hr>';
+                }
+                if (card.events[i].end) draft += '<p class="m-0"><b>Ends at</b> ' + new Date(card.events[i].end).toString() + '</p>';
+                draft += '</div>';
+              }
+            }
+            if (card.actions){
+              draft += '<div class="text-right" style="line-height: 5rem">';
+              var i;
+              for (i = 0; i < card.actions.length; i++){
+                draft += ' <a href="' + card.actions[i].url + (card.type == "Reinhart.advertisement" || card.actions[i].openInExternal ? ' target="_blank"' : '') + '" class="btn btn-lg shadow-lg bg-light text-dark"><b>' + card.actions[i].title + '</b></a>';
+              }
+              draft += '</div>';
+            }
+            draft += '</div>';
+            draft += '</div>';
+            document.getElementById('card-container').innerHTML += draft;
+            break;
+          case "Custom.iframe":
+            var draft = '<div class="card my-10 mx-0 p-0"><iframe src="' + (card.src || card.url) + '" class="rounded-top" style="width: 100%; height: 50vh; border: none" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>This card requires &lt;iframe&gt; rendering, which is not supported by your browser.</iframe>'
+            if (card.body){
+              draft += '<div class="content m-20 mt-10">';
+              if (card.body.title && card.body.title != ""){
+                draft += '<h3>' + card.body.title + '</h3>';
+              }
+              if (card.body.subtitle && card.body.subtitle != ""){
+                draft += '<p>' + card.body.subtitle + '</p>';
+              }
+              if (card.url && card.url != ""){
+                draft += '<div class="text-right"><a href="' + card.url + '" target="_blank" class="btn btn-lg shadow-lg btn-primary"><b>Open in separate tab</b></a></div>';
+              }
+              draft += '</div>';
+            }
+            draft += '</div>';
+            document.getElementById('card-container').innerHTML += draft;
+            break;
+          case "Custom.rawHTML":
+            if (card.body){
+              document.getElementById('card-container').innerHTML += card.body;
+            }
+            break;
+          default:
+            console.err("Unable to render card of type:" + card.type);
+        }
+      });
+    }
+    function shuffle(array) {
+        let counter = array.length;
+
+        // While there are elements in the array
+        while (counter > 0) {
+            // Pick a random index
+            let index = Math.floor(Math.random() * counter);
+
+            // Decrease counter by 1
+            counter--;
+
+            // And swap the last element with it
+            let temp = array[counter];
+            array[counter] = array[index];
+            array[index] = temp;
+        }
+
+        return array;
+    }
+  </script>
+  <script>
+    // Converts all HTML tables to responsive tables
+    var els = document.getElementsByTagName("table");
+
+    Array.prototype.forEach.call(els, function(el) {
+      // Add Halfmoon's "table" and "table-inner-bordered" classes
+      var arr = el.className.split(" ");
+      if (arr.indexOf("table") == -1) {
+        el.className += " table table-bordered table-striped table-hover";
+      }
+
+      // Add a new parent node containing class "table-responsive"
+      var parent = el.parentNode;
+      var wrapper = document.createElement('div');
+      wrapper.className = "table-responsive"
+
+      parent.replaceChild(wrapper, el);
+      wrapper.appendChild(el);
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/js/halfmoon.min.js"></script>
+</body>
+</html>

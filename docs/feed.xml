@@ -1,4 +1,175 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-02-22T03:17:50+07:00</updated><id>/feed.xml</id><title type="html">Reinhart Previano K.</title><subtitle>Blog repository</subtitle><entry><title type="html">Soal Competitive Programming ini ternyata bisa diselesaikan menggunakan Regular Expression!</title><link href="/posts/2021/02/22/soal-competitive-programming-ini-ternyata-bisa-diselesaikan-menggunakan-regular-expression.html" rel="alternate" type="text/html" title="Soal Competitive Programming ini ternyata bisa diselesaikan menggunakan Regular Expression!" /><published>2021-02-22T00:00:00+07:00</published><updated>2021-02-22T00:00:00+07:00</updated><id>/posts/2021/02/22/soal-competitive-programming-ini-ternyata-bisa-diselesaikan-menggunakan-regular-expression</id><content type="html" xml:base="/posts/2021/02/22/soal-competitive-programming-ini-ternyata-bisa-diselesaikan-menggunakan-regular-expression.html">&lt;h2 id=&quot;soal&quot;&gt;Soal&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2021-02-23T02:42:05+07:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">Reinhart Previano K.</title><subtitle>Blog repository</subtitle><entry><title type="html">Introducing PODSPPSE: Publish (on your) Own Decentralized Site, Partially Publish and Syndicate Elsewhere</title><link href="http://0.0.0.0:4000/posts/2021/02/23/introducing-podsppse.html" rel="alternate" type="text/html" title="Introducing PODSPPSE: Publish (on your) Own Decentralized Site, Partially Publish and Syndicate Elsewhere" /><published>2021-02-23T00:00:00+07:00</published><updated>2021-02-23T00:00:00+07:00</updated><id>http://0.0.0.0:4000/posts/2021/02/23/introducing-podsppse</id><content type="html" xml:base="http://0.0.0.0:4000/posts/2021/02/23/introducing-podsppse.html">&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;This blog post contains terms which may not be fully understood outside of the &lt;a href=&quot;https://indieweb.org/&quot;&gt;IndieWeb&lt;/a&gt; and federated social network (“Fediverse”) communities, which includes the following:&lt;/strong&gt;&lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;A &lt;a href=&quot;https://indieweb.org/silo&quot;&gt;silo&lt;/a&gt;&lt;/strong&gt; is a website, app, or service featuring user-generated content&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;External (or third party) silos&lt;/strong&gt; are commonly third-party social platforms such as Facebook and Twitter with (often) restrictive features, rules and policies&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://indieweb.org/POSSE&quot;&gt;&lt;strong&gt;POSSE&lt;/strong&gt; (Publish on your Own Site, Syndicate Elsewhere)&lt;/a&gt; is a content syndication strategy where every single content are posted directly into the user’s own website (as a personal silo), before publishing links or copies into third party silos&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://indieweb.org/PESETAS&quot;&gt;&lt;strong&gt;PESETAS&lt;/strong&gt; (Publish Elsewhere, Syndicate Everything To A Silo)&lt;/a&gt; is a content syndication strategy where every single content are posted on external silos, syndicated into a specific external silo to be featured on the user’s own website (e.g. via Medium or Tumblr’s RSS feeds)&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://indieweb.org/PESOS&quot;&gt;&lt;strong&gt;PESOS&lt;/strong&gt; (Publish Elsewhere, Syndicate on your Own Site)&lt;/a&gt; is a content syndication strategy where every single content are posted on external silos, then syndicated into the user’s own website&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Fediverse&quot;&gt;&lt;strong&gt;Fediverse&lt;/strong&gt;&lt;/a&gt;: A network of interconnected (federated) and intercommunicated social network services, in which popular examples include Mastodon, Diaspora*, Matrix.org and GNU Social&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;PODSPPSE&lt;/strong&gt; is a modification of &lt;strong&gt;POSSE&lt;/strong&gt; in which the &lt;del&gt;master&lt;/del&gt; main copies of posts are published in own site, where only a selection of these posts are published or syndicated elsewhere. This site is indeed decentralized since it is available on 2 different URLs:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://reinhart1010.github.io&quot;&gt;https://reinhart1010.github.io&lt;/a&gt; (Powered by GitHub Pages), and&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://reinhart1010.gitlab.io&quot;&gt;https://reinhart1010.gitlab.io&lt;/a&gt; (Powered by GitLab Pages).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The main purpose of this is to prepare a Git-based decentralized distribution of blog content, by adding more hosting providers to the roster. This allows copies of posts to have stronger backup strategies and making them more available to the public in the near future.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-consideration&quot;&gt;The Consideration&lt;/h2&gt;
+&lt;p&gt;Different social media platforms, blog and forum sites (in which what the folks at IndieWeb called &lt;a href=&quot;https://indieweb.org/silo&quot;&gt;silos&lt;/a&gt;) have unique types of user bases and targets. LinkedIn, for example, is primarily intended for job offers, recruitments, and achievements, while other sites such as StackOverflow are intended for software development. Certain communities such as Tumblr and DeviantArt have unique characteristics and personalities, and even similar communities (e.g. DeviantArt vs Behance vs Dribble) can attract different types of people. Such wide variety of communities and audiences could mean that certain posts, topics, and interests might not be favorable to all of them.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-strategy&quot;&gt;The Strategy&lt;/h2&gt;
+&lt;p&gt;This is why the PODSPPSE strategy is used on this website, where only a certain set of blog posts will be syndicated on a specific site. For example, I might not syndicate posts related to BINUS University announcements to LinkedIn, or posts written in Indonesian (Bahasa Indonesia) to &lt;a href=&quot;https://dev.to&quot;&gt;DEV.to&lt;/a&gt;, another blog site dedicated to (primarily English-speaking) software developers. PODSPPSE is still compatible with POSSE&lt;/p&gt;
+
+&lt;p&gt;Unlike POSSE, PODSPPSE also allows posts to be created first in a silo before publishing it into own sites. This site is currently created and built manually (i.e. by using a desktop computer instead of an external CI/CD service) using &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;, hence it requires a desktop computer in order to update the entire site by running &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll build&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git commit&lt;/code&gt;, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git push&lt;/code&gt;. Some silos, however, are sometimes handy to post urgent announcements from mobile phones, and some GSLC assignment posts (more on &lt;a href=&quot;/posts/2021/02/21/jawaban-jawaban-tugas-gslc-binus-saya-kini-tersedia-di-blog-ini.html&quot;&gt;this Indonesian post&lt;/a&gt;) have to be published into an internal silo first (i.e. &lt;a href=&quot;https://binus.ac.id&quot;&gt;BINUSMAYA&lt;/a&gt;) before to this site, as a measure against cheating.&lt;/p&gt;
+
+&lt;p&gt;Some posts will be PODSPPSE-d as a full copy on certain sites, especially on third party blogging platforms. This allows users of those platforms to use certain exclusive features such as comments, highlights (e.g. in Medium), bookmarks, “save” (e.g. in Instagram) and custom Liquid tags (in Forem-based sites including &lt;a href=&quot;https://dev.to&quot;&gt;DEV.to&lt;/a&gt;) available on respective platforms. Some of these features are currently being brought into this site too, including Webmentions support, Twitter and GitHub activities (via &lt;a href=&quot;https://brid.gy&quot;&gt;Bridgy&lt;/a&gt; and Webmentions), as well as Forem-derived custom Liquid tags.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;h4 id=&quot;how-about-the-fediverse&quot;&gt;How about the Fediverse?&lt;/h4&gt;
+  &lt;p&gt;Fediverse syndication and support for Webmentions (especially via &lt;a href=&quot;https://brid.gy&quot;&gt;Bridgy&lt;/a&gt; or &lt;a href=&quot;https://fed.brid.gy/&quot;&gt;Bridgy Fed&lt;/a&gt;) is currently undergoing further discussion, noting that very few number of Indonesians are participating on the network, while a large set of the fediverse are based on privacy-conscious regions such as the European Union.&lt;/p&gt;
+
+  &lt;p&gt;Choosing a local instance is preferable for legal reasons, while I personally have not found any Indonesia-based federated social network instances yet, which at least comply to Indonesian regulations such as Undang-Undang Informasi dan Transaksi Elektronik (UU ITE). I have lost credentials for a Diaspora* and a Mastodon instance/”pod” (where I have not posted anything), so I’ll need to find another new one before syndicating and distributing my own content into the fediverse.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;list-of-syndicated-places&quot;&gt;List of Syndicated Places&lt;/h2&gt;
+&lt;p&gt;Otherwise stated, these platforms and services expect content in English.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Platform/Service Name&lt;/th&gt;
+      &lt;th&gt;Feature Name&lt;/th&gt;
+      &lt;th&gt;Feature Type&lt;/th&gt;
+      &lt;th&gt;Target Audience or Usage&lt;/th&gt;
+      &lt;th&gt;Syndication Strategy&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://binusmaya.binus.ac.id&quot;&gt;BINUSMAYA&lt;/a&gt; ➡️ ↩️ 🔒 🔐&lt;/td&gt;
+      &lt;td&gt;Forum&lt;/td&gt;
+      &lt;td&gt;Forum / Bulletin Board&lt;/td&gt;
+      &lt;td&gt;For BINUS University assignments&lt;/td&gt;
+      &lt;td&gt;Full copy of original post&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://dev.to&quot;&gt;DEV.to&lt;/a&gt; ➡️ ↩️ 🌲&lt;/td&gt;
+      &lt;td&gt;Posts&lt;/td&gt;
+      &lt;td&gt;Blogs&lt;/td&gt;
+      &lt;td&gt;Public, primarily for programming and software development&lt;/td&gt;
+      &lt;td&gt;Full copy and link to original post&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://instagram.com&quot;&gt;Instagram&lt;/a&gt; 🌲&lt;/td&gt;
+      &lt;td&gt;Feed&lt;/td&gt;
+      &lt;td&gt;Pictures and Videos&lt;/td&gt;
+      &lt;td&gt;For BINUS University students, Tier 1 (family) 2 (friends) and 3 (loose friends) communication list&lt;/td&gt;
+      &lt;td&gt;Full (image, video) or summarized copy only&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://kotakode.com&quot;&gt;Kotakode&lt;/a&gt; ➡️ ↩️ 🌲&lt;/td&gt;
+      &lt;td&gt;Blogs&lt;/td&gt;
+      &lt;td&gt;Blogs&lt;/td&gt;
+      &lt;td&gt;Public, primarily for programming and software development. Content in Indonesian (Bahasa Indonesia).&lt;/td&gt;
+      &lt;td&gt;Full copy and link to original post&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://kotakode.com&quot;&gt;Kotakode&lt;/a&gt; ↩️ 🌲&lt;/td&gt;
+      &lt;td&gt;Pertanyaan&lt;/td&gt;
+      &lt;td&gt;Q&amp;amp;A&lt;/td&gt;
+      &lt;td&gt;Public, primarily for programming and software development. Content in Indonesian (Bahasa Indonesia).&lt;/td&gt;
+      &lt;td&gt;Full copy only&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://line.me&quot;&gt;LINE&lt;/a&gt; 🌲&lt;/td&gt;
+      &lt;td&gt;Stories&lt;/td&gt;
+      &lt;td&gt;Stories&lt;/td&gt;
+      &lt;td&gt;For BINUS University students, Tier 2 (friends) and 3 (loose friends) communication list&lt;/td&gt;
+      &lt;td&gt;Full (image, video) or summarized copy only&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://line.me&quot;&gt;LINE&lt;/a&gt; ➡️ ↩️ 🌲&lt;/td&gt;
+      &lt;td&gt;Timeline&lt;/td&gt;
+      &lt;td&gt;Microblogging&lt;/td&gt;
+      &lt;td&gt;For BINUS University students, Tier 2 (friends) and 3 (loose friends) communication list&lt;/td&gt;
+      &lt;td&gt;Summarized copy and link to original post&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://linkedin.com&quot;&gt;LinkedIn&lt;/a&gt; ➡️ ↩️ 🌲&lt;/td&gt;
+      &lt;td&gt;Post&lt;/td&gt;
+      &lt;td&gt;Blogs&lt;/td&gt;
+      &lt;td&gt;For job-related updates and articles&lt;/td&gt;
+      &lt;td&gt;Summarized copy and link to original post&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://linkedin.com&quot;&gt;LinkedIn&lt;/a&gt; 🌲&lt;/td&gt;
+      &lt;td&gt;Stories&lt;/td&gt;
+      &lt;td&gt;Stories&lt;/td&gt;
+      &lt;td&gt;For job-related updates and articles&lt;/td&gt;
+      &lt;td&gt;Full (image, video) or summarized copy only&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://medium.com&quot;&gt;Medium&lt;/a&gt; ➡️ ↩️ 🌲&lt;/td&gt;
+      &lt;td&gt;Posts&lt;/td&gt;
+      &lt;td&gt;Blogs&lt;/td&gt;
+      &lt;td&gt;Public, either in English or Indonesian&lt;/td&gt;
+      &lt;td&gt;Full copy and link to original post&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://openstreetmap.org&quot;&gt;OpenStreetMap&lt;/a&gt; ➡️ ↩️ 🌲&lt;/td&gt;
+      &lt;td&gt;Question (id-ID: Pertanyaan)&lt;/td&gt;
+      &lt;td&gt;Q&amp;amp;A&lt;/td&gt;
+      &lt;td&gt;OpenStreetMap contributors and projects in any language&lt;/td&gt;
+      &lt;td&gt;Full copy and link to original post&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://quora.com&quot;&gt;Quora&lt;/a&gt; ➡️ ↩️ 🌲&lt;/td&gt;
+      &lt;td&gt;Question (id-ID: Pertanyaan)&lt;/td&gt;
+      &lt;td&gt;Q&amp;amp;A&lt;/td&gt;
+      &lt;td&gt;Public. Target community depending on site language.&lt;/td&gt;
+      &lt;td&gt;Full copy only&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://snapchat.com&quot;&gt;Snapchat&lt;/a&gt; ➡️ 🔐&lt;/td&gt;
+      &lt;td&gt;Stories&lt;/td&gt;
+      &lt;td&gt;Stories&lt;/td&gt;
+      &lt;td&gt;Tier 2 (friends) communication list&lt;/td&gt;
+      &lt;td&gt;Full (image, video) copy and link to original post&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://telegram.org&quot;&gt;Telegram&lt;/a&gt; ➡️ ↩️ 🌲&lt;/td&gt;
+      &lt;td&gt;Channels&lt;/td&gt;
+      &lt;td&gt;Blogs&lt;/td&gt;
+      &lt;td&gt;Public, primarily for programming and software development&lt;/td&gt;
+      &lt;td&gt;Summarized copy and link to original post&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://twitter.com&quot;&gt;Twitter&lt;/a&gt; 🌉 ➡️ ↩️ 🌲&lt;/td&gt;
+      &lt;td&gt;Tweets/Threads&lt;/td&gt;
+      &lt;td&gt;Microblogging&lt;/td&gt;
+      &lt;td&gt;Public, either in English or Indonesian&lt;/td&gt;
+      &lt;td&gt;Summarized copy and link to original post&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;🌉 Supports &lt;a href=&quot;https://brid.gy&quot;&gt;Bridgy&lt;/a&gt; integration&lt;/li&gt;
+  &lt;li&gt;➡️ Allows direct link to original website&lt;/li&gt;
+  &lt;li&gt;↩️ Syndicated copies will be accessible from original website&lt;/li&gt;
+  &lt;li&gt;🌲 Link to original copy may be presented &lt;em&gt;a la&lt;/em&gt; &lt;a href=&quot;https://linktr.ee&quot;&gt;Linktree&lt;/a&gt; links&lt;/li&gt;
+  &lt;li&gt;🔒 Locked (Archived)&lt;/li&gt;
+  &lt;li&gt;🔐 Restricted&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;the-goal&quot;&gt;The Goal&lt;/h2&gt;
+&lt;p&gt;The main goal of PODSPPSE is indeed the same as POSSE, where my own content can be syndicated across different sites, services, and platforms, while maintaining an archive of posts into an open, distributed places such as GitHub. This allows my posts and content to be further distributed across places and communities in the near future.&lt;/p&gt;</content><author><name></name></author><category term="updates" /><category term="indieweb" /><category term="en-us" /><summary type="html">This blog post contains terms which may not be fully understood outside of the IndieWeb and federated social network (“Fediverse”) communities, which includes the following: A silo is a website, app, or service featuring user-generated content External (or third party) silos are commonly third-party social platforms such as Facebook and Twitter with (often) restrictive features, rules and policies POSSE (Publish on your Own Site, Syndicate Elsewhere) is a content syndication strategy where every single content are posted directly into the user’s own website (as a personal silo), before publishing links or copies into third party silos PESETAS (Publish Elsewhere, Syndicate Everything To A Silo) is a content syndication strategy where every single content are posted on external silos, syndicated into a specific external silo to be featured on the user’s own website (e.g. via Medium or Tumblr’s RSS feeds) PESOS (Publish Elsewhere, Syndicate on your Own Site) is a content syndication strategy where every single content are posted on external silos, then syndicated into the user’s own website Fediverse: A network of interconnected (federated) and intercommunicated social network services, in which popular examples include Mastodon, Diaspora*, Matrix.org and GNU Social</summary></entry><entry><title type="html">Soal Competitive Programming ini ternyata bisa diselesaikan menggunakan Regular Expression!</title><link href="http://0.0.0.0:4000/posts/2021/02/22/soal-competitive-programming-ini-ternyata-bisa-diselesaikan-menggunakan-regular-expression.html" rel="alternate" type="text/html" title="Soal Competitive Programming ini ternyata bisa diselesaikan menggunakan Regular Expression!" /><published>2021-02-22T00:00:00+07:00</published><updated>2021-02-22T00:00:00+07:00</updated><id>http://0.0.0.0:4000/posts/2021/02/22/soal-competitive-programming-ini-ternyata-bisa-diselesaikan-menggunakan-regular-expression</id><content type="html" xml:base="http://0.0.0.0:4000/posts/2021/02/22/soal-competitive-programming-ini-ternyata-bisa-diselesaikan-menggunakan-regular-expression.html">&lt;h2 id=&quot;soal&quot;&gt;Soal&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Diambil dari &lt;a href=&quot;https://tlx.toki.id/problems/inc-2014/H&quot;&gt;ICPC Indonesia National Contest (INC) 2014, Problem H&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Seseorang sedang mengomel di sebuah postingan Facebook.&lt;/p&gt;
@@ -45,7 +216,7 @@
 &lt;h2 id=&quot;penutup&quot;&gt;Penutup&lt;/h2&gt;
 &lt;p&gt;Ajang-ajang perlombaan &lt;em&gt;competitive programming&lt;/em&gt; seperti ICPC dan INC ini memiliki aturan bahwa hasil program yang dibuat harus dikumpulkan dalam bentuk &lt;em&gt;source code&lt;/em&gt; dengan bahasa pemrograman C, C++, Java, atau Python. Untungnya, &lt;em&gt;pattern&lt;/em&gt; regex tersebut dapat kemudian kita implementasikan dalam bahasa C++, Java, dan Python melalui &lt;em&gt;standard library&lt;/em&gt; bahasa pemrograman masing-masing. Tahap terakhir dalam menjawab soal ini adalah membuat ptogram yang menerima format input dan output yang ditetapkan di dalam soal tersebut.&lt;/p&gt;
 
-&lt;p&gt;Saya penasaran apakah para kontestan INC 2014 pada waktu itu sudah menyadari bahwa soal ini dapat diselesaikan menggunakan regex, meskipun mereka juga bisa menggunakan metode atau algoritma &lt;em&gt;string matching&lt;/em&gt; lain yang mungkin lebih efisien daripada metode regex ini. Namun, soal ini masih tetap menjadi salah satu favorit saya karena saya dapat menyelesaikannya dengan cara unik seperti ini.&lt;/p&gt;</content><author><name></name></author><category term="kotakode" /><category term="id-id" /><category term="competitive-programming" /><category term="regex" /><summary type="html">Soal Diambil dari ICPC Indonesia National Contest (INC) 2014, Problem H</summary></entry><entry><title type="html">Jawaban-jawaban tugas GSLC BINUS saya kini tersedia di blog ini</title><link href="/posts/2021/02/21/jawaban-jawaban-tugas-gslc-binus-saya-kini-tersedia-di-blog-ini.html" rel="alternate" type="text/html" title="Jawaban-jawaban tugas GSLC BINUS saya kini tersedia di blog ini" /><published>2021-02-21T00:00:00+07:00</published><updated>2021-02-21T00:00:00+07:00</updated><id>/posts/2021/02/21/jawaban-jawaban-tugas-gslc-binus-saya-kini-tersedia-di-blog-ini</id><content type="html" xml:base="/posts/2021/02/21/jawaban-jawaban-tugas-gslc-binus-saya-kini-tersedia-di-blog-ini.html">&lt;p&gt;&lt;strong&gt;GSLC (Guided Self-Learning Class)&lt;/strong&gt; merupakan salah satu jenis tugas yang diadakan untuk setiap mata kuliah di &lt;a href=&quot;https://binus.ac.id&quot;&gt;BINUS University&lt;/a&gt; (Universitas Bina Nusantara). Pada setiap pertemuan GSLC, para mahasiswa &lt;strong&gt;tidak&lt;/strong&gt; mengikuti sesi perkuliahan dalam kelas pada umumnya, namun diminta untuk berdiskusi dan menjawab pertanyaan-pertanyaan yang diajukan oleh dosen terkait. Praktik GSLC ini sebenarnya sudah dilakukan oleh BINUS sejak beberapa tahun terakhir, dan bahkan sering masuk dalam pemberitaan berbagai media.&lt;/p&gt;
+&lt;p&gt;Saya penasaran apakah para kontestan INC 2014 pada waktu itu sudah menyadari bahwa soal ini dapat diselesaikan menggunakan regex, meskipun mereka juga bisa menggunakan metode atau algoritma &lt;em&gt;string matching&lt;/em&gt; lain yang mungkin lebih efisien daripada metode regex ini. Namun, soal ini masih tetap menjadi salah satu favorit saya karena saya dapat menyelesaikannya dengan cara unik seperti ini.&lt;/p&gt;</content><author><name></name></author><category term="kotakode" /><category term="id-id" /><category term="competitive-programming" /><category term="regex" /><summary type="html">Soal Diambil dari ICPC Indonesia National Contest (INC) 2014, Problem H</summary></entry><entry><title type="html">Jawaban-jawaban tugas GSLC BINUS saya kini tersedia di blog ini</title><link href="http://0.0.0.0:4000/posts/2021/02/21/jawaban-jawaban-tugas-gslc-binus-saya-kini-tersedia-di-blog-ini.html" rel="alternate" type="text/html" title="Jawaban-jawaban tugas GSLC BINUS saya kini tersedia di blog ini" /><published>2021-02-21T00:00:00+07:00</published><updated>2021-02-21T00:00:00+07:00</updated><id>http://0.0.0.0:4000/posts/2021/02/21/jawaban-jawaban-tugas-gslc-binus-saya-kini-tersedia-di-blog-ini</id><content type="html" xml:base="http://0.0.0.0:4000/posts/2021/02/21/jawaban-jawaban-tugas-gslc-binus-saya-kini-tersedia-di-blog-ini.html">&lt;p&gt;&lt;strong&gt;GSLC (Guided Self-Learning Class)&lt;/strong&gt; merupakan salah satu jenis tugas yang diadakan untuk setiap mata kuliah di &lt;a href=&quot;https://binus.ac.id&quot;&gt;BINUS University&lt;/a&gt; (Universitas Bina Nusantara). Pada setiap pertemuan GSLC, para mahasiswa &lt;strong&gt;tidak&lt;/strong&gt; mengikuti sesi perkuliahan dalam kelas pada umumnya, namun diminta untuk berdiskusi dan menjawab pertanyaan-pertanyaan yang diajukan oleh dosen terkait. Praktik GSLC ini sebenarnya sudah dilakukan oleh BINUS sejak beberapa tahun terakhir, dan bahkan sering masuk dalam pemberitaan berbagai media.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;&lt;strong&gt;Dari &lt;a href=&quot;https://binus.ac.id/2020/04/39-535-mahasiswa-binus-menjalankan-kuliah-secara-online/&quot;&gt;https://binus.ac.id/2020/04/39-535-mahasiswa-binus-menjalankan-kuliah-secara-online/&lt;/a&gt;:&lt;/strong&gt;&lt;/p&gt;
@@ -102,7 +273,7 @@
 
 &lt;p&gt;Demikianlah pengumuman saya untuk hari ini. Anda sekarang dapat mulai membaca koleksi jawaban tugas GSLC saya di dalam &lt;a href=&quot;/posts/category/binus&quot;&gt;&lt;strong&gt;@binus&lt;/strong&gt;&lt;/a&gt; dan &lt;a href=&quot;/posts/tag/reinhartmenjawab&quot;&gt;&lt;strong&gt;#ReinhartMenjawab&lt;/strong&gt;&lt;/a&gt;. Semoga jawaban-jawaban tersebut dapat menjadi referensi untuk jawaban tugas GSLC, artikel, dan masa depan saya.&lt;/p&gt;
 
-&lt;p&gt;Selamat membaca!&lt;/p&gt;</content><author><name></name></author><category term="binus" /><category term="updates" /><category term="id-id" /><summary type="html">GSLC (Guided Self-Learning Class) merupakan salah satu jenis tugas yang diadakan untuk setiap mata kuliah di BINUS University (Universitas Bina Nusantara). Pada setiap pertemuan GSLC, para mahasiswa tidak mengikuti sesi perkuliahan dalam kelas pada umumnya, namun diminta untuk berdiskusi dan menjawab pertanyaan-pertanyaan yang diajukan oleh dosen terkait. Praktik GSLC ini sebenarnya sudah dilakukan oleh BINUS sejak beberapa tahun terakhir, dan bahkan sering masuk dalam pemberitaan berbagai media.</summary></entry><entry><title type="html">This Competitive Programming question can be solved by a simple Regular Expression!</title><link href="/posts/2021/02/21/this-competitive-programming-question-can-be-solved-by-a-simple-regular-expression.html" rel="alternate" type="text/html" title="This Competitive Programming question can be solved by a simple Regular Expression!" /><published>2021-02-21T00:00:00+07:00</published><updated>2021-02-21T00:00:00+07:00</updated><id>/posts/2021/02/21/this-competitive-programming-question-can-be-solved-by-a-simple-regular-expression</id><content type="html" xml:base="/posts/2021/02/21/this-competitive-programming-question-can-be-solved-by-a-simple-regular-expression.html">&lt;h2 id=&quot;the-problem&quot;&gt;The Problem&lt;/h2&gt;
+&lt;p&gt;Selamat membaca!&lt;/p&gt;</content><author><name></name></author><category term="binus" /><category term="updates" /><category term="id-id" /><summary type="html">GSLC (Guided Self-Learning Class) merupakan salah satu jenis tugas yang diadakan untuk setiap mata kuliah di BINUS University (Universitas Bina Nusantara). Pada setiap pertemuan GSLC, para mahasiswa tidak mengikuti sesi perkuliahan dalam kelas pada umumnya, namun diminta untuk berdiskusi dan menjawab pertanyaan-pertanyaan yang diajukan oleh dosen terkait. Praktik GSLC ini sebenarnya sudah dilakukan oleh BINUS sejak beberapa tahun terakhir, dan bahkan sering masuk dalam pemberitaan berbagai media.</summary></entry><entry><title type="html">This Competitive Programming question can be solved by a simple Regular Expression!</title><link href="http://0.0.0.0:4000/posts/2021/02/21/this-competitive-programming-question-can-be-solved-by-a-simple-regular-expression.html" rel="alternate" type="text/html" title="This Competitive Programming question can be solved by a simple Regular Expression!" /><published>2021-02-21T00:00:00+07:00</published><updated>2021-02-21T00:00:00+07:00</updated><id>http://0.0.0.0:4000/posts/2021/02/21/this-competitive-programming-question-can-be-solved-by-a-simple-regular-expression</id><content type="html" xml:base="http://0.0.0.0:4000/posts/2021/02/21/this-competitive-programming-question-can-be-solved-by-a-simple-regular-expression.html">&lt;h2 id=&quot;the-problem&quot;&gt;The Problem&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Adapted from &lt;a href=&quot;https://tlx.toki.id/problems/inc-2014/H&quot;&gt;ICPC Indonesia National Contest (INC) 2014, Problem H&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Someone is ranting on his Facebook’s wall.&lt;/p&gt;
@@ -149,7 +320,7 @@
 &lt;p&gt;Competitive programming competitions such as ICPC and INC allows submissions in C, C++, Java or Python. And fortunately, once we have found the valid regex pattern, we can directly implement it into C++, Java and Python code using standard regex libraries. Note that in order to answer the original question, you’ll need to &lt;strong&gt;get/extract the result using the first capture group,&lt;/strong&gt; or else the judging system will consider a wrong answer.&lt;/p&gt;
 
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
-&lt;p&gt;I believe that this problem can also be solved in many ways, perhaps by utilizing certain string matching algorithms to optimize the hashtag-counting process. However, it’s quite interesting that this problem can be solved by a one-liner regular expression pattern, which is acceptable in many programming languages. I wonder whether and how quick the original contestants realized that a regex-based solution is possible for this problem.&lt;/p&gt;</content><author><name></name></author><category term="dev.to" /><category term="en-us" /><category term="todayilearned" /><category term="competitive-programming" /><category term="regex" /><summary type="html">The Problem Adapted from ICPC Indonesia National Contest (INC) 2014, Problem H</summary></entry><entry><title type="html">Dukung Julia Stephanie dalam kompetisi PILMAPRES BINUS UNIVERSITY!</title><link href="/posts/2021/02/20/dukung-julia-stephanie-dalam-kompetisi-pilmapres-binus-university.html" rel="alternate" type="text/html" title="Dukung Julia Stephanie dalam kompetisi PILMAPRES BINUS UNIVERSITY!" /><published>2021-02-20T00:00:00+07:00</published><updated>2021-02-20T00:00:00+07:00</updated><id>/posts/2021/02/20/dukung-julia-stephanie-dalam-kompetisi-pilmapres-binus-university</id><content type="html" xml:base="/posts/2021/02/20/dukung-julia-stephanie-dalam-kompetisi-pilmapres-binus-university.html">&lt;p&gt;Halo guys! 👋&lt;/p&gt;
+&lt;p&gt;I believe that this problem can also be solved in many ways, perhaps by utilizing certain string matching algorithms to optimize the hashtag-counting process. However, it’s quite interesting that this problem can be solved by a one-liner regular expression pattern, which is acceptable in many programming languages. I wonder whether and how quick the original contestants realized that a regex-based solution is possible for this problem.&lt;/p&gt;</content><author><name></name></author><category term="dev.to" /><category term="en-us" /><category term="todayilearned" /><category term="competitive-programming" /><category term="regex" /><summary type="html">The Problem Adapted from ICPC Indonesia National Contest (INC) 2014, Problem H</summary></entry><entry><title type="html">Dukung Julia Stephanie dalam kompetisi PILMAPRES BINUS UNIVERSITY!</title><link href="http://0.0.0.0:4000/posts/2021/02/20/dukung-julia-stephanie-dalam-kompetisi-pilmapres-binus-university.html" rel="alternate" type="text/html" title="Dukung Julia Stephanie dalam kompetisi PILMAPRES BINUS UNIVERSITY!" /><published>2021-02-20T00:00:00+07:00</published><updated>2021-02-20T00:00:00+07:00</updated><id>http://0.0.0.0:4000/posts/2021/02/20/dukung-julia-stephanie-dalam-kompetisi-pilmapres-binus-university</id><content type="html" xml:base="http://0.0.0.0:4000/posts/2021/02/20/dukung-julia-stephanie-dalam-kompetisi-pilmapres-binus-university.html">&lt;p&gt;Halo guys! 👋&lt;/p&gt;
 
 &lt;p&gt;Teman kita &lt;strong&gt;Julia Stephanie&lt;/strong&gt; yg mewakili School of Computer Science (SoCS) saat ini sedang mengikuti kompetisi 🎆 &lt;strong&gt;Pemilihan Mahasiswa Berprestasi (Pilmapres) Binus University.&lt;/strong&gt; 🎆&lt;/p&gt;
 
@@ -164,7 +335,7 @@
 &lt;p&gt;Thank you, stay healthy &amp;amp; stay safe 😁&lt;/p&gt;
 
 &lt;p&gt;Link download BinusTV 👇:
-&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.bedigital.binustv&quot;&gt;https://play.google.com/store/apps/details?id=com.bedigital.binustv&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="binus" /><category term="binus-socs" /><category term="id-id" /><category term="pilmapres" /><summary type="html">Halo guys! 👋</summary></entry><entry><title type="html">Apakah lebih baik menggunakan tutup kurung di javascript if statement?</title><link href="/posts/2021/02/19/apakah-lebih-baik-menggunakan-tutup-kurung-di-javascript-if-statement.html" rel="alternate" type="text/html" title="Apakah lebih baik menggunakan tutup kurung di javascript if statement?" /><published>2021-02-19T00:00:00+07:00</published><updated>2021-02-19T00:00:00+07:00</updated><id>/posts/2021/02/19/apakah-lebih-baik-menggunakan-tutup-kurung-di-javascript-if-statement</id><content type="html" xml:base="/posts/2021/02/19/apakah-lebih-baik-menggunakan-tutup-kurung-di-javascript-if-statement.html">&lt;blockquote&gt;
+&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.bedigital.binustv&quot;&gt;https://play.google.com/store/apps/details?id=com.bedigital.binustv&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="binus" /><category term="binus-socs" /><category term="id-id" /><category term="pilmapres" /><summary type="html">Halo guys! 👋</summary></entry><entry><title type="html">Apakah lebih baik menggunakan tutup kurung di javascript if statement?</title><link href="http://0.0.0.0:4000/posts/2021/02/19/apakah-lebih-baik-menggunakan-tutup-kurung-di-javascript-if-statement.html" rel="alternate" type="text/html" title="Apakah lebih baik menggunakan tutup kurung di javascript if statement?" /><published>2021-02-19T00:00:00+07:00</published><updated>2021-02-19T00:00:00+07:00</updated><id>http://0.0.0.0:4000/posts/2021/02/19/apakah-lebih-baik-menggunakan-tutup-kurung-di-javascript-if-statement</id><content type="html" xml:base="http://0.0.0.0:4000/posts/2021/02/19/apakah-lebih-baik-menggunakan-tutup-kurung-di-javascript-if-statement.html">&lt;blockquote&gt;
   &lt;p&gt;&lt;strong&gt;Berikut ini adalah jawaban dari sebuah pertanyaan yang ditanyakan melalui situs Kotakode. Klik link di atas untuk melihat pertanyaan aslinya.&lt;/strong&gt;&lt;/p&gt;
 
   &lt;p&gt;Saya ada lihat kode di javascript seperti&lt;/p&gt;
@@ -209,7 +380,7 @@
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else&quot;&gt;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/id/docs/Web/JavaScript/Reference/Operators/Conditional_Operator&quot;&gt;https://developer.mozilla.org/id/docs/Web/JavaScript/Reference/Operators/Conditional_Operator&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="kotakode" /><category term="id-id" /><category term="reinhartmenjawab" /><category term="webdev" /><category term="javascript" /><summary type="html">Berikut ini adalah jawaban dari sebuah pertanyaan yang ditanyakan melalui situs Kotakode. Klik link di atas untuk melihat pertanyaan aslinya. Saya ada lihat kode di javascript seperti if (cond) console.log(&quot;Hello world&quot;) saya rasa ini sangat membingungkan karena tidak ada {}. Sebagai best-practice apakah lebih baik untuk menggunakan {} ? Terima kasih sebelumnya</summary></entry><entry><title type="html">@reinhart1010 Rebrand Exploration: The Cursor</title><link href="/posts/2021/02/18/reinhart1010-rebranding-exploration-the-cursor.html" rel="alternate" type="text/html" title="@reinhart1010 Rebrand Exploration: The Cursor" /><published>2021-02-18T00:00:00+07:00</published><updated>2021-02-18T00:00:00+07:00</updated><id>/posts/2021/02/18/reinhart1010-rebranding-exploration-the-cursor</id><content type="html" xml:base="/posts/2021/02/18/reinhart1010-rebranding-exploration-the-cursor.html">&lt;blockquote&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="kotakode" /><category term="id-id" /><category term="reinhartmenjawab" /><category term="webdev" /><category term="javascript" /><summary type="html">Berikut ini adalah jawaban dari sebuah pertanyaan yang ditanyakan melalui situs Kotakode. Klik link di atas untuk melihat pertanyaan aslinya. Saya ada lihat kode di javascript seperti if (cond) console.log(&quot;Hello world&quot;) saya rasa ini sangat membingungkan karena tidak ada {}. Sebagai best-practice apakah lebih baik untuk menggunakan {} ? Terima kasih sebelumnya</summary></entry><entry><title type="html">@reinhart1010 Rebrand Exploration: The Cursor</title><link href="http://0.0.0.0:4000/posts/2021/02/18/reinhart1010-rebranding-exploration-the-cursor.html" rel="alternate" type="text/html" title="@reinhart1010 Rebrand Exploration: The Cursor" /><published>2021-02-18T00:00:00+07:00</published><updated>2021-02-18T00:00:00+07:00</updated><id>http://0.0.0.0:4000/posts/2021/02/18/reinhart1010-rebranding-exploration-the-cursor</id><content type="html" xml:base="http://0.0.0.0:4000/posts/2021/02/18/reinhart1010-rebranding-exploration-the-cursor.html">&lt;blockquote&gt;
   &lt;p&gt;This is the first post of the recently-announced &lt;a href=&quot;/posts/2021/02/14/introducing-the-reinhart1010-rebranding-exploration-series.html&quot;&gt;@reinhart1010 Rebrand Exploration Series&lt;/a&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -247,7 +418,7 @@
 
 &lt;p&gt;There will be many exciting discoveries on what the future brand would be, so please keep an eye for updates and feedbacks on this site (epecially &lt;a href=&quot;https://reinhart1010.github.io/posts/category/rebrand20/&quot;&gt;https://reinhart1010.github.io/posts/category/rebrand20/&lt;/a&gt;), and possibly through my &lt;a href=&quot;https://t.me/reinhart1010&quot;&gt;Telegram&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/reinhart1010&quot;&gt;Twitter&lt;/a&gt; for polls.&lt;/p&gt;
 
-&lt;p&gt;See you soon.&lt;/p&gt;</content><author><name></name></author><category term="design-exploration" /><category term="rebrand20" /><category term="en-us" /><summary type="html">This is the first post of the recently-announced @reinhart1010 Rebrand Exploration Series.</summary></entry><entry><title type="html">Apparently Yes! You can install OpenJDK (Java) JRE and YaCy on OpenWrt</title><link href="/posts/2021/02/14/apparently-yes-you-can-install-openjdk-java-jre-and-yacy-on-openwrt.html" rel="alternate" type="text/html" title="Apparently Yes! You can install OpenJDK (Java) JRE and YaCy on OpenWrt" /><published>2021-02-14T00:00:00+07:00</published><updated>2021-02-14T00:00:00+07:00</updated><id>/posts/2021/02/14/apparently-yes-you-can-install-openjdk-java-jre-and-yacy-on-openwrt</id><content type="html" xml:base="/posts/2021/02/14/apparently-yes-you-can-install-openjdk-java-jre-and-yacy-on-openwrt.html">&lt;blockquote&gt;
+&lt;p&gt;See you soon.&lt;/p&gt;</content><author><name></name></author><category term="design-exploration" /><category term="rebrand20" /><category term="en-us" /><summary type="html">This is the first post of the recently-announced @reinhart1010 Rebrand Exploration Series.</summary></entry><entry><title type="html">Apparently Yes! You can install OpenJDK (Java) JRE and YaCy on OpenWrt</title><link href="http://0.0.0.0:4000/posts/2021/02/14/apparently-yes-you-can-install-openjdk-java-jre-and-yacy-on-openwrt.html" rel="alternate" type="text/html" title="Apparently Yes! You can install OpenJDK (Java) JRE and YaCy on OpenWrt" /><published>2021-02-14T00:00:00+07:00</published><updated>2021-02-14T00:00:00+07:00</updated><id>http://0.0.0.0:4000/posts/2021/02/14/apparently-yes-you-can-install-openjdk-java-jre-and-yacy-on-openwrt</id><content type="html" xml:base="http://0.0.0.0:4000/posts/2021/02/14/apparently-yes-you-can-install-openjdk-java-jre-and-yacy-on-openwrt.html">&lt;blockquote&gt;
   &lt;p&gt;&lt;strong&gt;IMPORTANT NOTE:&lt;/strong&gt; This guide is meant for OpenWrt-installed devices with really large memory and storage space, which in this case a &lt;a href=&quot;https://www.raspberrypi.org/products/raspberry-pi-3-model-b/&quot;&gt;Raspberry Pi 3 (Model B)&lt;/a&gt; with 1GB of RAM and 32GB of storage (loaded on a MicroSD Card). &lt;strong&gt;Most routers do not support those gigantic space, so they might not be capable on running YaCy at all.&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -348,7 +519,7 @@ opkg &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;curl libstdcpp6 libjp
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/overlay/opt/yacy/bin/passwd.sh
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;And that’s it! YaCy is now accessible on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;your OpenWrt IP address&amp;gt;:8090&lt;/code&gt;. Keep in mind that you can still access LuCi the original way, as the YaCy server does not take the regular HTTP ports (80, 443) unless otherwise specified.&lt;/p&gt;</content><author><name></name></author><category term="dev.to" /><category term="en-us" /><category term="yacy" /><category term="raspberrypi" /><category term="openwrt" /><category term="showdev" /><category term="todayilearned" /><summary type="html">IMPORTANT NOTE: This guide is meant for OpenWrt-installed devices with really large memory and storage space, which in this case a Raspberry Pi 3 (Model B) with 1GB of RAM and 32GB of storage (loaded on a MicroSD Card). Most routers do not support those gigantic space, so they might not be capable on running YaCy at all.</summary></entry><entry><title type="html">Mempersembahkan KopiHati</title><link href="/posts/2021/02/14/mempersembahkan-kopihati.html" rel="alternate" type="text/html" title="Mempersembahkan KopiHati" /><published>2021-02-14T00:00:00+07:00</published><updated>2021-02-14T00:00:00+07:00</updated><id>/posts/2021/02/14/mempersembahkan-kopihati</id><content type="html" xml:base="/posts/2021/02/14/mempersembahkan-kopihati.html">&lt;p&gt;&lt;strong&gt;KopiHati&lt;/strong&gt; merupakan sebuah bahasa pemrograman yang terinspirasi dari sekelompok &lt;em&gt;brand&lt;/em&gt; gerai kopi, minuman, dan kafe di Jakarta, yang sempat mengalami puncak keemasannya pada tahun 2018-2019.&lt;/p&gt;
+&lt;p&gt;And that’s it! YaCy is now accessible on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;your OpenWrt IP address&amp;gt;:8090&lt;/code&gt;. Keep in mind that you can still access LuCi the original way, as the YaCy server does not take the regular HTTP ports (80, 443) unless otherwise specified.&lt;/p&gt;</content><author><name></name></author><category term="dev.to" /><category term="en-us" /><category term="yacy" /><category term="raspberrypi" /><category term="openwrt" /><category term="showdev" /><category term="todayilearned" /><summary type="html">IMPORTANT NOTE: This guide is meant for OpenWrt-installed devices with really large memory and storage space, which in this case a Raspberry Pi 3 (Model B) with 1GB of RAM and 32GB of storage (loaded on a MicroSD Card). Most routers do not support those gigantic space, so they might not be capable on running YaCy at all.</summary></entry><entry><title type="html">Mempersembahkan KopiHati</title><link href="http://0.0.0.0:4000/posts/2021/02/14/mempersembahkan-kopihati.html" rel="alternate" type="text/html" title="Mempersembahkan KopiHati" /><published>2021-02-14T00:00:00+07:00</published><updated>2021-02-14T00:00:00+07:00</updated><id>http://0.0.0.0:4000/posts/2021/02/14/mempersembahkan-kopihati</id><content type="html" xml:base="http://0.0.0.0:4000/posts/2021/02/14/mempersembahkan-kopihati.html">&lt;p&gt;&lt;strong&gt;KopiHati&lt;/strong&gt; merupakan sebuah bahasa pemrograman yang terinspirasi dari sekelompok &lt;em&gt;brand&lt;/em&gt; gerai kopi, minuman, dan kafe di Jakarta, yang sempat mengalami puncak keemasannya pada tahun 2018-2019.&lt;/p&gt;
 
 &lt;p&gt;Nama bahasa pemrograman ini juga terinspirasi dari kesenangan masyarakat Indonesia serta para programmer seluruh dunia dalam meminum kopi. Bahkan, nama bahasa pemrograman “Java” pun sebenarnya berasal dari varian kopi yang sering ditemui di pulau Jawa. Banyak kafe, gerai, dan warung kopi yang bertebaran di seluruh pelosok Indonesia, sedangkan Indonesia ini juga menjadi salah satu pengekspor biji dan bubuk kopi di seluruh dunia. Minuman kopi ini sering pula dijadikan sebagai meme dan bahan candaan bagi para programmer seperti berikut.&lt;/p&gt;
 
@@ -502,7 +673,7 @@ Cukup itu saja.
   &lt;li&gt;Membentuk komunitas dan organisasi, seperti &lt;a href=&quot;https://www.python.org/psf/&quot;&gt;Python Software Foundation&lt;/a&gt; dan &lt;a href=&quot;https://openjsf.org/&quot;&gt;OpenJS Foundation&lt;/a&gt;, untuk melanjutkan pengembangan bahasa pemrograman KopiHati dalam jangka panjang&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Demikianlah pengumuman saya tentang KopiHati ini. Seluruh update tentang bahasa pemrograman ini akan tersedia di &lt;a href=&quot;https://reinhart1010.github.io/posts/category/kopihati&quot;&gt;https://reinhart1010.github.io/posts/category/kopihati&lt;/a&gt;, dan jika memungkinkan, juga dipublikasikan di &lt;a href=&quot;https://kotakode.com/blogs&quot;&gt;Kotakode&lt;/a&gt;. Untuk sementara waktu, bahasa pemrograman ini masih &lt;strong&gt;belum&lt;/strong&gt; memiliki situs dan akun Instagram sesuai yang direncanakan. Sampai jumpa pada pengumuman berikutnya!&lt;/p&gt;</content><author><name></name></author><category term="projects" /><category term="kopihati" /><category term="id-id" /><summary type="html">KopiHati merupakan sebuah bahasa pemrograman yang terinspirasi dari sekelompok brand gerai kopi, minuman, dan kafe di Jakarta, yang sempat mengalami puncak keemasannya pada tahun 2018-2019.</summary></entry><entry><title type="html">Selamat Hari Valentine!</title><link href="/posts/2021/02/14/selamat-hari-valentine.html" rel="alternate" type="text/html" title="Selamat Hari Valentine!" /><published>2021-02-14T00:00:00+07:00</published><updated>2021-02-14T00:00:00+07:00</updated><id>/posts/2021/02/14/selamat-hari-valentine</id><content type="html" xml:base="/posts/2021/02/14/selamat-hari-valentine.html">&lt;p&gt;Kamu mungkin sudah lama tidak bertemu saya sejak SMA, SMP, dan bahkan dulu saat saya masih duduk di bangku SD Santo Bellarminus Jakarta (Menteng) dan SD Kristen Kanaan Banjarmasin.&lt;/p&gt;
+&lt;p&gt;Demikianlah pengumuman saya tentang KopiHati ini. Seluruh update tentang bahasa pemrograman ini akan tersedia di &lt;a href=&quot;https://reinhart1010.github.io/posts/category/kopihati&quot;&gt;https://reinhart1010.github.io/posts/category/kopihati&lt;/a&gt;, dan jika memungkinkan, juga dipublikasikan di &lt;a href=&quot;https://kotakode.com/blogs&quot;&gt;Kotakode&lt;/a&gt;. Untuk sementara waktu, bahasa pemrograman ini masih &lt;strong&gt;belum&lt;/strong&gt; memiliki situs dan akun Instagram sesuai yang direncanakan. Sampai jumpa pada pengumuman berikutnya!&lt;/p&gt;</content><author><name></name></author><category term="projects" /><category term="kopihati" /><category term="id-id" /><summary type="html">KopiHati merupakan sebuah bahasa pemrograman yang terinspirasi dari sekelompok brand gerai kopi, minuman, dan kafe di Jakarta, yang sempat mengalami puncak keemasannya pada tahun 2018-2019.</summary></entry><entry><title type="html">Selamat Hari Valentine!</title><link href="http://0.0.0.0:4000/posts/2021/02/14/selamat-hari-valentine.html" rel="alternate" type="text/html" title="Selamat Hari Valentine!" /><published>2021-02-14T00:00:00+07:00</published><updated>2021-02-14T00:00:00+07:00</updated><id>http://0.0.0.0:4000/posts/2021/02/14/selamat-hari-valentine</id><content type="html" xml:base="http://0.0.0.0:4000/posts/2021/02/14/selamat-hari-valentine.html">&lt;p&gt;Kamu mungkin sudah lama tidak bertemu saya sejak SMA, SMP, dan bahkan dulu saat saya masih duduk di bangku SD Santo Bellarminus Jakarta (Menteng) dan SD Kristen Kanaan Banjarmasin.&lt;/p&gt;
 
 &lt;p&gt;Saat ini, saya sudah memiliki situs dan blog resmi di &lt;a href=&quot;https://reinhart1010.github.io&quot;&gt;https://reinhart1010.github.io&lt;/a&gt;, alias &lt;em&gt;website ini&lt;/em&gt;. Dalam situs ini kamu juga dapat melihat seluruh &lt;em&gt;progress&lt;/em&gt;, pengumuman, jawaban, proyek, dan artikel blog yang pernah saya tulis di &lt;a href=&quot;https://www.openstreetmap.org/user/Reinhart Previano/diary&quot;&gt;OpenStreetMap&lt;/a&gt;, &lt;a href=&quot;https://kotakode.com/users/7/reinhart1010&quot;&gt;Kotakode&lt;/a&gt;, &lt;a href=&quot;http://reinhart1010.blog.binusian.org&quot;&gt;BINUSIAN Blog&lt;/a&gt;, &lt;a href=&quot;https://dev.to/reinhart1010&quot;&gt;DEV.to&lt;/a&gt;, dan sebagainya.&lt;/p&gt;
 
@@ -516,87 +687,4 @@ Cukup itu saja.
   &lt;li&gt;&lt;strong&gt;Arsip jawaban saya untuk tugas kuliah Character Building di BINUS pun juga kini tersedia di dalam blog ini.&lt;/strong&gt; Kamu bisa melihat jawaban-jawabannya &lt;a href=&quot;/posts/category/character-building/&quot;&gt;di sini&lt;/a&gt;, termasuk &lt;a href=&quot;/posts/2019/10/20/ancaman-perkembangan-teknologi-terhadap-keutuhan-pancasila-dan-apa-yang-harus-dilakukan-untuk-menghadapinya.html&quot;&gt;jawaban yang menjadi salah satu blog post terpanjang yang pernah saya tulis seumur hidup&lt;/a&gt;.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Jangan lupa untuk tidak men-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Throw new Exception()&lt;/code&gt; terhadap masyarakat Indonesia yang berpolymorph dan tetap menjaga &lt;em&gt;linked list&lt;/em&gt; persatuan Indonesia. Sampai jumpa dalam pengumuman berikutnya!&lt;/p&gt;</content><author><name></name></author><category term="updates" /><category term="id-id" /><summary type="html">Kamu mungkin sudah lama tidak bertemu saya sejak SMA, SMP, dan bahkan dulu saat saya masih duduk di bangku SD Santo Bellarminus Jakarta (Menteng) dan SD Kristen Kanaan Banjarmasin.</summary></entry><entry><title type="html">[Meta] Apa yang akan kita pelajari untuk Semester 4 MAT B23?</title><link href="/posts/2021/02/10/apa-yang-akan-kita-pelajari-untuk-semeter-4-mat-b23.html" rel="alternate" type="text/html" title="[Meta] Apa yang akan kita pelajari untuk Semester 4 MAT B23?" /><published>2021-02-10T00:00:00+07:00</published><updated>2021-02-10T00:00:00+07:00</updated><id>/posts/2021/02/10/apa-yang-akan-kita-pelajari-untuk-semeter-4-mat-b23</id><content type="html" xml:base="/posts/2021/02/10/apa-yang-akan-kita-pelajari-untuk-semeter-4-mat-b23.html">&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Isi dari post ini dapat berubah sewaktu-waktu.&lt;/strong&gt; Last Updated 10 Februari 2021.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;comp6062---compilation-techniques&quot;&gt;COMP6062 - Compilation Techniques&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Materi ini merupakan kelanjutan dari &lt;strong&gt;MATH6025 - Discrete Mathematics&lt;/strong&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Cara kerja sebuah Compiler dan Intepreter&lt;/li&gt;
-  &lt;li&gt;Cara kerja kodingan kalian bisa dijalankan&lt;/li&gt;
-  &lt;li&gt;Deterministic Finite Automata (DFA)&lt;/li&gt;
-  &lt;li&gt;Non-deterministic Finite Automata (NFA)&lt;/li&gt;
-  &lt;li&gt;Regular Expression (regex), sebagai salah satu materi tentang Finite Automata&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;cpen6108---computer-networks&quot;&gt;CPEN6108 - Computer Networks&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;LAN, WAN, WLAN, VLAN&lt;/li&gt;
-  &lt;li&gt;TCP/IP, IP Address, DHCP?, DNS, NAT?&lt;/li&gt;
-  &lt;li&gt;Classless &amp;amp; Subneting&lt;/li&gt;
-  &lt;li&gt;Routing, NAT?&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/OSI_model&quot;&gt;7 Layers of OSI Model (OSI Layer)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Network Protocols&lt;/li&gt;
-  &lt;li&gt;Network Security&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;mobi6061---embedded-systems-and-internet-of-things&quot;&gt;MOBI6061 - Embedded Systems and Internet of Things&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/17312341/107489967-d6b25580-6bbb-11eb-97de-aeffc18df182.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
-
-  &lt;p&gt;“Single Board Computer” (SBC) yang dipakai di dalam kompetisi SANDBOX Demoday adalah sebuah &lt;a href=&quot;https://www.raspberrypi.org/products/raspberry-pi-3-model-b/&quot;&gt;Raspberry Pi 3 (Model B)&lt;/a&gt; dengan sistem operasi &lt;a href=&quot;https://ubuntu-mate.org/&quot;&gt;Ubuntu MATE&lt;/a&gt;!&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Arduino dan ESP8266&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;AHHH, belajar C/C++ lagi…&lt;/strong&gt;&lt;/li&gt;
-      &lt;li&gt;Tapi tenang, gaada algo.binus&lt;/li&gt;
-      &lt;li&gt;I/O dan GPIO&lt;/li&gt;
-      &lt;li&gt;Komunikasi terhadap sensor secara anlog dan digital&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Raspberry Pi&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Sesuatu yang berhubungan dengan Linux (package management, CLI, SSH)&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://nodejs.org/en/&quot;&gt;Node.js&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Amazon Web Services (AWS)&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;AWS Greengrass&lt;/li&gt;
-      &lt;li&gt;HTTP Request&lt;/li&gt;
-      &lt;li&gt;REST dan GraphQL API ke server AWS&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;comp6231---human-and-computer-interaction-edisi-mat&quot;&gt;COMP6231 - Human and Computer Interaction, edisi MAT&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Materi ini merupakan kelanjutan dari &lt;strong&gt;MOBI6056 - Mobile Creative Design&lt;/strong&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Interaction Design &amp;amp; Prototyping (Kelas LEC)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://flutter.dev/&quot;&gt;Bikin aplikasi pakai Dart dan Flutter&lt;/a&gt; (Kelas LAB/SLC)
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://codelabs.developers.google.com/codelabs/from-java-to-dart/#0&quot;&gt;Intro to Dart for Java developers&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;mobi6006---mobile-community-solution&quot;&gt;MOBI6006 - Mobile Community Solution&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Materi ini merupakan kelanjutan dari &lt;strong&gt;MOBI6002 - Mobile Object-Oriented Programming&lt;/strong&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Android pakai Java&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;comp6644---software-engineering&quot;&gt;COMP6644 - Software Engineering&lt;/h2&gt;
-&lt;p&gt;Materi ini merupakan kelanjutan dari &lt;strong&gt;COMP6056 - Program Design Methods&lt;/strong&gt; (materi non-Entre) dan &lt;strong&gt;COMP6643 - Artificial Intelligence&lt;/strong&gt; (materi Entre).&lt;/p&gt;</content><author><name></name></author><category term="binus" /><category term="binus-socs" /><category term="binus-mat" /><category term="id-id" /><summary type="html">Isi dari post ini dapat berubah sewaktu-waktu. Last Updated 10 Februari 2021.</summary></entry></feed>
+&lt;p&gt;Jangan lupa untuk tidak men-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Throw new Exception()&lt;/code&gt; terhadap masyarakat Indonesia yang berpolymorph dan tetap menjaga &lt;em&gt;linked list&lt;/em&gt; persatuan Indonesia. Sampai jumpa dalam pengumuman berikutnya!&lt;/p&gt;</content><author><name></name></author><category term="updates" /><category term="id-id" /><summary type="html">Kamu mungkin sudah lama tidak bertemu saya sejak SMA, SMP, dan bahkan dulu saat saya masih duduk di bangku SD Santo Bellarminus Jakarta (Menteng) dan SD Kristen Kanaan Banjarmasin.</summary></entry></feed>

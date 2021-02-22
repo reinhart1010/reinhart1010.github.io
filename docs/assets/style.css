@@ -128,12 +128,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: "Red Hat Dis
 
 .dark-mode .blog.content pre { background-color: rgba(0, 0, 0, 0.3); }
 
-.blog.content table { overflow-x: scroll; -webkit-overflow-scrolling: touch; }
-
-.blog.content th, .blog.content table td { border: solid 2px rgba(0, 0, 0, 0.5); padding: 10px; }
-
-.dark-mode .blog.content th, .blog.content table td { border: solid 2px rgba(255, 255, 255, 0.5); }
-
 .highlight .c { color: #5B6370; font-style: italic; }
 
 .highlight .err { color: #960050; background-color: #1e0010; }

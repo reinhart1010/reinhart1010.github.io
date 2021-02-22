@@ -4,7 +4,6 @@
 <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
 <meta name="viewport" content="width=device-width" />
 
-
 <!-- Primary Meta Tags -->
 <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
 <meta name="title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}">
@@ -27,3 +26,7 @@
 <!-- Indieweb / Webmention -->
 <link rel="webmention" href="https://webmention.io/reinhart1010.github.io/webmention" />
 <link rel="pingback" href="https://webmention.io/reinhart1010.github.io/xmlrpc" />
+
+<!-- Mobile-friendly -->
+{% assign current_universe = page.categories.last | default: page.autopages.display_name | default: page.title | default: "home" %}
+<meta name="theme-color" content="{{ page.theme_color | default: site.data.categories[current_universe].theme_color.primary | default: site.data.categories[current_universe].theme_color | default: '#0094ff' }}"/>

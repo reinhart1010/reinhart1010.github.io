@@ -7,7 +7,6 @@
 <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
 <meta name="viewport" content="width=device-width" />
 
-
 <!-- Primary Meta Tags -->
 <title>Posts tagged #character-building - Reinhart Previano K.</title>
 <meta name="title" content="Posts tagged #character-building - Reinhart Previano K.">
@@ -15,14 +14,14 @@
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
-<meta property="og:url" content="/posts/tag/character-building/index.html">
+<meta property="og:url" content="http://0.0.0.0:4000/posts/tag/character-building/index.html">
 <meta property="og:title" content="Posts tagged #character-building - Reinhart Previano K.">
 <meta property="og:description" content="">
 <meta property="og:image" content="">
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="/posts/tag/character-building/index.html">
+<meta property="twitter:url" content="http://0.0.0.0:4000/posts/tag/character-building/index.html">
 <meta property="twitter:title" content="Posts tagged #character-building - Reinhart Previano K.">
 <meta property="twitter:description" content="">
 <meta property="twitter:image" content="">
@@ -30,6 +29,10 @@
 <!-- Indieweb / Webmention -->
 <link rel="webmention" href="https://webmention.io/reinhart1010.github.io/webmention" />
 <link rel="pingback" href="https://webmention.io/reinhart1010.github.io/xmlrpc" />
+
+<!-- Mobile-friendly -->
+
+<meta name="theme-color" content="#0094ff"/>
   <link href="/assets/css/w3-colors-metro.css" rel="stylesheet" />
 
   <!-- Fork Awesome Icons -->
@@ -335,6 +338,25 @@
         </div>
         <div class="text-right"> <!-- text-right = text-align: right -->
           <a href="/posts/category/ika" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 font-size-18">
+      <div class="card m-10 shadow-lg"
+      
+      >
+        <div class="h-200">
+          <h3 class="mt-0">indieweb</h3>
+          <p>
+            </b>
+          </p>
+        </div>
+        <div class="text-right"> <!-- text-right = text-align: right -->
+          <a href="/posts/category/indieweb" class="btn btn-lg shadow-lg bg-light text-dark"><b>Visit</b></a>
         </div>
       </div>
     </div>
@@ -1210,6 +1232,26 @@ setTimeout(preloadCards, 0);
 
         return array;
     }
+  </script>
+  <script>
+    // Converts all HTML tables to responsive tables
+    var els = document.getElementsByTagName("table");
+
+    Array.prototype.forEach.call(els, function(el) {
+      // Add Halfmoon's "table" and "table-inner-bordered" classes
+      var arr = el.className.split(" ");
+      if (arr.indexOf("table") == -1) {
+        el.className += " table table-bordered table-striped table-hover";
+      }
+
+      // Add a new parent node containing class "table-responsive"
+      var parent = el.parentNode;
+      var wrapper = document.createElement('div');
+      wrapper.className = "table-responsive"
+
+      parent.replaceChild(wrapper, el);
+      wrapper.appendChild(el);
+    });
   </script>
   <script src="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/js/halfmoon.min.js"></script>
 </body>
