@@ -32,6 +32,10 @@ food-navigator:
   theme_color: "#fa582d"
 home:
   theme_color: "#0094ff"
+investigasi:
+  name: "<code class='font-size-16'>investigasi@reinhart1010:~/$_</code>"
+  theme_color: "#365314"
+  theme_color_foreground: "#BEF264"
 kopihati:
   name: "KopiHati"
   theme_color: "#fecaca"

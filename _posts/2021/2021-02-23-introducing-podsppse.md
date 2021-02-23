@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "Introducing PODSPPSE: Publish (on your) Own Decentralized Site, Partially Publish and Syndicate Elsewhere"
-categories: [updates, indieweb]
-tags: [en-us]
+title: Introducing PODSPPSE
+description: Publish (on your) Own Decentralized Site, Partially Publish and Syndicate Elsewhere
+categories: [updates]
+tags: [en-us, indieweb]
 ---
 > **This blog post contains terms which may not be fully understood outside of the [IndieWeb](https://indieweb.org/) and federated social network ("Fediverse") communities, which includes the following:**
 >
@@ -14,7 +15,7 @@ tags: [en-us]
 > + [**PASTA** (Publish Anywhere, Save To Archive)](https://indieweb.org/PASTA) is a content syndication strategy where every single content are posted on any silos, then saved into a personal archive
 > + [**Fediverse**](https://en.wikipedia.org/wiki/Fediverse): A network of interconnected (federated) and intercommunicated social network services, in which popular examples include Mastodon, Diaspora*, Matrix.org and GNU Social
 
-**PODSPPSE** is a hybrid between **POSSE** and **PASTA** in which the ~~master~~ main copies of posts are published in own site, where only a selection of these posts are published or syndicated elsewhere. This site is indeed decentralized since it is available on 2 different URLs:
+**PODSPPSE** (Publish (on your) Own Decentralized Site, Partially Publish and Syndicate Elsewhere) is a hybrid between **POSSE** and **PASTA** in which the ~~master~~ main copies of posts are published in own site, where only a selection of these posts are published or syndicated elsewhere. This site is indeed decentralized since it is available on 2 different URLs:
 
 + <https://reinhart1010.github.io> (Powered by GitHub Pages), and
 + <https://reinhart1010.gitlab.io> (Powered by GitLab Pages).

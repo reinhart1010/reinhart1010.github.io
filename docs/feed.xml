@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2021-02-23T13:17:27+07:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">Reinhart Previano K.</title><subtitle>Blog repository</subtitle><entry><title type="html">Introducing PODSPPSE: Publish (on your) Own Decentralized Site, Partially Publish and Syndicate Elsewhere</title><link href="http://0.0.0.0:4000/posts/2021/02/23/introducing-podsppse.html" rel="alternate" type="text/html" title="Introducing PODSPPSE: Publish (on your) Own Decentralized Site, Partially Publish and Syndicate Elsewhere" /><published>2021-02-23T00:00:00+07:00</published><updated>2021-02-23T00:00:00+07:00</updated><id>http://0.0.0.0:4000/posts/2021/02/23/introducing-podsppse</id><content type="html" xml:base="http://0.0.0.0:4000/posts/2021/02/23/introducing-podsppse.html">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2021-02-23T18:43:52+07:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">Reinhart Previano K.</title><subtitle>Blog repository</subtitle><entry><title type="html">Introducing PODSPPSE</title><link href="http://0.0.0.0:4000/posts/2021/02/23/introducing-podsppse.html" rel="alternate" type="text/html" title="Introducing PODSPPSE" /><published>2021-02-23T00:00:00+07:00</published><updated>2021-02-23T00:00:00+07:00</updated><id>http://0.0.0.0:4000/posts/2021/02/23/introducing-podsppse</id><content type="html" xml:base="http://0.0.0.0:4000/posts/2021/02/23/introducing-podsppse.html">&lt;blockquote&gt;
   &lt;p&gt;&lt;strong&gt;This blog post contains terms which may not be fully understood outside of the &lt;a href=&quot;https://indieweb.org/&quot;&gt;IndieWeb&lt;/a&gt; and federated social network (“Fediverse”) communities, which includes the following:&lt;/strong&gt;&lt;/p&gt;
 
   &lt;ul&gt;
@@ -12,7 +12,7 @@
   &lt;/ul&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;strong&gt;PODSPPSE&lt;/strong&gt; is a hybrid between &lt;strong&gt;POSSE&lt;/strong&gt; and &lt;strong&gt;PASTA&lt;/strong&gt; in which the &lt;del&gt;master&lt;/del&gt; main copies of posts are published in own site, where only a selection of these posts are published or syndicated elsewhere. This site is indeed decentralized since it is available on 2 different URLs:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;PODSPPSE&lt;/strong&gt; (Publish (on your) Own Decentralized Site, Partially Publish and Syndicate Elsewhere) is a hybrid between &lt;strong&gt;POSSE&lt;/strong&gt; and &lt;strong&gt;PASTA&lt;/strong&gt; in which the &lt;del&gt;master&lt;/del&gt; main copies of posts are published in own site, where only a selection of these posts are published or syndicated elsewhere. This site is indeed decentralized since it is available on 2 different URLs:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://reinhart1010.github.io&quot;&gt;https://reinhart1010.github.io&lt;/a&gt; (Powered by GitHub Pages), and&lt;/li&gt;
@@ -177,7 +177,149 @@
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;the-goal&quot;&gt;The Goal&lt;/h2&gt;
-&lt;p&gt;The main goal of PODSPPSE is indeed the same as POSSE, where my own content can be syndicated across different sites, services, and platforms, while maintaining an archive of posts into an open, distributed places such as GitHub. This allows my posts and content to be further distributed across places and communities in the near future.&lt;/p&gt;</content><author><name></name></author><category term="updates" /><category term="indieweb" /><category term="en-us" /><summary type="html">This blog post contains terms which may not be fully understood outside of the IndieWeb and federated social network (“Fediverse”) communities, which includes the following: A silo is a website, app, or service featuring user-generated content External (or third party) silos are commonly third-party social platforms such as Facebook and Twitter with (often) restrictive features, rules and policies POSSE (Publish on your Own Site, Syndicate Elsewhere) is a content syndication strategy where every single content are posted directly into the user’s own website (as a personal silo), before publishing links or copies into third party silos PESETAS (Publish Elsewhere, Syndicate Everything To A Silo) is a content syndication strategy where every single content are posted on external silos, syndicated into a specific external silo to be featured on the user’s own website (e.g. via Medium or Tumblr’s RSS feeds) PESOS (Publish Elsewhere, Syndicate on your Own Site) is a content syndication strategy where every single content are posted on external silos, then syndicated into the user’s own website PASTA (Publish Anywhere, Save To Archive) is a content syndication strategy where every single content are posted on any silos, then saved into a personal archive Fediverse: A network of interconnected (federated) and intercommunicated social network services, in which popular examples include Mastodon, Diaspora*, Matrix.org and GNU Social</summary></entry><entry><title type="html">Reinhart kini sudah memenuhi 120 SAT dan 30 jam Community Service</title><link href="http://0.0.0.0:4000/posts/2021/02/22/reinhart-kini-sudah-memenuhi-120-sat-dan-30-jam-community-service.html" rel="alternate" type="text/html" title="Reinhart kini sudah memenuhi 120 SAT dan 30 jam Community Service" /><published>2021-02-22T00:00:00+07:00</published><updated>2021-02-22T00:00:00+07:00</updated><id>http://0.0.0.0:4000/posts/2021/02/22/reinhart-kini-sudah-memenuhi-120-sat-dan-30-jam-community-service</id><content type="html" xml:base="http://0.0.0.0:4000/posts/2021/02/22/reinhart-kini-sudah-memenuhi-120-sat-dan-30-jam-community-service.html">&lt;p&gt;&lt;a href=&quot;https://student.binus.ac.id/sat/&quot;&gt;SAT (Student Activity Transcript)&lt;/a&gt;, yang juga disebut sebagai Transkrip Aktivitas Kemahasiswaan (TAK), beserta jam kegiatan sosial (Community Service) merupakan beberapa jenis rekam jejak kegiatan kemahasiswaan serta persyaratan untuk pelaksanaan Tugas Akhir (seperti skripsi) dan kelulusan di BINUS University. Setiap mahasiswa BINUS wajib memiliki SAT dengan minimum jumlah 120 poin, serta harus berpartisipasi dalam setidaknya 10 jam kegiatan sosial melalui kegiatan-kegiatan yang diselenggarakan oleh &lt;a href=&quot;http://www.teachforindonesia.org/&quot;&gt;Teach for Indonesia (TFI)&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The main goal of PODSPPSE is indeed the same as POSSE, where my own content can be syndicated across different sites, services, and platforms, while maintaining an archive of posts into an open, distributed places such as GitHub. This allows my posts and content to be further distributed across places and communities in the near future.&lt;/p&gt;</content><author><name></name></author><category term="updates" /><category term="en-us" /><category term="indieweb" /><summary type="html">This blog post contains terms which may not be fully understood outside of the IndieWeb and federated social network (“Fediverse”) communities, which includes the following: A silo is a website, app, or service featuring user-generated content External (or third party) silos are commonly third-party social platforms such as Facebook and Twitter with (often) restrictive features, rules and policies POSSE (Publish on your Own Site, Syndicate Elsewhere) is a content syndication strategy where every single content are posted directly into the user’s own website (as a personal silo), before publishing links or copies into third party silos PESETAS (Publish Elsewhere, Syndicate Everything To A Silo) is a content syndication strategy where every single content are posted on external silos, syndicated into a specific external silo to be featured on the user’s own website (e.g. via Medium or Tumblr’s RSS feeds) PESOS (Publish Elsewhere, Syndicate on your Own Site) is a content syndication strategy where every single content are posted on external silos, then syndicated into the user’s own website PASTA (Publish Anywhere, Save To Archive) is a content syndication strategy where every single content are posted on any silos, then saved into a personal archive Fediverse: A network of interconnected (federated) and intercommunicated social network services, in which popular examples include Mastodon, Diaspora*, Matrix.org and GNU Social</summary></entry><entry><title type="html">Apa yang akan terjadi saat Anda mengeklik salah satu link spam giveaway Bitcoin/Ethereum/Tether di grup Telegram Kotakode?</title><link href="http://0.0.0.0:4000/posts/2021/02/23/link-spam-giveaway-bitcoin-ethereum-tether-di-grup-telegram-kotakode.html" rel="alternate" type="text/html" title="Apa yang akan terjadi saat Anda mengeklik salah satu link spam giveaway Bitcoin/Ethereum/Tether di grup Telegram Kotakode?" /><published>2021-02-23T00:00:00+07:00</published><updated>2021-02-23T00:00:00+07:00</updated><id>http://0.0.0.0:4000/posts/2021/02/23/link-spam-giveaway-bitcoin-ethereum-tether-di-grup-telegram-kotakode</id><content type="html" xml:base="http://0.0.0.0:4000/posts/2021/02/23/link-spam-giveaway-bitcoin-ethereum-tether-di-grup-telegram-kotakode.html">&lt;p&gt;Anda mungkin pernah mendapatkan pesan dari seseorang di grup Telegram Kotakode seperti ini.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;woow Guys. Who want free bitcoin and ethereum or tether?&lt;/p&gt;
+
+  &lt;p&gt;Maybe you got too&lt;/p&gt;
+
+  &lt;p&gt;(URL phishing)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Saya telah mengumpulkan dua sampel URL yang dibagikan oleh orang yang tak dikenal tersebut, sebelum akhirnya dihapus oleh tim admin grup Kotakode. Kedua URL tersebut berasal dari situs &lt;em&gt;URL shortener&lt;/em&gt; yang berbeda (dalam kasus ini &lt;a href=&quot;https://cutt.ly&quot;&gt;https://cutt.ly&lt;/a&gt; dan &lt;a href=&quot;https://goo.su&quot;&gt;https://goo.su&lt;/a&gt;, dan ternyata sama-sama mengarah ke sebuah situs &lt;em&gt;phishing&lt;/em&gt; bernama &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bintweets.com&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;twitter-eh&quot;&gt;Twitter, eh?&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://storage.googleapis.com/kotakode-prod-public/images/f5c9d15e-d92c-4cca-b8f7-75f3d2fd0129-Screenshot_2021-02-23-Binance-on-Twitter-Elon-Musk-biggest-crypto-giveaway-Twitter.png&quot; alt=&quot;Screenshot_2021-02-23 Binance on Twitter Elon Musk biggest crypto giveaway Twitter.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ya, gambar di atas merupakan tampilan dari situs &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bintweets.com&lt;/code&gt;. Hal yang membuat saya menarik di sini adalah meskipun situs tersebut merupakan &lt;em&gt;impostor&lt;/em&gt; dari Twitter, fitur “Like” dan “Retweet” dalam situs tersebut dapat bekerja dengan baik. Webpage tersebut ternyata mengirimkan sebuah request POST kepada situs tersebut untuk menambahkan jumlah Like dan Retweet yang terkandung di dalam post atau komentar tersebut. Saya mendemonstrasikan hasil tersebut menggunakan perintah &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;curl&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://storage.googleapis.com/kotakode-prod-public/images/d80a216f-da34-4cdf-a234-533200aa56d3-Screenshot_20210223_152336.png&quot; alt=&quot;Screenshot_20210223_152336.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hal yang menarik berikutnya tentang situs ini adalah situs tersebut &lt;strong&gt;mencatut nama, username, dan bahkan gambar profil Twitter yang ASLI&lt;/strong&gt;. Tampilan situs tersebut memang seolah-olah merupakan sebuah Tweet resmi dari Binance, namun hampir semua nama profil yang dicatut sebagai komentar terhadap situs tersebut merupakan profil Twitter asli (ada beberapa yang usernamenya dirubah, dan ada juga beberapa profil yang di-suspend oleh Twitter). Saya mencoba melihat beberapa profil yang dicatut tersebut, dan mereka memang sering membahas tentang &lt;em&gt;cryptocurrency&lt;/em&gt; (mata uang kripto) dan investasinya.&lt;/p&gt;
+
+&lt;p&gt;Situs tersebut mengandung URL berikutnya bernama &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;czbnb.org&lt;/code&gt;. Berbeda dengan &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bintweets.com&lt;/code&gt;, situs ini merupakan &lt;em&gt;impostor&lt;/em&gt; dari Medium dengan tampilan lama (berdasarkan jenis &lt;em&gt;font&lt;/em&gt; yang digunakan di dalam situs tersebut). Pengembang situs tersebut ini cukup pintar, mereka mengunduh semua aset font dari Medium untuk di-encode dan ditaruh di dalam atribut CSS &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@font-face&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://storage.googleapis.com/kotakode-prod-public/images/27332052-afd0-41f5-b36d-0f5f466628fa-Screenshot_20210223_152859.png&quot; alt=&quot;Screenshot_20210223_152859.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Namun sayangnya tampilan Medium ini baru saja berubah menggunakan logo dan font baru. Berikut ini adalah tampilan &lt;a href=&quot;https://medium.com/@reinhartpreviano/cara-pakai-git-dan-github-gais-f50624caf7e6&quot;&gt;salah satu post saya&lt;/a&gt; di Medium bernama “Cara Pakai Git dan GitHub, gais!” (yang juga tersedia di &lt;a href=&quot;/posts/2019/09/05/cara-pakai-git-dan-github-gais.html&quot;&gt;situs ini&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://storage.googleapis.com/kotakode-prod-public/images/3e06b10f-f370-4163-bf8e-5b46c70fe6fc-Screenshot_2021-02-23-Cara-Pakai-Git-dan-GitHub,-gais-.png&quot; alt=&quot;Screenshot_2021-02-23 Cara Pakai Git dan GitHub, gais .png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Jika di dalam situs &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bintweets.com&lt;/code&gt; ini memiliki fitur Like dan Retweet sendiri, saya tidak dapat menambahkan jumlah &lt;a href=&quot;https://medium.com/blogging-guide/how-do-claps-work-on-medium-b2897784ce6b&quot;&gt;Claps (menurut istilah Medium)&lt;/a&gt; di dalam situs &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;czbnb.org&lt;/code&gt;. Meskipun demikian, situs tersebut &lt;strong&gt;masih mencatut nama profil Medium ASLI&lt;/strong&gt; yang sama-sama membahas soal &lt;em&gt;cryptocurrency&lt;/em&gt;, dan ekonomi investasi.&lt;/p&gt;
+
+&lt;p&gt;Situs tersebut memiliki 3 link yang berhubungan dengan jenis &lt;em&gt;giveaway&lt;/em&gt; yang diberikan, yakni:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;+ https://czbnb.org/btc/ untuk Bitcoin (BTC)
++ https://czbnb.org/eth/ untuk Ethereum (ETH)
++ https://czbnb.org/tether/ untuk Tether (USDT)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Ketiga webpage ini memiliki tampilan yang serupa dengan ini.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://storage.googleapis.com/kotakode-prod-public/images/1fb7c1de-fc3a-4d03-8409-22e8c7b6169d-Screenshot_2021-02-23-Get-2x-ETH-Bonus-Now.png&quot; alt=&quot;Screenshot_2021-02-23 Get 2x ETH Bonus Now.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;dan ketiga webpage tersebut memiliki sebuah tabel dinamis (terlihat sering di-update) yang (seharusnya) merupakan hasil giveaway yang seolah-olah diberikan oleh pihak Binance. &lt;strong&gt;Namun tahukah kamu bagaimana situs tersebut meng-update data transaksi tersebut?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Melalui function JavaScript ini. (Sumber: &lt;a href=&quot;https://czbnb.org/eth/js/tfdjglkjdfkjgnsdfgnjkdgndkjfx.js&quot;&gt;https://czbnb.org/eth/js/tfdjglkjdfkjgnsdfgnjkdgndkjfx.js&lt;/a&gt; untuk laman Ethereum)&lt;/p&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;new_transaction&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;table&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;row&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;myTable&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;insertRow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;address&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;get_random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(),&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;amount&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;49.5&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Math&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;toFixed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;decimal&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;Math&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;999&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;row&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;innerHTML&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;
+    &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;lt;tr&amp;gt; &amp;lt;td&amp;gt;&amp;lt;a class=&quot;hash-tag text-truncate&quot; href=&quot;&quot;&amp;gt;0x&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;generateId&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;63&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;
+    &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;lt;/a&amp;gt; &amp;lt;/td&amp;gt; &amp;lt;td class=&quot;d-none d-sm-table-cell&quot;&amp;gt;&amp;lt;a href=&quot;&quot;&amp;gt;4&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;tx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;99999999&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;
+    &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;&amp;lt;span class=&quot;timer&quot; &amp;gt;now&amp;lt;/span&amp;gt; &amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;&amp;lt;a class=&quot;hash-tag text-truncate&quot; href=&quot;&quot;&amp;gt;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;address&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;
+    &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;lt;/a&amp;gt; &amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;&amp;lt;span class=&quot;u-label u-label--xs u-label--success color-strong text-uppercase text-center w-100 rounded text-nowrap&quot;&amp;gt;&amp;amp;nbsp;IN&amp;amp;nbsp;&amp;lt;/span&amp;gt; &amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;&amp;lt;span class=&quot;hash-tag text-truncate&quot;&amp;gt;0x762fa4Da994EEf58DC894C225008Aba279101168&amp;lt;/span&amp;gt; &amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;amount&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;
+    &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt; ETH&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;&amp;lt;span class=&quot;small text-secondary&quot;&amp;gt;0&amp;lt;b&amp;gt;.&amp;lt;/b&amp;gt;000&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;tx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;999&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;
+    &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;lt;/span&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;myTable&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;deleteRow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;myTable&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;rows&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;length&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementsByTagName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;tr&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;classList&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;toolbar&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;setTimeout&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;table&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;row&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;myTable&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;insertRow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;send_amount&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;amount&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;parcent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;row&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;innerHTML&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;
+        &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;lt;tr&amp;gt; &amp;lt;td&amp;gt;&amp;lt;a class=&quot;hash-tag text-truncate&quot; href=&quot;&quot;&amp;gt;0x&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;generateId&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;63&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;
+        &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;lt;/a&amp;gt; &amp;lt;/td&amp;gt; &amp;lt;td class=&quot;d-none d-sm-table-cell&quot;&amp;gt;&amp;lt;a href=&quot;&quot;&amp;gt;4&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;tx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;99999999&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;
+        &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;&amp;lt;span class=&quot;timer&quot; &amp;gt;now&amp;lt;/span&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;&amp;lt;span class=&quot;hash-tag text-truncate&quot;&amp;gt;0x762fa4Da994EEf58DC894C225008Aba279101168&amp;lt;/span&amp;gt; &amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;&amp;lt;span class=&quot;u-label u-label--xs u-label--warning color-strong text-uppercase text-center w-100 rounded text-nowrap&quot;&amp;gt;OUT&amp;lt;/span&amp;gt; &amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;&amp;lt;a class=&quot;hash-tag text-truncate&quot; href=&quot;&quot;&amp;gt;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;address&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;
+        &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;lt;/a&amp;gt; &amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;send_amount&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;
+        &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt; ETH&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;&amp;lt;span class=&quot;small text-secondary&quot;&amp;gt;0&amp;lt;b&amp;gt;.&amp;lt;/b&amp;gt;000&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;tx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;999&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;
+        &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;lt;/span&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+        &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;
+          &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;myTable&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+          &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;deleteRow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;myTable&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;rows&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;length&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+        &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementsByTagName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;tr&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;classList&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;toolbar&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;8500&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Ya, fungsi tersebut sama sekali tidak menggunakan metode seperti WebSockets untuk mengupdate data transaksi secara berkala. Fungsi tersebut hanya membuat sebuah transaksi dengan ID (hash) transaksi, nama alamat, dan nominal transaksi secara random dan sebenarnya tidak sesuai dengan data yang ada di dalam &lt;em&gt;blockchain&lt;/em&gt; Bitcoin, Ethereum, dan Tether. Fungsi tersebut juga menambahkan hasil transkasi random tersebut ke dalam sebuah tabel dengan ID &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mytable&lt;/code&gt;, yang memuat daftar transaksi palsu tersebut.&lt;/p&gt;
+
+&lt;h2 id=&quot;oke-seandainya-jika-saya-memasukkan-nominal-dan-address-bitcoinethereumtether-yang-tepat-apakah-yang-akan-terjadi&quot;&gt;Oke, seandainya jika saya memasukkan nominal dan &lt;em&gt;address&lt;/em&gt; Bitcoin/Ethereum/Tether yang tepat, apakah yang akan terjadi?&lt;/h2&gt;
+
+&lt;p&gt;Situs tersebut mengandung informasi bahwa &lt;em&gt;payment address&lt;/em&gt; yang harus digunakan saat membayar akan di-generate oleh sistem/situs tersebut. Namun, yang sebenarnya terjadi adalah situs tersebut &lt;strong&gt;meng-hardcode &lt;em&gt;payment address&lt;/em&gt; tersebut&lt;/strong&gt;. Saya sudah mencoba me-refresh situs ini dan menghapus &lt;em&gt;cookies&lt;/em&gt; beberapa kali, namun &lt;em&gt;payment address&lt;/em&gt; tersebut masih sama dan terletak pada sebuah popup pada gambar berikut.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://storage.googleapis.com/kotakode-prod-public/images/a0770d5f-6dc9-4d8f-b52a-5ec548a10407-Screenshot_20210223_161423.png&quot; alt=&quot;Screenshot_20210223_161423.png&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;inner-address&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;wallet-ad&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Generated address:&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;address&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;qwef-hy&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;style=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;width: 80%;overflow: hidden;&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;real-address&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;0x792D14dC6052147394acEbDeA2Fe556a29644C34&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;copy-body&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;copy-inner&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;cp&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;copy_address&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;images/copy.svg&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;data-clipboard-text=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;0x792D14dC6052147394acEbDeA2Fe556a29644C34&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;done-copy&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;sec-card&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;in-card&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;images/done.svg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Berikut adalah ketiga address Bitcoin, Ethereum, dan Tether yang di-hardcode di dalam situs tersebut, yakni:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1D1rH5UcANwxJQU6sJuNDVbZ72jztohurR&lt;/code&gt; untuk Bitcoin, serta&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0x792D14dC6052147394acEbDeA2Fe556a29644C34&lt;/code&gt; untuk Ethereum dan Tether.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Mohon untuk TIDAK mengirimkan dana apapun ke dalam address tersebut, karena sudah dipastikan bahwa ini merupakan address scam layaknya scam SMS undian pemenang Indosat/M Tronik/Shopee/Pertamina di Indonesia.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;berapa-banyak-korban-yang-jatuh-ke-dalam-scam-tersebut&quot;&gt;Berapa banyak korban yang jatuh ke dalam scam tersebut?&lt;/h2&gt;
+&lt;p&gt;Per saat ini (23 Februari 2021, 16:24 WIB) alamat Bitcoin tersebut sama sekali tidak memiliki transaksi apapun. Saya sudah mengeceknya di dalam situs:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bitcoinwhoswho.com/address/1D1rH5UcANwxJQU6sJuNDVbZ72jztohurR&quot;&gt;https://bitcoinwhoswho.com/address/1D1rH5UcANwxJQU6sJuNDVbZ72jztohurR&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bitref.com/1D1rH5UcANwxJQU6sJuNDVbZ72jztohurR&quot;&gt;https://bitref.com/1D1rH5UcANwxJQU6sJuNDVbZ72jztohurR&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.blockchain.com/btc/address/1D1rH5UcANwxJQU6sJuNDVbZ72jztohurR&quot;&gt;https://www.blockchain.com/btc/address/1D1rH5UcANwxJQU6sJuNDVbZ72jztohurR&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Begitupun juga untuk Ethereum dan Tether, yang sudah saya cek di:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://etherscan.io/address/0x792D14dC6052147394acEbDeA2Fe556a29644C34&quot;&gt;https://etherscan.io/address/0x792D14dC6052147394acEbDeA2Fe556a29644C34&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.etherchain.org/account/792D14dC6052147394acEbDeA2Fe556a29644C34&quot;&gt;https://www.etherchain.org/account/792D14dC6052147394acEbDeA2Fe556a29644C34&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cointracker.io/wallet/ethereum?address=0x792D14dC6052147394acEbDeA2Fe556a29644C34&quot;&gt;https://www.cointracker.io/wallet/ethereum?address=0x792D14dC6052147394acEbDeA2Fe556a29644C34&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Hal ini sebenarnya merupakan pertanda baik, karena sampai saat ini masih belum ada korban yang terkena scam untuk ketiga mata uang tersebut. Namun, Anda juga harus waspada terhadap scam &lt;em&gt;cryptocurrency&lt;/em&gt; seperti ini yang menggunakan teknik yang sangat serupa dengan phishing.&lt;/p&gt;</content><author><name></name></author><category term="kotakode" /><category term="investigasi" /><category term="id-id" /><category term="kotakode-telegram" /><category term="javascript" /><summary type="html">Anda mungkin pernah mendapatkan pesan dari seseorang di grup Telegram Kotakode seperti ini.</summary></entry><entry><title type="html">Reinhart kini sudah memenuhi 120 SAT dan 30 jam Community Service</title><link href="http://0.0.0.0:4000/posts/2021/02/22/reinhart-kini-sudah-memenuhi-120-sat-dan-30-jam-community-service.html" rel="alternate" type="text/html" title="Reinhart kini sudah memenuhi 120 SAT dan 30 jam Community Service" /><published>2021-02-22T00:00:00+07:00</published><updated>2021-02-22T00:00:00+07:00</updated><id>http://0.0.0.0:4000/posts/2021/02/22/reinhart-kini-sudah-memenuhi-120-sat-dan-30-jam-community-service</id><content type="html" xml:base="http://0.0.0.0:4000/posts/2021/02/22/reinhart-kini-sudah-memenuhi-120-sat-dan-30-jam-community-service.html">&lt;p&gt;&lt;a href=&quot;https://student.binus.ac.id/sat/&quot;&gt;SAT (Student Activity Transcript)&lt;/a&gt;, yang juga disebut sebagai Transkrip Aktivitas Kemahasiswaan (TAK), beserta jam kegiatan sosial (Community Service) merupakan beberapa jenis rekam jejak kegiatan kemahasiswaan serta persyaratan untuk pelaksanaan Tugas Akhir (seperti skripsi) dan kelulusan di BINUS University. Setiap mahasiswa BINUS wajib memiliki SAT dengan minimum jumlah 120 poin, serta harus berpartisipasi dalam setidaknya 10 jam kegiatan sosial melalui kegiatan-kegiatan yang diselenggarakan oleh &lt;a href=&quot;http://www.teachforindonesia.org/&quot;&gt;Teach for Indonesia (TFI)&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Jumlah poin SAT yang dikumpulkan oleh saya saat ini sudah jauh dari cukup. Bahkan, saya berhasil mengumpulkan 120 poin SAT dalam kurun 2 semester pertama. Sedangkan, jumlah minimum jam kegiatan sosial ini (yang sering dikatakan sangat susah untuk dicari) baru berhasil dikumpulkan pada hari ini, 22 Februari 2021, melalui kegiatan-kegiatan TFI dalam sesi Freshmen Enrichment Program (FEP), sesi mengajar bimbel untuk anak SD-SMA di kampus Kijang, serta tugas kelompok mata kuliah Character Building dari Semester 1 hingga Semester 3.&lt;/p&gt;
 
@@ -531,158 +673,4 @@ opkg &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;curl libstdcpp6 libjp
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/overlay/opt/yacy/bin/passwd.sh
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;And that’s it! YaCy is now accessible on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;your OpenWrt IP address&amp;gt;:8090&lt;/code&gt;. Keep in mind that you can still access LuCi the original way, as the YaCy server does not take the regular HTTP ports (80, 443) unless otherwise specified.&lt;/p&gt;</content><author><name></name></author><category term="dev.to" /><category term="en-us" /><category term="yacy" /><category term="raspberrypi" /><category term="openwrt" /><category term="showdev" /><category term="todayilearned" /><summary type="html">IMPORTANT NOTE: This guide is meant for OpenWrt-installed devices with really large memory and storage space, which in this case a Raspberry Pi 3 (Model B) with 1GB of RAM and 32GB of storage (loaded on a MicroSD Card). Most routers do not support those gigantic space, so they might not be capable on running YaCy at all.</summary></entry><entry><title type="html">Mempersembahkan KopiHati</title><link href="http://0.0.0.0:4000/posts/2021/02/14/mempersembahkan-kopihati.html" rel="alternate" type="text/html" title="Mempersembahkan KopiHati" /><published>2021-02-14T00:00:00+07:00</published><updated>2021-02-14T00:00:00+07:00</updated><id>http://0.0.0.0:4000/posts/2021/02/14/mempersembahkan-kopihati</id><content type="html" xml:base="http://0.0.0.0:4000/posts/2021/02/14/mempersembahkan-kopihati.html">&lt;p&gt;&lt;strong&gt;KopiHati&lt;/strong&gt; merupakan sebuah bahasa pemrograman yang terinspirasi dari sekelompok &lt;em&gt;brand&lt;/em&gt; gerai kopi, minuman, dan kafe di Jakarta, yang sempat mengalami puncak keemasannya pada tahun 2018-2019.&lt;/p&gt;
-
-&lt;p&gt;Nama bahasa pemrograman ini juga terinspirasi dari kesenangan masyarakat Indonesia serta para programmer seluruh dunia dalam meminum kopi. Bahkan, nama bahasa pemrograman “Java” pun sebenarnya berasal dari varian kopi yang sering ditemui di pulau Jawa. Banyak kafe, gerai, dan warung kopi yang bertebaran di seluruh pelosok Indonesia, sedangkan Indonesia ini juga menjadi salah satu pengekspor biji dan bubuk kopi di seluruh dunia. Minuman kopi ini sering pula dijadikan sebagai meme dan bahan candaan bagi para programmer seperti berikut.&lt;/p&gt;
-
-&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Wake Up. Code. Repeat. &lt;a href=&quot;https://twitter.com/hashtag/devhumor?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#devhumor&lt;/a&gt; &lt;a href=&quot;https://t.co/HUmneyTbvP&quot;&gt;pic.twitter.com/HUmneyTbvP&lt;/a&gt;&lt;/p&gt;&amp;mdash; Microsoft Developer (@msdev) &lt;a href=&quot;https://twitter.com/msdev/status/725353872663941120?ref_src=twsrc%5Etfw&quot;&gt;April 27, 2016&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;Tujuan utama dari bahasa pemrograman KopiHati ini adalah, ya, memperkenalkan masyarakat Indonesia dalam dunia pemrograman. KopiHati memiliki berbagai sintaks yang fleksibel dan mudah dimengerti oleh sebagian besar masyarakat Indonesia, dan rencananya bahasa ini dapat dilokalisir ke bahasa daerah dan &lt;em&gt;slang&lt;/em&gt; yang berada di Indonesia.&lt;/p&gt;
-
-&lt;h2 id=&quot;di-compile-atau-di-intepret&quot;&gt;Di-compile atau di-intepret?&lt;/h2&gt;
-&lt;p&gt;Salah satu pertanyaan yang sering ditanyakan setiap ada bahasa pemrograman baru adalah, apakah bahasa ini akan di-compile (misalnya C, C++, dan TypeScript) atau di-intepret (layaknya JavaScript, PHP, dan Python). &lt;strong&gt;Saat ini, bahasa KopiHati masih belum memiliki compiler atau intepreter&lt;/strong&gt;, namun saya sendiri merencanakan agar kodingan bahasa ini dapat di-intepret dalam bahasa pemrograman lainnya, layaknya kodingan &lt;a href=&quot;https://wiki.gnome.org/Projects/Vala&quot;&gt;Vala&lt;/a&gt; dan &lt;a href=&quot;http://shakespearelang.sourceforge.net/&quot;&gt;Shakespeare (SPL)&lt;/a&gt; yang dapat di-compile ke dalam bahasa C (dan kemudian ke bahasa mesin/Assembly melalui GCC).&lt;/p&gt;
-
-&lt;p&gt;Rencananya, kodingan KopiHati ini dapat diintepretasikan ke dalam &lt;strong&gt;Python&lt;/strong&gt;. Bahkan, jika memungkinkan, intepreter ini akan dapat memanggil &lt;em&gt;library&lt;/em&gt; dan &lt;em&gt;framework&lt;/em&gt; KopiHati, Python, dan C/C++ (melalui &lt;em&gt;binding&lt;/em&gt; Python) secara bersamaan. Selain intepretasi, kodingan ini juga direncanakan untuk dapat di-compile sampai ke level C/C++ melalui &lt;strong&gt;Cython&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Skema intepretasi dan kompilasi seperti ini memang direncanakan untuk mempermudah pengembangan software berbasis KopiHati dengan memperpanjang dukungan terhadap &lt;em&gt;library&lt;/em&gt; Python dan C/C++ yang sudah ada.&lt;/p&gt;
-
-&lt;h2 id=&quot;contoh-hello-world&quot;&gt;Contoh “Hello, World!”&lt;/h2&gt;
-&lt;p&gt;Sebuah program “Hello, World!” dalam bahasa KopiHati dapat dibuat semudah:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Katakan &quot;Hello, World!&quot;.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;tanpa memerlukan tanda-tanda kurung, titik koma, dan tentunya istilah Inggris seperti:&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Python 3
-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello, World!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// JavaScript&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;Hello, World!&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// C/C++&lt;/span&gt;
-&lt;span class=&quot;cp&quot;&gt;#include &amp;lt;stdio.h&amp;gt;
-&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;puts&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello, World!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// Java (paling buruk)&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Main&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nc&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello, World!&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
-  &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Setiap blok perintah dalam KopiHati dapat diakhiri dengan tanda titik (“.”, layaknya tanda baca pada umumnya) dan/atau baris berikutnya (“\n”).&lt;/p&gt;
-
-&lt;h2 id=&quot;antara-esoterik-dengan-pseudocode&quot;&gt;Antara Esoterik dengan Pseudocode&lt;/h2&gt;
-&lt;p&gt;Bahasa ini awalnya memang dibentuk sebagai &lt;a href=&quot;https://en.wikipedia.org/wiki/Esoteric_programming_language&quot;&gt;bahasa pemrograman esoterik&lt;/a&gt; layaknya &lt;a href=&quot;https://lhartikk.github.io/ArnoldC/&quot;&gt;ArnoldC&lt;/a&gt;, &lt;a href=&quot;http://www.lolcode.org/&quot;&gt;LOLCODE&lt;/a&gt;, dan &lt;a href=&quot;http://shakespearelang.sourceforge.net/&quot;&gt;Shakespeare Programming Language (SPL)&lt;/a&gt;, sebagai candaan dan meme atas maraknya &lt;em&gt;brand&lt;/em&gt; dan franchise minuman milenial Indonesia seperti &lt;a href=&quot;https://chatime.co.id/&quot;&gt;Chatime&lt;/a&gt;, &lt;a href=&quot;https://www.instagram.com/dumdumthaidrinks/&quot;&gt;Dum Dum Thai Drinks&lt;/a&gt;, &lt;a href=&quot;https://fore.coffee/home&quot;&gt;Fore Coffee&lt;/a&gt;, &lt;a href=&quot;https://www.instagram.com/haus.indonesia/&quot;&gt;Haus!&lt;/a&gt;, &lt;a href=&quot;https://www.koithe.com/en/global/koi-indonesia&quot;&gt;KOI Thé&lt;/a&gt;, &lt;a href=&quot;https://kokumiworld.com/&quot;&gt;Kokumi&lt;/a&gt;, &lt;a href=&quot;https://www.kopikenangan.com/&quot;&gt;Kopi Kenangan&lt;/a&gt;, &lt;a href=&quot;https://www.instagram.com/tigersugarindonesia/&quot;&gt;Tiger Sugar&lt;/a&gt;, &lt;a href=&quot;https://www.xingfutang.co.id/&quot;&gt;Xing Fu Tang&lt;/a&gt;, dan sebagainya. Para &lt;em&gt;brand&lt;/em&gt; minuman tersebut sudah mempunyai akun resmi Instagram, dan karena itu KopiHati dapat menjadi bahasa pemrograman milenial pertama yang memiliki akun resmi di Instagram.&lt;/p&gt;
-
-&lt;p&gt;Namun, setelah dipikir matang-matang, bahasa ini dapat berpotensi menggantikan pseudocode dengan menggunakan bahasa Indonesia dan format perintah yang mudah dibaca. Selain “Hello, World !” tadi, saya juga akan memberikan contoh konsep program yang ditulis dalam bahasa KopiHati.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Katakan &quot;Selamat datang di KopiHati!&quot;.
-Katakan &quot;Nama kamu siapa?&quot;.
-Tunggu jawaban $&quot;nama pelanggan&quot; (n). Misalnya &quot;Nina&quot;.
-
-Kamu perlu tahu, setiap nama variabel dan atribut objek harus diawali dengan $, layaknya PHP.
-
-Perintah ini akan membuat sebuah variabel baru bernama &quot;nama pelanggan&quot;.
-Oh iya, nama kelas, atribut objek, dan variabel boleh pakai spasi asal pakai tanda baca $&quot;...&quot;, $'...', atau $`...`.
-
-Ucapkan &quot;Halo&quot;, $&quot;nama pelanggan&quot;. Seharusnya hasil perintah ini adalah &quot;Halo Nina&quot;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Salah satu keunggulan kode KopiHati seperti di atas adalah saya dapat menulis kata kunci (&lt;em&gt;keyword&lt;/em&gt;) komentar layaknya kalimat biasa. Kata kunci seperti “Kamu perlu…” ini memang sengaja dikhususkan untuk menulis komentar. Sehingga, saya tidak perlu untuk menggunakan simbol khusus seperti &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;//&lt;/code&gt;, dan &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/* ... */&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Sedangkan, kata kunci “Misalnya …” dan “Seharusnya …” ini dapat digunakan untuk menguji fungsi tersebut secara otomatis. Hal ini bertujuan agar para pemrogram KopiHati dapat melaksanakan Unit Testing sederhana secara mudah, tanpa memerlukan script dan framework khusus seperti &lt;a href=&quot;https://mochajs.org/&quot;&gt;Mocha&lt;/a&gt; untuk JavaScript.&lt;/p&gt;
-
-&lt;p&gt;Tipe data dalam KopiHati pun juga sangat disederhanakan, terinspirasi dari salah satu struk belanja franchise kopi di atas dengan Kamus Besar Bahasa Indonesia (KBBI) revisi terkini:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;(a)&lt;/strong&gt;djektiva: Object, karena memiliki deskripsi dan sifat dalam bentuk atribut dan Method&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;(adv)&lt;/strong&gt;erbia: Boolean (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;benar&lt;/code&gt;/&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;salah&lt;/code&gt;), &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;void&lt;/code&gt;, dan &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;undefined&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;(n)&lt;/strong&gt;omina: Kalimat/String, dan tidak ada tipe data &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;char&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;(num)&lt;/strong&gt;eralia: Bilangan (dalam bentuk &lt;em&gt;double-precision floating point&lt;/em&gt;), setara dengan &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Number&lt;/code&gt; dalam JavaScript, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;float&lt;/code&gt; dalam Python, dan &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;double&lt;/code&gt; dalam C, C++, dan Java&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;(pron)&lt;/strong&gt;omina: Pointer&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;(v)&lt;/strong&gt;erba: Function (atau Method dalam Object/adjektiva)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;contoh-tambahan&quot;&gt;Contoh Tambahan&lt;/h2&gt;
-&lt;p&gt;Kodingan di bawah ini adalah contoh tambahan KopiHati dengan blok &lt;strong&gt;if-else&lt;/strong&gt; dan &lt;strong&gt;for loop&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Ini $Jojo (a).
-
-$Jojo punya $&quot;nomor telepon&quot; (n) 080989999.
-
-Perintah tersebut secara otomatis akan menjadikan $Jojo sebuah adjektiva dengan atribut nomina $&quot;nomor telepon&quot; yang memiliki nilai &quot;080989999&quot;.
-
-Berikut ini adalah berbagai cara lain untuk menyetel sebuah atribut dalam Objek/adjektiva
-
-$Jojo ber-$usia (num) 21.
-$alamat $Jojo (n) adalah &quot;Jalan Melati Nomor 1, Jakarta Pusat&quot;.
-$Jojo tidak punya $member (num).
-[&quot;Green Tea Macchiato&quot;, &quot;Hazelnut Milk Tea&quot;, dan &quot;Snow Fairy&quot;] adalah daftar $&quot;minuman favorit&quot; $Jojo (n).
-Perintah ini akan secara otomatis memmbuat sebuah array nomina.
-
-Kamu perlu tahu:
-  Rencananya, komentar dalam program KopiHati dapat ditulis menggunakan **markdown**.
-
-  KopiHati memang didesain untuk mengurangi pemakaian ~~kantong dan sedotan plastik~~
-  berbagai jenis tanda kurung seperti (...), [...], dan {...} agar kodingannya lebih mudah dibaca oleh orang lain.
-Cukup itu saja.
-
-Katakan &quot;Hai Jojo!&quot;
-Katakan [&quot;Kamu mau pesen &quot;, $&quot;minuman favorit&quot; $Jojo pertama, &quot; ?&quot;]
-Tunggu jawaban $pesan (adv). Harus mau atau tidak.
-
-Perintah berikut merupakan sebuah function bernama &quot;kurangi&quot;.
-Ada $&quot;cek pembayaran&quot; (v, $total, $dibayar), isinya:
-  Ada $selisih, isinya $dibayar dikurangi $total.
-  Jika $selisih kurang dari 0, katakan [&quot;Uangnya belum cukup, kurang &quot;, kurang $selisih].
-  Namun, jika $selisih adalah 0, katakan &quot;Uangnya pas ya!&quot;.
-  Namun, jika cinta bertepuk sebelah tangan, katakan [&quot;Kembali &quot;, kurang $selisih].
-Cukup itu saja.
-
-Perintah berikut merupakan sebuah implementasi dari IF-ELSE.
-Jika mau $pesan:
-  Ucapkan &quot;Totalnya Rp.20.000.&quot;
-  Tanya &quot;Masukkan nominal uang yang dibayar&quot; untuk $nominal
-  Jalankan $&quot;cek pembayaran&quot; 20000 dengan $nominal
-Jika tidak, katakan &quot;Oke deh.&quot;
-Cukup itu saja.
-
-Perintah berikut merupakan sebuah FOR LOOP untuk mencetak 5 angka acak/random
-Ulangi cetak (nom) antara 1, 3, 5, 7, 9, 11, dan 13 sebanyak 5 kali.
-
-Perintah di atas sama dengan
-Ulangi 5 kali:
-  Ada $&quot;nomor acak&quot; (nom), isinya antara 1, 3, 5, 7, 9, 11, dan 13.
-  Cetak $&quot;nomor acak&quot;.
-Cukup itu saja.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;roadmap&quot;&gt;Roadmap&lt;/h2&gt;
-&lt;p&gt;Bahasa KopiHati ini memiliki berbagai potensi untuk menjadi sebuah bahasa pemrograman yang:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;mudah dipahami dan dipelajari,&lt;/li&gt;
-  &lt;li&gt;dapat diterjemahkan dalam bahasa lain,&lt;/li&gt;
-  &lt;li&gt;memiliki fitur-fitur modern seperti &lt;em&gt;in-built unit testing&lt;/em&gt; di atas,&lt;/li&gt;
-  &lt;li&gt;memiliki komunitas besar yang terdiri atas para programmer dan non-programmer (misalnya jurnalis), dan&lt;/li&gt;
-  &lt;li&gt;dapat dipakai sebagai sebuah bahasa pemrograman matang untuk pengembangan software dan aplikasi baik di dalam kalangan individu maupun &lt;em&gt;enterprise&lt;/em&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Namun, hal tersebut tentunya tidak akan terjadi tanpa:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Standarisasi spesifikasi dan skema sintaks KopiHati&lt;/li&gt;
-  &lt;li&gt;Pembuatan &lt;em&gt;intepreter&lt;/em&gt; resmi untuk menguji spesifikasi dan menjalankan kodingan KopiHati&lt;/li&gt;
-  &lt;li&gt;Pembuatan module dan &lt;em&gt;library&lt;/em&gt; system yang dapat dipakai dalam program KopiHati lainnya&lt;/li&gt;
-  &lt;li&gt;Melakukan studi banding dengan kerajinan sastra dan jurnalistik untuk mengevaluasi efisiensi KopiHati dalam mengajarkan pemrograman bagi masyarakat luas&lt;/li&gt;
-  &lt;li&gt;Membentuk komunitas dan organisasi, seperti &lt;a href=&quot;https://www.python.org/psf/&quot;&gt;Python Software Foundation&lt;/a&gt; dan &lt;a href=&quot;https://openjsf.org/&quot;&gt;OpenJS Foundation&lt;/a&gt;, untuk melanjutkan pengembangan bahasa pemrograman KopiHati dalam jangka panjang&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Demikianlah pengumuman saya tentang KopiHati ini. Seluruh update tentang bahasa pemrograman ini akan tersedia di &lt;a href=&quot;https://reinhart1010.github.io/posts/category/kopihati&quot;&gt;https://reinhart1010.github.io/posts/category/kopihati&lt;/a&gt;, dan jika memungkinkan, juga dipublikasikan di &lt;a href=&quot;https://kotakode.com/blogs&quot;&gt;Kotakode&lt;/a&gt;. Untuk sementara waktu, bahasa pemrograman ini masih &lt;strong&gt;belum&lt;/strong&gt; memiliki situs dan akun Instagram sesuai yang direncanakan. Sampai jumpa pada pengumuman berikutnya!&lt;/p&gt;</content><author><name></name></author><category term="projects" /><category term="kopihati" /><category term="id-id" /><summary type="html">KopiHati merupakan sebuah bahasa pemrograman yang terinspirasi dari sekelompok brand gerai kopi, minuman, dan kafe di Jakarta, yang sempat mengalami puncak keemasannya pada tahun 2018-2019.</summary></entry></feed>
+&lt;p&gt;And that’s it! YaCy is now accessible on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;your OpenWrt IP address&amp;gt;:8090&lt;/code&gt;. Keep in mind that you can still access LuCi the original way, as the YaCy server does not take the regular HTTP ports (80, 443) unless otherwise specified.&lt;/p&gt;</content><author><name></name></author><category term="dev.to" /><category term="en-us" /><category term="yacy" /><category term="raspberrypi" /><category term="openwrt" /><category term="showdev" /><category term="todayilearned" /><summary type="html">IMPORTANT NOTE: This guide is meant for OpenWrt-installed devices with really large memory and storage space, which in this case a Raspberry Pi 3 (Model B) with 1GB of RAM and 32GB of storage (loaded on a MicroSD Card). Most routers do not support those gigantic space, so they might not be capable on running YaCy at all.</summary></entry></feed>

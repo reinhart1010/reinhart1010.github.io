@@ -5,6 +5,11 @@ cover_image: https://user-images.githubusercontent.com/17312341/108601956-03dbe0
 theme_color: "#2c5a9f"
 categories: [binus, binus-socs]
 tags: [id-id, pilmapres]
+as_seen_on:
+  - site_type: linkedin
+    url: https://www.linkedin.com/feed/update/urn:li:activity:6769052352617033728/
+  - site_type: twitter
+    url: https://twitter.com/reinhart1010/status/1363286973016731651
 ---
 Halo guys! 👋
 

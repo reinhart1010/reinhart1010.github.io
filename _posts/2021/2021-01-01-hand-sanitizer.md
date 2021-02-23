@@ -109,6 +109,34 @@ Berikut ini adalah daftar produk Hand Sanitizer yang dipakai dalam kemasan botol
 **Informasi Lebih Lanjut:**
 - [Situs Resmi](https://www.lifebuoy.co.id/products/hand-sanitizer.html)
 
+#### B4. H-Clean
+**Nama Produsen:**
+- PT. Budi Jaya Amenities
+
+**Bahan Aktif (Total 70%):**
+- [Etanol]
+- [Propilena glikol]
+
+**Seritikasi:**
+- KEMENKES RI PKD 20501020611
+
+**Informasi Lebih Lanjut:**
+- [Situs Resmi Produsen](http://budi-jaya.com/)
+
+#### B5. Sidomuncul Hand Gel / Sido Kliin
+**Nama Produsen:**
+- PT. Industri Jamu Dan Farmasi Sido Muncul, Tbk.
+
+**Bahan Aktif (Total 70%):**
+- [Alkohol] (70%, **tidak dijelaskan secara rinci**)
+
+**Seritikasi:**
+- POM NA. 18200104895
+
+**Informasi Lebih Lanjut:**
+- [Situs Resmi Produsen](https://www.sidomuncul.co.id/)
+
+
 [Etanol]: https://id.wikipedia.org/wiki/Etanol
 [Etil Alkohol / Etanol]: https://id.wikipedia.org/wiki/Etanol
 [Gliserol]: https://id.wikipedia.org/wiki/Gliserol

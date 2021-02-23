@@ -6,6 +6,11 @@ theme_color: "#f63700"
 cover_image: https://user-images.githubusercontent.com/17312341/108807055-f7c07080-75d5-11eb-899e-000307bb76b9.png
 categories: [binus, updates]
 tags: [id-id]
+as_seen_on:
+  - site_type: linkedin
+    url: https://www.linkedin.com/feed/update/urn:li:activity:6769863681334480896/
+  - site_type: twitter
+    url: https://twitter.com/reinhart1010/status/1364107987061596163
 ---
 
 [SAT (Student Activity Transcript)](https://student.binus.ac.id/sat/), yang juga disebut sebagai Transkrip Aktivitas Kemahasiswaan (TAK), beserta jam kegiatan sosial (Community Service) merupakan beberapa jenis rekam jejak kegiatan kemahasiswaan serta persyaratan untuk pelaksanaan Tugas Akhir (seperti skripsi) dan kelulusan di BINUS University. Setiap mahasiswa BINUS wajib memiliki SAT dengan minimum jumlah 120 poin, serta harus berpartisipasi dalam setidaknya 10 jam kegiatan sosial melalui kegiatan-kegiatan yang diselenggarakan oleh [Teach for Indonesia (TFI)](http://www.teachforindonesia.org/).

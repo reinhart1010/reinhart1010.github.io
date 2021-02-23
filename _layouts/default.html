@@ -31,7 +31,7 @@
       {% assign current_universe = page.categories.last | default: page.autopages.display_name | default: page.title | default: "home" %}
     {% endif %}
     {% assign theme_color = page.theme_color | default: site.data.categories[current_universe].theme_color | default: "NULL" %}
-    {% assign theme_color_foreground = site.data.categories[current_universe].theme_color_foreground %}
+    {% assign theme_color_foreground = page.theme_color_foreground | default: site.data.categories[current_universe].theme_color_foreground %}
     <nav class="navbar justify-content-between justify-content-lg-start"
     {% if theme_color != "NULL" %}
       style="background-color: {{ theme_color.primary | default: theme_color }};"
