@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2021-02-23T02:42:05+07:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">Reinhart Previano K.</title><subtitle>Blog repository</subtitle><entry><title type="html">Introducing PODSPPSE: Publish (on your) Own Decentralized Site, Partially Publish and Syndicate Elsewhere</title><link href="http://0.0.0.0:4000/posts/2021/02/23/introducing-podsppse.html" rel="alternate" type="text/html" title="Introducing PODSPPSE: Publish (on your) Own Decentralized Site, Partially Publish and Syndicate Elsewhere" /><published>2021-02-23T00:00:00+07:00</published><updated>2021-02-23T00:00:00+07:00</updated><id>http://0.0.0.0:4000/posts/2021/02/23/introducing-podsppse</id><content type="html" xml:base="http://0.0.0.0:4000/posts/2021/02/23/introducing-podsppse.html">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2021-02-23T13:17:27+07:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">Reinhart Previano K.</title><subtitle>Blog repository</subtitle><entry><title type="html">Introducing PODSPPSE: Publish (on your) Own Decentralized Site, Partially Publish and Syndicate Elsewhere</title><link href="http://0.0.0.0:4000/posts/2021/02/23/introducing-podsppse.html" rel="alternate" type="text/html" title="Introducing PODSPPSE: Publish (on your) Own Decentralized Site, Partially Publish and Syndicate Elsewhere" /><published>2021-02-23T00:00:00+07:00</published><updated>2021-02-23T00:00:00+07:00</updated><id>http://0.0.0.0:4000/posts/2021/02/23/introducing-podsppse</id><content type="html" xml:base="http://0.0.0.0:4000/posts/2021/02/23/introducing-podsppse.html">&lt;blockquote&gt;
   &lt;p&gt;&lt;strong&gt;This blog post contains terms which may not be fully understood outside of the &lt;a href=&quot;https://indieweb.org/&quot;&gt;IndieWeb&lt;/a&gt; and federated social network (“Fediverse”) communities, which includes the following:&lt;/strong&gt;&lt;/p&gt;
 
   &lt;ul&gt;
@@ -7,11 +7,12 @@
     &lt;li&gt;&lt;a href=&quot;https://indieweb.org/POSSE&quot;&gt;&lt;strong&gt;POSSE&lt;/strong&gt; (Publish on your Own Site, Syndicate Elsewhere)&lt;/a&gt; is a content syndication strategy where every single content are posted directly into the user’s own website (as a personal silo), before publishing links or copies into third party silos&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;https://indieweb.org/PESETAS&quot;&gt;&lt;strong&gt;PESETAS&lt;/strong&gt; (Publish Elsewhere, Syndicate Everything To A Silo)&lt;/a&gt; is a content syndication strategy where every single content are posted on external silos, syndicated into a specific external silo to be featured on the user’s own website (e.g. via Medium or Tumblr’s RSS feeds)&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;https://indieweb.org/PESOS&quot;&gt;&lt;strong&gt;PESOS&lt;/strong&gt; (Publish Elsewhere, Syndicate on your Own Site)&lt;/a&gt; is a content syndication strategy where every single content are posted on external silos, then syndicated into the user’s own website&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://indieweb.org/PASTA&quot;&gt;&lt;strong&gt;PASTA&lt;/strong&gt; (Publish Anywhere, Save To Archive)&lt;/a&gt; is a content syndication strategy where every single content are posted on any silos, then saved into a personal archive&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Fediverse&quot;&gt;&lt;strong&gt;Fediverse&lt;/strong&gt;&lt;/a&gt;: A network of interconnected (federated) and intercommunicated social network services, in which popular examples include Mastodon, Diaspora*, Matrix.org and GNU Social&lt;/li&gt;
   &lt;/ul&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;strong&gt;PODSPPSE&lt;/strong&gt; is a modification of &lt;strong&gt;POSSE&lt;/strong&gt; in which the &lt;del&gt;master&lt;/del&gt; main copies of posts are published in own site, where only a selection of these posts are published or syndicated elsewhere. This site is indeed decentralized since it is available on 2 different URLs:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;PODSPPSE&lt;/strong&gt; is a hybrid between &lt;strong&gt;POSSE&lt;/strong&gt; and &lt;strong&gt;PASTA&lt;/strong&gt; in which the &lt;del&gt;master&lt;/del&gt; main copies of posts are published in own site, where only a selection of these posts are published or syndicated elsewhere. This site is indeed decentralized since it is available on 2 different URLs:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://reinhart1010.github.io&quot;&gt;https://reinhart1010.github.io&lt;/a&gt; (Powered by GitHub Pages), and&lt;/li&gt;
@@ -56,105 +57,112 @@
       &lt;td&gt;Forum&lt;/td&gt;
       &lt;td&gt;Forum / Bulletin Board&lt;/td&gt;
       &lt;td&gt;For BINUS University assignments&lt;/td&gt;
-      &lt;td&gt;Full copy of original post&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;PASTA&lt;/strong&gt;: Full copy of original post&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;a href=&quot;https://dev.to&quot;&gt;DEV.to&lt;/a&gt; ➡️ ↩️ 🌲&lt;/td&gt;
       &lt;td&gt;Posts&lt;/td&gt;
       &lt;td&gt;Blogs&lt;/td&gt;
       &lt;td&gt;Public, primarily for programming and software development&lt;/td&gt;
-      &lt;td&gt;Full copy and link to original post&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;POSSE or PASTA&lt;/strong&gt;: Full copy and link to original post&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;a href=&quot;https://instagram.com&quot;&gt;Instagram&lt;/a&gt; 🌲&lt;/td&gt;
       &lt;td&gt;Feed&lt;/td&gt;
       &lt;td&gt;Pictures and Videos&lt;/td&gt;
       &lt;td&gt;For BINUS University students, Tier 1 (family) 2 (friends) and 3 (loose friends) communication list&lt;/td&gt;
-      &lt;td&gt;Full (image, video) or summarized copy only&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;POSSE&lt;/strong&gt;: Summarized (image, video) copy only, &lt;strong&gt;PASTA&lt;/strong&gt;: Full copy only&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://instagram.com&quot;&gt;Instagram&lt;/a&gt; 🌲&lt;/td&gt;
+      &lt;td&gt;Stories&lt;/td&gt;
+      &lt;td&gt;Stories&lt;/td&gt;
+      &lt;td&gt;For BINUS University students, Tier 1 (family) 2 (friends) and 3 (loose friends) communication list&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;POSSE&lt;/strong&gt;: Summarized (image, video) copy only, &lt;strong&gt;PASTA&lt;/strong&gt;: Full copy only&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;a href=&quot;https://kotakode.com&quot;&gt;Kotakode&lt;/a&gt; ➡️ ↩️ 🌲&lt;/td&gt;
       &lt;td&gt;Blogs&lt;/td&gt;
       &lt;td&gt;Blogs&lt;/td&gt;
       &lt;td&gt;Public, primarily for programming and software development. Content in Indonesian (Bahasa Indonesia).&lt;/td&gt;
-      &lt;td&gt;Full copy and link to original post&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;POSSE or PASTA&lt;/strong&gt;: Full copy and link to original post&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;a href=&quot;https://kotakode.com&quot;&gt;Kotakode&lt;/a&gt; ↩️ 🌲&lt;/td&gt;
       &lt;td&gt;Pertanyaan&lt;/td&gt;
       &lt;td&gt;Q&amp;amp;A&lt;/td&gt;
       &lt;td&gt;Public, primarily for programming and software development. Content in Indonesian (Bahasa Indonesia).&lt;/td&gt;
-      &lt;td&gt;Full copy only&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;PASTA&lt;/strong&gt;: Full copy only&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;a href=&quot;https://line.me&quot;&gt;LINE&lt;/a&gt; 🌲&lt;/td&gt;
       &lt;td&gt;Stories&lt;/td&gt;
       &lt;td&gt;Stories&lt;/td&gt;
       &lt;td&gt;For BINUS University students, Tier 2 (friends) and 3 (loose friends) communication list&lt;/td&gt;
-      &lt;td&gt;Full (image, video) or summarized copy only&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;POSSE&lt;/strong&gt;: Summarized (image, video) copy only, &lt;strong&gt;PASTA&lt;/strong&gt;: Full copy only&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;a href=&quot;https://line.me&quot;&gt;LINE&lt;/a&gt; ➡️ ↩️ 🌲&lt;/td&gt;
       &lt;td&gt;Timeline&lt;/td&gt;
       &lt;td&gt;Microblogging&lt;/td&gt;
       &lt;td&gt;For BINUS University students, Tier 2 (friends) and 3 (loose friends) communication list&lt;/td&gt;
-      &lt;td&gt;Summarized copy and link to original post&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;POSSE or PASTA&lt;/strong&gt;: Summarized copy and link to original post&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;a href=&quot;https://linkedin.com&quot;&gt;LinkedIn&lt;/a&gt; ➡️ ↩️ 🌲&lt;/td&gt;
       &lt;td&gt;Post&lt;/td&gt;
       &lt;td&gt;Blogs&lt;/td&gt;
       &lt;td&gt;For job-related updates and articles&lt;/td&gt;
-      &lt;td&gt;Summarized copy and link to original post&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;POSSE or PASTA&lt;/strong&gt;: Summarized copy and link to original post&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;a href=&quot;https://linkedin.com&quot;&gt;LinkedIn&lt;/a&gt; 🌲&lt;/td&gt;
       &lt;td&gt;Stories&lt;/td&gt;
       &lt;td&gt;Stories&lt;/td&gt;
       &lt;td&gt;For job-related updates and articles&lt;/td&gt;
-      &lt;td&gt;Full (image, video) or summarized copy only&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;POSSE&lt;/strong&gt;: Summarized (image, video) copy only, &lt;strong&gt;PASTA&lt;/strong&gt;: Full copy only&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;a href=&quot;https://medium.com&quot;&gt;Medium&lt;/a&gt; ➡️ ↩️ 🌲&lt;/td&gt;
       &lt;td&gt;Posts&lt;/td&gt;
       &lt;td&gt;Blogs&lt;/td&gt;
       &lt;td&gt;Public, either in English or Indonesian&lt;/td&gt;
-      &lt;td&gt;Full copy and link to original post&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;POSSE or PASTA&lt;/strong&gt;:Full copy and link to original post&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;a href=&quot;https://openstreetmap.org&quot;&gt;OpenStreetMap&lt;/a&gt; ➡️ ↩️ 🌲&lt;/td&gt;
-      &lt;td&gt;Question (id-ID: Pertanyaan)&lt;/td&gt;
-      &lt;td&gt;Q&amp;amp;A&lt;/td&gt;
+      &lt;td&gt;User Diaries&lt;/td&gt;
+      &lt;td&gt;Blogs&lt;/td&gt;
       &lt;td&gt;OpenStreetMap contributors and projects in any language&lt;/td&gt;
-      &lt;td&gt;Full copy and link to original post&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;POSSE:&lt;/strong&gt; Full copy and link to original post&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;a href=&quot;https://quora.com&quot;&gt;Quora&lt;/a&gt; ➡️ ↩️ 🌲&lt;/td&gt;
       &lt;td&gt;Question (id-ID: Pertanyaan)&lt;/td&gt;
       &lt;td&gt;Q&amp;amp;A&lt;/td&gt;
       &lt;td&gt;Public. Target community depending on site language.&lt;/td&gt;
-      &lt;td&gt;Full copy only&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;PASTA:&lt;/strong&gt; Full copy only&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;a href=&quot;https://snapchat.com&quot;&gt;Snapchat&lt;/a&gt; ➡️ 🔐&lt;/td&gt;
       &lt;td&gt;Stories&lt;/td&gt;
       &lt;td&gt;Stories&lt;/td&gt;
       &lt;td&gt;Tier 2 (friends) communication list&lt;/td&gt;
-      &lt;td&gt;Full (image, video) copy and link to original post&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;POSSE&lt;/strong&gt;: Summarized (image, video) copy and link to original post, &lt;strong&gt;PASTA&lt;/strong&gt;: Full copy only&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;a href=&quot;https://telegram.org&quot;&gt;Telegram&lt;/a&gt; ➡️ ↩️ 🌲&lt;/td&gt;
       &lt;td&gt;Channels&lt;/td&gt;
       &lt;td&gt;Blogs&lt;/td&gt;
       &lt;td&gt;Public, primarily for programming and software development&lt;/td&gt;
-      &lt;td&gt;Summarized copy and link to original post&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;POSSE or PASTA:&lt;/strong&gt; Summarized copy and link to original post&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;a href=&quot;https://twitter.com&quot;&gt;Twitter&lt;/a&gt; 🌉 ➡️ ↩️ 🌲&lt;/td&gt;
       &lt;td&gt;Tweets/Threads&lt;/td&gt;
       &lt;td&gt;Microblogging&lt;/td&gt;
       &lt;td&gt;Public, either in English or Indonesian&lt;/td&gt;
-      &lt;td&gt;Summarized copy and link to original post&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;POSSE&lt;/strong&gt; Summarized copy and link to original post, &lt;strong&gt;PASTA&lt;/strong&gt;: Full copy only&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -169,7 +177,11 @@
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;the-goal&quot;&gt;The Goal&lt;/h2&gt;
-&lt;p&gt;The main goal of PODSPPSE is indeed the same as POSSE, where my own content can be syndicated across different sites, services, and platforms, while maintaining an archive of posts into an open, distributed places such as GitHub. This allows my posts and content to be further distributed across places and communities in the near future.&lt;/p&gt;</content><author><name></name></author><category term="updates" /><category term="indieweb" /><category term="en-us" /><summary type="html">This blog post contains terms which may not be fully understood outside of the IndieWeb and federated social network (“Fediverse”) communities, which includes the following: A silo is a website, app, or service featuring user-generated content External (or third party) silos are commonly third-party social platforms such as Facebook and Twitter with (often) restrictive features, rules and policies POSSE (Publish on your Own Site, Syndicate Elsewhere) is a content syndication strategy where every single content are posted directly into the user’s own website (as a personal silo), before publishing links or copies into third party silos PESETAS (Publish Elsewhere, Syndicate Everything To A Silo) is a content syndication strategy where every single content are posted on external silos, syndicated into a specific external silo to be featured on the user’s own website (e.g. via Medium or Tumblr’s RSS feeds) PESOS (Publish Elsewhere, Syndicate on your Own Site) is a content syndication strategy where every single content are posted on external silos, then syndicated into the user’s own website Fediverse: A network of interconnected (federated) and intercommunicated social network services, in which popular examples include Mastodon, Diaspora*, Matrix.org and GNU Social</summary></entry><entry><title type="html">Soal Competitive Programming ini ternyata bisa diselesaikan menggunakan Regular Expression!</title><link href="http://0.0.0.0:4000/posts/2021/02/22/soal-competitive-programming-ini-ternyata-bisa-diselesaikan-menggunakan-regular-expression.html" rel="alternate" type="text/html" title="Soal Competitive Programming ini ternyata bisa diselesaikan menggunakan Regular Expression!" /><published>2021-02-22T00:00:00+07:00</published><updated>2021-02-22T00:00:00+07:00</updated><id>http://0.0.0.0:4000/posts/2021/02/22/soal-competitive-programming-ini-ternyata-bisa-diselesaikan-menggunakan-regular-expression</id><content type="html" xml:base="http://0.0.0.0:4000/posts/2021/02/22/soal-competitive-programming-ini-ternyata-bisa-diselesaikan-menggunakan-regular-expression.html">&lt;h2 id=&quot;soal&quot;&gt;Soal&lt;/h2&gt;
+&lt;p&gt;The main goal of PODSPPSE is indeed the same as POSSE, where my own content can be syndicated across different sites, services, and platforms, while maintaining an archive of posts into an open, distributed places such as GitHub. This allows my posts and content to be further distributed across places and communities in the near future.&lt;/p&gt;</content><author><name></name></author><category term="updates" /><category term="indieweb" /><category term="en-us" /><summary type="html">This blog post contains terms which may not be fully understood outside of the IndieWeb and federated social network (“Fediverse”) communities, which includes the following: A silo is a website, app, or service featuring user-generated content External (or third party) silos are commonly third-party social platforms such as Facebook and Twitter with (often) restrictive features, rules and policies POSSE (Publish on your Own Site, Syndicate Elsewhere) is a content syndication strategy where every single content are posted directly into the user’s own website (as a personal silo), before publishing links or copies into third party silos PESETAS (Publish Elsewhere, Syndicate Everything To A Silo) is a content syndication strategy where every single content are posted on external silos, syndicated into a specific external silo to be featured on the user’s own website (e.g. via Medium or Tumblr’s RSS feeds) PESOS (Publish Elsewhere, Syndicate on your Own Site) is a content syndication strategy where every single content are posted on external silos, then syndicated into the user’s own website PASTA (Publish Anywhere, Save To Archive) is a content syndication strategy where every single content are posted on any silos, then saved into a personal archive Fediverse: A network of interconnected (federated) and intercommunicated social network services, in which popular examples include Mastodon, Diaspora*, Matrix.org and GNU Social</summary></entry><entry><title type="html">Reinhart kini sudah memenuhi 120 SAT dan 30 jam Community Service</title><link href="http://0.0.0.0:4000/posts/2021/02/22/reinhart-kini-sudah-memenuhi-120-sat-dan-30-jam-community-service.html" rel="alternate" type="text/html" title="Reinhart kini sudah memenuhi 120 SAT dan 30 jam Community Service" /><published>2021-02-22T00:00:00+07:00</published><updated>2021-02-22T00:00:00+07:00</updated><id>http://0.0.0.0:4000/posts/2021/02/22/reinhart-kini-sudah-memenuhi-120-sat-dan-30-jam-community-service</id><content type="html" xml:base="http://0.0.0.0:4000/posts/2021/02/22/reinhart-kini-sudah-memenuhi-120-sat-dan-30-jam-community-service.html">&lt;p&gt;&lt;a href=&quot;https://student.binus.ac.id/sat/&quot;&gt;SAT (Student Activity Transcript)&lt;/a&gt;, yang juga disebut sebagai Transkrip Aktivitas Kemahasiswaan (TAK), beserta jam kegiatan sosial (Community Service) merupakan beberapa jenis rekam jejak kegiatan kemahasiswaan serta persyaratan untuk pelaksanaan Tugas Akhir (seperti skripsi) dan kelulusan di BINUS University. Setiap mahasiswa BINUS wajib memiliki SAT dengan minimum jumlah 120 poin, serta harus berpartisipasi dalam setidaknya 10 jam kegiatan sosial melalui kegiatan-kegiatan yang diselenggarakan oleh &lt;a href=&quot;http://www.teachforindonesia.org/&quot;&gt;Teach for Indonesia (TFI)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Jumlah poin SAT yang dikumpulkan oleh saya saat ini sudah jauh dari cukup. Bahkan, saya berhasil mengumpulkan 120 poin SAT dalam kurun 2 semester pertama. Sedangkan, jumlah minimum jam kegiatan sosial ini (yang sering dikatakan sangat susah untuk dicari) baru berhasil dikumpulkan pada hari ini, 22 Februari 2021, melalui kegiatan-kegiatan TFI dalam sesi Freshmen Enrichment Program (FEP), sesi mengajar bimbel untuk anak SD-SMA di kampus Kijang, serta tugas kelompok mata kuliah Character Building dari Semester 1 hingga Semester 3.&lt;/p&gt;
+
+&lt;p&gt;Namun, hal tersebut bukan berarti bahwa saya akan berhenti dari kegiatan-kegiatan kemahasiswaan saya di BINUS University. Bahkan, ada beberapa poin SAT yang masih &lt;em&gt;pending&lt;/em&gt; dari kegiatan kepanitiaan saya di beberapa acara, khususnya yang diadakan oleh &lt;a href=&quot;https://himti.or.id&quot;&gt;HIMTI&lt;/a&gt;. Saya juga sedang mencoba klaim poin SAT dari beberapa kompetisi di luar BINUS, seperti Kotakode Coding Competition yang diadakan pada 2020 silam. Saya berharap agar pada kelulusan nanti saya sudah mendapatkan poin SAT dan jam Community Service secara lebih lagi, namun saat ini saya masih harus bersabar untuk memberi kesempatan bagi mahasiswa lain untuk meraih SAT dan jam Community Service yang cukup.&lt;/p&gt;</content><author><name></name></author><category term="binus" /><category term="updates" /><category term="id-id" /><summary type="html">SAT (Student Activity Transcript), yang juga disebut sebagai Transkrip Aktivitas Kemahasiswaan (TAK), beserta jam kegiatan sosial (Community Service) merupakan beberapa jenis rekam jejak kegiatan kemahasiswaan serta persyaratan untuk pelaksanaan Tugas Akhir (seperti skripsi) dan kelulusan di BINUS University. Setiap mahasiswa BINUS wajib memiliki SAT dengan minimum jumlah 120 poin, serta harus berpartisipasi dalam setidaknya 10 jam kegiatan sosial melalui kegiatan-kegiatan yang diselenggarakan oleh Teach for Indonesia (TFI).</summary></entry><entry><title type="html">Soal Competitive Programming ini ternyata bisa diselesaikan menggunakan Regular Expression!</title><link href="http://0.0.0.0:4000/posts/2021/02/22/soal-competitive-programming-ini-ternyata-bisa-diselesaikan-menggunakan-regular-expression.html" rel="alternate" type="text/html" title="Soal Competitive Programming ini ternyata bisa diselesaikan menggunakan Regular Expression!" /><published>2021-02-22T00:00:00+07:00</published><updated>2021-02-22T00:00:00+07:00</updated><id>http://0.0.0.0:4000/posts/2021/02/22/soal-competitive-programming-ini-ternyata-bisa-diselesaikan-menggunakan-regular-expression</id><content type="html" xml:base="http://0.0.0.0:4000/posts/2021/02/22/soal-competitive-programming-ini-ternyata-bisa-diselesaikan-menggunakan-regular-expression.html">&lt;h2 id=&quot;soal&quot;&gt;Soal&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Diambil dari &lt;a href=&quot;https://tlx.toki.id/problems/inc-2014/H&quot;&gt;ICPC Indonesia National Contest (INC) 2014, Problem H&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Seseorang sedang mengomel di sebuah postingan Facebook.&lt;/p&gt;
@@ -673,18 +685,4 @@ Cukup itu saja.
   &lt;li&gt;Membentuk komunitas dan organisasi, seperti &lt;a href=&quot;https://www.python.org/psf/&quot;&gt;Python Software Foundation&lt;/a&gt; dan &lt;a href=&quot;https://openjsf.org/&quot;&gt;OpenJS Foundation&lt;/a&gt;, untuk melanjutkan pengembangan bahasa pemrograman KopiHati dalam jangka panjang&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Demikianlah pengumuman saya tentang KopiHati ini. Seluruh update tentang bahasa pemrograman ini akan tersedia di &lt;a href=&quot;https://reinhart1010.github.io/posts/category/kopihati&quot;&gt;https://reinhart1010.github.io/posts/category/kopihati&lt;/a&gt;, dan jika memungkinkan, juga dipublikasikan di &lt;a href=&quot;https://kotakode.com/blogs&quot;&gt;Kotakode&lt;/a&gt;. Untuk sementara waktu, bahasa pemrograman ini masih &lt;strong&gt;belum&lt;/strong&gt; memiliki situs dan akun Instagram sesuai yang direncanakan. Sampai jumpa pada pengumuman berikutnya!&lt;/p&gt;</content><author><name></name></author><category term="projects" /><category term="kopihati" /><category term="id-id" /><summary type="html">KopiHati merupakan sebuah bahasa pemrograman yang terinspirasi dari sekelompok brand gerai kopi, minuman, dan kafe di Jakarta, yang sempat mengalami puncak keemasannya pada tahun 2018-2019.</summary></entry><entry><title type="html">Selamat Hari Valentine!</title><link href="http://0.0.0.0:4000/posts/2021/02/14/selamat-hari-valentine.html" rel="alternate" type="text/html" title="Selamat Hari Valentine!" /><published>2021-02-14T00:00:00+07:00</published><updated>2021-02-14T00:00:00+07:00</updated><id>http://0.0.0.0:4000/posts/2021/02/14/selamat-hari-valentine</id><content type="html" xml:base="http://0.0.0.0:4000/posts/2021/02/14/selamat-hari-valentine.html">&lt;p&gt;Kamu mungkin sudah lama tidak bertemu saya sejak SMA, SMP, dan bahkan dulu saat saya masih duduk di bangku SD Santo Bellarminus Jakarta (Menteng) dan SD Kristen Kanaan Banjarmasin.&lt;/p&gt;
-
-&lt;p&gt;Saat ini, saya sudah memiliki situs dan blog resmi di &lt;a href=&quot;https://reinhart1010.github.io&quot;&gt;https://reinhart1010.github.io&lt;/a&gt;, alias &lt;em&gt;website ini&lt;/em&gt;. Dalam situs ini kamu juga dapat melihat seluruh &lt;em&gt;progress&lt;/em&gt;, pengumuman, jawaban, proyek, dan artikel blog yang pernah saya tulis di &lt;a href=&quot;https://www.openstreetmap.org/user/Reinhart Previano/diary&quot;&gt;OpenStreetMap&lt;/a&gt;, &lt;a href=&quot;https://kotakode.com/users/7/reinhart1010&quot;&gt;Kotakode&lt;/a&gt;, &lt;a href=&quot;http://reinhart1010.blog.binusian.org&quot;&gt;BINUSIAN Blog&lt;/a&gt;, &lt;a href=&quot;https://dev.to/reinhart1010&quot;&gt;DEV.to&lt;/a&gt;, dan sebagainya.&lt;/p&gt;
-
-&lt;p&gt;Pada kesempatan ini, saya juga dengan bangga mengumumkan bahwa:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Situs utama reinhart1010.github.io sudah memiliki laman blog.&lt;/strong&gt; Kamu dapat melihat pengumuman dan sedikit sejarah dari pengembangan situs ini (dalam Bahasa Inggris) &lt;a href=&quot;/posts/2021/01/25/say-hello-to-blog-posts-on-reinhart1010.github.io.html&quot;&gt;di sini&lt;/a&gt;. Bahkan, kamu juga dapat membaca &lt;a href=&quot;/posts/2013/06/14/perjuangan-pembuatan-website-botolcabe.html&quot;&gt;blog post pertama saya&lt;/a&gt; (dipublikasikan tahun 2013) dalam situs ini, yang berasal dari &lt;a href=&quot;https://reinhartpreviano.wordpress.com&quot;&gt;https://reinhartpreviano.wordpress.com&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Namun, hubungan kita jangan putus gegara perubahan Privacy Policy dalam aplikasi WhatsApp.&lt;/strong&gt; Kamu juga dapat menambahkan &lt;strong&gt;nomor WhatsApp saya yang sama&lt;/strong&gt; (+62••••9090) sebagai kontak di aplikasi lainnya, baik iMessage, KakaoTalk, LINE, Signal, Snapchat, Telegram, maupun WeChat.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Tahun ini, saya mulai menjabat sebagai ███████████ ███ ███████████ di █████ BINUS UNIVERSITY.&lt;/strong&gt; Kira-kira apa ya?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Hari ini, saya juga mengumumkan sebuah &lt;a href=&quot;https://id.wikipedia.org/wiki/Bahasa_pemrograman&quot;&gt;bahasa pemrograman&lt;/a&gt; baru yang terinspirasi dari &lt;a href=&quot;https://kopikenangan.com&quot;&gt;Kopi Kenangan&lt;/a&gt;, &lt;a href=&quot;https://fore.coffee/home&quot;&gt;Fore Coffee&lt;/a&gt;, dan &lt;em&gt;brand&lt;/em&gt; gerai kopi lainnya.&lt;/strong&gt; Namanya KopiHati, dan kamu dapat membaca detailnya &lt;a href=&quot;/posts/2021/02/14/mempersembahkan-kopihati.html&quot;&gt;di sini&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Arsip jawaban saya untuk tugas kuliah Character Building di BINUS pun juga kini tersedia di dalam blog ini.&lt;/strong&gt; Kamu bisa melihat jawaban-jawabannya &lt;a href=&quot;/posts/category/character-building/&quot;&gt;di sini&lt;/a&gt;, termasuk &lt;a href=&quot;/posts/2019/10/20/ancaman-perkembangan-teknologi-terhadap-keutuhan-pancasila-dan-apa-yang-harus-dilakukan-untuk-menghadapinya.html&quot;&gt;jawaban yang menjadi salah satu blog post terpanjang yang pernah saya tulis seumur hidup&lt;/a&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Jangan lupa untuk tidak men-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Throw new Exception()&lt;/code&gt; terhadap masyarakat Indonesia yang berpolymorph dan tetap menjaga &lt;em&gt;linked list&lt;/em&gt; persatuan Indonesia. Sampai jumpa dalam pengumuman berikutnya!&lt;/p&gt;</content><author><name></name></author><category term="updates" /><category term="id-id" /><summary type="html">Kamu mungkin sudah lama tidak bertemu saya sejak SMA, SMP, dan bahkan dulu saat saya masih duduk di bangku SD Santo Bellarminus Jakarta (Menteng) dan SD Kristen Kanaan Banjarmasin.</summary></entry></feed>
+&lt;p&gt;Demikianlah pengumuman saya tentang KopiHati ini. Seluruh update tentang bahasa pemrograman ini akan tersedia di &lt;a href=&quot;https://reinhart1010.github.io/posts/category/kopihati&quot;&gt;https://reinhart1010.github.io/posts/category/kopihati&lt;/a&gt;, dan jika memungkinkan, juga dipublikasikan di &lt;a href=&quot;https://kotakode.com/blogs&quot;&gt;Kotakode&lt;/a&gt;. Untuk sementara waktu, bahasa pemrograman ini masih &lt;strong&gt;belum&lt;/strong&gt; memiliki situs dan akun Instagram sesuai yang direncanakan. Sampai jumpa pada pengumuman berikutnya!&lt;/p&gt;</content><author><name></name></author><category term="projects" /><category term="kopihati" /><category term="id-id" /><summary type="html">KopiHati merupakan sebuah bahasa pemrograman yang terinspirasi dari sekelompok brand gerai kopi, minuman, dan kafe di Jakarta, yang sempat mengalami puncak keemasannya pada tahun 2018-2019.</summary></entry></feed>

@@ -11,9 +11,10 @@ tags: [en-us]
 > + [**POSSE** (Publish on your Own Site, Syndicate Elsewhere)](https://indieweb.org/POSSE) is a content syndication strategy where every single content are posted directly into the user's own website (as a personal silo), before publishing links or copies into third party silos
 > + [**PESETAS** (Publish Elsewhere, Syndicate Everything To A Silo)](https://indieweb.org/PESETAS) is a content syndication strategy where every single content are posted on external silos, syndicated into a specific external silo to be featured on the user's own website (e.g. via Medium or Tumblr's RSS feeds)
 > + [**PESOS** (Publish Elsewhere, Syndicate on your Own Site)](https://indieweb.org/PESOS) is a content syndication strategy where every single content are posted on external silos, then syndicated into the user's own website
+> + [**PASTA** (Publish Anywhere, Save To Archive)](https://indieweb.org/PASTA) is a content syndication strategy where every single content are posted on any silos, then saved into a personal archive
 > + [**Fediverse**](https://en.wikipedia.org/wiki/Fediverse): A network of interconnected (federated) and intercommunicated social network services, in which popular examples include Mastodon, Diaspora*, Matrix.org and GNU Social
 
-**PODSPPSE** is a modification of **POSSE** in which the ~~master~~ main copies of posts are published in own site, where only a selection of these posts are published or syndicated elsewhere. This site is indeed decentralized since it is available on 2 different URLs:
+**PODSPPSE** is a hybrid between **POSSE** and **PASTA** in which the ~~master~~ main copies of posts are published in own site, where only a selection of these posts are published or syndicated elsewhere. This site is indeed decentralized since it is available on 2 different URLs:
 
 + <https://reinhart1010.github.io> (Powered by GitHub Pages), and
 + <https://reinhart1010.gitlab.io> (Powered by GitLab Pages).
@@ -40,21 +41,22 @@ Otherwise stated, these platforms and services expect content in English.
 
 | Platform/Service Name | Feature Name | Feature Type | Target Audience or Usage | Syndication Strategy |
 |---|---|---|
-| [BINUSMAYA](https://binusmaya.binus.ac.id) ➡️ ↩️ 🔒 🔐 | Forum | Forum / Bulletin Board | For BINUS University assignments | Full copy of original post |
-| [DEV.to](https://dev.to) ➡️ ↩️ 🌲 | Posts | Blogs | Public, primarily for programming and software development | Full copy and link to original post |
-| [Instagram](https://instagram.com) 🌲 | Feed | Pictures and Videos | For BINUS University students, Tier 1 (family) 2 (friends) and 3 (loose friends) communication list | Full (image, video) or summarized copy only |
-| [Kotakode](https://kotakode.com) ➡️ ↩️ 🌲 | Blogs | Blogs | Public, primarily for programming and software development. Content in Indonesian (Bahasa Indonesia). | Full copy and link to original post |
-| [Kotakode](https://kotakode.com) ↩️ 🌲 | Pertanyaan | Q&A | Public, primarily for programming and software development. Content in Indonesian (Bahasa Indonesia). | Full copy only |
-| [LINE](https://line.me) 🌲 | Stories | Stories | For BINUS University students, Tier 2 (friends) and 3 (loose friends) communication list | Full (image, video) or summarized copy only |
-| [LINE](https://line.me) ➡️ ↩️ 🌲 | Timeline | Microblogging | For BINUS University students, Tier 2 (friends) and 3 (loose friends) communication list | Summarized copy and link to original post |
-| [LinkedIn](https://linkedin.com) ➡️ ↩️ 🌲 | Post | Blogs | For job-related updates and articles | Summarized copy and link to original post |
-| [LinkedIn](https://linkedin.com) 🌲 | Stories | Stories | For job-related updates and articles | Full (image, video) or summarized copy only |
-| [Medium](https://medium.com) ➡️ ↩️ 🌲 | Posts | Blogs | Public, either in English or Indonesian | Full copy and link to original post |
-| [OpenStreetMap](https://openstreetmap.org) ➡️ ↩️ 🌲 | Question (id-ID: Pertanyaan) | Q&A | OpenStreetMap contributors and projects in any language | Full copy and link to original post |
-| [Quora](https://quora.com) ➡️ ↩️ 🌲 | Question (id-ID: Pertanyaan) | Q&A | Public. Target community depending on site language. | Full copy only |
-| [Snapchat](https://snapchat.com) ➡️ 🔐 | Stories | Stories | Tier 2 (friends) communication list | Full (image, video) copy and link to original post |
-| [Telegram](https://telegram.org) ➡️ ↩️ 🌲 | Channels | Blogs | Public, primarily for programming and software development | Summarized copy and link to original post |
-| [Twitter](https://twitter.com) 🌉 ➡️ ↩️ 🌲 | Tweets/Threads | Microblogging | Public, either in English or Indonesian | Summarized copy and link to original post |
+| [BINUSMAYA](https://binusmaya.binus.ac.id) ➡️ ↩️ 🔒 🔐 | Forum | Forum / Bulletin Board | For BINUS University assignments | **PASTA**: Full copy of original post |
+| [DEV.to](https://dev.to) ➡️ ↩️ 🌲 | Posts | Blogs | Public, primarily for programming and software development | **POSSE or PASTA**: Full copy and link to original post |
+| [Instagram](https://instagram.com) 🌲 | Feed | Pictures and Videos | For BINUS University students, Tier 1 (family) 2 (friends) and 3 (loose friends) communication list | **POSSE**: Summarized (image, video) copy only, **PASTA**: Full copy only |
+| [Instagram](https://instagram.com) 🌲 | Stories | Stories | For BINUS University students, Tier 1 (family) 2 (friends) and 3 (loose friends) communication list | **POSSE**: Summarized (image, video) copy only, **PASTA**: Full copy only |
+| [Kotakode](https://kotakode.com) ➡️ ↩️ 🌲 | Blogs | Blogs | Public, primarily for programming and software development. Content in Indonesian (Bahasa Indonesia). | **POSSE or PASTA**: Full copy and link to original post |
+| [Kotakode](https://kotakode.com) ↩️ 🌲 | Pertanyaan | Q&A | Public, primarily for programming and software development. Content in Indonesian (Bahasa Indonesia). | **PASTA**: Full copy only |
+| [LINE](https://line.me) 🌲 | Stories | Stories | For BINUS University students, Tier 2 (friends) and 3 (loose friends) communication list | **POSSE**: Summarized (image, video) copy only, **PASTA**: Full copy only |
+| [LINE](https://line.me) ➡️ ↩️ 🌲 | Timeline | Microblogging | For BINUS University students, Tier 2 (friends) and 3 (loose friends) communication list | **POSSE or PASTA**: Summarized copy and link to original post |
+| [LinkedIn](https://linkedin.com) ➡️ ↩️ 🌲 | Post | Blogs | For job-related updates and articles | **POSSE or PASTA**: Summarized copy and link to original post |
+| [LinkedIn](https://linkedin.com) 🌲 | Stories | Stories | For job-related updates and articles | **POSSE**: Summarized (image, video) copy only, **PASTA**: Full copy only |
+| [Medium](https://medium.com) ➡️ ↩️ 🌲 | Posts | Blogs | Public, either in English or Indonesian | **POSSE or PASTA**:Full copy and link to original post |
+| [OpenStreetMap](https://openstreetmap.org) ➡️ ↩️ 🌲 | User Diaries | Blogs | OpenStreetMap contributors and projects in any language | **POSSE:** Full copy and link to original post |
+| [Quora](https://quora.com) ➡️ ↩️ 🌲 | Question (id-ID: Pertanyaan) | Q&A | Public. Target community depending on site language. | **PASTA:** Full copy only |
+| [Snapchat](https://snapchat.com) ➡️ 🔐 | Stories | Stories | Tier 2 (friends) communication list | **POSSE**: Summarized (image, video) copy and link to original post, **PASTA**: Full copy only |
+| [Telegram](https://telegram.org) ➡️ ↩️ 🌲 | Channels | Blogs | Public, primarily for programming and software development | **POSSE or PASTA:** Summarized copy and link to original post |
+| [Twitter](https://twitter.com) 🌉 ➡️ ↩️ 🌲 | Tweets/Threads | Microblogging | Public, either in English or Indonesian | **POSSE** Summarized copy and link to original post, **PASTA**: Full copy only |
 
 + 🌉 Supports [Bridgy](https://brid.gy) integration
 + ➡️ Allows direct link to original website

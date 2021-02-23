@@ -31,7 +31,7 @@
   }
 }
 
-body { font-family: 'Inter', sans-serif; }
+body { font-family: 'Inter', sans-serif; letter-spacing: -0.01em; }
 @supports (font-variation-settings: normal) {
   body { font-family: 'Inter var', sans-serif; }
 }

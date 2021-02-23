@@ -6,7 +6,7 @@
 
 @media (prefers-color-scheme: dark) { :root { --heading-font-weight: 900; --sidebar-title-font-weight: 700; --code-color-1: #4FB6C3; --code-color-2: #4FB6C3; --code-color-3: #93C5FD; --code-color-4: #F0ABFC; --code-color-5: #FDA4AF; --code-color-6: #FCD34D; --code-color-7: #BEF264; --code-color-8: #67E8F9; } }
 
-body { font-family: 'Inter', sans-serif; }
+body { font-family: 'Inter', sans-serif; letter-spacing: -0.01em; }
 
 @supports (font-variation-settings: normal) { body { font-family: 'Inter var', sans-serif; } }
 
