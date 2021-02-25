@@ -5,7 +5,7 @@ description: "To celebrate the adoption of digital currencies, someone have deci
 categories: [investigasi]
 tags: [en-us]
 ---
-The sites dicussed here are **NOT** the same as [my first investigation about fake crypto giveaway sites](/link-spam-giveaway-bitcoin-ethereum-tether-di-grup-telegram-kotakode.html). In this post, I will discuss another two fake cryptocurrency giveaway spotted on Twitter, which in this case claiming to be "Elon Musk".
+The sites dicussed here are **NOT** the same as [my first investigation about fake crypto giveaway sites](/posts/2021/02/23/link-spam-giveaway-bitcoin-ethereum-tether-di-grup-telegram-kotakode.html). In this post, I will discuss another two fake cryptocurrency giveaway spotted on Twitter, which in this case claiming to be "Elon Musk".
 
 ![Tweet 1](https://user-images.githubusercontent.com/17312341/109197403-85b37b80-77cf-11eb-814f-e8aebe8aa803.png)
 
