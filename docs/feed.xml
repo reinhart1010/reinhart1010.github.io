@@ -1,4 +1,108 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2021-02-23T18:43:52+07:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">Reinhart Previano K.</title><subtitle>Blog repository</subtitle><entry><title type="html">Introducing PODSPPSE</title><link href="http://0.0.0.0:4000/posts/2021/02/23/introducing-podsppse.html" rel="alternate" type="text/html" title="Introducing PODSPPSE" /><published>2021-02-23T00:00:00+07:00</published><updated>2021-02-23T00:00:00+07:00</updated><id>http://0.0.0.0:4000/posts/2021/02/23/introducing-podsppse</id><content type="html" xml:base="http://0.0.0.0:4000/posts/2021/02/23/introducing-podsppse.html">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2021-02-25T22:47:29+07:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">Reinhart Previano K.</title><subtitle>Blog repository</subtitle><entry><title type="html">Operasi Aritmetik dan Cashless Society dalam bahasa pemrograman KopiHati</title><link href="http://0.0.0.0:4000/posts/2021/02/25/operasi-aritmetik-dan-cashless-society-dalam-bahasa-pemrograman-kopihati.html" rel="alternate" type="text/html" title="Operasi Aritmetik dan Cashless Society dalam bahasa pemrograman KopiHati" /><published>2021-02-25T00:00:00+07:00</published><updated>2021-02-25T00:00:00+07:00</updated><id>http://0.0.0.0:4000/posts/2021/02/25/operasi-aritmetik-dan-cashless-society-dalam-bahasa-pemrograman-kopihati</id><content type="html" xml:base="http://0.0.0.0:4000/posts/2021/02/25/operasi-aritmetik-dan-cashless-society-dalam-bahasa-pemrograman-kopihati.html">&lt;p&gt;Salah satu fitur utama yang wajib dimiliki oleh setiap bahasa pemrograman adalah kemampuan untuk menghitung operasi aritmatika, yang tentunya sudah kalian pelajari dalam mata pelajaran matematika.&lt;/p&gt;
+
+&lt;iframe class=&quot;w-full h-300&quot; src=&quot;https://www.youtube.com/embed/rOzoWoA0b7Q&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Banyak bahasa pemrograman seperti C, C++, Java, Python, dan JavaScript menggunakan beberapa simbol seperti &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;+&lt;/code&gt; (tambah), &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;*&lt;/code&gt; (kali), &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;%&lt;/code&gt; (modulo), dan bahkan &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;**&lt;/code&gt; (pangkat). Namun untuk mendukung terciptanya &lt;em&gt;cashless society&lt;/em&gt; di Indonesia, kami juga akan menerima pembayaran &lt;del&gt;non-tunai&lt;/del&gt; non-simbol menggunakan &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ditambah&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;belikan&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bayar&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;diskon&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cashback&lt;/code&gt;, dan kata kunci lainnya.&lt;/p&gt;
+
+&lt;p&gt;Dalam bog post ini kami akan menjelaskan daftar operator yang juga dapat digunakan di dalam bahasa KopiHati, selain operator-operator simbol yang ada di dalam bahasa pemrograman lainnya.&lt;/p&gt;
+
+&lt;h2 id=&quot;kata-kunci-ditambah-dikurangi-dikali-dibagi-modulo-disingkat-mod-dan-pangkat&quot;&gt;Kata kunci ditambah, dikurangi, dikali, dibagi, modulo (disingkat mod), dan pangkat.&lt;/h2&gt;
+&lt;p&gt;Keenam kata tersebut merupakan &lt;em&gt;alias&lt;/em&gt; dari simbol operator aritmetik &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;+&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;*&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;%&lt;/code&gt;, dan &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;**&lt;/code&gt;. Kamu masih bisa mencampurkannya dengan simbol operator yang sudah ada seperti &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;()&lt;/code&gt;. Namun, Anda juga dapat mencampur salah satu operator aritmetik tersebut dengan simbol &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;,&lt;/code&gt; di dalam &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;()&lt;/code&gt; untuk membuat sebuah keajaiban seperti berikut.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Ada $a (nom), isinya 2 + (3, 4, 5).
+Maksudnya, variabel a = 2 + 3 + 4 + 5 = 9.
+
+Perintah tersebut juga dapat ditulis sebagai
+Ada $b (nom), isinya 2 ditambah (3, 4, 5).
+
+Perintah tersebut setara dengan perintah SUM() di dalam aplikasi spreadsheet.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;kata-kunci-belikan-membelikan-dan-membayar&quot;&gt;Kata kunci belikan, membelikan, dan membayar&lt;/h2&gt;
+&lt;p&gt;KopiHati juga memiliki sebuah kata kunci operatur khusus bernama &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;belikan&lt;/code&gt; yang setara dengan simbol &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;+=&lt;/code&gt; di dalam bahasa pemrograman lainnya. Anda juga dapat menggunakan kombinasi “&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;,&lt;/code&gt; di dalam &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;()&lt;/code&gt;” untuk mem-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;belikan&lt;/code&gt; lebih dari satu nilai.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Ada $total (nom), isinya 0.
+Ada $&quot;Green Tea Latte&quot; (nom), harganya 25000.
+
+Belikan $total 3 $&quot;Green Tea Latte&quot;.
+Karena itu, nilai dari $total saat ini adalah 75000 (25000 x 3).
+
+$total = 0.
+
+Belikan $total (5000, $&quot;Green Tea Latte&quot;).
+Karena itu, nilai dari $total saat ini adalah 30000 (25000 + 5000).
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Selain itu, Anda juga dapat menggunakan kata kunci &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;membelikan&lt;/code&gt; dan &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;membayar&lt;/code&gt; seperti berikut.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Ada $dompet (nom), isinya 100000.
+Ada $&quot;Green Tea Latte&quot; (nom), harganya 25000.
+
+$dompet membelikan $&quot;Green Tea Latte&quot;.
+Karena itu, nilai dari $dompet saat ini adalah 75000 (100000 - 25000).
+
+Ada $budi (nom), isinya 0.
+
+$dompet membelikan $budi 2 $&quot;Green Tea Latte&quot;.
+Karena itu, nilai dari $dompet saat ini adalah 25000 (75000 - 50000).
+Sedangkan, nilai dari $budi saat ini adalah 50000 (0 + 50000).
+
+Ada $&quot;Es Teler&quot; (nom), harganya 15000.
+$dompet membayar $&quot;Es Teler&quot;.
+
+Karena itu, nilai dari $dompet saat ini adalah 10000 (25000 - 15000).
+Sedangkan, nilai dari $&quot;Es Teler&quot; masih sama, yakni 15000.
+
+$&quot;Es Teler&quot; membayar 10000 kepada $dompet.
+
+Karena itu, nilai dari $dompet saat ini adalah 20000 (10000 + 10000).
+Sedangkan, nilai dari $&quot;Es Teler&quot; berkurang menjadi 5000 (15000 - 10000).
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;kata-kunci-diskon-dan-cashback&quot;&gt;Kata kunci diskon dan cashback&lt;/h2&gt;
+&lt;p&gt;Nah, saatnya yang ditunggu-tunggu, nih! Setiap kode KopiHati dapat menggunakan kata kunci &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;diskon&lt;/code&gt; dan &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cashback&lt;/code&gt; dengan syarat dan ketentuan berlaku. Berikut ini adalah contoh-contoh sintaksnya.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Ada $a (nom), isinya 100000 diskon 20%.
+Adapun $b (nom), isinya 100000 cashback 20%.
+Perintah tersebut mengurangi nilai dari $a dan $b sebanyak 20 persen (20000).
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Kamu tentunya dapat memberikan syarat dan ketentuan di dalam perintah tersebut, dan karena itu kamu tidak usah untuk menggunakan perintah kondisi seperti &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jika&lt;/code&gt; untuk melakukannya.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cashback 20% maksimum 10000
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="kopihati" /><category term="id-id" /><summary type="html">Salah satu fitur utama yang wajib dimiliki oleh setiap bahasa pemrograman adalah kemampuan untuk menghitung operasi aritmatika, yang tentunya sudah kalian pelajari dalam mata pelajaran matematika.</summary></entry><entry><title type="html">This website redesign concept is a joke.</title><link href="http://0.0.0.0:4000/posts/2021/02/25/this-website-redesign-concept-is-a-joke.html" rel="alternate" type="text/html" title="This website redesign concept is a joke." /><published>2021-02-25T00:00:00+07:00</published><updated>2021-02-25T00:00:00+07:00</updated><id>http://0.0.0.0:4000/posts/2021/02/25/this-website-redesign-concept-is-a-joke</id><content type="html" xml:base="http://0.0.0.0:4000/posts/2021/02/25/this-website-redesign-concept-is-a-joke.html">&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; This is a work in progress on the website redesign, which is planned to be released somewhere in October.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I’ve been recently experimenting on Figma about what should the final website design of &lt;a href=&quot;https://reinhart1010.github.io&quot;&gt;https://reinhart1010.github.io&lt;/a&gt; should be, and here’s the current progress of it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/17312341/109168139-19298400-77b1-11eb-9fa6-fb0b749f6d03.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The above mockup, in fact, is a resemblance of:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/17312341/109166780-a5d34280-77af-11eb-8192-db15ce75f40e.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can find some references here, from the navbar from &lt;a href=&quot;https://reinhart1010.github.io/posts/2021/01/25/say-hello-to-blog-posts-on-reinhart1010.github.io.html&quot;&gt;one of my old websites&lt;/a&gt;, web browsers’ “New Tab” page, my current website home page, &lt;a href=&quot;https://youtube.com/premium&quot;&gt;YouTube Premium&lt;/a&gt; banners, as well as of course, the somewhat-overhyped &lt;a href=&quot;https://linktr.ee&quot;&gt;Linktree&lt;/a&gt; page. Note that I am currently &lt;strong&gt;don’t&lt;/strong&gt; have any Linktree page, as I’m planning for publishing my own “Not Linktree” webpage, hopefully later in April.&lt;/p&gt;
+
+&lt;p&gt;This website concept is meant to be responsive. In fact, I have already created this mockup:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/17312341/109169352-4aef1a80-77b2-11eb-9a23-099fa85c75c4.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;which is a potrayal of the emergence of &lt;strong&gt;super apps&lt;/strong&gt; in Southeast Asia. In Indonesia, for example, we have apps like Gojek, Grab, Bukalapak, Tokopedia, Shopee, Traveloka, Tiket.com, DANA, LinkAja, …, and even regional government apps such as JAKI (for Jakarta, Special Capital Region). Forget &lt;a href=&quot;https://eyeondesign.aiga.org/dont-worry-these-gangley-armed-cartoons-are-here-to-protect-you-from-big-tech/&quot;&gt;“Corporate Memphis” trends in places such as US and Europe&lt;/a&gt;, these (mostly) Indonesian-made apps looked the same in 2018-2019, starting with Gojek.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/17312341/109171387-517e9180-77b4-11eb-8fc1-bb816f8d118a.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;why-is-joking-important-for-myself&quot;&gt;Why is joking important for myself&lt;/h2&gt;
+&lt;p&gt;One of the ways UI/UX designers do to create their own designs is by, well, looking at designs of other products. From there you can find common trends, best practices, and have an overview of how some of those designs work well with their users. I’ve always wanted to make the &lt;a href=&quot;https://reinhart1010.github.io&quot;&gt;https://reinhart1010.github.io&lt;/a&gt; website somewhat outstanding, beyond things such as portfolios and blogs. That’s why I decided to find inspirations from other websites which cross the boundaries between “personal” websites and public ones.&lt;/p&gt;
+
+&lt;p&gt;In this case, I primarily take web browser “New Tab” pages as well as the aforementioned super apps, as those reflect my current and future projects which I’m working on. From a web developer to one of the &lt;a href=&quot;https://webcompat.com&quot;&gt;Webcompat.com&lt;/a&gt; contributors, and currently starting to develop mobile apps, these inspirations (which I called them “jokes”) indeed reflect the user interfaces I’m interacting every day.&lt;/p&gt;
+
+&lt;p&gt;I now consider that joking is one of the most creative ways to build unique and fun products. In fact, one of my friends joked about building a Tinder for Indonesia’s local mom-and-pop stores, which won the first place at &lt;a href=&quot;https://socs.binus.ac.id/2020/12/18/grand-final-dan-juara-socs-hackathon-2020/&quot;&gt;an university hackathon competition&lt;/a&gt;. If you’re Indonesian enough you can watch a full overview of that joke here.&lt;/p&gt;
+
+&lt;iframe class=&quot;w-full h-300&quot; src=&quot;https://www.youtube.com/embed/qXvih-D7XDo&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;If you are interested to see the current progress of the website, you can visit &lt;a href=&quot;https://github.com/reinhart1010&quot;&gt;https://github.com/reinhart1010&lt;/a&gt; anytime. This redesign project is also part of a larger rebrand project I’m working on, which I will also occasionally post on &lt;a href=&quot;https://github.com/reinhart1010/posts/category/rebrand20&quot;&gt;https://github.com/reinhart1010/posts/category/rebrand20&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="dev.to" /><category term="updates" /><category term="rebrand20" /><category term="en-us" /><summary type="html">Note: This is a work in progress on the website redesign, which is planned to be released somewhere in October.</summary></entry><entry><title type="html">Introducing PODSPPSE</title><link href="http://0.0.0.0:4000/posts/2021/02/23/introducing-podsppse.html" rel="alternate" type="text/html" title="Introducing PODSPPSE" /><published>2021-02-23T00:00:00+07:00</published><updated>2021-02-23T00:00:00+07:00</updated><id>http://0.0.0.0:4000/posts/2021/02/23/introducing-podsppse</id><content type="html" xml:base="http://0.0.0.0:4000/posts/2021/02/23/introducing-podsppse.html">&lt;blockquote&gt;
   &lt;p&gt;&lt;strong&gt;This blog post contains terms which may not be fully understood outside of the &lt;a href=&quot;https://indieweb.org/&quot;&gt;IndieWeb&lt;/a&gt; and federated social network (“Fediverse”) communities, which includes the following:&lt;/strong&gt;&lt;/p&gt;
 
   &lt;ul&gt;
@@ -534,143 +638,4 @@
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else&quot;&gt;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/id/docs/Web/JavaScript/Reference/Operators/Conditional_Operator&quot;&gt;https://developer.mozilla.org/id/docs/Web/JavaScript/Reference/Operators/Conditional_Operator&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="kotakode" /><category term="id-id" /><category term="reinhartmenjawab" /><category term="webdev" /><category term="javascript" /><summary type="html">Berikut ini adalah jawaban dari sebuah pertanyaan yang ditanyakan melalui situs Kotakode. Klik link di atas untuk melihat pertanyaan aslinya. Saya ada lihat kode di javascript seperti if (cond) console.log(&quot;Hello world&quot;) saya rasa ini sangat membingungkan karena tidak ada {}. Sebagai best-practice apakah lebih baik untuk menggunakan {} ? Terima kasih sebelumnya</summary></entry><entry><title type="html">@reinhart1010 Rebrand Exploration: The Cursor</title><link href="http://0.0.0.0:4000/posts/2021/02/18/reinhart1010-rebranding-exploration-the-cursor.html" rel="alternate" type="text/html" title="@reinhart1010 Rebrand Exploration: The Cursor" /><published>2021-02-18T00:00:00+07:00</published><updated>2021-02-18T00:00:00+07:00</updated><id>http://0.0.0.0:4000/posts/2021/02/18/reinhart1010-rebranding-exploration-the-cursor</id><content type="html" xml:base="http://0.0.0.0:4000/posts/2021/02/18/reinhart1010-rebranding-exploration-the-cursor.html">&lt;blockquote&gt;
-  &lt;p&gt;This is the first post of the recently-announced &lt;a href=&quot;/posts/2021/02/14/introducing-the-reinhart1010-rebranding-exploration-series.html&quot;&gt;@reinhart1010 Rebrand Exploration Series&lt;/a&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;a-wild-cursor-has-appeared&quot;&gt;A Wild Cursor Has Appeared!&lt;/h2&gt;
-&lt;p&gt;The cursor is perhaps one of the most important features in &lt;a href=&quot;https://en.wikipedia.org/wiki/WIMP_(computing)&quot;&gt;&lt;strong&gt;Windows, Icons, Menus, Pointer (WIMP)&lt;/strong&gt; interaction&lt;/a&gt; which has been used in desktop computers for years. The good old cursor, popularized by the era of Windows 95, has become one of the common symbols associated with retro computing.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The cursor represents a multifunctional tool.&lt;/strong&gt; A tool to explore, a tool to get things done, a tool for entertainment, a tool to create and design. Even though that the cursor itself might not be relevant to my current field of study, &lt;a href=&quot;https://curriculum.binus.ac.id/program/mobile-application-technology/&quot;&gt;“Mobile Application and Technology”&lt;/a&gt;, smartphones today would become impossible without the help of countless clicks and hovers of the cursor to design, develop, test and promote all the things we love on the smartphone.&lt;/p&gt;
-
-&lt;p&gt;The closest thing that resembles this metaphore on mobile phones is &lt;strong&gt;the slider&lt;/strong&gt;, probably the “Slide to Unlock” user interface presented on the early days of iPhones. However, this concept has already been taken by the Saudi telecommunications company &lt;strong&gt;stc&lt;/strong&gt; &lt;a href=&quot;https://www.stc.com.sa/wps/wcm/connect/english/stc/aboutSTC/brand&quot;&gt;in late 2019&lt;/a&gt;, along with the catchphrase &lt;em&gt;everything’s going forward&lt;/em&gt;.&lt;/p&gt;
-
-&lt;iframe class=&quot;w-full h-300&quot; src=&quot;https://www.youtube.com/embed/pqxw2g_3b8w&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;You might have also seen the cursor in different places, especially in the worlds of animation. The “Animator vs Animation” video series creator, &lt;a href=&quot;https://www.youtube.com/user/noogai89&quot;&gt;Alan Becker&lt;/a&gt;, uses the flaming cursor as the channel profile picture. You can also find several fanarts and animations heavily dedicated to the cursor, including “Mouse Trap” by SoKrispyMedia and even Microsoft.&lt;/p&gt;
-
-&lt;iframe class=&quot;w-full h-300&quot; src=&quot;https://www.youtube.com/embed/_rb31gBRaY8&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot;&gt;&lt;/iframe&gt;
-
-&lt;iframe class=&quot;w-full h-300&quot; src=&quot;https://www.youtube.com/embed/GApEgSszb34&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot;&gt;&lt;/iframe&gt;
-
-&lt;h2 id=&quot;unique-magical-personal-and-specialized&quot;&gt;Unique, Magical, Personal, and Specialized&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;If this cursor concept finally made into the rebrand, what would it look like?&lt;/strong&gt; The closest answer to the question which I can show you for now is this.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/17312341/108114960-12718180-70cc-11eb-8e3c-9da26e658c46.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The idea behind it is to imagine a typical fantasy RPG world, but instead of blades and magic we have flying cursors all around the place. One of the most prominent aspects of these worlds is that people often have different kinds of swords with unique characteristics and abilities.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;When these magical swords are replaced with flying cursors, this means that the cursors should be unique, personal, and specialized.&lt;/strong&gt; And in fact, many people do not actually know that these cursors are customisable. Windows users can simply use any &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.cur&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.ani&lt;/code&gt; files to replace their default cursor icons, while users on the Linux world can create a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;x-cursor-theme&lt;/code&gt;-compatible cursor theme for use in desktop environments. macOS users do not need to worry, though, as software such as &lt;a href=&quot;https://github.com/alexzielenski/Mousecape&quot;&gt;Mousescape&lt;/a&gt; are available to change the overall appearance of your cursor.&lt;/p&gt;
-
-&lt;p&gt;There are a bunch of custom mouse designs found on the Internet, such as the long-running &lt;a href=&quot;http://www.rw-designer.com/gallery&quot;&gt;RealWorld Graphics Cursor Library&lt;/a&gt;. Here’s a current Reinhart logo drawn in &lt;a href=&quot;https://cursor.cc&quot;&gt;https://cursor.cc&lt;/a&gt;, one of the websites you can visit to create custom cursor icons in 16x16 pixels.
-&lt;img src=&quot;https://user-images.githubusercontent.com/17312341/107154315-ead03a00-69a4-11eb-8395-d37e330e4395.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;conclusion-and-why-the-heck-would-reinhart-use-this-for-his-next-rebrand&quot;&gt;Conclusion, and why the heck would Reinhart use this for his next rebrand?&lt;/h2&gt;
-&lt;p&gt;The cursor has inspired people to explore, design, and create things, which aligns with the &lt;a href=&quot;/posts/2021/02/14/introducing-the-reinhart1010-rebranding-exploration-series.html&quot;&gt;Empowerment&lt;/a&gt; and &lt;a href=&quot;/posts/2021/02/14/introducing-the-reinhart1010-rebranding-exploration-series.html&quot;&gt;Regeneration&lt;/a&gt;principles that should make into the future brand. Additionally, the cursor has been used to improve people’s lives and create newer technologies (e.g. touch screens, mobile phones, voice assistance) which could replace the cursor itself.&lt;/p&gt;
-
-&lt;p&gt;However, the cursor is &lt;strong&gt;not&lt;/strong&gt; the only candidate for the brand. In fact, there are many other interesting things which could draw the inspiration behind the new brand including &lt;a href=&quot;https://material.io/components/cards&quot;&gt;cards&lt;/a&gt;, one of the most essential (and overused) components in user interface designs.&lt;/p&gt;
-
-&lt;p&gt;There will be many exciting discoveries on what the future brand would be, so please keep an eye for updates and feedbacks on this site (epecially &lt;a href=&quot;https://reinhart1010.github.io/posts/category/rebrand20/&quot;&gt;https://reinhart1010.github.io/posts/category/rebrand20/&lt;/a&gt;), and possibly through my &lt;a href=&quot;https://t.me/reinhart1010&quot;&gt;Telegram&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/reinhart1010&quot;&gt;Twitter&lt;/a&gt; for polls.&lt;/p&gt;
-
-&lt;p&gt;See you soon.&lt;/p&gt;</content><author><name></name></author><category term="design-exploration" /><category term="rebrand20" /><category term="en-us" /><summary type="html">This is the first post of the recently-announced @reinhart1010 Rebrand Exploration Series.</summary></entry><entry><title type="html">Apparently Yes! You can install OpenJDK (Java) JRE and YaCy on OpenWrt</title><link href="http://0.0.0.0:4000/posts/2021/02/14/apparently-yes-you-can-install-openjdk-java-jre-and-yacy-on-openwrt.html" rel="alternate" type="text/html" title="Apparently Yes! You can install OpenJDK (Java) JRE and YaCy on OpenWrt" /><published>2021-02-14T00:00:00+07:00</published><updated>2021-02-14T00:00:00+07:00</updated><id>http://0.0.0.0:4000/posts/2021/02/14/apparently-yes-you-can-install-openjdk-java-jre-and-yacy-on-openwrt</id><content type="html" xml:base="http://0.0.0.0:4000/posts/2021/02/14/apparently-yes-you-can-install-openjdk-java-jre-and-yacy-on-openwrt.html">&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;IMPORTANT NOTE:&lt;/strong&gt; This guide is meant for OpenWrt-installed devices with really large memory and storage space, which in this case a &lt;a href=&quot;https://www.raspberrypi.org/products/raspberry-pi-3-model-b/&quot;&gt;Raspberry Pi 3 (Model B)&lt;/a&gt; with 1GB of RAM and 32GB of storage (loaded on a MicroSD Card). &lt;strong&gt;Most routers do not support those gigantic space, so they might not be capable on running YaCy at all.&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;YaCy (https://yacy.net) is a distributed search engine which can be installed on any devices running Java Runtime Environment (JRE) 8. YaCy itself can also be configured to be a private search engine - search your internal files and websites on the intranet.&lt;/p&gt;
-
-&lt;p&gt;It would be interesting to have your own SBC (such as a Raspberry Pi and Orange Pi) to run YaCy on OpenWrt, so you’ll have your own private network and search engine at the same time, without needing to install YaCy on another device!&lt;/p&gt;
-
-&lt;p&gt;During the last few days I am trying to make this concept to work as expected. And as expected, it &lt;del&gt;is possible&lt;/del&gt; can run JRE and YaCy on OpenWrt, too!&lt;/p&gt;
-
-&lt;h2 id=&quot;first-thing-first-expand-the-root-filesystem-using-extroot&quot;&gt;First thing first: Expand the root filesystem using Extroot!&lt;/h2&gt;
-&lt;p&gt;The default OpenWrt image for Raspberry Pi and similar devices only uses 100MB as their main &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rootfs&lt;/code&gt; partition, which is used to load all the programs and configuration files used for OpenWrt. In this case I have a total of 32GB of storage, and the best way to “expand” the storage is by using Extroot, which is explained on https://openwrt.org/docs/guide-user/additional-software/extroot_configuration :&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Create a new ext4 partition on the MicroSD card’s unused space.&lt;/li&gt;
-  &lt;li&gt;Perform extroot to use the new partition for expansion, for &lt;strong&gt;Devices ≥ 8 MiB flash&lt;/strong&gt;. &lt;strong&gt;The new partition may likely to reside on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/dev/mmcblk0p3&lt;/code&gt; (or others) instead of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/dev/sda&lt;/code&gt;, so please check it first using the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;block info&lt;/code&gt; command.&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Restart device to apply changes.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;installing-java-jre-on-openwrt&quot;&gt;Installing Java JRE on OpenWrt&lt;/h2&gt;
-&lt;p&gt;Installing the JRE on OpenWrt is unlike other major Linux distributions. OpenJDK is &lt;strong&gt;not&lt;/strong&gt; available on OpenWrt default repositories, so you can’t simply install it using the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;opkg&lt;/code&gt; package manager.&lt;/p&gt;
-
-&lt;p&gt;Many Linux distributions including Debian, Ubuntu, and Red Hat commonly ship JRE packaged by OpenJDK, an open-source implementation of Java Standard Edition (Java SE) which was built and depends on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;glibc&lt;/code&gt; (GNU &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;libc&lt;/code&gt;). OpenWrt, on the other hand, uses &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;musl-libc&lt;/code&gt; instead since it’s smaller than &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;glibc&lt;/code&gt; so they can fit into routers with limited storage and memory.&lt;/p&gt;
-
-&lt;p&gt;Fortunately, the folks at Alpine Linux provides a copy of OpenJDK JRE which depends on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;musl-libc&lt;/code&gt; instead of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;glibc&lt;/code&gt; on their package repository. I decided to modify the install script from &lt;a href=&quot;https://gist.github.com/simonswine/64773a80e748f36615e3251234f29d1d&quot;&gt;this GitHub Gist&lt;/a&gt; to download the binaries for my Raspberry Pi 3 (OpenJDK JRE 8 using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;aarch64&lt;/code&gt; instead of regular &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;armv7&lt;/code&gt;, since the Pi itself is capable for 64-bit and JRE 8 is required for YaCy to run).&lt;/p&gt;
-
-&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/sh&lt;/span&gt;
-
-&lt;span class=&quot;nb&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-o&lt;/span&gt; errexit
-&lt;span class=&quot;nb&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-o&lt;/span&gt; nounset
-&lt;span class=&quot;nb&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-o&lt;/span&gt; pipefail
-&lt;span class=&quot;nb&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-x&lt;/span&gt;
-
-&lt;span class=&quot;nv&quot;&gt;REVISION&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;8.252.09-r0
-&lt;span class=&quot;nv&quot;&gt;URL&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;http://dl-cdn.alpinelinux.org/alpine/v3.10/community/aarch64/
-&lt;span class=&quot;nv&quot;&gt;PACKAGES&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;openjdk8 openjdk8-jre openjdk8-jre-lib openjdk8-jre-base&quot;&lt;/span&gt;
-
-&lt;span class=&quot;nv&quot;&gt;old_pwd&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;pwd&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;nv&quot;&gt;tmp_dir&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;mktemp&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-t&lt;/span&gt; openjdk8-XXXXXXXXXX&lt;span class=&quot;si&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;trap&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;rm -rf &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$tmp_dir&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; EXIT
-
-&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;tmp_dir&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;package &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$PACKAGES&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do
-    &lt;/span&gt;curl &lt;span class=&quot;nt&quot;&gt;-LO&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;URL&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;package&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;REVISION&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.apk&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;done
-
-for &lt;/span&gt;package &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$PACKAGES&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do
-    &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;tar &lt;/span&gt;xzf &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;package&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;REVISION&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.apk&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;done
-
-
-&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;old_pwd&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-
-&lt;span class=&quot;nb&quot;&gt;mv&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$tmp_dir&lt;/span&gt;/usr/lib/jvm/java-1.8-openjdk /overlay/opt/java-1.8-openjdk
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;The above script requires a special program named &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;curl&lt;/code&gt;, which is not installed by default in OpenWrt. Additionally, OpenJDK also requires &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;libstdcpp6&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;libjpeg&lt;/code&gt; (substituted by &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;libjpeg-turbo&lt;/code&gt;), &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;libnss&lt;/code&gt;, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;liblcms&lt;/code&gt;. Note that &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;liblcms&lt;/code&gt; is also not available on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;opkg&lt;/code&gt;, so I decided to install it from &lt;a href=&quot;http://dl-cdn.alpinelinux.org/alpine/edge/community/aarch64/&quot;&gt;Alpine repository&lt;/a&gt; (Hint: Alpine’s &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.apk&lt;/code&gt; is simply a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.tar.gz&lt;/code&gt; file) to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/usr/lib&lt;/code&gt;.&lt;/p&gt;
-
-&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# Don't forget to run &quot;opkg update&quot; first!&lt;/span&gt;
-opkg &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;curl libstdcpp6 libjpeg liblcms2.so.2 libnss
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;wget http://dl-cdn.alpinelinux.org/alpine/edge/community/aarch64/liblcms-1.19-r8.apk
-&lt;span class=&quot;nb&quot;&gt;tar &lt;/span&gt;xvzf liblcms-1.19-r8
-&lt;span class=&quot;nb&quot;&gt;mv &lt;/span&gt;usr/bin/liblcms&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt; /usr/bin/
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Once these dependencies are installed, you can run the previous script to install OpenJDK under &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/overlay/opt/java-1.8-openjdk&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Lastly, you’ll need to update the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$PATH&lt;/code&gt; environment variable to let OpenWrt to find the JRE binaries. Open the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/etc/profile&lt;/code&gt; file, then modify&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;export PATH=&quot;/usr/sbin:/usr/bin:/sbin:/bin&quot;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;to&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;export PATH=&quot;/usr/sbin:/usr/bin:/sbin:/bin:/overlay/opt/java-1.8-openjdk/bin&quot;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;then save the file and apply the configuration using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;source /etc/profile&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;installing-yacy&quot;&gt;Installing YaCy&lt;/h2&gt;
-&lt;p&gt;Once you have installed JRE 8 on OpenWrt, you can simply run YaCy on it, too!&lt;/p&gt;
-
-&lt;p&gt;At the time of this writing (February 14th, 2021), however, there is a then-unfixed bug on the latest YaCy release (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;yacy_v1.924_20201214_10042&lt;/code&gt;) where users cannot log into the admin interface (see &lt;a href=&quot;https://searchlab.eu/t/new-yacy-install-will-not-accept-new-admin-password/595&quot;&gt;this thread&lt;/a&gt;), hence I’ll need to compile YaCy from their &lt;a href=&quot;https://github.com/yacy/yacy_search_server&quot;&gt;main repository&lt;/a&gt; by myself.&lt;/p&gt;
-
-&lt;p&gt;I have decided to put YaCy under the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/overlay/opt&lt;/code&gt; directory as well. The YaCy scripts require another package named &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;getopt&lt;/code&gt;, which is also installable using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;opkg&lt;/code&gt;:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;opkg install getopt
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;Once I have extracted the YaCy package and installed their dependencies, I can simply run it using the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;startYACY.sh&lt;/code&gt; script file, which in this case located on&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/overlay/opt/yacy/startYACY.sh
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Once it runs for the first time, you will need to set the admin pasword by running&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/overlay/opt/yacy/bin/passwd.sh
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;And that’s it! YaCy is now accessible on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;your OpenWrt IP address&amp;gt;:8090&lt;/code&gt;. Keep in mind that you can still access LuCi the original way, as the YaCy server does not take the regular HTTP ports (80, 443) unless otherwise specified.&lt;/p&gt;</content><author><name></name></author><category term="dev.to" /><category term="en-us" /><category term="yacy" /><category term="raspberrypi" /><category term="openwrt" /><category term="showdev" /><category term="todayilearned" /><summary type="html">IMPORTANT NOTE: This guide is meant for OpenWrt-installed devices with really large memory and storage space, which in this case a Raspberry Pi 3 (Model B) with 1GB of RAM and 32GB of storage (loaded on a MicroSD Card). Most routers do not support those gigantic space, so they might not be capable on running YaCy at all.</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="kotakode" /><category term="id-id" /><category term="reinhartmenjawab" /><category term="webdev" /><category term="javascript" /><summary type="html">Berikut ini adalah jawaban dari sebuah pertanyaan yang ditanyakan melalui situs Kotakode. Klik link di atas untuk melihat pertanyaan aslinya. Saya ada lihat kode di javascript seperti if (cond) console.log(&quot;Hello world&quot;) saya rasa ini sangat membingungkan karena tidak ada {}. Sebagai best-practice apakah lebih baik untuk menggunakan {} ? Terima kasih sebelumnya</summary></entry></feed>

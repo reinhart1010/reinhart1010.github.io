@@ -5,9 +5,6 @@ description: "Bahasa pemrograman yang berasal dari kopi, turun ke hati."
 categories: [projects, kopihati]
 tags: [id-id]
 cover_image: "https://user-images.githubusercontent.com/17312341/106588956-ff17cf80-657d-11eb-9041-90a80395930f.jpg"
-as_seen_on:
-  - site_type: "kotakode"
-    url: ""
 ---
 **KopiHati** merupakan sebuah bahasa pemrograman yang terinspirasi dari sekelompok *brand* gerai kopi, minuman, dan kafe di Jakarta, yang sempat mengalami puncak keemasannya pada tahun 2018-2019.
 
