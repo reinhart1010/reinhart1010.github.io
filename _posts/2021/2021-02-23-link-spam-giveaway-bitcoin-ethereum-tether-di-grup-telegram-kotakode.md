@@ -16,7 +16,7 @@ Anda mungkin pernah mendapatkan pesan dari seseorang di grup Telegram Kotakode s
 > 
 > (URL phishing)
 
-Saya telah mengumpulkan dua sampel URL yang dibagikan oleh orang yang tak dikenal tersebut, sebelum akhirnya dihapus oleh tim admin grup Kotakode. Kedua URL tersebut berasal dari situs *URL shortener* yang berbeda (dalam kasus ini <https://cutt.ly> dan <https://goo.su>, dan ternyata sama-sama mengarah ke sebuah situs *phishing* bernama `bintweets.com`.
+Saya telah mengumpulkan dua sampel URL yang dibagikan oleh orang yang tak dikenal tersebut, sebelum akhirnya dihapus oleh tim admin grup Kotakode. Kedua URL tersebut berasal dari situs *URL shortener* yang berbeda (dalam kasus ini <https://cutt.ly> dan <https://goo.su>), dan ternyata sama-sama mengarah ke sebuah situs *phishing* bernama `bintweets.com`.
 
 ## Twitter, eh?
 ![Screenshot_2021-02-23 Binance on Twitter Elon Musk biggest crypto giveaway Twitter.png](https://storage.googleapis.com/kotakode-prod-public/images/f5c9d15e-d92c-4cca-b8f7-75f3d2fd0129-Screenshot_2021-02-23-Binance-on-Twitter-Elon-Musk-biggest-crypto-giveaway-Twitter.png)
@@ -146,3 +146,16 @@ Begitupun juga untuk Ethereum dan Tether, yang sudah saya cek di:
 + <https://www.cointracker.io/wallet/ethereum?address=0x792D14dC6052147394acEbDeA2Fe556a29644C34>
 
 Hal ini sebenarnya merupakan pertanda baik, karena sampai saat ini masih belum ada korban yang terkena scam untuk ketiga mata uang tersebut. Namun, Anda juga harus waspada terhadap scam *cryptocurrency* seperti ini yang menggunakan teknik yang sangat serupa dengan phishing.
+
+## UPDATE 25 FEBRUARI 2021
+Pada tanggal 24 Februari lalu, saya memutuskan untuk melaporkan dan menjelaskan kedua situs ini kepada pihak Cloudflare melalui [form ini](https://www.cloudflare.com/abuse/), karena kedua situs tersebut awalnya memiliki proteksi DNS dan HTTPS dari Cloudflare.
+
+Sehari kemudian saya melihat bahwa kedua situs ini berhasil diblokir. Kedua situs `bintweets.com` dan `czbnb.org` ini telah di-takedown oleh pihak Cloudflare, bahkan sistem Google Safe Browsing juga berhasil memblokir situs utama `czbnb.org`.
+
+![image](https://user-images.githubusercontent.com/17312341/109180976-06697c00-77be-11eb-9a56-54e1742f6f0c.png)
+
+Saya sebelumnya lupa untuk menjelaskan soal data WHOIS kedua domain tersebut. Kedua domain ini dikabarkan (menurut entri WHOIS) didaftarkan di kota Poltava, provinsi Poltava Oblast, Ukraina, sedangkan saya waktu itu masih belum bisa melihat entri WHOIS berdasarkan IP address server yang dimiliki kedua situs tersebut karena masih dilindungi oleh Cloudflare. Data WHOIS untuk `bintweets.com` ini masih diisi oleh informasi yang tidak benar, seperti kode pos pendaftar (45566) yang tidak sesuai dengan konvensi nomor kode pos di Poltava Oblast, Ukraina.
+
+![image](https://user-images.githubusercontent.com/17312341/109182049-2d747d80-77bf-11eb-900f-d9dfba724a8c.png)
+
+Kedua domain tersebut didaftarkan pada waktu yang sama, yakni pada tanggal 19 Februari 2021 (`2021-02-19T17:12:05Z`). Karena itu, situs ini merupakan sebuah skema penipuan yang baru saja diadakan, yang sudah dapat di-takedown dalam kurun 1 minggu saja.
