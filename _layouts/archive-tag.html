@@ -44,22 +44,3 @@ pagination:
     </div>
   </div>
 </div>
-<script>
-function preloadCards(){
-  let data = null;
-  let list2 = document.getElementById("raw_json").innerHTML;
-
-  document.getElementById("raw_json").innerHTML = ""
-
-  try {
-    data = JSON.parse(list2.replace(/&lt;/g, "<").replace(/&gt;/g, ">"));
-  } catch (e) {
-    return;
-  }
-  if (!Array.isArray(data)) return;
-  loadCards(data);
-}
-
-setTimeout(preloadCards, 0);
-</script>
-</div>

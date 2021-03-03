@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "This website redesign concept is a joke."
-categories: [dev.to, updates, rebrand20]
+categories: [dev.to, design-exploration, rebrand20]
 tags: [en-us]
 cover_image: "https://user-images.githubusercontent.com/17312341/109168139-19298400-77b1-11eb-9fa6-fb0b749f6d03.png"
 as_seen_on:

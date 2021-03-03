@@ -5,6 +5,9 @@ cover_image: https://user-images.githubusercontent.com/17312341/109471922-0f02d0
 theme_color: "#093a97"
 categories: [binus]
 tags: [id-id]
+as_seen_on:
+  - site_type: linkedin
+    url: https://www.linkedin.com/posts/reinhart-previano-koentjoro-895b401b2_dukung-tim-antareja-sebagai-representasi-activity-6772078783378935808-6lRB
 ---
 Hallo! 
 Perkenalkan kami representasi Indonesia untuk P&G CEO Challenge 2021 Asia Pacific Round (Marvel Tanara, Michelle Oktaviana Kanta, dan Verenne Tanara). Kami ingin memohon bantuan teman-teman untuk memberikan like tiga postingan di bawah ini:

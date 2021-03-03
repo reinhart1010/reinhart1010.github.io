@@ -31,29 +31,3 @@ pagination:
     </div>
   </div>
 </div>
-<script>
-var xhr = new XMLHttpRequest();
-xhr.onreadystatechange = function() {
-  if (xhr.readyState == XMLHttpRequest.DONE) {
-    preloadCards(xhr.responseText);
-  }
-}
-xhr.open('GET', '/data/cards.json', true);
-xhr.send(null);
-
-function preloadCards(list){
-  let data = null;
-  let list2 = document.getElementById("raw_json").innerHTML;
-
-  document.getElementById("raw_json").innerHTML = ""
-
-  try {
-    data = JSON.parse(list);
-    data = data.concat(JSON.parse(list2.replace(/&lt;/g, "<").replace(/&gt;/g, ">")));
-  } catch (e) {
-    return;
-  }
-  if (!Array.isArray(data)) return;
-  loadCards(data);
-}
-</script>

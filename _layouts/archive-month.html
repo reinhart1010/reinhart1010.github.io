@@ -16,21 +16,3 @@ layout: page
     <p class="text-center font-size-20 font-weight-bolder">Find more posts <a href="/posts">here</a>.</p>
   </div>
 </div>
-<script>
-function preloadCards(){
-  let data = null;
-  let list2 = document.getElementById("raw_json").innerHTML;
-
-  document.getElementById("raw_json").innerHTML = ""
-
-  try {
-    data = JSON.parse(list2.replace(/&lt;/g, "<").replace(/&gt;/g, ">"));
-  } catch (e) {
-    return;
-  }
-  if (!Array.isArray(data)) return;
-  loadCards(data);
-}
-
-setTimeout(preloadCards, 0);
-</script>
