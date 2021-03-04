@@ -6,7 +6,7 @@ categories: [investigasi, binus]
 tags: [en-us]
 cover_image: https://user-images.githubusercontent.com/17312341/109847176-7a55c980-7c81-11eb-8995-9ed3a9712a6f.jpg
 ---
-In 2010-2011, [a Twitter account](https://twitter.com/binusmaya) was created to announce new features and providing support for [BINUSMAYA](https://binusmaya.binus.ac.id), the ~~Learning Management System (LMS)~~ "super app" for BINUS University (students, lecturers, parents, faculty members, everything!), including the download links for their then-official mobile apps for BlackBerry OS 5-7.1 and Android. In 2015, the **Digital-Media Development (DMD) division of BINUS<sup>[A]</sup>** [publishes their early designs](http://dmd.binus.ac.id/2015/06/interface-binus-mobile/) of what could be the [next BINUSMAYA app](www.binus.edu/2016/03/02/binusmaya-kini-hadir-di-mobile-phone-anda/) named **BINUS University Mobile**, for both iOS and Android. The current **BINUS Mobile** app (BINUS Mobile for Student/Lecturer/Parent), though, was initially published in 2016. **And the BINUSMAYA mobile app saga continues until today.**
+In 2010-2011, [a Twitter account](https://twitter.com/binusmaya) was created to announce new features and providing support for [BINUSMAYA](https://binusmaya.binus.ac.id), the ~~Learning Management System (LMS)~~ "super app" for BINUS University (students, lecturers, parents, faculty members, everything!), including the download links for their then-official mobile apps for BlackBerry OS 5-7.1 and Android. In 2015, the **Digital-Media Development (DMD) division of BINUS<sup>[A]</sup>** [publishes their early designs](http://dmd.binus.ac.id/2015/06/interface-binus-mobile/) of what could be the [next BINUSMAYA app](www.binus.edu/2016/03/02/binusmaya-kini-hadir-di-mobile-phone-anda/) in 2016 named **BINUS University Mobile**, for both iOS and Android. The current **BINUS Mobile** app (BINUS Mobile for Student/Lecturer/Parent), though, was initially published in 2018. **And the BINUSMAYA mobile app saga continues until today.**
 
 I originally wanted to publish an extended UI and UX review of the current BINUS Mobile app, including how the current designs are compared to the 2016 app of the same name. While finding the Android APK archives of the older app, I spotted another app named **BINUSMAYA** which appears to come from the same developer (BINUS Media and Publishing), in both [App Store](https://apps.apple.com/id/app/binusmaya/id1499309793) and [Google Play](https://play.google.com/store/apps/details?id=id.ac.binus.maya).
 
@@ -42,6 +42,10 @@ So they did it! **They replaced the "Knowledge" tab in favor of "My Courses",** 
 And finally, how does this **BINUSMAYA** app compare to the Gojek's UI and UX design? I feel that some elements of the app are similar with Gojek's, including this mockup which feels somewhat similar to the [**GoPlay**](https://goplay.co.id/) app:
 
 ![image](https://user-images.githubusercontent.com/17312341/109849264-c3a71880-7c83-11eb-87b7-357a243c3d7b.png)
+
+And how the home screen of this new app feels somewhat similar to the "Inbox" and "GoPay" sections of the Gojek app:
+
+![image](https://user-images.githubusercontent.com/17312341/109910654-32639080-7cdb-11eb-8b29-a55324c10d30.png)
 
 That's an overview of **the all-new BINUSMAYA app**. It still has some features you love and hate from the BINUSMAYA website and the BINUS Mobile apps, including the "Server Time" features almost no one has talked about, [somewhat negative reviews](https://twitter.com/search?q=binusmaya error&f=live), and perhaps the infamous **All/Other**, one of the most interesting UX design choices at BINUSMAYA. I personally hope that this new app will be eventually rolled out to more students (Regular and International). However, please avoid spamming the BINUSMAYA server by downloading the new app then spamming Microsoft Account logins from the Sign In button. The BINUSMAYA server is definitely not a senpai whatsoever.
 
