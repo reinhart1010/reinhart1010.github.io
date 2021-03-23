@@ -43,18 +43,18 @@
       <!-- Reference: https://www.gethalfmoon.com/docs/navbar -->
       <!-- Navbar content (with toggle sidebar button) -->
       <div class="navbar-content">
-        <button class="btn font-size-18" type="button" onclick="halfmoon.toggleSidebar()"
+        <button class="btn font-size-18 px-10 mr-10" type="button" onclick="halfmoon.toggleSidebar()"
         {% if theme_color != "NULL" %}
           style="background: none; border: none; box-shadow: none; color: {{ theme_color_foreground.primary | default: theme_color_foreground | default: 'white'}};"
         {% endif %}>
           <i class="fa fa-bars" aria-hidden="true"></i>
         </button>
-        <button class="btn font-size-18 btn-rounded" type="button"
+        <a class="btn font-size-18 btn-rounded" href="/"
         {% if theme_color != "NULL" %}
           style="border: none; box-shadow: none; background-color: {{ theme_color_foreground.primary | default: theme_color_foreground | default: 'white'}}; color: {{ theme_color.primary | default: theme_color }};"
         {% endif %}>
           <span class="logotype"><b>Reinhart <span class="d-none d-md-inline">Previano Koentjoro</span></b> v19.5</span>
-        </button>
+        </a>
       </div>
 
       <!-- Navbar brand -->
@@ -68,11 +68,16 @@
 
       <!-- Universe Dropdown -->
       <div class="navbar-content ml-auto">
-        <a class="btn universe-title font-size-18" href="#select-universe"
+        <a class="btn universe-title
+        {% if current_universe.size >= 8 %}
+        condensed
+        {% endif %}
+        font-size-18" href="#select-universe"
         {% if theme_color != "NULL" %}
           style="background: none; border: none; box-shadow: none; color: {{ theme_color_foreground.primary | default: theme_color_foreground | default: 'white'}};"
         {% endif %}>
-        {{current_universe | replace: "-", " "}} <i class="fa fa-chevron-down" aria-hidden="true"></i>
+        <span>{{current_universe | replace: "-", " "}}</span>
+        <span><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
         </a>
       </div>
 

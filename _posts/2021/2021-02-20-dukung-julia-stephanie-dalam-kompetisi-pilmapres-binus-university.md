@@ -3,7 +3,7 @@ layout: post
 title: Dukung Julia Stephanie dalam kompetisi PILMAPRES BINUS UNIVERSITY!
 cover_image: https://user-images.githubusercontent.com/17312341/108601956-03dbe080-73d2-11eb-91a1-c64b2c965b29.png
 theme_color: "#2c5a9f"
-categories: [binus, binus-socs]
+categories: [endorsement, binus, binus-socs]
 tags: [id-id, pilmapres]
 as_seen_on:
   - site_type: linkedin

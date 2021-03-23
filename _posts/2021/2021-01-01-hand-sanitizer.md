@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Informasi Produk Hand Sanitizer yang Dipakai Dalam Kemasan Botol/Container Kosong dari Reinhart
-categories: [product-information]
+categories: [support]
 tags: [id-id]
 permalink: /hand-sanitizer
 ---

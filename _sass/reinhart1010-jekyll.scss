@@ -52,6 +52,26 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .logotype {
   letter-spacing: 4px;
 }
 
+.universe-title span {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 30vw;
+  display: inline-block;
+}
+
+@media screen and (max-width: 576px){
+  .universe-title.condensed {
+    letter-spacing: 1px;
+  }
+}
+
+@media screen and (max-width: 360px){
+  .universe-title {
+    letter-spacing: 1px;
+  }
+}
+
 .card-title {
   font-weight: 700;
 }

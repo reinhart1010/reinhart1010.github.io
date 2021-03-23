@@ -57,3 +57,12 @@ Namun, kemampuan AR ini menjadikannya sensitif terhadap perubahan sudut pandang.
 Augmented Reality menjadi salah satu teknologi yang akan terus berkembang seiring perubahan zaman. Sifat interaktif AR terhadap manusia membuat teknologi ini tidak bisa disia-siakan. Tidak hanya akan di bidang platform e-commerce, kecantikan, ataupun gim, AR sudah mulai dikembangkan pada bidang fashion, arsitektur, dan banyak hal lainnya.
 
 Teknologi ini sangat menarik untuk dipelajari, bukan? Yuk, kita pelajari Augmented Reality lebih lagi setelah ini!
+
+### Referensi
++ Mahardika, P. A., Suyadnya, I. M. A., & Saputra, K. O. (2019). Rancang Bangun Aplikasi Simulasi Dekorasi Ruangan dengan Memanfaatkan Teknologi Markerless Augmented Reality. 83–84.
++ <https://www.dicoding.com/blog/apa-itu-augmented-reality-dan-contohnya/>
++ <https://youngster.id/headline/shopee-luncurkan-fitur-hiburan-dengan-teknologi-ar/>
++ <https://ekonomi.bisnis.com/read/20200824/12/1282601/pengunjung-bulanan-shopee-capai-93-juta-orang-geser-tokopedia>
++ <https://www.smarteye.id/blog/metode-augmented-reality/>
++ <https://www.researchgate.net/publication/321539716_Penerapan_Augmented_Reality_Sebagai_Media_Pembelajaran_Sistem_Pencernaan_pada_Manusia_dalam_Mata_Pelajaran_Biologi#:~:text=Kelebihan%20dari%20Augmented%20Reality%20adalah,alternatif%20media%20pembelajaran%20untuk%20mengenalkan>
++ <https://itgenic.co.id/mengupas-kelebihan-dan-kekurangan-ar/#:~:text=Kekurangan%20Augmented%20Reality,-Kesulitan%20menentukan%20sudut&text=Karena%20menggunakan%20media%20dunia%20nyata,tidak%20dapat%20sembarangan%20meletakan%20atribut.>

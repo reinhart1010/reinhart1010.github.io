@@ -3,7 +3,7 @@ layout: post
 title: "Dukung tim Antareja sebagai representasi Indonesia dalam ajang P&G CEO Challenge 2021, Asia Pacific Round!"
 cover_image: https://user-images.githubusercontent.com/17312341/109471922-0f02d080-7aa4-11eb-95a7-b00e47114298.png
 theme_color: "#093a97"
-categories: [binus]
+categories: [endorsement, binus]
 tags: [id-id]
 as_seen_on:
   - site_type: linkedin
