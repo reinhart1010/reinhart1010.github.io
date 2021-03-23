@@ -1,4 +1,193 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-03-13T23:40:27+07:00</updated><id>/feed.xml</id><title type="html">Reinhart Previano K.</title><subtitle>Blog repository</subtitle><entry><title type="html">Mengapa saya suka menggunakan Python selain untuk Artificial Intelligence dan Machine Learning?</title><link href="/posts/2021/03/13/mengapa-saya-suka-menggunakan-python-selain-untuk-ai-dan-ml.html" rel="alternate" type="text/html" title="Mengapa saya suka menggunakan Python selain untuk Artificial Intelligence dan Machine Learning?" /><published>2021-03-13T00:00:00+07:00</published><updated>2021-03-13T00:00:00+07:00</updated><id>/posts/2021/03/13/mengapa-saya-suka-menggunakan-python-selain-untuk-ai-dan-ml</id><content type="html" xml:base="/posts/2021/03/13/mengapa-saya-suka-menggunakan-python-selain-untuk-ai-dan-ml.html">&lt;p&gt;Python, oh, Python, bahasa pemrograman yang katanya cuman populer setiap kali ngebahas tentang &lt;em&gt;Artificial Intelligence&lt;/em&gt; (AI, bukan &lt;em&gt;Adobe Illustrator&lt;/em&gt;) dan &lt;em&gt;Machine Learning&lt;/em&gt; (ML, bukan &lt;em&gt;Mobile Legends: Bang Bang&lt;/em&gt;). Salah satu adegan &lt;em&gt;hackathon&lt;/em&gt; dalam K-drama “Start Up” pun menggunakan Python dengan &lt;em&gt;library&lt;/em&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;matplotlib&lt;/code&gt; untuk membuat sebuah “program” pendeteksi teks, sedangkan teman-teman saya yang berada di &lt;a href=&quot;https://curriculum.binus.ac.id/program/computer-science/7/&quot;&gt;jurusan Teknik Informatika (Computer Science) BINUS University&lt;/a&gt; mulai menggunakan Jupyter Notebook untuk mata-mata kuliah yang hanya berhubungan dengan AI dan ML.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2021-03-23T21:03:34+07:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">Reinhart Previano K.</title><subtitle>Blog repository</subtitle><entry><title type="html">Case Reveal: Kotakode Coding Festival 2.0</title><link href="http://0.0.0.0:4000/posts/2021/03/22/case-reveal-kotakode-coding-festival-2.0.html" rel="alternate" type="text/html" title="Case Reveal: Kotakode Coding Festival 2.0" /><published>2021-03-22T00:00:00+07:00</published><updated>2021-03-22T00:00:00+07:00</updated><id>http://0.0.0.0:4000/posts/2021/03/22/case-reveal-kotakode-coding-festival-2.0</id><content type="html" xml:base="http://0.0.0.0:4000/posts/2021/03/22/case-reveal-kotakode-coding-festival-2.0.html">&lt;p&gt;🚨 &lt;strong&gt;BREAKING NEWS!!!&lt;/strong&gt; 🚨⁣&lt;/p&gt;
+
+&lt;p&gt;Case &lt;strong&gt;Kotakode Coding Competition&lt;/strong&gt; sekarang sudah rilis dan bisa dikerjakan! Yuk buruan langsung dikerjain! Buat yang belum join, jangan sampai kelewatan ya!⁣&lt;/p&gt;
+
+&lt;p&gt;⁣
+Kali ini Kotakode kembali menghadirkan Kotakode Coding Festival 2.0 dengan tema acara &lt;strong&gt;“Get Ready for Your Tech Career”&lt;/strong&gt; yang akan dibagi menjadi dua sub-event, yaitu &lt;strong&gt;Kotakode Coding Competition&lt;/strong&gt; dan &lt;strong&gt;KotaTalks Webinar Series&lt;/strong&gt;!⁣
+⁣
+💥 &lt;strong&gt;Lomba &amp;amp; Webinar ini terbuka untuk umum dan GRATIS!&lt;/strong&gt; 💥⠀&lt;/p&gt;
+
+&lt;h3 id=&quot;-kotakode-coding-competition-&quot;&gt;✨ Kotakode Coding Competition ✨⠀⁣&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Topik soal:&lt;/strong&gt; Coding Interview Cases Simulations&lt;/p&gt;
+
+&lt;p&gt;Terdiri dari 3 bahasa pemrograman: &lt;strong&gt;PHP, Python dan JavaScript⁣&lt;/strong&gt;
+⠀⁣&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;⚠️ Periode Pendaftaran: 15 - 28 Maret 2021&lt;/li&gt;
+  &lt;li&gt;🗓️ Waktu peserta Mulai Menjawab: 22 - 28 Maret 2021&lt;/li&gt;
+  &lt;li&gt;📝 Waktu voting dan penilaian juri: 29 Maret - 2 April 2021&lt;/li&gt;
+  &lt;li&gt;📣 Pengumuman pemenang: 4 April 2021&lt;/li&gt;
+  &lt;li&gt;📍 Platform Lomba: &lt;a href=&quot;https://kotakode.com/challenges⁣&quot;&gt;https://kotakode.com/challenges⁣&lt;/a&gt;
+⠀⁣
+    &lt;h3 id=&quot;-kotatalks-webinar-series&quot;&gt;✨ KotaTalks Webinar Series✨⠀⁣&lt;/h3&gt;
+    &lt;p&gt;&lt;strong&gt;Topik:&lt;/strong&gt; Advance Your Knowledge in Technology and Get Ready for Your Tech Career⠀⁣
+⁣&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;⚠️ Pembukaan Pendaftaran: 15 Maret 2021⁣&lt;/li&gt;
+  &lt;li&gt;⚠️ Penutupan Pendaftaran Webinar 1: 2 April 2021⁣&lt;/li&gt;
+  &lt;li&gt;⚠️ Penutupan Pendaftaran Webinar 2: 3 April 2021&lt;/li&gt;
+  &lt;li&gt;📌 Webinar hari-1: 3 April 2021&lt;/li&gt;
+  &lt;li&gt;📌 Webinar hari-2: 4 April 2021⠀⁣&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;📜 Setiap peserta akan mendapatkan FREE E-CERTIFICATE&lt;/p&gt;
+
+&lt;p&gt;🏆 9 orang yang menjawab soal dengan benar akan mendapatkan⠀⁣
+E-Money dengan total hadiah IDR 1,35 JUTA!⠀⁣&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Register now:&lt;/strong&gt; &lt;a href=&quot;https://linktr.ee/KotakodeCodingFestival&quot;&gt;https://linktr.ee/KotakodeCodingFestival&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Tunggu apalagi? Skuyy ikutan!&lt;/p&gt;
+
+&lt;p&gt;Untuk informasi lebih lanjut kunjungi &lt;a href=&quot;https://instagram.com/kotakode&quot;&gt;@kotakode&lt;/a&gt;!&lt;/p&gt;</content><author><name></name></author><category term="endorsement" /><category term="kotakode" /><category term="id-id" /><summary type="html">🚨 BREAKING NEWS!!! 🚨⁣</summary></entry><entry><title type="html">Open Donation: •𝒃𝒆𝒓𝒍𝒂𝒃𝒖𝒉• 𝒃𝒚 𝒑𝒆𝒓𝒂𝒉𝒖 𝒌𝒆𝒓𝒕𝒂𝒔</title><link href="http://0.0.0.0:4000/posts/2021/03/21/open-donation-berlabuh-by-perahu-kertas.html" rel="alternate" type="text/html" title="Open Donation: •𝒃𝒆𝒓𝒍𝒂𝒃𝒖𝒉• 𝒃𝒚 𝒑𝒆𝒓𝒂𝒉𝒖 𝒌𝒆𝒓𝒕𝒂𝒔" /><published>2021-03-21T00:00:00+07:00</published><updated>2021-03-21T00:00:00+07:00</updated><id>http://0.0.0.0:4000/posts/2021/03/21/open-donation-berlabuh-by-perahu-kertas</id><content type="html" xml:base="http://0.0.0.0:4000/posts/2021/03/21/open-donation-berlabuh-by-perahu-kertas.html">&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Informasi Penting:&lt;/strong&gt; Informasi tentang cara donasi dan nomor kontak Perahu Kertas dapat dilihat di dalam &lt;a href=&quot;https://www.instagram.com/p/CMrHt3qrMsZ/&quot;&gt;post Instagram ini&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Halo, para Nahkoda yang sudah setia bersama kami! ✨&lt;/p&gt;
+
+&lt;p&gt;Hari ini, kami akan memperkenalkan kegiatan pertama dari &lt;a href=&quot;https://instagram.com/peka.perahukertas&quot;&gt;@peka.perahukertas&lt;/a&gt; yang bernama 𝒃𝒆𝒓𝒍𝒂𝒃𝒖𝒉.&lt;/p&gt;
+
+&lt;p&gt;𝒃𝒆𝒓𝒍𝒂𝒃𝒖𝒉 merupakan sebuah kegiatan amal dengan mengumpulkan donasi dari para Nahkoda baik yang ingin turut berlabuh membantu orang-orang di sekitar kita yang membutuhkan.&lt;/p&gt;
+
+&lt;p&gt;Kegiatan ini akan dilaksanakan pada bulan Ramadhan mendatang, tepatnya pada April tahun ini.&lt;/p&gt;
+
+&lt;p&gt;Inilah paket donasi yang akan kami salurkan bagi para yang membutuhkan menjelang buka puasa di bulan Ramadhan tahun ini:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ta’jil&lt;/li&gt;
+  &lt;li&gt;Makanan berat / nasi kotak&lt;/li&gt;
+  &lt;li&gt;Minum&lt;/li&gt;
+  &lt;li&gt;Masker&lt;/li&gt;
+  &lt;li&gt;Hand sanitizer&lt;/li&gt;
+  &lt;li&gt;Surat berbentuk lipatan perahu kertas (Psstt, kamu bisa ikut menulis harapan kalian untuk mereka diluar sana, lho!)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Setiap Rp 40.000,00 yang disumbangkan, maka setara dengan memberikan 1 paket donasi bagi 1 orang yang membutuhkan. 🤗&lt;/p&gt;
+
+&lt;p&gt;Tapi jangan khawatir, karena berapa pun jumlah yang kamu berikan, akan selalu berdampak besar untuk mereka!&lt;/p&gt;
+
+&lt;p&gt;#PEKAuntuksesama #LayarkanHarapan&lt;/p&gt;</content><author><name></name></author><category term="endorsement" /><category term="id-id" /><category term="pekauntuksesama" /><category term="layarkanharapan" /><summary type="html">Informasi Penting: Informasi tentang cara donasi dan nomor kontak Perahu Kertas dapat dilihat di dalam post Instagram ini.</summary></entry><entry><title type="html">Welcoming more than 300 members of HIMTI BINUS University 2021</title><link href="http://0.0.0.0:4000/posts/2021/03/21/welcoming-more-than-300-members-of-himti-binus-university-2021.html" rel="alternate" type="text/html" title="Welcoming more than 300 members of HIMTI BINUS University 2021" /><published>2021-03-21T00:00:00+07:00</published><updated>2021-03-21T00:00:00+07:00</updated><id>http://0.0.0.0:4000/posts/2021/03/21/welcoming-more-than-300-members-of-himti-binus-university-2021</id><content type="html" xml:base="http://0.0.0.0:4000/posts/2021/03/21/welcoming-more-than-300-members-of-himti-binus-university-2021.html"></content><author><name></name></author><category term="binus" /><category term="binus-socs" /><category term="himti" /><category term="en-us" /><summary type="html"></summary></entry><entry><title type="html">Building 11+3 Mobile Applications and parallel Samsan Tech startups for Semester 4</title><link href="http://0.0.0.0:4000/posts/2021/03/19/apps-for-semester-4.html" rel="alternate" type="text/html" title="Building 11+3 Mobile Applications and parallel Samsan Tech startups for Semester 4" /><published>2021-03-19T00:00:00+07:00</published><updated>2021-03-19T00:00:00+07:00</updated><id>http://0.0.0.0:4000/posts/2021/03/19/apps-for-semester-4</id><content type="html" xml:base="http://0.0.0.0:4000/posts/2021/03/19/apps-for-semester-4.html">&lt;p&gt;&lt;strong&gt;Semester 4 has finally arrived.&lt;/strong&gt; Now it’s the time to focus less on obligatory university courses (e.g. Character Building and English) and focus more into computing and mobile programming. In the first week of this brand new semester, we are greeted by this speech.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;“Since you are students of &lt;strong&gt;Mobile Application and Technology (MAT)&lt;/strong&gt; major, you will need to design and create apps for mobile devices.”&lt;/em&gt;&lt;/p&gt;
+
+  &lt;p&gt;-Literally every single lecturer&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;No, Seriously. I need to build 11 (and possibly 3 more) apps for this semester!&lt;/strong&gt; Here are some of the list I will be making:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mockup-only&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1 Axure application mockup&lt;/li&gt;
+  &lt;li&gt;3 Figma application mockups&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Code-only&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;3 Android applications written in Java&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Mockup + Code&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1 Axure + Flutter application&lt;/li&gt;
+  &lt;li&gt;2 Figma + Android (Java) applications&lt;/li&gt;
+  &lt;li&gt;1 Figma + Flutter application&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Some of these apps are meant to be developed in teams, while some are required for Mid and Final Exam assessments purposes. However, a few of them &lt;strong&gt;must&lt;/strong&gt; be developed individually, without using any external libraries and frameworks (e.g. React Native). Please note that the list above does not include possibly 3 more applications that I need to build for Embedded Systems and Internet of Things (ESIOT).&lt;/p&gt;
+
+&lt;p&gt;Despite require a great teamwork, skill, and time management, building these 11 applications does not always mean a challenge for myself. In fact, I and my teams are agree to build upon some of our existing apps and projects, while improving them with new and useful features.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-return-of-food-navigator-for-the-sake-of-software-engineering&quot;&gt;The Return of Food Navigator, for the sake of “Software Engineering”&lt;/h2&gt;
+&lt;p&gt;The Software Engineering course requires students to form teams to face 2 different projects. Each team should be able to:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Create and submit a &lt;strong&gt;PKM-KC&lt;/strong&gt; proposal for the &lt;strong&gt;Indonesian (Higher Education) Students Science Week (PIMNAS)&lt;/strong&gt;, which will be selected at the university level through &lt;strong&gt;Bina Nusantara (BINUS) Students Science Week&lt;/strong&gt;, also known as &lt;strong&gt;PIMNUS&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Create and submit a &lt;strong&gt;Business Proposal&lt;/strong&gt; for the sake of &lt;strong&gt;BINUS Entrepreneurship Center (BEC)&lt;/strong&gt;, which includes (but not limited to):
+    &lt;ul&gt;
+      &lt;li&gt;Value Proposition Canvas (VPC),&lt;/li&gt;
+      &lt;li&gt;Business Model Canvas (BMC),&lt;/li&gt;
+      &lt;li&gt;Product presentation/keynote/pitch, and&lt;/li&gt;
+      &lt;li&gt;Working prototype of the product.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://reinhart1010.github.io/foodnavigator&quot;&gt;Food Navigator&lt;/a&gt; is currently a simple web app originally dedicated for building an interactive map directory for restaurants near BINUS University campuses. The app is powered by Leaflet.js, OpenStreetMap, as well as its Overpass API, where the restaurants’ data are directly pulled from OpenStreetMap via Overpass API. This gives us the flexibility of extending and improving the restaurants’ data by directly editing them through OpenStreetMap. The app itself has resulted in a great success on its launch in 2019.&lt;/p&gt;
+
+&lt;p&gt;One feedback suggests that the app should be further expanded to somewhat the next popular food or place review app, such as Foursquare, TripAdvisor, Zomato, and even Google Maps. Meanwhile,&lt;/p&gt;
+
+&lt;p&gt;There are 3 directions where this new app should follow, which are:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;A location directory for &lt;strong&gt;university students&lt;/strong&gt;, in a similar fashion to BINUS’s Beelife (2013) mobile website, as described in this (&lt;a href=&quot;https://journal.binus.ac.id/index.php/comtech/article/view/2541&quot;&gt;Indonesian journal&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;More focused towards &lt;strong&gt;Indonesia’s small and micro food and beverage enterprises (F&amp;amp;B SMEs/UMKM)&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Aforementioned generic &lt;strong&gt;Place of Interest&lt;/strong&gt; ratings and review app&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; The current “BeeLife” application at &lt;a href=&quot;https://beelife.binus.org/&quot;&gt;https://beelife.binus.org/&lt;/a&gt; is completely unrelated with the app described on the journal&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;There are still many considerations for this new app, especially on its business model as well as technical aspects. I originally wanted to develop in Flutter since it can be used for developing cross-platform applications and in order to exercise for the “Human and Computer Interaction” (MAT edition) assignments and exams which specifically requires Flutter 1 (not the recently-released Flutter 2).&lt;/p&gt;
+
+&lt;h2 id=&quot;when-tasks-reminders-and-to-do-are-not-enough-we-built-a-new-one&quot;&gt;When “Tasks”, “Reminders”, and “To Do” are not enough, we built a new one!&lt;/h2&gt;
+&lt;p&gt;There are just too many apps dedicated for tasks, reminders, and “To Do” lists, all with different features and limitations. Here are some of them:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Any.do&lt;/li&gt;
+  &lt;li&gt;BlackBerry Hub+ Tasks&lt;/li&gt;
+  &lt;li&gt;ColorNote&lt;/li&gt;
+  &lt;li&gt;DoDay&lt;/li&gt;
+  &lt;li&gt;Egenda&lt;/li&gt;
+  &lt;li&gt;Fun Habit (SimiDev)&lt;/li&gt;
+  &lt;li&gt;Google Tasks&lt;/li&gt;
+  &lt;li&gt;Habitica&lt;/li&gt;
+  &lt;li&gt;iOS Reminders&lt;/li&gt;
+  &lt;li&gt;Joplin&lt;/li&gt;
+  &lt;li&gt;Microsoft To Do&lt;/li&gt;
+  &lt;li&gt;Notion&lt;/li&gt;
+  &lt;li&gt;OneNote&lt;/li&gt;
+  &lt;li&gt;Remember The Milk&lt;/li&gt;
+  &lt;li&gt;Samsung Reminder&lt;/li&gt;
+  &lt;li&gt;Todoist&lt;/li&gt;
+  &lt;li&gt;UReminder&lt;/li&gt;
+  &lt;li&gt;WorDo&lt;/li&gt;
+  &lt;li&gt;Yammer&lt;/li&gt;
+  &lt;li&gt;Zenkit&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So we are planning to build one especially for ourselves. This app icon speaks our situation of having to work on so many tasks, even it has the most number of checkmark icons among the mentioned apps!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/17312341/111343539-1b934580-86ae-11eb-8515-41f2840e155b.png&quot; alt=&quot;candidate app icon&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This would be more amazing than my &lt;a href=&quot;https://reinhart1010.github.io/jackpotgbk&quot;&gt;“Jackpot GBK” game&lt;/a&gt;, so please stay tuned.&lt;/p&gt;
+
+&lt;h2 id=&quot;empowering-society-by-what&quot;&gt;Empowering Society by what?&lt;/h2&gt;
+&lt;p&gt;A lecturer on another university course requires us to build teams to design a mobile website mockup using a certain theme, and we got “Empowering Society”.&lt;/p&gt;
+
+&lt;p&gt;I originally wanted to combine this project with another (possible) project on the ESIOT course, where I planned to create a mobile website dedicated on either or both:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Embedded computers, microcontrollers, and I/O (Arduino, Raspberry Pi)&lt;/li&gt;
+  &lt;li&gt;Introduction to programming concepts (just like Scratch and &lt;a href=&quot;https://code.org&quot;&gt;code.org&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The final concepts of this website is still not yet finalized, but I will try to keep it close with the &lt;strong&gt;“Everyone can make it. Everyone can play.”&lt;/strong&gt; mantra of &lt;strong&gt;Super Mario Maker (2015)&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;building-apps-for-practicum-mid-and-final-exams&quot;&gt;Building Apps for Practicum, Mid and Final Exams&lt;/h2&gt;
+&lt;p&gt;There are not much information I can tell you about this, in order to prevent disclosure of practicum and exam-related information. However, there are &lt;strong&gt;8 individual apps&lt;/strong&gt; which will be required to design/build/examine for practicum assignments as well as course examinations, which consists of:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2 Mid Exams&lt;/li&gt;
+  &lt;li&gt;2 Final Exams&lt;/li&gt;
+  &lt;li&gt;2 Practicum Quiz (Individual)&lt;/li&gt;
+  &lt;li&gt;2 Practicum Projects (Group)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These assignments enforces a strict guidelines and regulations. For example, if an exam question requires you to use Android’s RecyclerView, you &lt;strong&gt;must&lt;/strong&gt; use the RecyclerView component in the develop app in order to obtain (full) marks or scores. However, I will conduct precautions against accidental plagiarism by enforcing several measures and countermeasures. For example, I will upload videos (which are required for answering an exam question) on the exam’s due date in order to minimalize disclosure and copying of my video-based answers.&lt;/p&gt;
+
+&lt;h2 id=&quot;awaiting-for-embedded-systems-and-internet-of-things&quot;&gt;Awaiting for “Embedded Systems and Internet of Things”&lt;/h2&gt;</content><author><name></name></author><category term="binus" /><category term="binus-socs" /><category term="binus-mat" /><category term="updates" /><category term="en-us" /><summary type="html">Semester 4 has finally arrived. Now it’s the time to focus less on obligatory university courses (e.g. Character Building and English) and focus more into computing and mobile programming. In the first week of this brand new semester, we are greeted by this speech.</summary></entry><entry><title type="html">Mengapa saya suka menggunakan Python selain untuk Artificial Intelligence dan Machine Learning?</title><link href="http://0.0.0.0:4000/posts/2021/03/13/mengapa-saya-suka-menggunakan-python-selain-untuk-ai-dan-ml.html" rel="alternate" type="text/html" title="Mengapa saya suka menggunakan Python selain untuk Artificial Intelligence dan Machine Learning?" /><published>2021-03-13T00:00:00+07:00</published><updated>2021-03-13T00:00:00+07:00</updated><id>http://0.0.0.0:4000/posts/2021/03/13/mengapa-saya-suka-menggunakan-python-selain-untuk-ai-dan-ml</id><content type="html" xml:base="http://0.0.0.0:4000/posts/2021/03/13/mengapa-saya-suka-menggunakan-python-selain-untuk-ai-dan-ml.html">&lt;p&gt;Python, oh, Python, bahasa pemrograman yang katanya cuman populer setiap kali ngebahas tentang &lt;em&gt;Artificial Intelligence&lt;/em&gt; (AI, bukan &lt;em&gt;Adobe Illustrator&lt;/em&gt;) dan &lt;em&gt;Machine Learning&lt;/em&gt; (ML, bukan &lt;em&gt;Mobile Legends: Bang Bang&lt;/em&gt;). Salah satu adegan &lt;em&gt;hackathon&lt;/em&gt; dalam K-drama “Start Up” pun menggunakan Python dengan &lt;em&gt;library&lt;/em&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;matplotlib&lt;/code&gt; untuk membuat sebuah “program” pendeteksi teks, sedangkan teman-teman saya yang berada di &lt;a href=&quot;https://curriculum.binus.ac.id/program/computer-science/7/&quot;&gt;jurusan Teknik Informatika (Computer Science) BINUS University&lt;/a&gt; mulai menggunakan Jupyter Notebook untuk mata-mata kuliah yang hanya berhubungan dengan AI dan ML.&lt;/p&gt;
 
 &lt;p&gt;Beberapa orang terdekat saya mungkin sudah mengetahui bahwa saya sering mengoding untuk hal-hal di luar urusan perkuliahan dan pekerjaan. Misalnya, saya pernah membantu membuat sebuah program C untuk membuat hampir 800 &lt;em&gt;e-certificate&lt;/em&gt; untuk salah satu acara yang diselenggarakan oleh HIMTI (Himpunan Mahasiswa Teknik Informatika) BINUS University. Saya juga pernah menggunakan C untuk urusan &lt;em&gt;mail merge&lt;/em&gt; acara lainnya, kemudian mendistribusikan program tersebut kepada beberapa anggota panitia untuk menjalankan menyalin teks yang dibuat oleh program tersebut. Namun, lama-kelamaan saya lebih sering dan terbiasa menggunakan Python untuk membuat &lt;em&gt;script&lt;/em&gt; serupa, termasuk &lt;a href=&quot;https://twitter.com/reinhart1010/status/1369886398778544132&quot;&gt;sebuah &lt;em&gt;script&lt;/em&gt; baru&lt;/a&gt; yang akan membuat &lt;em&gt;template&lt;/em&gt; pesan secara otomatis untuk melaporkan beberapa situs &lt;em&gt;popup&lt;/em&gt; palsu yang dimasukkan ke database situs &lt;a href=&quot;https://popupdb.org&quot;&gt;PopupDB.org&lt;/a&gt;.&lt;/p&gt;
 
@@ -75,9 +264,11 @@
 &lt;p&gt;Saya sebenarnya juga tertarik dalam bahasa pemrograman Cython, dan jika ada waktu saya akan mempelajarinya.&lt;/p&gt;
 
 &lt;h2 id=&quot;referensi-tambahan&quot;&gt;Referensi Tambahan&lt;/h2&gt;
-&lt;p&gt;[1] https://stackoverflow.com/questions/26327812/are-strupr-and-strlwr-in-string-h-part-of-the-ansi-standard
-[2] https://docs.python.org/3.8/library/http.client.html#http.client.HTTPConnection.request
-[3] https://github.com/unrelentingtech/awesome-gtk&lt;/p&gt;</content><author><name></name></author><category term="kotakode" /><category term="id-id" /><category term="python" /><summary type="html">Python, oh, Python, bahasa pemrograman yang katanya cuman populer setiap kali ngebahas tentang Artificial Intelligence (AI, bukan Adobe Illustrator) dan Machine Learning (ML, bukan Mobile Legends: Bang Bang). Salah satu adegan hackathon dalam K-drama “Start Up” pun menggunakan Python dengan library matplotlib untuk membuat sebuah “program” pendeteksi teks, sedangkan teman-teman saya yang berada di jurusan Teknik Informatika (Computer Science) BINUS University mulai menggunakan Jupyter Notebook untuk mata-mata kuliah yang hanya berhubungan dengan AI dan ML.</summary></entry><entry><title type="html">Another BINUSMAYA App Spotted? Heck Yeah!</title><link href="/posts/2021/03/04/another-binusmaya-app-spotted-heck-yeah.html" rel="alternate" type="text/html" title="Another BINUSMAYA App Spotted? Heck Yeah!" /><published>2021-03-04T00:00:00+07:00</published><updated>2021-03-04T00:00:00+07:00</updated><id>/posts/2021/03/04/another-binusmaya-app-spotted-heck-yeah</id><content type="html" xml:base="/posts/2021/03/04/another-binusmaya-app-spotted-heck-yeah.html">&lt;p&gt;In 2010-2011, &lt;a href=&quot;https://twitter.com/binusmaya&quot;&gt;a Twitter account&lt;/a&gt; was created to announce new features and providing support for &lt;a href=&quot;https://binusmaya.binus.ac.id&quot;&gt;BINUSMAYA&lt;/a&gt;, the &lt;del&gt;Learning Management System (LMS)&lt;/del&gt; “super app” for BINUS University (students, lecturers, parents, faculty members, everything!), including the download links for their then-official mobile apps for BlackBerry OS 5-7.1 and Android. In 2015, the &lt;strong&gt;Digital-Media Development (DMD) division of BINUS&lt;sup&gt;[A]&lt;/sup&gt;&lt;/strong&gt; &lt;a href=&quot;http://dmd.binus.ac.id/2015/06/interface-binus-mobile/&quot;&gt;publishes their early designs&lt;/a&gt; of what could be the &lt;a href=&quot;www.binus.edu/2016/03/02/binusmaya-kini-hadir-di-mobile-phone-anda/&quot;&gt;next BINUSMAYA app&lt;/a&gt; in 2016 named &lt;strong&gt;BINUS University Mobile&lt;/strong&gt;, for both iOS and Android. The current &lt;strong&gt;BINUS Mobile&lt;/strong&gt; app (BINUS Mobile for Student/Lecturer/Parent), though, was initially published in 2018. &lt;strong&gt;And the BINUSMAYA mobile app saga continues until today.&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[1] &lt;a href=&quot;https://stackoverflow.com/questions/26327812/are-strupr-and-strlwr-in-string-h-part-of-the-ansi-standard&quot;&gt;https://stackoverflow.com/questions/26327812/are-strupr-and-strlwr-in-string-h-part-of-the-ansi-standard&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[2] &lt;a href=&quot;https://docs.python.org/3.8/library/http.client.html#http.client.HTTPConnection.request&quot;&gt;https://docs.python.org/3.8/library/http.client.html#http.client.HTTPConnection.request&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[3] &lt;a href=&quot;https://github.com/unrelentingtech/awesome-gtk&quot;&gt;https://github.com/unrelentingtech/awesome-gtk&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="kotakode" /><category term="id-id" /><category term="python" /><summary type="html">Python, oh, Python, bahasa pemrograman yang katanya cuman populer setiap kali ngebahas tentang Artificial Intelligence (AI, bukan Adobe Illustrator) dan Machine Learning (ML, bukan Mobile Legends: Bang Bang). Salah satu adegan hackathon dalam K-drama “Start Up” pun menggunakan Python dengan library matplotlib untuk membuat sebuah “program” pendeteksi teks, sedangkan teman-teman saya yang berada di jurusan Teknik Informatika (Computer Science) BINUS University mulai menggunakan Jupyter Notebook untuk mata-mata kuliah yang hanya berhubungan dengan AI dan ML.</summary></entry><entry><title type="html">Another BINUSMAYA App Spotted? Heck Yeah!</title><link href="http://0.0.0.0:4000/posts/2021/03/04/another-binusmaya-app-spotted-heck-yeah.html" rel="alternate" type="text/html" title="Another BINUSMAYA App Spotted? Heck Yeah!" /><published>2021-03-04T00:00:00+07:00</published><updated>2021-03-04T00:00:00+07:00</updated><id>http://0.0.0.0:4000/posts/2021/03/04/another-binusmaya-app-spotted-heck-yeah</id><content type="html" xml:base="http://0.0.0.0:4000/posts/2021/03/04/another-binusmaya-app-spotted-heck-yeah.html">&lt;p&gt;In 2010-2011, &lt;a href=&quot;https://twitter.com/binusmaya&quot;&gt;a Twitter account&lt;/a&gt; was created to announce new features and providing support for &lt;a href=&quot;https://binusmaya.binus.ac.id&quot;&gt;BINUSMAYA&lt;/a&gt;, the &lt;del&gt;Learning Management System (LMS)&lt;/del&gt; “super app” for BINUS University (students, lecturers, parents, faculty members, everything!), including the download links for their then-official mobile apps for BlackBerry OS 5-7.1 and Android. In 2015, the &lt;strong&gt;Digital-Media Development (DMD) division of BINUS&lt;sup&gt;[A]&lt;/sup&gt;&lt;/strong&gt; &lt;a href=&quot;http://dmd.binus.ac.id/2015/06/interface-binus-mobile/&quot;&gt;publishes their early designs&lt;/a&gt; of what could be the &lt;a href=&quot;www.binus.edu/2016/03/02/binusmaya-kini-hadir-di-mobile-phone-anda/&quot;&gt;next BINUSMAYA app&lt;/a&gt; in 2016 named &lt;strong&gt;BINUS University Mobile&lt;/strong&gt;, for both iOS and Android. The current &lt;strong&gt;BINUS Mobile&lt;/strong&gt; app (BINUS Mobile for Student/Lecturer/Parent), though, was initially published in 2018. &lt;strong&gt;And the BINUSMAYA mobile app saga continues until today.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;I originally wanted to publish an extended UI and UX review of the current BINUS Mobile app, including how the current designs are compared to the 2016 app of the same name. While finding the Android APK archives of the older app, I spotted another app named &lt;strong&gt;BINUSMAYA&lt;/strong&gt; which appears to come from the same developer (BINUS Media and Publishing), in both &lt;a href=&quot;https://apps.apple.com/id/app/binusmaya/id1499309793&quot;&gt;App Store&lt;/a&gt; and &lt;a href=&quot;https://play.google.com/store/apps/details?id=id.ac.binus.maya&quot;&gt;Google Play&lt;/a&gt;.&lt;/p&gt;
 
@@ -123,7 +314,7 @@
 &lt;p&gt;That’s an overview of &lt;strong&gt;the all-new BINUSMAYA app&lt;/strong&gt;. It still has some features you love and hate from the BINUSMAYA website and the BINUS Mobile apps, including the “Server Time” features almost no one has talked about, &lt;a href=&quot;https://twitter.com/search?q=binusmaya error&amp;amp;f=live&quot;&gt;somewhat negative reviews&lt;/a&gt;, and perhaps the infamous &lt;strong&gt;All/Other&lt;/strong&gt;, one of the most interesting UX design choices at BINUSMAYA. I personally hope that this new app will be eventually rolled out to more students (Regular and International). However, please avoid spamming the BINUSMAYA server by downloading the new app then spamming Microsoft Account logins from the Sign In button. The BINUSMAYA server is definitely not a senpai whatsoever.&lt;/p&gt;
 
 &lt;h2 id=&quot;notes&quot;&gt;Notes&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;[A]&lt;/strong&gt; Not sure whether DMD is part of BINUS University or the foundation (“Yayasan BINA NUSANTARA”) itself.&lt;/p&gt;</content><author><name></name></author><category term="investigasi" /><category term="binus" /><category term="en-us" /><summary type="html">In 2010-2011, a Twitter account was created to announce new features and providing support for BINUSMAYA, the Learning Management System (LMS) “super app” for BINUS University (students, lecturers, parents, faculty members, everything!), including the download links for their then-official mobile apps for BlackBerry OS 5-7.1 and Android. In 2015, the Digital-Media Development (DMD) division of BINUS[A] publishes their early designs of what could be the next BINUSMAYA app in 2016 named BINUS University Mobile, for both iOS and Android. The current BINUS Mobile app (BINUS Mobile for Student/Lecturer/Parent), though, was initially published in 2018. And the BINUSMAYA mobile app saga continues until today.</summary></entry><entry><title type="html">Dukung tim Antareja sebagai representasi Indonesia dalam ajang P&amp;amp;G CEO Challenge 2021, Asia Pacific Round!</title><link href="/posts/2021/03/01/dukung-tim-antareja-sebagai-representasi-indonesia-dalam-ajang-pg-ceo-challenge-2021-asia-pacific-round.html" rel="alternate" type="text/html" title="Dukung tim Antareja sebagai representasi Indonesia dalam ajang P&amp;amp;G CEO Challenge 2021, Asia Pacific Round!" /><published>2021-03-01T00:00:00+07:00</published><updated>2021-03-01T00:00:00+07:00</updated><id>/posts/2021/03/01/dukung-tim-antareja-sebagai-representasi-indonesia-dalam-ajang-pg-ceo-challenge-2021-asia-pacific-round</id><content type="html" xml:base="/posts/2021/03/01/dukung-tim-antareja-sebagai-representasi-indonesia-dalam-ajang-pg-ceo-challenge-2021-asia-pacific-round.html">&lt;p&gt;Hallo! 
+&lt;p&gt;&lt;strong&gt;[A]&lt;/strong&gt; Not sure whether DMD is part of BINUS University or the foundation (“Yayasan BINA NUSANTARA”) itself.&lt;/p&gt;</content><author><name></name></author><category term="investigasi" /><category term="binus" /><category term="en-us" /><summary type="html">In 2010-2011, a Twitter account was created to announce new features and providing support for BINUSMAYA, the Learning Management System (LMS) “super app” for BINUS University (students, lecturers, parents, faculty members, everything!), including the download links for their then-official mobile apps for BlackBerry OS 5-7.1 and Android. In 2015, the Digital-Media Development (DMD) division of BINUS[A] publishes their early designs of what could be the next BINUSMAYA app in 2016 named BINUS University Mobile, for both iOS and Android. The current BINUS Mobile app (BINUS Mobile for Student/Lecturer/Parent), though, was initially published in 2018. And the BINUSMAYA mobile app saga continues until today.</summary></entry><entry><title type="html">Dukung tim Antareja sebagai representasi Indonesia dalam ajang P&amp;amp;G CEO Challenge 2021, Asia Pacific Round!</title><link href="http://0.0.0.0:4000/posts/2021/03/01/dukung-tim-antareja-sebagai-representasi-indonesia-dalam-ajang-pg-ceo-challenge-2021-asia-pacific-round.html" rel="alternate" type="text/html" title="Dukung tim Antareja sebagai representasi Indonesia dalam ajang P&amp;amp;G CEO Challenge 2021, Asia Pacific Round!" /><published>2021-03-01T00:00:00+07:00</published><updated>2021-03-01T00:00:00+07:00</updated><id>http://0.0.0.0:4000/posts/2021/03/01/dukung-tim-antareja-sebagai-representasi-indonesia-dalam-ajang-pg-ceo-challenge-2021-asia-pacific-round</id><content type="html" xml:base="http://0.0.0.0:4000/posts/2021/03/01/dukung-tim-antareja-sebagai-representasi-indonesia-dalam-ajang-pg-ceo-challenge-2021-asia-pacific-round.html">&lt;p&gt;Hallo! 
 Perkenalkan kami representasi Indonesia untuk P&amp;amp;G CEO Challenge 2021 Asia Pacific Round (Marvel Tanara, Michelle Oktaviana Kanta, dan Verenne Tanara). Kami ingin memohon bantuan teman-teman untuk memberikan like tiga postingan di bawah ini:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -139,11 +330,11 @@ Perkenalkan kami representasi Indonesia untuk P&amp;amp;G CEO Challenge 2021 Asi
 &lt;p&gt;Berbagai bantuan teman-teman akan sangat berarti bagi kami, mohon doanya ya teman-teman, Terima kasih banyak!&lt;/p&gt;
 
 &lt;p&gt;Salam,
-Antareja&lt;/p&gt;</content><author><name></name></author><category term="binus" /><category term="id-id" /><summary type="html">Hallo! Perkenalkan kami representasi Indonesia untuk P&amp;amp;G CEO Challenge 2021 Asia Pacific Round (Marvel Tanara, Michelle Oktaviana Kanta, dan Verenne Tanara). Kami ingin memohon bantuan teman-teman untuk memberikan like tiga postingan di bawah ini:</summary></entry><entry><title type="html">Say hello again to Mozilla #Firedoge</title><link href="/posts/2021/02/27/say-hello-again-to-mozilla-firedoge.html" rel="alternate" type="text/html" title="Say hello again to Mozilla #Firedoge" /><published>2021-02-27T00:00:00+07:00</published><updated>2021-02-27T00:00:00+07:00</updated><id>/posts/2021/02/27/say-hello-again-to-mozilla-firedoge</id><content type="html" xml:base="/posts/2021/02/27/say-hello-again-to-mozilla-firedoge.html">&lt;p&gt;Remember back in 2017 when a &lt;a href=&quot;https://knowyourmeme.com/memes/doge&quot;&gt;doge&lt;/a&gt; shows up in a Nightly build for Firefox 57 (aka. the first version of “Firefox Quantum”)? &lt;strong&gt;Now it’s coming back to Firefox Nightly just because the current firefox logo &lt;em&gt;kinda sus&lt;/em&gt;!&lt;/strong&gt;&lt;/p&gt;
+Antareja&lt;/p&gt;</content><author><name></name></author><category term="binus" /><category term="id-id" /><summary type="html">Hallo! Perkenalkan kami representasi Indonesia untuk P&amp;amp;G CEO Challenge 2021 Asia Pacific Round (Marvel Tanara, Michelle Oktaviana Kanta, dan Verenne Tanara). Kami ingin memohon bantuan teman-teman untuk memberikan like tiga postingan di bawah ini:</summary></entry><entry><title type="html">Say hello again to Mozilla #Firedoge</title><link href="http://0.0.0.0:4000/posts/2021/02/27/say-hello-again-to-mozilla-firedoge.html" rel="alternate" type="text/html" title="Say hello again to Mozilla #Firedoge" /><published>2021-02-27T00:00:00+07:00</published><updated>2021-02-27T00:00:00+07:00</updated><id>http://0.0.0.0:4000/posts/2021/02/27/say-hello-again-to-mozilla-firedoge</id><content type="html" xml:base="http://0.0.0.0:4000/posts/2021/02/27/say-hello-again-to-mozilla-firedoge.html">&lt;p&gt;Remember back in 2017 when a &lt;a href=&quot;https://knowyourmeme.com/memes/doge&quot;&gt;doge&lt;/a&gt; shows up in a Nightly build for Firefox 57 (aka. the first version of “Firefox Quantum”)? &lt;strong&gt;Now it’s coming back to Firefox Nightly just because the current firefox logo &lt;em&gt;kinda sus&lt;/em&gt;!&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/17312341/109416892-8593c580-79f3-11eb-8c0e-32d492314122.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;An explanation of the change and the ‘fox gate’ controversy are detailed further on Mozilla’s official &lt;a href=&quot;https://blog.mozilla.org/firefox/the-fox-is-still-in-the-firefox-logo/&quot;&gt;The Firefox Frontier&lt;/a&gt; and &lt;a href=&quot;https://hacks.mozilla.org/2021/02/heres-whats-happening-with-the-firefox-nightly-logo/&quot;&gt;Mozilla Hacks&lt;/a&gt; blog posts. It is also possible that the #firedoge logo returns as a response on recent trends in Dogecoin. This could be a motivation for HODLing &lt;del&gt;Firefox&lt;/del&gt; Firedoge as the default browser for millions of users out there.&lt;/p&gt;</content><author><name></name></author><category term="mozilla" /><category term="en-us" /><category term="firefox" /><category term="firedoge" /><category term="random" /><summary type="html">Remember back in 2017 when a doge shows up in a Nightly build for Firefox 57 (aka. the first version of “Firefox Quantum”)? Now it’s coming back to Firefox Nightly just because the current firefox logo kinda sus!</summary></entry><entry><title type="html">Here’s another 2 fake cryptocurrency giveaway sites (Elon Musk)</title><link href="/posts/2021/02/26/heres-another-2-fake-cryptocurrency-giveaway-sites-elon-musk.html" rel="alternate" type="text/html" title="Here’s another 2 fake cryptocurrency giveaway sites (Elon Musk)" /><published>2021-02-26T00:00:00+07:00</published><updated>2021-02-26T00:00:00+07:00</updated><id>/posts/2021/02/26/heres-another-2-fake-cryptocurrency-giveaway-sites-elon-musk</id><content type="html" xml:base="/posts/2021/02/26/heres-another-2-fake-cryptocurrency-giveaway-sites-elon-musk.html">&lt;p&gt;The sites dicussed here are &lt;strong&gt;NOT&lt;/strong&gt; the same as &lt;a href=&quot;/posts/2021/02/23/link-spam-giveaway-bitcoin-ethereum-tether-di-grup-telegram-kotakode.html&quot;&gt;my first investigation about fake crypto giveaway sites&lt;/a&gt;. In this post, I will discuss another two fake cryptocurrency giveaway spotted on Twitter, which in this case claiming to be “Elon Musk”.&lt;/p&gt;
+&lt;p&gt;An explanation of the change and the ‘fox gate’ controversy are detailed further on Mozilla’s official &lt;a href=&quot;https://blog.mozilla.org/firefox/the-fox-is-still-in-the-firefox-logo/&quot;&gt;The Firefox Frontier&lt;/a&gt; and &lt;a href=&quot;https://hacks.mozilla.org/2021/02/heres-whats-happening-with-the-firefox-nightly-logo/&quot;&gt;Mozilla Hacks&lt;/a&gt; blog posts. It is also possible that the #firedoge logo returns as a response on recent trends in Dogecoin. This could be a motivation for HODLing &lt;del&gt;Firefox&lt;/del&gt; Firedoge as the default browser for millions of users out there.&lt;/p&gt;</content><author><name></name></author><category term="mozilla" /><category term="en-us" /><category term="firefox" /><category term="firedoge" /><category term="random" /><summary type="html">Remember back in 2017 when a doge shows up in a Nightly build for Firefox 57 (aka. the first version of “Firefox Quantum”)? Now it’s coming back to Firefox Nightly just because the current firefox logo kinda sus!</summary></entry><entry><title type="html">Here’s another 2 fake cryptocurrency giveaway sites (Elon Musk)</title><link href="http://0.0.0.0:4000/posts/2021/02/26/heres-another-2-fake-cryptocurrency-giveaway-sites-elon-musk.html" rel="alternate" type="text/html" title="Here’s another 2 fake cryptocurrency giveaway sites (Elon Musk)" /><published>2021-02-26T00:00:00+07:00</published><updated>2021-02-26T00:00:00+07:00</updated><id>http://0.0.0.0:4000/posts/2021/02/26/heres-another-2-fake-cryptocurrency-giveaway-sites-elon-musk</id><content type="html" xml:base="http://0.0.0.0:4000/posts/2021/02/26/heres-another-2-fake-cryptocurrency-giveaway-sites-elon-musk.html">&lt;p&gt;The sites dicussed here are &lt;strong&gt;NOT&lt;/strong&gt; the same as &lt;a href=&quot;/posts/2021/02/23/link-spam-giveaway-bitcoin-ethereum-tether-di-grup-telegram-kotakode.html&quot;&gt;my first investigation about fake crypto giveaway sites&lt;/a&gt;. In this post, I will discuss another two fake cryptocurrency giveaway spotted on Twitter, which in this case claiming to be “Elon Musk”.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/17312341/109197403-85b37b80-77cf-11eb-814f-e8aebe8aa803.png&quot; alt=&quot;Tweet 1&quot; /&gt;&lt;/p&gt;
 
@@ -305,7 +496,7 @@ Antareja&lt;/p&gt;</content><author><name></name></author><category term="binus"
 
 &lt;p&gt;Both sites are also taking measurements of viewport sizes for some reason.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/17312341/109202684-d5954100-77d5-11eb-9167-ecfb411c092f.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="investigasi" /><category term="en-us" /><summary type="html">The sites dicussed here are NOT the same as my first investigation about fake crypto giveaway sites. In this post, I will discuss another two fake cryptocurrency giveaway spotted on Twitter, which in this case claiming to be “Elon Musk”.</summary></entry><entry><title type="html">Operasi Aritmetik dan Cashless Society dalam bahasa pemrograman KopiHati</title><link href="/posts/2021/02/25/operasi-aritmetik-dan-cashless-society-dalam-bahasa-pemrograman-kopihati.html" rel="alternate" type="text/html" title="Operasi Aritmetik dan Cashless Society dalam bahasa pemrograman KopiHati" /><published>2021-02-25T00:00:00+07:00</published><updated>2021-02-25T00:00:00+07:00</updated><id>/posts/2021/02/25/operasi-aritmetik-dan-cashless-society-dalam-bahasa-pemrograman-kopihati</id><content type="html" xml:base="/posts/2021/02/25/operasi-aritmetik-dan-cashless-society-dalam-bahasa-pemrograman-kopihati.html">&lt;p&gt;Salah satu fitur utama yang wajib dimiliki oleh setiap bahasa pemrograman adalah kemampuan untuk menghitung operasi aritmatika, yang tentunya sudah kalian pelajari dalam mata pelajaran matematika.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/17312341/109202684-d5954100-77d5-11eb-9167-ecfb411c092f.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="investigasi" /><category term="en-us" /><summary type="html">The sites dicussed here are NOT the same as my first investigation about fake crypto giveaway sites. In this post, I will discuss another two fake cryptocurrency giveaway spotted on Twitter, which in this case claiming to be “Elon Musk”.</summary></entry><entry><title type="html">Operasi Aritmetik dan Cashless Society dalam bahasa pemrograman KopiHati</title><link href="http://0.0.0.0:4000/posts/2021/02/25/operasi-aritmetik-dan-cashless-society-dalam-bahasa-pemrograman-kopihati.html" rel="alternate" type="text/html" title="Operasi Aritmetik dan Cashless Society dalam bahasa pemrograman KopiHati" /><published>2021-02-25T00:00:00+07:00</published><updated>2021-02-25T00:00:00+07:00</updated><id>http://0.0.0.0:4000/posts/2021/02/25/operasi-aritmetik-dan-cashless-society-dalam-bahasa-pemrograman-kopihati</id><content type="html" xml:base="http://0.0.0.0:4000/posts/2021/02/25/operasi-aritmetik-dan-cashless-society-dalam-bahasa-pemrograman-kopihati.html">&lt;p&gt;Salah satu fitur utama yang wajib dimiliki oleh setiap bahasa pemrograman adalah kemampuan untuk menghitung operasi aritmatika, yang tentunya sudah kalian pelajari dalam mata pelajaran matematika.&lt;/p&gt;
 
 &lt;iframe class=&quot;w-full h-300&quot; src=&quot;https://www.youtube.com/embed/rOzoWoA0b7Q&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot;&gt;&lt;/iframe&gt;
 
@@ -378,373 +569,4 @@ Perintah tersebut mengurangi nilai dari $a dan $b sebanyak 20 persen (20000).
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cashback 20% maksimum 10000
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="kopihati" /><category term="id-id" /><summary type="html">Salah satu fitur utama yang wajib dimiliki oleh setiap bahasa pemrograman adalah kemampuan untuk menghitung operasi aritmatika, yang tentunya sudah kalian pelajari dalam mata pelajaran matematika.</summary></entry><entry><title type="html">This website redesign concept is a joke.</title><link href="/posts/2021/02/25/this-website-redesign-concept-is-a-joke.html" rel="alternate" type="text/html" title="This website redesign concept is a joke." /><published>2021-02-25T00:00:00+07:00</published><updated>2021-02-25T00:00:00+07:00</updated><id>/posts/2021/02/25/this-website-redesign-concept-is-a-joke</id><content type="html" xml:base="/posts/2021/02/25/this-website-redesign-concept-is-a-joke.html">&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; This is a work in progress on the website redesign, which is planned to be released somewhere in October.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I’ve been recently experimenting on Figma about what should the final website design of &lt;a href=&quot;https://reinhart1010.github.io&quot;&gt;https://reinhart1010.github.io&lt;/a&gt; should be, and here’s the current progress of it.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/17312341/109168139-19298400-77b1-11eb-9fa6-fb0b749f6d03.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The above mockup, in fact, is a resemblance of:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/17312341/109166780-a5d34280-77af-11eb-8192-db15ce75f40e.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;You can find some references here, from the navbar from &lt;a href=&quot;https://reinhart1010.github.io/posts/2021/01/25/say-hello-to-blog-posts-on-reinhart1010.github.io.html&quot;&gt;one of my old websites&lt;/a&gt;, web browsers’ “New Tab” page, my current website home page, &lt;a href=&quot;https://youtube.com/premium&quot;&gt;YouTube Premium&lt;/a&gt; banners, as well as of course, the somewhat-overhyped &lt;a href=&quot;https://linktr.ee&quot;&gt;Linktree&lt;/a&gt; page. Note that I am currently &lt;strong&gt;don’t&lt;/strong&gt; have any Linktree page, as I’m planning for publishing my own “Not Linktree” webpage, hopefully later in April.&lt;/p&gt;
-
-&lt;p&gt;This website concept is meant to be responsive. In fact, I have already created this mockup:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/17312341/109169352-4aef1a80-77b2-11eb-9a23-099fa85c75c4.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;which is a potrayal of the emergence of &lt;strong&gt;super apps&lt;/strong&gt; in Southeast Asia. In Indonesia, for example, we have apps like Gojek, Grab, Bukalapak, Tokopedia, Shopee, Traveloka, Tiket.com, DANA, LinkAja, …, and even regional government apps such as JAKI (for Jakarta, Special Capital Region). Forget &lt;a href=&quot;https://eyeondesign.aiga.org/dont-worry-these-gangley-armed-cartoons-are-here-to-protect-you-from-big-tech/&quot;&gt;“Corporate Memphis” trends in places such as US and Europe&lt;/a&gt;, these (mostly) Indonesian-made apps looked the same in 2018-2019, starting with Gojek.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/17312341/109171387-517e9180-77b4-11eb-8fc1-bb816f8d118a.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;why-is-joking-important-for-myself&quot;&gt;Why is joking important for myself&lt;/h2&gt;
-&lt;p&gt;One of the ways UI/UX designers do to create their own designs is by, well, looking at designs of other products. From there you can find common trends, best practices, and have an overview of how some of those designs work well with their users. I’ve always wanted to make the &lt;a href=&quot;https://reinhart1010.github.io&quot;&gt;https://reinhart1010.github.io&lt;/a&gt; website somewhat outstanding, beyond things such as portfolios and blogs. That’s why I decided to find inspirations from other websites which cross the boundaries between “personal” websites and public ones.&lt;/p&gt;
-
-&lt;p&gt;In this case, I primarily take web browser “New Tab” pages as well as the aforementioned super apps, as those reflect my current and future projects which I’m working on. From a web developer to one of the &lt;a href=&quot;https://webcompat.com&quot;&gt;Webcompat.com&lt;/a&gt; contributors, and currently starting to develop mobile apps, these inspirations (which I called them “jokes”) indeed reflect the user interfaces I’m interacting every day.&lt;/p&gt;
-
-&lt;p&gt;I now consider that joking is one of the most creative ways to build unique and fun products. In fact, one of my friends joked about building a Tinder for Indonesia’s local mom-and-pop stores, which won the first place at &lt;a href=&quot;https://socs.binus.ac.id/2020/12/18/grand-final-dan-juara-socs-hackathon-2020/&quot;&gt;an university hackathon competition&lt;/a&gt;. If you’re Indonesian enough you can watch a full overview of that joke here.&lt;/p&gt;
-
-&lt;iframe class=&quot;w-full h-300&quot; src=&quot;https://www.youtube.com/embed/qXvih-D7XDo&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;If you are interested to see the current progress of the website, you can visit &lt;a href=&quot;https://github.com/reinhart1010&quot;&gt;https://github.com/reinhart1010&lt;/a&gt; anytime. This redesign project is also part of a larger rebrand project I’m working on, which I will also occasionally post on &lt;a href=&quot;https://github.com/reinhart1010/posts/category/rebrand20&quot;&gt;https://github.com/reinhart1010/posts/category/rebrand20&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="dev.to" /><category term="design-exploration" /><category term="rebrand20" /><category term="en-us" /><summary type="html">Note: This is a work in progress on the website redesign, which is planned to be released somewhere in October.</summary></entry><entry><title type="html">Introducing PODSPPSE</title><link href="/posts/2021/02/23/introducing-podsppse.html" rel="alternate" type="text/html" title="Introducing PODSPPSE" /><published>2021-02-23T00:00:00+07:00</published><updated>2021-02-23T00:00:00+07:00</updated><id>/posts/2021/02/23/introducing-podsppse</id><content type="html" xml:base="/posts/2021/02/23/introducing-podsppse.html">&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;This blog post contains terms which may not be fully understood outside of the &lt;a href=&quot;https://indieweb.org/&quot;&gt;IndieWeb&lt;/a&gt; and federated social network (“Fediverse”) communities, which includes the following:&lt;/strong&gt;&lt;/p&gt;
-
-  &lt;ul&gt;
-    &lt;li&gt;&lt;strong&gt;A &lt;a href=&quot;https://indieweb.org/silo&quot;&gt;silo&lt;/a&gt;&lt;/strong&gt; is a website, app, or service featuring user-generated content&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;External (or third party) silos&lt;/strong&gt; are commonly third-party social platforms such as Facebook and Twitter with (often) restrictive features, rules and policies&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;https://indieweb.org/POSSE&quot;&gt;&lt;strong&gt;POSSE&lt;/strong&gt; (Publish on your Own Site, Syndicate Elsewhere)&lt;/a&gt; is a content syndication strategy where every single content are posted directly into the user’s own website (as a personal silo), before publishing links or copies into third party silos&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;https://indieweb.org/PESETAS&quot;&gt;&lt;strong&gt;PESETAS&lt;/strong&gt; (Publish Elsewhere, Syndicate Everything To A Silo)&lt;/a&gt; is a content syndication strategy where every single content are posted on external silos, syndicated into a specific external silo to be featured on the user’s own website (e.g. via Medium or Tumblr’s RSS feeds)&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;https://indieweb.org/PESOS&quot;&gt;&lt;strong&gt;PESOS&lt;/strong&gt; (Publish Elsewhere, Syndicate on your Own Site)&lt;/a&gt; is a content syndication strategy where every single content are posted on external silos, then syndicated into the user’s own website&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;https://indieweb.org/PASTA&quot;&gt;&lt;strong&gt;PASTA&lt;/strong&gt; (Publish Anywhere, Save To Archive)&lt;/a&gt; is a content syndication strategy where every single content are posted on any silos, then saved into a personal archive&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Fediverse&quot;&gt;&lt;strong&gt;Fediverse&lt;/strong&gt;&lt;/a&gt;: A network of interconnected (federated) and intercommunicated social network services, in which popular examples include Mastodon, Diaspora*, Matrix.org and GNU Social&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;PODSPPSE&lt;/strong&gt; (Publish (on your) Own Decentralized Site, Partially Publish and Syndicate Elsewhere) is a hybrid between &lt;strong&gt;POSSE&lt;/strong&gt; and &lt;strong&gt;PASTA&lt;/strong&gt; in which the &lt;del&gt;master&lt;/del&gt; main copies of posts are published in own site, where only a selection of these posts are published or syndicated elsewhere. This site is indeed decentralized since it is available on 2 different URLs:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://reinhart1010.github.io&quot;&gt;https://reinhart1010.github.io&lt;/a&gt; (Powered by GitHub Pages), and&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://reinhart1010.gitlab.io&quot;&gt;https://reinhart1010.gitlab.io&lt;/a&gt; (Powered by GitLab Pages).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The main purpose of this is to prepare a Git-based decentralized distribution of blog content, by adding more hosting providers to the roster. This allows copies of posts to have stronger backup strategies and making them more available to the public in the near future.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-consideration&quot;&gt;The Consideration&lt;/h2&gt;
-&lt;p&gt;Different social media platforms, blog and forum sites (in which what the folks at IndieWeb called &lt;a href=&quot;https://indieweb.org/silo&quot;&gt;silos&lt;/a&gt;) have unique types of user bases and targets. LinkedIn, for example, is primarily intended for job offers, recruitments, and achievements, while other sites such as StackOverflow are intended for software development. Certain communities such as Tumblr and DeviantArt have unique characteristics and personalities, and even similar communities (e.g. DeviantArt vs Behance vs Dribble) can attract different types of people. Such wide variety of communities and audiences could mean that certain posts, topics, and interests might not be favorable to all of them.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-strategy&quot;&gt;The Strategy&lt;/h2&gt;
-&lt;p&gt;This is why the PODSPPSE strategy is used on this website, where only a certain set of blog posts will be syndicated on a specific site. For example, I might not syndicate posts related to BINUS University announcements to LinkedIn, or posts written in Indonesian (Bahasa Indonesia) to &lt;a href=&quot;https://dev.to&quot;&gt;DEV.to&lt;/a&gt;, another blog site dedicated to (primarily English-speaking) software developers. PODSPPSE is still compatible with POSSE&lt;/p&gt;
-
-&lt;p&gt;Unlike POSSE, PODSPPSE also allows posts to be created first in a silo before publishing it into own sites. This site is currently created and built manually (i.e. by using a desktop computer instead of an external CI/CD service) using &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;, hence it requires a desktop computer in order to update the entire site by running &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll build&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git commit&lt;/code&gt;, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git push&lt;/code&gt;. Some silos, however, are sometimes handy to post urgent announcements from mobile phones, and some GSLC assignment posts (more on &lt;a href=&quot;/posts/2021/02/21/jawaban-jawaban-tugas-gslc-binus-saya-kini-tersedia-di-blog-ini.html&quot;&gt;this Indonesian post&lt;/a&gt;) have to be published into an internal silo first (i.e. &lt;a href=&quot;https://binus.ac.id&quot;&gt;BINUSMAYA&lt;/a&gt;) before to this site, as a measure against cheating.&lt;/p&gt;
-
-&lt;p&gt;Some posts will be PODSPPSE-d as a full copy on certain sites, especially on third party blogging platforms. This allows users of those platforms to use certain exclusive features such as comments, highlights (e.g. in Medium), bookmarks, “save” (e.g. in Instagram) and custom Liquid tags (in Forem-based sites including &lt;a href=&quot;https://dev.to&quot;&gt;DEV.to&lt;/a&gt;) available on respective platforms. Some of these features are currently being brought into this site too, including Webmentions support, Twitter and GitHub activities (via &lt;a href=&quot;https://brid.gy&quot;&gt;Bridgy&lt;/a&gt; and Webmentions), as well as Forem-derived custom Liquid tags.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;h4 id=&quot;how-about-the-fediverse&quot;&gt;How about the Fediverse?&lt;/h4&gt;
-  &lt;p&gt;Fediverse syndication and support for Webmentions (especially via &lt;a href=&quot;https://brid.gy&quot;&gt;Bridgy&lt;/a&gt; or &lt;a href=&quot;https://fed.brid.gy/&quot;&gt;Bridgy Fed&lt;/a&gt;) is currently undergoing further discussion, noting that very few number of Indonesians are participating on the network, while a large set of the fediverse are based on privacy-conscious regions such as the European Union.&lt;/p&gt;
-
-  &lt;p&gt;Choosing a local instance is preferable for legal reasons, while I personally have not found any Indonesia-based federated social network instances yet, which at least comply to Indonesian regulations such as Undang-Undang Informasi dan Transaksi Elektronik (UU ITE). I have lost credentials for a Diaspora* and a Mastodon instance/”pod” (where I have not posted anything), so I’ll need to find another new one before syndicating and distributing my own content into the fediverse.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;list-of-syndicated-places&quot;&gt;List of Syndicated Places&lt;/h2&gt;
-&lt;p&gt;Otherwise stated, these platforms and services expect content in English.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Platform/Service Name&lt;/th&gt;
-      &lt;th&gt;Feature Name&lt;/th&gt;
-      &lt;th&gt;Feature Type&lt;/th&gt;
-      &lt;th&gt;Target Audience or Usage&lt;/th&gt;
-      &lt;th&gt;Syndication Strategy&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;https://binusmaya.binus.ac.id&quot;&gt;BINUSMAYA&lt;/a&gt; ➡️ ↩️ 🔒 🔐&lt;/td&gt;
-      &lt;td&gt;Forum&lt;/td&gt;
-      &lt;td&gt;Forum / Bulletin Board&lt;/td&gt;
-      &lt;td&gt;For BINUS University assignments&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;PASTA&lt;/strong&gt;: Full copy of original post&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;https://dev.to&quot;&gt;DEV.to&lt;/a&gt; ➡️ ↩️ 🌲&lt;/td&gt;
-      &lt;td&gt;Posts&lt;/td&gt;
-      &lt;td&gt;Blogs&lt;/td&gt;
-      &lt;td&gt;Public, primarily for programming and software development&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;POSSE or PASTA&lt;/strong&gt;: Full copy and link to original post&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;https://instagram.com&quot;&gt;Instagram&lt;/a&gt; 🌲&lt;/td&gt;
-      &lt;td&gt;Feed&lt;/td&gt;
-      &lt;td&gt;Pictures and Videos&lt;/td&gt;
-      &lt;td&gt;For BINUS University students, Tier 1 (family) 2 (friends) and 3 (loose friends) communication list&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;POSSE&lt;/strong&gt;: Summarized (image, video) copy only, &lt;strong&gt;PASTA&lt;/strong&gt;: Full copy only&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;https://instagram.com&quot;&gt;Instagram&lt;/a&gt; 🌲&lt;/td&gt;
-      &lt;td&gt;Stories&lt;/td&gt;
-      &lt;td&gt;Stories&lt;/td&gt;
-      &lt;td&gt;For BINUS University students, Tier 1 (family) 2 (friends) and 3 (loose friends) communication list&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;POSSE&lt;/strong&gt;: Summarized (image, video) copy only, &lt;strong&gt;PASTA&lt;/strong&gt;: Full copy only&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;https://kotakode.com&quot;&gt;Kotakode&lt;/a&gt; ➡️ ↩️ 🌲&lt;/td&gt;
-      &lt;td&gt;Blogs&lt;/td&gt;
-      &lt;td&gt;Blogs&lt;/td&gt;
-      &lt;td&gt;Public, primarily for programming and software development. Content in Indonesian (Bahasa Indonesia).&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;POSSE or PASTA&lt;/strong&gt;: Full copy and link to original post&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;https://kotakode.com&quot;&gt;Kotakode&lt;/a&gt; ↩️ 🌲&lt;/td&gt;
-      &lt;td&gt;Pertanyaan&lt;/td&gt;
-      &lt;td&gt;Q&amp;amp;A&lt;/td&gt;
-      &lt;td&gt;Public, primarily for programming and software development. Content in Indonesian (Bahasa Indonesia).&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;PASTA&lt;/strong&gt;: Full copy only&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;https://line.me&quot;&gt;LINE&lt;/a&gt; 🌲&lt;/td&gt;
-      &lt;td&gt;Stories&lt;/td&gt;
-      &lt;td&gt;Stories&lt;/td&gt;
-      &lt;td&gt;For BINUS University students, Tier 2 (friends) and 3 (loose friends) communication list&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;POSSE&lt;/strong&gt;: Summarized (image, video) copy only, &lt;strong&gt;PASTA&lt;/strong&gt;: Full copy only&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;https://line.me&quot;&gt;LINE&lt;/a&gt; ➡️ ↩️ 🌲&lt;/td&gt;
-      &lt;td&gt;Timeline&lt;/td&gt;
-      &lt;td&gt;Microblogging&lt;/td&gt;
-      &lt;td&gt;For BINUS University students, Tier 2 (friends) and 3 (loose friends) communication list&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;POSSE or PASTA&lt;/strong&gt;: Summarized copy and link to original post&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;https://linkedin.com&quot;&gt;LinkedIn&lt;/a&gt; ➡️ ↩️ 🌲&lt;/td&gt;
-      &lt;td&gt;Post&lt;/td&gt;
-      &lt;td&gt;Blogs&lt;/td&gt;
-      &lt;td&gt;For job-related updates and articles&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;POSSE or PASTA&lt;/strong&gt;: Summarized copy and link to original post&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;https://linkedin.com&quot;&gt;LinkedIn&lt;/a&gt; 🌲&lt;/td&gt;
-      &lt;td&gt;Stories&lt;/td&gt;
-      &lt;td&gt;Stories&lt;/td&gt;
-      &lt;td&gt;For job-related updates and articles&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;POSSE&lt;/strong&gt;: Summarized (image, video) copy only, &lt;strong&gt;PASTA&lt;/strong&gt;: Full copy only&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;https://medium.com&quot;&gt;Medium&lt;/a&gt; ➡️ ↩️ 🌲&lt;/td&gt;
-      &lt;td&gt;Posts&lt;/td&gt;
-      &lt;td&gt;Blogs&lt;/td&gt;
-      &lt;td&gt;Public, either in English or Indonesian&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;POSSE or PASTA&lt;/strong&gt;:Full copy and link to original post&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;https://openstreetmap.org&quot;&gt;OpenStreetMap&lt;/a&gt; ➡️ ↩️ 🌲&lt;/td&gt;
-      &lt;td&gt;User Diaries&lt;/td&gt;
-      &lt;td&gt;Blogs&lt;/td&gt;
-      &lt;td&gt;OpenStreetMap contributors and projects in any language&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;POSSE:&lt;/strong&gt; Full copy and link to original post&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;https://quora.com&quot;&gt;Quora&lt;/a&gt; ➡️ ↩️ 🌲&lt;/td&gt;
-      &lt;td&gt;Question (id-ID: Pertanyaan)&lt;/td&gt;
-      &lt;td&gt;Q&amp;amp;A&lt;/td&gt;
-      &lt;td&gt;Public. Target community depending on site language.&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;PASTA:&lt;/strong&gt; Full copy only&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;https://snapchat.com&quot;&gt;Snapchat&lt;/a&gt; ➡️ 🔐&lt;/td&gt;
-      &lt;td&gt;Stories&lt;/td&gt;
-      &lt;td&gt;Stories&lt;/td&gt;
-      &lt;td&gt;Tier 2 (friends) communication list&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;POSSE&lt;/strong&gt;: Summarized (image, video) copy and link to original post, &lt;strong&gt;PASTA&lt;/strong&gt;: Full copy only&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;https://telegram.org&quot;&gt;Telegram&lt;/a&gt; ➡️ ↩️ 🌲&lt;/td&gt;
-      &lt;td&gt;Channels&lt;/td&gt;
-      &lt;td&gt;Blogs&lt;/td&gt;
-      &lt;td&gt;Public, primarily for programming and software development&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;POSSE or PASTA:&lt;/strong&gt; Summarized copy and link to original post&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;https://twitter.com&quot;&gt;Twitter&lt;/a&gt; 🌉 ➡️ ↩️ 🌲&lt;/td&gt;
-      &lt;td&gt;Tweets/Threads&lt;/td&gt;
-      &lt;td&gt;Microblogging&lt;/td&gt;
-      &lt;td&gt;Public, either in English or Indonesian&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;POSSE&lt;/strong&gt; Summarized copy and link to original post, &lt;strong&gt;PASTA&lt;/strong&gt;: Full copy only&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;🌉 Supports &lt;a href=&quot;https://brid.gy&quot;&gt;Bridgy&lt;/a&gt; integration&lt;/li&gt;
-  &lt;li&gt;➡️ Allows direct link to original website&lt;/li&gt;
-  &lt;li&gt;↩️ Syndicated copies will be accessible from original website&lt;/li&gt;
-  &lt;li&gt;🌲 Link to original copy may be presented &lt;em&gt;a la&lt;/em&gt; &lt;a href=&quot;https://linktr.ee&quot;&gt;Linktree&lt;/a&gt; links&lt;/li&gt;
-  &lt;li&gt;🔒 Locked (Archived)&lt;/li&gt;
-  &lt;li&gt;🔐 Restricted&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;the-goal&quot;&gt;The Goal&lt;/h2&gt;
-&lt;p&gt;The main goal of PODSPPSE is indeed the same as POSSE, where my own content can be syndicated across different sites, services, and platforms, while maintaining an archive of posts into an open, distributed places such as GitHub. This allows my posts and content to be further distributed across places and communities in the near future.&lt;/p&gt;</content><author><name></name></author><category term="updates" /><category term="en-us" /><category term="indieweb" /><summary type="html">This blog post contains terms which may not be fully understood outside of the IndieWeb and federated social network (“Fediverse”) communities, which includes the following: A silo is a website, app, or service featuring user-generated content External (or third party) silos are commonly third-party social platforms such as Facebook and Twitter with (often) restrictive features, rules and policies POSSE (Publish on your Own Site, Syndicate Elsewhere) is a content syndication strategy where every single content are posted directly into the user’s own website (as a personal silo), before publishing links or copies into third party silos PESETAS (Publish Elsewhere, Syndicate Everything To A Silo) is a content syndication strategy where every single content are posted on external silos, syndicated into a specific external silo to be featured on the user’s own website (e.g. via Medium or Tumblr’s RSS feeds) PESOS (Publish Elsewhere, Syndicate on your Own Site) is a content syndication strategy where every single content are posted on external silos, then syndicated into the user’s own website PASTA (Publish Anywhere, Save To Archive) is a content syndication strategy where every single content are posted on any silos, then saved into a personal archive Fediverse: A network of interconnected (federated) and intercommunicated social network services, in which popular examples include Mastodon, Diaspora*, Matrix.org and GNU Social</summary></entry><entry><title type="html">Apa yang akan terjadi saat Anda mengeklik salah satu link spam giveaway Bitcoin/Ethereum/Tether di grup Telegram Kotakode?</title><link href="/posts/2021/02/23/link-spam-giveaway-bitcoin-ethereum-tether-di-grup-telegram-kotakode.html" rel="alternate" type="text/html" title="Apa yang akan terjadi saat Anda mengeklik salah satu link spam giveaway Bitcoin/Ethereum/Tether di grup Telegram Kotakode?" /><published>2021-02-23T00:00:00+07:00</published><updated>2021-02-23T00:00:00+07:00</updated><id>/posts/2021/02/23/link-spam-giveaway-bitcoin-ethereum-tether-di-grup-telegram-kotakode</id><content type="html" xml:base="/posts/2021/02/23/link-spam-giveaway-bitcoin-ethereum-tether-di-grup-telegram-kotakode.html">&lt;p&gt;Anda mungkin pernah mendapatkan pesan dari seseorang di grup Telegram Kotakode seperti ini.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;woow Guys. Who want free bitcoin and ethereum or tether?&lt;/p&gt;
-
-  &lt;p&gt;Maybe you got too&lt;/p&gt;
-
-  &lt;p&gt;(URL phishing)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Saya telah mengumpulkan dua sampel URL yang dibagikan oleh orang yang tak dikenal tersebut, sebelum akhirnya dihapus oleh tim admin grup Kotakode. Kedua URL tersebut berasal dari situs &lt;em&gt;URL shortener&lt;/em&gt; yang berbeda (dalam kasus ini &lt;a href=&quot;https://cutt.ly&quot;&gt;https://cutt.ly&lt;/a&gt; dan &lt;a href=&quot;https://goo.su&quot;&gt;https://goo.su&lt;/a&gt;), dan ternyata sama-sama mengarah ke sebuah situs &lt;em&gt;phishing&lt;/em&gt; bernama &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bintweets.com&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;twitter-eh&quot;&gt;Twitter, eh?&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;https://storage.googleapis.com/kotakode-prod-public/images/f5c9d15e-d92c-4cca-b8f7-75f3d2fd0129-Screenshot_2021-02-23-Binance-on-Twitter-Elon-Musk-biggest-crypto-giveaway-Twitter.png&quot; alt=&quot;Screenshot_2021-02-23 Binance on Twitter Elon Musk biggest crypto giveaway Twitter.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Ya, gambar di atas merupakan tampilan dari situs &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bintweets.com&lt;/code&gt;. Hal yang membuat saya menarik di sini adalah meskipun situs tersebut merupakan &lt;em&gt;impostor&lt;/em&gt; dari Twitter, fitur “Like” dan “Retweet” dalam situs tersebut dapat bekerja dengan baik. Webpage tersebut ternyata mengirimkan sebuah request POST kepada situs tersebut untuk menambahkan jumlah Like dan Retweet yang terkandung di dalam post atau komentar tersebut. Saya mendemonstrasikan hasil tersebut menggunakan perintah &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;curl&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://storage.googleapis.com/kotakode-prod-public/images/d80a216f-da34-4cdf-a234-533200aa56d3-Screenshot_20210223_152336.png&quot; alt=&quot;Screenshot_20210223_152336.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Hal yang menarik berikutnya tentang situs ini adalah situs tersebut &lt;strong&gt;mencatut nama, username, dan bahkan gambar profil Twitter yang ASLI&lt;/strong&gt;. Tampilan situs tersebut memang seolah-olah merupakan sebuah Tweet resmi dari Binance, namun hampir semua nama profil yang dicatut sebagai komentar terhadap situs tersebut merupakan profil Twitter asli (ada beberapa yang usernamenya dirubah, dan ada juga beberapa profil yang di-suspend oleh Twitter). Saya mencoba melihat beberapa profil yang dicatut tersebut, dan mereka memang sering membahas tentang &lt;em&gt;cryptocurrency&lt;/em&gt; (mata uang kripto) dan investasinya.&lt;/p&gt;
-
-&lt;p&gt;Situs tersebut mengandung URL berikutnya bernama &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;czbnb.org&lt;/code&gt;. Berbeda dengan &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bintweets.com&lt;/code&gt;, situs ini merupakan &lt;em&gt;impostor&lt;/em&gt; dari Medium dengan tampilan lama (berdasarkan jenis &lt;em&gt;font&lt;/em&gt; yang digunakan di dalam situs tersebut). Pengembang situs tersebut ini cukup pintar, mereka mengunduh semua aset font dari Medium untuk di-encode dan ditaruh di dalam atribut CSS &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@font-face&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://storage.googleapis.com/kotakode-prod-public/images/27332052-afd0-41f5-b36d-0f5f466628fa-Screenshot_20210223_152859.png&quot; alt=&quot;Screenshot_20210223_152859.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Namun sayangnya tampilan Medium ini baru saja berubah menggunakan logo dan font baru. Berikut ini adalah tampilan &lt;a href=&quot;https://medium.com/@reinhartpreviano/cara-pakai-git-dan-github-gais-f50624caf7e6&quot;&gt;salah satu post saya&lt;/a&gt; di Medium bernama “Cara Pakai Git dan GitHub, gais!” (yang juga tersedia di &lt;a href=&quot;/posts/2019/09/05/cara-pakai-git-dan-github-gais.html&quot;&gt;situs ini&lt;/a&gt;).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://storage.googleapis.com/kotakode-prod-public/images/3e06b10f-f370-4163-bf8e-5b46c70fe6fc-Screenshot_2021-02-23-Cara-Pakai-Git-dan-GitHub,-gais-.png&quot; alt=&quot;Screenshot_2021-02-23 Cara Pakai Git dan GitHub, gais .png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Jika di dalam situs &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bintweets.com&lt;/code&gt; ini memiliki fitur Like dan Retweet sendiri, saya tidak dapat menambahkan jumlah &lt;a href=&quot;https://medium.com/blogging-guide/how-do-claps-work-on-medium-b2897784ce6b&quot;&gt;Claps (menurut istilah Medium)&lt;/a&gt; di dalam situs &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;czbnb.org&lt;/code&gt;. Meskipun demikian, situs tersebut &lt;strong&gt;masih mencatut nama profil Medium ASLI&lt;/strong&gt; yang sama-sama membahas soal &lt;em&gt;cryptocurrency&lt;/em&gt;, dan ekonomi investasi.&lt;/p&gt;
-
-&lt;p&gt;Situs tersebut memiliki 3 link yang berhubungan dengan jenis &lt;em&gt;giveaway&lt;/em&gt; yang diberikan, yakni:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;+ https://czbnb.org/btc/ untuk Bitcoin (BTC)
-+ https://czbnb.org/eth/ untuk Ethereum (ETH)
-+ https://czbnb.org/tether/ untuk Tether (USDT)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Ketiga webpage ini memiliki tampilan yang serupa dengan ini.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://storage.googleapis.com/kotakode-prod-public/images/1fb7c1de-fc3a-4d03-8409-22e8c7b6169d-Screenshot_2021-02-23-Get-2x-ETH-Bonus-Now.png&quot; alt=&quot;Screenshot_2021-02-23 Get 2x ETH Bonus Now.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;dan ketiga webpage tersebut memiliki sebuah tabel dinamis (terlihat sering di-update) yang (seharusnya) merupakan hasil giveaway yang seolah-olah diberikan oleh pihak Binance. &lt;strong&gt;Namun tahukah kamu bagaimana situs tersebut meng-update data transaksi tersebut?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Melalui function JavaScript ini. (Sumber: &lt;a href=&quot;https://czbnb.org/eth/js/tfdjglkjdfkjgnsdfgnjkdgndkjfx.js&quot;&gt;https://czbnb.org/eth/js/tfdjglkjdfkjgnsdfgnjkdgndkjfx.js&lt;/a&gt; untuk laman Ethereum)&lt;/p&gt;
-
-&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;new_transaction&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;table&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;row&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;myTable&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;insertRow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;address&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;get_random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(),&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;amount&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;49.5&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Math&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;toFixed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;decimal&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;Math&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;999&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;row&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;innerHTML&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;
-    &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;lt;tr&amp;gt; &amp;lt;td&amp;gt;&amp;lt;a class=&quot;hash-tag text-truncate&quot; href=&quot;&quot;&amp;gt;0x&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;generateId&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;63&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;
-    &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;lt;/a&amp;gt; &amp;lt;/td&amp;gt; &amp;lt;td class=&quot;d-none d-sm-table-cell&quot;&amp;gt;&amp;lt;a href=&quot;&quot;&amp;gt;4&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;tx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;99999999&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;
-    &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;&amp;lt;span class=&quot;timer&quot; &amp;gt;now&amp;lt;/span&amp;gt; &amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;&amp;lt;a class=&quot;hash-tag text-truncate&quot; href=&quot;&quot;&amp;gt;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;address&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;
-    &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;lt;/a&amp;gt; &amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;&amp;lt;span class=&quot;u-label u-label--xs u-label--success color-strong text-uppercase text-center w-100 rounded text-nowrap&quot;&amp;gt;&amp;amp;nbsp;IN&amp;amp;nbsp;&amp;lt;/span&amp;gt; &amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;&amp;lt;span class=&quot;hash-tag text-truncate&quot;&amp;gt;0x762fa4Da994EEf58DC894C225008Aba279101168&amp;lt;/span&amp;gt; &amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;amount&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;
-    &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt; ETH&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;&amp;lt;span class=&quot;small text-secondary&quot;&amp;gt;0&amp;lt;b&amp;gt;.&amp;lt;/b&amp;gt;000&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;tx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;999&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;
-    &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;lt;/span&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-    &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;
-      &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;myTable&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-      &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;deleteRow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;myTable&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;rows&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;length&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-    &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementsByTagName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;tr&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;classList&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;toolbar&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;setTimeout&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-      &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;table&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;nx&quot;&gt;row&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;myTable&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;insertRow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-        &lt;span class=&quot;nx&quot;&gt;send_amount&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;amount&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;parcent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-      &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;row&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;innerHTML&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;
-        &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;lt;tr&amp;gt; &amp;lt;td&amp;gt;&amp;lt;a class=&quot;hash-tag text-truncate&quot; href=&quot;&quot;&amp;gt;0x&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;
-        &lt;span class=&quot;nx&quot;&gt;generateId&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;63&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;
-        &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;lt;/a&amp;gt; &amp;lt;/td&amp;gt; &amp;lt;td class=&quot;d-none d-sm-table-cell&quot;&amp;gt;&amp;lt;a href=&quot;&quot;&amp;gt;4&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;
-        &lt;span class=&quot;nx&quot;&gt;tx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;99999999&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;
-        &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;&amp;lt;span class=&quot;timer&quot; &amp;gt;now&amp;lt;/span&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;&amp;lt;span class=&quot;hash-tag text-truncate&quot;&amp;gt;0x762fa4Da994EEf58DC894C225008Aba279101168&amp;lt;/span&amp;gt; &amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;&amp;lt;span class=&quot;u-label u-label--xs u-label--warning color-strong text-uppercase text-center w-100 rounded text-nowrap&quot;&amp;gt;OUT&amp;lt;/span&amp;gt; &amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;&amp;lt;a class=&quot;hash-tag text-truncate&quot; href=&quot;&quot;&amp;gt;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;
-        &lt;span class=&quot;nx&quot;&gt;address&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;
-        &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;lt;/a&amp;gt; &amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;
-        &lt;span class=&quot;nx&quot;&gt;send_amount&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;
-        &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt; ETH&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;&amp;lt;span class=&quot;small text-secondary&quot;&amp;gt;0&amp;lt;b&amp;gt;.&amp;lt;/b&amp;gt;000&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;
-        &lt;span class=&quot;nx&quot;&gt;tx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;999&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;
-        &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;lt;/span&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-        &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;
-          &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;myTable&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-          &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;deleteRow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;myTable&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;rows&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;length&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-        &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementsByTagName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;tr&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;classList&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;toolbar&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;8500&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Ya, fungsi tersebut sama sekali tidak menggunakan metode seperti WebSockets untuk mengupdate data transaksi secara berkala. Fungsi tersebut hanya membuat sebuah transaksi dengan ID (hash) transaksi, nama alamat, dan nominal transaksi secara random dan sebenarnya tidak sesuai dengan data yang ada di dalam &lt;em&gt;blockchain&lt;/em&gt; Bitcoin, Ethereum, dan Tether. Fungsi tersebut juga menambahkan hasil transkasi random tersebut ke dalam sebuah tabel dengan ID &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mytable&lt;/code&gt;, yang memuat daftar transaksi palsu tersebut.&lt;/p&gt;
-
-&lt;h2 id=&quot;oke-seandainya-jika-saya-memasukkan-nominal-dan-address-bitcoinethereumtether-yang-tepat-apakah-yang-akan-terjadi&quot;&gt;Oke, seandainya jika saya memasukkan nominal dan &lt;em&gt;address&lt;/em&gt; Bitcoin/Ethereum/Tether yang tepat, apakah yang akan terjadi?&lt;/h2&gt;
-
-&lt;p&gt;Situs tersebut mengandung informasi bahwa &lt;em&gt;payment address&lt;/em&gt; yang harus digunakan saat membayar akan di-generate oleh sistem/situs tersebut. Namun, yang sebenarnya terjadi adalah situs tersebut &lt;strong&gt;meng-hardcode &lt;em&gt;payment address&lt;/em&gt; tersebut&lt;/strong&gt;. Saya sudah mencoba me-refresh situs ini dan menghapus &lt;em&gt;cookies&lt;/em&gt; beberapa kali, namun &lt;em&gt;payment address&lt;/em&gt; tersebut masih sama dan terletak pada sebuah popup pada gambar berikut.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://storage.googleapis.com/kotakode-prod-public/images/a0770d5f-6dc9-4d8f-b52a-5ec548a10407-Screenshot_20210223_161423.png&quot; alt=&quot;Screenshot_20210223_161423.png&quot; /&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;inner-address&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;wallet-ad&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Generated address:&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;address&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;qwef-hy&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;style=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;width: 80%;overflow: hidden;&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;real-address&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;0x792D14dC6052147394acEbDeA2Fe556a29644C34&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;copy-body&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;copy-inner&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;cp&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;copy_address&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;images/copy.svg&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;data-clipboard-text=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;0x792D14dC6052147394acEbDeA2Fe556a29644C34&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;done-copy&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;sec-card&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-          &lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;in-card&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;images/done.svg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Berikut adalah ketiga address Bitcoin, Ethereum, dan Tether yang di-hardcode di dalam situs tersebut, yakni:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1D1rH5UcANwxJQU6sJuNDVbZ72jztohurR&lt;/code&gt; untuk Bitcoin, serta&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0x792D14dC6052147394acEbDeA2Fe556a29644C34&lt;/code&gt; untuk Ethereum dan Tether.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Mohon untuk TIDAK mengirimkan dana apapun ke dalam address tersebut, karena sudah dipastikan bahwa ini merupakan address scam layaknya scam SMS undian pemenang Indosat/M Tronik/Shopee/Pertamina di Indonesia.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;berapa-banyak-korban-yang-jatuh-ke-dalam-scam-tersebut&quot;&gt;Berapa banyak korban yang jatuh ke dalam scam tersebut?&lt;/h2&gt;
-&lt;p&gt;Per saat ini (23 Februari 2021, 16:24 WIB) alamat Bitcoin tersebut sama sekali tidak memiliki transaksi apapun. Saya sudah mengeceknya di dalam situs:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://bitcoinwhoswho.com/address/1D1rH5UcANwxJQU6sJuNDVbZ72jztohurR&quot;&gt;https://bitcoinwhoswho.com/address/1D1rH5UcANwxJQU6sJuNDVbZ72jztohurR&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://bitref.com/1D1rH5UcANwxJQU6sJuNDVbZ72jztohurR&quot;&gt;https://bitref.com/1D1rH5UcANwxJQU6sJuNDVbZ72jztohurR&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.blockchain.com/btc/address/1D1rH5UcANwxJQU6sJuNDVbZ72jztohurR&quot;&gt;https://www.blockchain.com/btc/address/1D1rH5UcANwxJQU6sJuNDVbZ72jztohurR&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Begitupun juga untuk Ethereum dan Tether, yang sudah saya cek di:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://etherscan.io/address/0x792D14dC6052147394acEbDeA2Fe556a29644C34&quot;&gt;https://etherscan.io/address/0x792D14dC6052147394acEbDeA2Fe556a29644C34&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.etherchain.org/account/792D14dC6052147394acEbDeA2Fe556a29644C34&quot;&gt;https://www.etherchain.org/account/792D14dC6052147394acEbDeA2Fe556a29644C34&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cointracker.io/wallet/ethereum?address=0x792D14dC6052147394acEbDeA2Fe556a29644C34&quot;&gt;https://www.cointracker.io/wallet/ethereum?address=0x792D14dC6052147394acEbDeA2Fe556a29644C34&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Hal ini sebenarnya merupakan pertanda baik, karena sampai saat ini masih belum ada korban yang terkena scam untuk ketiga mata uang tersebut. Namun, Anda juga harus waspada terhadap scam &lt;em&gt;cryptocurrency&lt;/em&gt; seperti ini yang menggunakan teknik yang sangat serupa dengan phishing.&lt;/p&gt;
-
-&lt;h2 id=&quot;update-25-februari-2021&quot;&gt;UPDATE 25 FEBRUARI 2021&lt;/h2&gt;
-&lt;p&gt;Pada tanggal 24 Februari lalu, saya memutuskan untuk melaporkan dan menjelaskan kedua situs ini kepada pihak Cloudflare melalui &lt;a href=&quot;https://www.cloudflare.com/abuse/&quot;&gt;form ini&lt;/a&gt;, karena kedua situs tersebut awalnya memiliki proteksi DNS dan HTTPS dari Cloudflare.&lt;/p&gt;
-
-&lt;p&gt;Sehari kemudian saya melihat bahwa kedua situs ini berhasil diblokir. Kedua situs &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bintweets.com&lt;/code&gt; dan &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;czbnb.org&lt;/code&gt; ini telah di-takedown oleh pihak Cloudflare, bahkan sistem Google Safe Browsing juga berhasil memblokir situs utama &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;czbnb.org&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/17312341/109180976-06697c00-77be-11eb-9a56-54e1742f6f0c.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Saya sebelumnya lupa untuk menjelaskan soal data WHOIS kedua domain tersebut. Kedua domain ini dikabarkan (menurut entri WHOIS) didaftarkan di kota Poltava, provinsi Poltava Oblast, Ukraina, sedangkan saya waktu itu masih belum bisa melihat entri WHOIS berdasarkan IP address server yang dimiliki kedua situs tersebut karena masih dilindungi oleh Cloudflare. Data WHOIS untuk &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bintweets.com&lt;/code&gt; ini masih diisi oleh informasi yang tidak benar, seperti kode pos pendaftar (45566) yang tidak sesuai dengan konvensi nomor kode pos di Poltava Oblast, Ukraina.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/17312341/109182049-2d747d80-77bf-11eb-900f-d9dfba724a8c.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Kedua domain tersebut didaftarkan pada waktu yang sama, yakni pada tanggal 19 Februari 2021 (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2021-02-19T17:12:05Z&lt;/code&gt;). Karena itu, situs ini merupakan sebuah skema penipuan yang baru saja diadakan, yang sudah dapat di-takedown dalam kurun 1 minggu saja.&lt;/p&gt;</content><author><name></name></author><category term="kotakode" /><category term="investigasi" /><category term="id-id" /><category term="kotakode-telegram" /><category term="javascript" /><summary type="html">Anda mungkin pernah mendapatkan pesan dari seseorang di grup Telegram Kotakode seperti ini.</summary></entry><entry><title type="html">Reinhart kini sudah memenuhi 120 SAT dan 30 jam Community Service</title><link href="/posts/2021/02/22/reinhart-kini-sudah-memenuhi-120-sat-dan-30-jam-community-service.html" rel="alternate" type="text/html" title="Reinhart kini sudah memenuhi 120 SAT dan 30 jam Community Service" /><published>2021-02-22T00:00:00+07:00</published><updated>2021-02-22T00:00:00+07:00</updated><id>/posts/2021/02/22/reinhart-kini-sudah-memenuhi-120-sat-dan-30-jam-community-service</id><content type="html" xml:base="/posts/2021/02/22/reinhart-kini-sudah-memenuhi-120-sat-dan-30-jam-community-service.html">&lt;p&gt;&lt;a href=&quot;https://student.binus.ac.id/sat/&quot;&gt;SAT (Student Activity Transcript)&lt;/a&gt;, yang juga disebut sebagai Transkrip Aktivitas Kemahasiswaan (TAK), beserta jam kegiatan sosial (Community Service) merupakan beberapa jenis rekam jejak kegiatan kemahasiswaan serta persyaratan untuk pelaksanaan Tugas Akhir (seperti skripsi) dan kelulusan di BINUS University. Setiap mahasiswa BINUS wajib memiliki SAT dengan minimum jumlah 120 poin, serta harus berpartisipasi dalam setidaknya 10 jam kegiatan sosial melalui kegiatan-kegiatan yang diselenggarakan oleh &lt;a href=&quot;http://www.teachforindonesia.org/&quot;&gt;Teach for Indonesia (TFI)&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Jumlah poin SAT yang dikumpulkan oleh saya saat ini sudah jauh dari cukup. Bahkan, saya berhasil mengumpulkan 120 poin SAT dalam kurun 2 semester pertama. Sedangkan, jumlah minimum jam kegiatan sosial ini (yang sering dikatakan sangat susah untuk dicari) baru berhasil dikumpulkan pada hari ini, 22 Februari 2021, melalui kegiatan-kegiatan TFI dalam sesi Freshmen Enrichment Program (FEP), sesi mengajar bimbel untuk anak SD-SMA di kampus Kijang, serta tugas kelompok mata kuliah Character Building dari Semester 1 hingga Semester 3.&lt;/p&gt;
-
-&lt;p&gt;Namun, hal tersebut bukan berarti bahwa saya akan berhenti dari kegiatan-kegiatan kemahasiswaan saya di BINUS University. Bahkan, ada beberapa poin SAT yang masih &lt;em&gt;pending&lt;/em&gt; dari kegiatan kepanitiaan saya di beberapa acara, khususnya yang diadakan oleh &lt;a href=&quot;https://himti.or.id&quot;&gt;HIMTI&lt;/a&gt;. Saya juga sedang mencoba klaim poin SAT dari beberapa kompetisi di luar BINUS, seperti Kotakode Coding Competition yang diadakan pada 2020 silam. Saya berharap agar pada kelulusan nanti saya sudah mendapatkan poin SAT dan jam Community Service secara lebih lagi, namun saat ini saya masih harus bersabar untuk memberi kesempatan bagi mahasiswa lain untuk meraih SAT dan jam Community Service yang cukup.&lt;/p&gt;</content><author><name></name></author><category term="binus" /><category term="updates" /><category term="id-id" /><summary type="html">SAT (Student Activity Transcript), yang juga disebut sebagai Transkrip Aktivitas Kemahasiswaan (TAK), beserta jam kegiatan sosial (Community Service) merupakan beberapa jenis rekam jejak kegiatan kemahasiswaan serta persyaratan untuk pelaksanaan Tugas Akhir (seperti skripsi) dan kelulusan di BINUS University. Setiap mahasiswa BINUS wajib memiliki SAT dengan minimum jumlah 120 poin, serta harus berpartisipasi dalam setidaknya 10 jam kegiatan sosial melalui kegiatan-kegiatan yang diselenggarakan oleh Teach for Indonesia (TFI).</summary></entry></feed>
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="kopihati" /><category term="id-id" /><summary type="html">Salah satu fitur utama yang wajib dimiliki oleh setiap bahasa pemrograman adalah kemampuan untuk menghitung operasi aritmatika, yang tentunya sudah kalian pelajari dalam mata pelajaran matematika.</summary></entry></feed>

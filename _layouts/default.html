@@ -43,27 +43,28 @@
       <!-- Reference: https://www.gethalfmoon.com/docs/navbar -->
       <!-- Navbar content (with toggle sidebar button) -->
       <div class="navbar-content">
-        <button class="btn btn-action font-size-18" type="button" onclick="halfmoon.toggleSidebar()"
+        <button class="btn font-size-18 btn-rounded" type="button" onclick="halfmoon.toggleSidebar()"
         {% if theme_color != "NULL" %}
           style="background: none; border: none; box-shadow: none; color: {{ theme_color_foreground.primary | default: theme_color_foreground | default: 'white'}};"
         {% endif %}>
           <i class="fa fa-bars" aria-hidden="true"></i>
-          <span class="sr-only">Toggle sidebar</span> <!-- sr-only = show only on screen readers -->
         </button>
+        <span class="btn font-size-18 btn-rounded" type="button"
+        {% if theme_color != "NULL" %}
+          style="border: none; box-shadow: none; background-color: {{ theme_color_foreground.primary | default: theme_color_foreground | default: 'white'}}; color: {{ theme_color.primary | default: theme_color }};"
+        {% endif %}>
+          <span class="logotype"><b>Reinhart <span class="d-none d-md-inline">Previano Koentjoro</span></b> v19.5</span>
+      </span>
       </div>
 
       <!-- Navbar brand -->
-      <a href="/" class="navbar-brand d-none d-md-block h-card"
+      <!-- <a href="/" class="navbar-brand d-none d-md-block h-card"
       {% if theme_color != "NULL" %}
         style="color: {{ theme_color_foreground.primary | default: theme_color_foreground | default: 'white'}};"
       {% endif %}>
         Reinhart Previano K.
-      </a>
+      </a> -->
       <!-- Navbar text -->
-      <span class="navbar-text text-monospace d-none d-md-block"
-      {% if theme_color != "NULL" %}
-        style="color: {{ theme_color_foreground.primary | default: theme_color_foreground | default: 'white'}};"
-      {% endif %}>v19.4</span>
 
       <!-- Universe Dropdown -->
       <div class="navbar-content ml-auto">

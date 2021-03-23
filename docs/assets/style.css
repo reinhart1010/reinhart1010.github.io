@@ -1,16 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/css/halfmoon-variables.min.css");
 @import url("fonts/iosevka-curly/iosevka-curly.css");
 @import url("https://rsms.me/inter/inter.css");
-:root { --heading-font-weight: 900; --sidebar-title-font-weight: 700; --code-color-1: #4FB6C3; --code-color-2: #4FB6C3; --code-color-3: #2563EB; --code-color-4: #C026D3; --code-color-5: #E11D48; --code-color-6: #D97706; --code-color-7: #65A30D; --code-color-8: #0891B2; }
+:root { --heading-font-weight: 700; --sidebar-title-font-weight: 700; --code-color-1: #4FB6C3; --code-color-2: #4FB6C3; --code-color-3: #2563EB; --code-color-4: #C026D3; --code-color-5: #E11D48; --code-color-6: #D97706; --code-color-7: #65A30D; --code-color-8: #0891B2; }
 
-@media (prefers-color-scheme: dark) { :root { --heading-font-weight: 900; --sidebar-title-font-weight: 700; --code-color-1: #4FB6C3; --code-color-2: #4FB6C3; --code-color-3: #93C5FD; --code-color-4: #F0ABFC; --code-color-5: #FDA4AF; --code-color-6: #FCD34D; --code-color-7: #BEF264; --code-color-8: #67E8F9; } }
+@media (prefers-color-scheme: dark) { :root { --heading-font-weight: 700; --sidebar-title-font-weight: 700; --code-color-1: #4FB6C3; --code-color-2: #4FB6C3; --code-color-3: #93C5FD; --code-color-4: #F0ABFC; --code-color-5: #FDA4AF; --code-color-6: #FCD34D; --code-color-7: #BEF264; --code-color-8: #67E8F9; } }
 
 body { font-family: 'Inter', sans-serif; letter-spacing: -0.01em; }
 
 @supports (font-variation-settings: normal) { body { font-family: 'Inter var', sans-serif; } }
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: "Red Hat Display", Montserrat, "Century Gothic", sans-serif; }
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .logotype { font-family: "Kumbh Sans", Montserrat, "Century Gothic", sans-serif; }
 
 .code, code, kbd, .text-monospace { font-family: "Iosevka Curly Web", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-stretch: expanded; }
 
@@ -247,5 +247,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: "Red Hat Dis
 .highlight .vi { color: #008080; }
 
 .highlight .il { color: var(--code-color-8); }
+
+.apps-container b { font-weight: 500; letter-spacing: -0.8px; }
+
+.apps-container a { text-decoration: none; color: inherit; }
+
+.apps-container img, .apps-container .img { width: 80%; max-width: 96px; height: auto; border-radius: 16px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;700;900&display=swap');
 @import url('https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/css/halfmoon-variables.min.css');
 @import url('fonts/iosevka-curly/iosevka-curly.css');
 @import url('https://rsms.me/inter/inter.css');
 
 :root {
-  --heading-font-weight: 900;
+  --heading-font-weight: 700;
   --sidebar-title-font-weight: 700;
   --code-color-1: #4FB6C3;
   --code-color-2: #4FB6C3;
@@ -18,7 +19,7 @@
 
 @media (prefers-color-scheme: dark){
   :root {
-    --heading-font-weight: 900;
+    --heading-font-weight: 700;
     --sidebar-title-font-weight: 700;
     --code-color-1: #4FB6C3;
     --code-color-2: #4FB6C3;
@@ -36,8 +37,8 @@ body { font-family: 'Inter', sans-serif; letter-spacing: -0.01em; }
   body { font-family: 'Inter var', sans-serif; }
 }
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Red Hat Display", Montserrat, "Century Gothic", sans-serif;
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .logotype {
+  font-family: "Kumbh Sans", Montserrat, "Century Gothic", sans-serif;
 }
 
 .code, code, kbd, .text-monospace {
@@ -617,4 +618,22 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   .vg    { color: #008080 } // Name.Variable.Global
   .vi    { color: #008080 } // Name.Variable.Instance
   .il    { color: var(--code-color-8) } // Literal.Number.Integer.Long
+}
+
+// Apps Container
+.apps-container b {
+  font-weight: 500;
+  letter-spacing: -0.8px;
+}
+
+.apps-container a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.apps-container img, .apps-container .img {
+  width: 80%;
+  max-width: 96px;
+  height: auto;
+  border-radius: 16px;
 }

@@ -89,6 +89,6 @@ Saat ini saya telah memutuskan untuk menggantikan C dengan Python untuk membuat 
 Saya sebenarnya juga tertarik dalam bahasa pemrograman Cython, dan jika ada waktu saya akan mempelajarinya.
 
 ## Referensi Tambahan
-[1] https://stackoverflow.com/questions/26327812/are-strupr-and-strlwr-in-string-h-part-of-the-ansi-standard
-[2] https://docs.python.org/3.8/library/http.client.html#http.client.HTTPConnection.request
-[3] https://github.com/unrelentingtech/awesome-gtk
++ [1] <https://stackoverflow.com/questions/26327812/are-strupr-and-strlwr-in-string-h-part-of-the-ansi-standard>
++ [2] <https://docs.python.org/3.8/library/http.client.html#http.client.HTTPConnection.request>
++ [3] <https://github.com/unrelentingtech/awesome-gtk>

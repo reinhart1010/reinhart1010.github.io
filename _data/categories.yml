@@ -30,6 +30,9 @@ food-navigator:
   name: "Food Navigator"
   description: "Updates on the Food Navigator app"
   theme_color: "#fa582d"
+himti:
+  name: "HIMTI BINUS UNIVERSITY"
+  theme_color: "#4159a7"
 home:
   theme_color: "#0094ff"
 investigasi:

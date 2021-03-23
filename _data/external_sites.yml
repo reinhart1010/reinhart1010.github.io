@@ -10,12 +10,21 @@ binusian_blog:
 codenewbie:
   img_152: /assets/img/logo/152/codenewbie-community.png
   title: "CodeNewbie Community"
+himti:
+  img_152: /assets/img/logo/152/himti.jpg
+  title: "HIMTI BINUS University"
+instagram:
+  img_152: /assets/img/logo/152/instagram.png
+  title: "Instagram"
 kotakode:
   img_152: /assets/img/logo/152/kotakode.jpg
   title: "Kotakode"
 linkedin:
   img_152: /assets/img/logo/152/linkedin.png
   title: "LinkedIn"
+linktree:
+  img_152: /assets/img/logo/152/linktree.png
+  title: "Linktree"
 medium:
   img_152: /assets/img/logo/152/medium.png
   title: "Medium"
