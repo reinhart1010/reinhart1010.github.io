@@ -21,7 +21,7 @@
   "actions": [
       {
           "title": "More Info",
-          "url": "{{ post.url }}"
+          "url": "{{ post.options.force_redirect | default: post.url }}"
       }
   ]
 }
