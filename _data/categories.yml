@@ -23,6 +23,8 @@ binus-socs:
 codenewbie:
   name: "CodeNewbie Community Blog Archives"
   theme_color: "#68b723"
+design-exploration:
+  name: "Design Exploration"
 dev.to:
   name: "DEV Blog Archives"
   theme_color: "#000000"
@@ -41,7 +43,7 @@ himti:
 ika:
   name: "Ika Chatbot Framework"
   theme_color: "#0be881"
-  theme_color_foreground: "#ff0000"
+  theme_color_foreground: "#000000"
 home:
   theme_color: "#0094ff"
 investigasi:
@@ -60,6 +62,9 @@ kotakode:
     secondary: "#fa883a"
 medium:
   name: "Medium Blog Archives"
+  theme_color: "#000000"
+mozilla:
+  name: "Mozilla"
   theme_color: "#000000"
 openstreetmap:
   name: "OpenStreetMap User Diary Archives"
