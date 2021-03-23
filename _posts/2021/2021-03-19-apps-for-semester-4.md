@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Building 11+3 Mobile Applications and parallel Samsan Tech startups for Semester 4"
-categories: [binus, binus-socs, binus-mat, updates]
+title: "Building 13+2 Mobile Applications and parallel Samsan Tech startups for Semester 4"
+categories: [binus, binus-socs, binus-mat, food-navigator, ika, updates]
 tags: [en-us]
 cover_image: https://user-images.githubusercontent.com/17312341/107489967-d6b25580-6bbb-11eb-97de-aeffc18df182.png
 ---
@@ -12,7 +12,7 @@ cover_image: https://user-images.githubusercontent.com/17312341/107489967-d6b255
 > 
 > -Literally every single lecturer
 
-**No, Seriously. I need to build 11 (and possibly 3 more) apps for this semester!** Here are some of the list I will be making:
+**No, Seriously. I need to build 13 (and additionally 2 more) apps for this semester!** Here are some of the list I will be making:
 
 **Mockup-only**
 
@@ -22,6 +22,8 @@ cover_image: https://user-images.githubusercontent.com/17312341/107489967-d6b255
 **Code-only**
 
 + 3 Android applications written in Java
++ 1 Arduino or NodeMCU (C/C++) application
++ 1 Node.js application
 
 **Mockup + Code**
 
@@ -31,7 +33,7 @@ cover_image: https://user-images.githubusercontent.com/17312341/107489967-d6b255
 
 Some of these apps are meant to be developed in teams, while some are required for Mid and Final Exam assessments purposes. However, a few of them **must** be developed individually, without using any external libraries and frameworks (e.g. React Native). Please note that the list above does not include possibly 3 more applications that I need to build for Embedded Systems and Internet of Things (ESIOT).
 
-Despite require a great teamwork, skill, and time management, building these 11 applications does not always mean a challenge for myself. In fact, I and my teams are agree to build upon some of our existing apps and projects, while improving them with new and useful features.
+Despite require a great teamwork, skill, and time management, building these 13 applications does not always mean a challenge for myself. In fact, I and my teams are agree to build upon some of our existing apps and projects, while improving them with new and useful features.
 
 ## The Return of Food Navigator, for the sake of "Software Engineering"
 The Software Engineering course requires students to form teams to face 2 different projects. Each team should be able to:
@@ -104,4 +106,8 @@ There are not much information I can tell you about this, in order to prevent di
 
 These assignments enforces a strict guidelines and regulations. For example, if an exam question requires you to use Android's RecyclerView, you **must** use the RecyclerView component in the develop app in order to obtain (full) marks or scores. However, I will conduct precautions against accidental plagiarism by enforcing several measures and countermeasures. For example, I will upload videos (which are required for answering an exam question) on the exam's due date in order to minimalize disclosure and copying of my video-based answers.
 
-## Awaiting for "Embedded Systems and Internet of Things"
+## Introducing AC, an "Embedded Systems and Internet of Things" project
+**AC** (a recursive acronym of **AC Check**) is a Internet of Things (IoT) system intended for determining whether an AC should be replaced, by detecting the room temperature trends. It uses a NodeMCU device connected to a Node.js server, where the NodeMCU device uses the DHT22 temperature and humidity sensor. The user will be alerted by the system in an instant messaging app if AC maintenance is neccesary, which brings me into continuing the **Ika chatbot framework**.
+
+## The continuation of Ika, that TypeScript-based Node.js frameworks
+In order to support my **AC** application, I will continue my progress on Ika chatbot framework. Ika was initially designed for [Telegram](https://telegram.org) and [ChatAja](https://chataja.co.id), however I decided to focus on building the Telegram client first as well as [Matrix.org](https://matrix.org).
