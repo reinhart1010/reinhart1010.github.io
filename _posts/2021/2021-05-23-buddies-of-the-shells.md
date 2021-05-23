@@ -2,6 +2,8 @@
 layout: post
 title: "Introducing the Buddies of the Shell"
 categories: [updates, rebrand20]
+theme_color: "#000000"
+theme_color_foreground: "#ffffff"
 tags: [en-us]
 cover_image: https://user-images.githubusercontent.com/17312341/119270938-62ab3300-bc29-11eb-8128-849475575ece.png
 as_seen_on:
