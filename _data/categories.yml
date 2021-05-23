@@ -2,7 +2,7 @@
   name: "Bureau of Tech Superstars"
 about:
   name: "<i class='fa fa-info-circle' aria-hidden='true'></i> About <u>@reinhart1010</u>"
-  theme_color: "#0094ff"
+  theme_color: "#0EA5E9"
 binus:
   name: "BINUS UNIVERSITY"
   theme_color: 
@@ -47,7 +47,7 @@ ika:
   theme_color: "#0be881"
   theme_color_foreground: "#000000"
 home:
-  theme_color: "#0094ff"
+  theme_color: "#0EA5E9"
 investigasi:
   name: "<code class='font-size-16'>investigasi@reinhart1010:~/$_</code>"
   theme_color: "#365314"
@@ -89,4 +89,4 @@ twitter:
   name: "Twitter Thread Archives"
 updates:
   name: "<i class='fa fa-bell' aria-hidden='true'></i> Updates on <u>@reinhart1010</u>"
-  theme_color: "#0094ff"
+  theme_color: "#0EA5E9"
