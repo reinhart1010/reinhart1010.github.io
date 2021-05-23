@@ -3,7 +3,7 @@ layout: post
 title: "Introducing the Buddies of the Shell"
 categories: [updates, rebrand20]
 tags: [en-us]
-cover_image: https://user-images.githubusercontent.com/17312341/119270072-28d82d80-bc25-11eb-9649-55e4703c0f7f.png
+cover_image: https://user-images.githubusercontent.com/17312341/119270938-62ab3300-bc29-11eb-8128-849475575ece.png
 as_seen_on:
   - site_type: instagram
     url: https://www.instagram.com/p/CPLonp5hbIi/

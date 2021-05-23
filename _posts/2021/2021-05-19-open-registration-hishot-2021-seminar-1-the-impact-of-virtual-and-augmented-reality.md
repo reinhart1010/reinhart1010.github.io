@@ -15,6 +15,12 @@ options:
   force_redirect: https://student-activity.binus.ac.id/himti/2021/05/19/open-registration-hishot-2021-seminar-1-the-impact-of-virtual-and-augmented-reality/?utm_source=reinhart1010
 ---
 
+> Artikel ini dibuat oleh divisi promosi **Dewan Pengurus Inti Acara HISHOT 2021 oleh HIMTI BINUS University** saat Reinhart menjabat sebagai salah satu pengurus di organisasi tersebut.
+> 
+> Artikel tersebut dapat diubah atau dihapus sewaktu-waktu oleh pengurus HIMTI berikutnya. Karena itu saya mengarsipkannya dari tautan asli <https://student-activity.binus.ac.id/himti/2021/05/19/open-registration-hishot-2021-seminar-1-the-impact-of-virtual-and-augmented-reality/>.
+> 
+> One Family, One Goal!
+
 Himpunan Mahasiswa Teknik Informatika (HIMTI) of Bina Nusantara University Proudly Presents:
 🔥HISHOT 2021🔥
 
