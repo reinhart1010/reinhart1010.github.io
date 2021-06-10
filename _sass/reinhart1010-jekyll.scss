@@ -32,13 +32,27 @@
   }
 }
 
+// SYSTEM and root color definition
+root {
+  color: #00cc00;
+  font-weight: bold;
+}
+.dark-mode root {
+  color: #00ff00;
+}
+SYSTEM {
+  color: #38bdf8;
+  text-decoration-color: #38bdf8;
+  font-weight: bold;
+}
+
 body { font-family: 'Inter', sans-serif; letter-spacing: -0.01em; }
 @supports (font-variation-settings: normal) {
   body { font-family: 'Inter var', sans-serif; }
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .logotype {
-  font-family: "Kumbh Sans", Montserrat, "Century Gothic", sans-serif;
+  font-family: "Kumbh Sans", Montserrat, "Century Gothic", 'Inter var', sans-serif;
 }
 
 .code, code, kbd, .text-monospace {
@@ -638,6 +652,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .logotype {
   .vg    { color: #008080 } // Name.Variable.Global
   .vi    { color: #008080 } // Name.Variable.Instance
   .il    { color: var(--code-color-8) } // Literal.Number.Integer.Long
+}
+
+.content a {
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 // Apps Container

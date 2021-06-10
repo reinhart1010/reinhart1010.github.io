@@ -1,7 +1,6 @@
 ---
 layout: post
-title: "IMPORTANT NOTES FOR
-REINHART’S NEW BOT PROJECT"
+title: "IMPORTANT NOTES FOR REINHART’S NEW BOT PROJECT"
 categories: [projects]
 tags: [en-us, "1010bots"]
 ---

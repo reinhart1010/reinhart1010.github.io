@@ -6,11 +6,17 @@
 
 @media (prefers-color-scheme: dark) { :root { --heading-font-weight: 700; --sidebar-title-font-weight: 700; --code-color-1: #4FB6C3; --code-color-2: #4FB6C3; --code-color-3: #93C5FD; --code-color-4: #F0ABFC; --code-color-5: #FDA4AF; --code-color-6: #FCD34D; --code-color-7: #BEF264; --code-color-8: #67E8F9; } }
 
+root { color: #00cc00; font-weight: bold; }
+
+.dark-mode root { color: #00ff00; }
+
+SYSTEM { color: #38bdf8; text-decoration-color: #38bdf8; font-weight: bold; }
+
 body { font-family: 'Inter', sans-serif; letter-spacing: -0.01em; }
 
 @supports (font-variation-settings: normal) { body { font-family: 'Inter var', sans-serif; } }
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .logotype { font-family: "Kumbh Sans", Montserrat, "Century Gothic", sans-serif; }
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .logotype { font-family: "Kumbh Sans", Montserrat, "Century Gothic", 'Inter var', sans-serif; }
 
 .code, code, kbd, .text-monospace { font-family: "Iosevka Curly Web", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-stretch: expanded; }
 
@@ -253,6 +259,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .logotype { font-family: "
 .highlight .vi { color: #008080; }
 
 .highlight .il { color: var(--code-color-8); }
+
+.content a { font-weight: bold; text-decoration: underline; }
 
 .apps-container b { font-weight: 500; letter-spacing: -0.8px; }
 
