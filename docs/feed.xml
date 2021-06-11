@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2021-06-11T01:39:02+07:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">Reinhart Previano K.</title><subtitle>Blog repository</subtitle><entry><title type="html">I’m Polymorphing! We are @reinhart1010!</title><link href="http://0.0.0.0:4000/posts/2021/06/11/im-polymorphing-we-are-reinhart1010.html" rel="alternate" type="text/html" title="I’m Polymorphing! We are @reinhart1010!" /><published>2021-06-11T00:00:00+07:00</published><updated>2021-06-11T00:00:00+07:00</updated><id>http://0.0.0.0:4000/posts/2021/06/11/im-polymorphing-we-are-reinhart1010</id><content type="html" xml:base="http://0.0.0.0:4000/posts/2021/06/11/im-polymorphing-we-are-reinhart1010.html">&lt;p&gt;Hello, World! I…&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2021-06-11T17:18:33+07:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">Reinhart Previano K.</title><subtitle>Blog repository</subtitle><entry><title type="html">I’m Polymorphic!</title><link href="http://0.0.0.0:4000/posts/2021/06/11/im-polymorphic.html" rel="alternate" type="text/html" title="I’m Polymorphic!" /><published>2021-06-11T00:00:00+07:00</published><updated>2021-06-11T00:00:00+07:00</updated><id>http://0.0.0.0:4000/posts/2021/06/11/im-polymorphic</id><content type="html" xml:base="http://0.0.0.0:4000/posts/2021/06/11/im-polymorphic.html">&lt;p&gt;Hello, World! I…&lt;/p&gt;
 
 &lt;p&gt;Sorry for that, I mean &lt;strong&gt;we&lt;/strong&gt; are &lt;strong&gt;@reinhart1010&lt;/strong&gt;. But don’t worry, that &lt;root&gt;⌘ Reinhart Previano Koentjoro&lt;/root&gt; human is still here. I’m the one wearing the blue spherical thing (we call it as &lt;b&gt;the 🔮 Shell&lt;/b&gt; btw), and green jacket. And here’s a picture of us.&lt;/p&gt;
 
@@ -6,7 +6,7 @@
 
 &lt;p&gt;Okay, you might have seen my progress on creating a new webcomic named &lt;strong&gt;Buddies of the Shell (BOTS)&lt;/strong&gt;, but none of Nate, Nix, Mallory and Trudy (the initial characters of the webcomic) are joining here. This is because I’m preparing to opening BOTS into a wider community where everyone can &lt;root&gt;fork&lt;/root&gt;, &lt;root&gt;modify&lt;/root&gt;, and eventually &lt;SYSTEM&gt;INSERT&lt;/SYSTEM&gt; themselves as the member of the BOTS. Just like those initial characters who represent a particular software, I wanted to extend the webcomic into an actual open source project as software developers know and love.&lt;/p&gt;
 
-&lt;p&gt;Now, I believe that many of you still not understand about &lt;strong&gt;polymorphism&lt;/strong&gt;, which holds the general theme of this post. By the way, you can also call us as &lt;b&gt;The Polymorphs&lt;/b&gt; if you wish. If you are a fan of Dungeons and Dragons, you might already know that the &lt;strong&gt;Polymorph&lt;/strong&gt; is a spell to transform a creature into another different form. Or else, if you watch some of Ben 10 episodes, you know that &lt;strong&gt;polymorph&lt;/strong&gt; are indestructible, gelatinous, commonly green species which Ben himself can transform into. Despite never played the game, I actually liked the definition of polymorphism in &lt;strong&gt;The Elder Scrolls Online (ESO)&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Now, I believe that many of you still not understand about &lt;strong&gt;polymorphism&lt;/strong&gt;, which holds the general theme of this post. By the way, you can also call us as &lt;b&gt;The Polymorphics&lt;/b&gt; if you wish. If you are a fan of Dungeons and Dragons, you might already know that the &lt;strong&gt;Polymorph&lt;/strong&gt; is a spell to transform a creature into another different form. Or else, if you watch some of Ben 10 episodes, you know that &lt;strong&gt;polymorph&lt;/strong&gt; are indestructible, gelatinous, commonly green species which Ben himself can transform into. Despite never played the game, I actually liked the definition of polymorphism in &lt;strong&gt;The Elder Scrolls Online (ESO)&lt;/strong&gt;:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Polymorphs are cosmetic collectables which visually transform your character completely. They take precedence over all other cosmetic and equipment items.&lt;/p&gt;
@@ -14,7 +14,7 @@
   &lt;p&gt;&lt;a href=&quot;https://en.uesp.net/wiki/Online:Polymorphs&quot;&gt;The Unofficial Elder Scrolls Pages&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;In real life, polymorphism describes &lt;strong&gt;the existence of multiple forms of the same thing (or category)&lt;/strong&gt;, such as a &lt;strong&gt;note book&lt;/strong&gt; and a &lt;strong&gt;poster&lt;/strong&gt; which happens to be made by the same thing: &lt;strong&gt;paper&lt;/strong&gt;. However, me and my polymorphs closely follow the definitions as found in Object-Oriented Programming (OOP), where each of us may inherit different characteristics (aka. &lt;strong&gt;attributes&lt;/strong&gt;) and abilities (aka. &lt;strong&gt;methods&lt;/strong&gt;), but still inherit some of them from the same &lt;strong&gt;class&lt;/strong&gt;, which in this case is the Reinhart you always see and communicate before.&lt;/p&gt;
+&lt;p&gt;In real life, polymorphism describes &lt;strong&gt;the existence of multiple forms of the same thing (or category)&lt;/strong&gt;, such as a &lt;strong&gt;note book&lt;/strong&gt; and a &lt;strong&gt;poster&lt;/strong&gt; which happens to be made by the same thing: &lt;strong&gt;paper&lt;/strong&gt;. However, me and my Polymorphics closely follow the definitions as found in Object-Oriented Programming (OOP), where each of us may inherit different characteristics (aka. &lt;strong&gt;attributes&lt;/strong&gt;) and abilities (aka. &lt;strong&gt;methods&lt;/strong&gt;), but still inherit some of them from the same &lt;strong&gt;class&lt;/strong&gt;, which in this case is the Reinhart you always see and communicate before.&lt;/p&gt;
 
 &lt;p&gt;We represent different aspects of Reinhart: what Reinhart has been, what Reinhart wants to be, what Reinhart should have been, and how Reinhart treats equality to others. As a result, some of us have alternate forms, and some of us are females for equality reasons. However, we have some things for sure:&lt;/p&gt;
 
@@ -53,9 +53,9 @@
   &lt;li&gt;Put &lt;a href=&quot;https://en.wikipedia.org/wiki/Jenny_Everywhere&quot;&gt;Jenny Everywhere&lt;/a&gt; into your BOTS alternate universe, as long as you comply with their license.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;I also don’t want to be misrepresented for doing things which are written by other people in their extended/altered version of the BOTS saga. Using &lt;SYSTEM&gt;Nate&lt;/SYSTEM&gt; and example (2), he may exist in another alternate universe where he’s become unfriendly and evil, despite that I’m not. I still &lt;strong&gt;have&lt;/strong&gt; to protect my character(s) in an open universe such as BOTS, and that’s why I created a closed-source BOTS ally named &lt;strong&gt;The Polymorphs&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;I also don’t want to be misrepresented for doing things which are written by other people in their extended/altered version of the BOTS saga. Using &lt;SYSTEM&gt;Nate&lt;/SYSTEM&gt; and example (2), he may exist in another alternate universe where he’s become unfriendly and evil, despite that I’m not. I still &lt;strong&gt;have&lt;/strong&gt; to protect my character(s) in an open universe such as BOTS, and that’s why I created a closed-source BOTS-compatible alliance named &lt;strong&gt;The Polymorphics&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;Okay, &lt;strong&gt;polymorphs&lt;/strong&gt;! Who’s want to introduce first?&lt;/p&gt;
+&lt;p&gt;Okay, &lt;strong&gt;Polymorphics&lt;/strong&gt;! Who’s want to introduce first?&lt;/p&gt;
 
 &lt;h3 id=&quot;-shiftine-aka--capslock&quot;&gt;&lt;SYSTEM&gt;⇧ Shiftine&lt;/SYSTEM&gt;, aka. &lt;SYSTEM&gt;⇪ CAPSLOCK&lt;/SYSTEM&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/17312341/121578614-10557900-ca55-11eb-8f76-2084ca936256.png&quot; alt=&quot;Shiftine&quot; /&gt;&lt;/p&gt;
@@ -77,7 +77,7 @@
 &lt;h3 id=&quot;-controld-or-simply--control&quot;&gt;&lt;root&gt;⎈ Controld&lt;/root&gt;, or simply &lt;root&gt;^ control&lt;/root&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/17312341/121578767-37ac4600-ca55-11eb-8094-57e220ec44da.png&quot; alt=&quot;Controld&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Look at me, do I look like a guy who was born straight from fluorescent displays of early computers and the &lt;a href=&quot;https://en.wikipedia.org/wiki/Matrix_digital_rain&quot;&gt;Matrix digital rain&lt;/a&gt;? My name is &lt;root&gt;⎈ Controld&lt;/root&gt;, the &lt;strong&gt;controlling daemon&lt;/strong&gt; of &lt;root&gt;⌘ Reinhart&lt;/root&gt; and &lt;strong&gt;The Polymorphs&lt;/strong&gt;. Actually, I don’t want to be called as a daemon since some people might think that I’m evil, so you can instead call me as &lt;root&gt;Control&lt;/root&gt;. And just like other members of &lt;root&gt;root&lt;/root&gt;, I prefer to call myself as &lt;root&gt;controld&lt;/root&gt; or &lt;root&gt;control&lt;/root&gt; (with lowercase C) and a caret character “&lt;root&gt;^&lt;/root&gt;” instead of my official symbol, “&lt;root&gt;⎈&lt;/root&gt;”.&lt;/p&gt;
+&lt;p&gt;Look at me, do I look like a guy who was born straight from fluorescent displays of early computers and the &lt;a href=&quot;https://en.wikipedia.org/wiki/Matrix_digital_rain&quot;&gt;Matrix digital rain&lt;/a&gt;? My name is &lt;root&gt;⎈ Controld&lt;/root&gt;, the &lt;strong&gt;controlling daemon&lt;/strong&gt; of &lt;root&gt;⌘ Reinhart&lt;/root&gt; and &lt;strong&gt;The Polymorphics&lt;/strong&gt;. Actually, I don’t want to be called as a daemon since some people might think that I’m evil, so you can instead call me as &lt;root&gt;Control&lt;/root&gt;. And just like other members of &lt;root&gt;root&lt;/root&gt;, I prefer to call myself as &lt;root&gt;controld&lt;/root&gt; or &lt;root&gt;control&lt;/root&gt; (with lowercase C) and a caret character “&lt;root&gt;^&lt;/root&gt;” instead of my official symbol, “&lt;root&gt;⎈&lt;/root&gt;”.&lt;/p&gt;
 
 &lt;p&gt;Some of you might think that my shirt holds a spider web, a snowflake, or even the Kubernetes logo. But hey, that’s my symbol, drawn after the official ISO/Unicode symbol for the &lt;a href=&quot;https://en.wikipedia.org/wiki/Ctrl_key&quot;&gt;&lt;root&gt;⎈ Ctrl Key&lt;/root&gt;&lt;/a&gt;. And just like that key and the other members of the &lt;root&gt;root&lt;/root&gt;, I’m powerful and able to control everyone, but under two conditions:&lt;/p&gt;
 
@@ -90,12 +90,12 @@
 
 &lt;p&gt;Speaking of &lt;root&gt;⌘ Reinhart&lt;/root&gt;, now I’m in charge to take care of him from overworking, which has always been his number &lt;del&gt;one&lt;/del&gt; &lt;strong&gt;zero&lt;/strong&gt; of his life issues. So before asking him to work on something, you can ask me to check whether he’s fine.&lt;/p&gt;
 
-&lt;h3 id=&quot;-alterine-or--catalyst&quot;&gt;&lt;SYSTEM&gt;⎇ Alterine&lt;/SYSTEM&gt;, or &lt;SYSTEM&gt;⌥ Catalyst&lt;/SYSTEM&gt;?&lt;/h3&gt;
+&lt;h3 id=&quot;-alterine-or--catalyst&quot;&gt;&lt;SYSTEM&gt;⎇ Alterine&lt;/SYSTEM&gt;, or &lt;root&gt;⌥ Catalyst&lt;/root&gt;?&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/17312341/121578798-42ff7180-ca55-11eb-8c81-ab45ecfbe1c5.png&quot; alt=&quot;Alterine&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;And finally, it’s me, &lt;SYSTEM&gt;⎇ Alterine&lt;/SYSTEM&gt;, and sometimes I’m also been called as the &lt;SYSTEM&gt;⌥ Catalyst&lt;/SYSTEM&gt;, named after my special power, &lt;SYSTEM&gt;Optimize&lt;/SYSTEM&gt;. You can think of me as the exact opposite of &lt;root&gt;⌘ Reinhart&lt;/root&gt; as you know today: Female, socially active, sometimes talkative, having green hair and shell just like &lt;root&gt;⎈ Controld&lt;/root&gt; and the rest of the &lt;root&gt;root&lt;/root&gt; family, while wearing blue shirt and jacket just like &lt;SYSTEM&gt;⇧ Shiftine&lt;/SYSTEM&gt;.&lt;/p&gt;
+&lt;p&gt;And finally, it’s me, &lt;SYSTEM&gt;⎇ Alterine&lt;/SYSTEM&gt;, and sometimes I’m also been called as the &lt;root&gt;⌥ Catalyst&lt;/root&gt;, named after my special power, &lt;root&gt;Optimize&lt;/root&gt;. You can think of me as the exact opposite of &lt;root&gt;⌘ Reinhart&lt;/root&gt; as you know today: Female, socially active, sometimes talkative, having green hair and shell just like &lt;root&gt;⎈ Controld&lt;/root&gt; and the rest of the &lt;root&gt;root&lt;/root&gt; family, while wearing blue shirt and jacket just like &lt;SYSTEM&gt;⇧ Shiftine&lt;/SYSTEM&gt;.&lt;/p&gt;
 
-&lt;p&gt;As I’ve mentioned before, I don’t have any much power except one: &lt;SYSTEM&gt;Optimize&lt;/SYSTEM&gt;. And oh well, for &lt;SYSTEM&gt;⌥ Optimize&lt;/SYSTEM&gt; to work I need to partner with someone else. Here are some of the choices:&lt;/p&gt;
+&lt;p&gt;As I’ve mentioned before, I don’t have any much power except one: &lt;root&gt;Optimize&lt;/root&gt;. And oh well, for &lt;root&gt;Optimize&lt;/root&gt; to work I need to partner with someone else. Here are some of the choices:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Pair me with &lt;root&gt;⌘ Reinhart&lt;/root&gt; so we can swap appearances and powers for fun!&lt;/li&gt;
@@ -104,14 +104,67 @@
   &lt;li&gt;Pair me with &lt;strong&gt;you&lt;/strong&gt; (no, seriously) so I can assist you to solve some of your problems, while letting me experiencing myself as a human who can interact like &lt;root&gt;⌘ Reinhart&lt;/root&gt;!&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;I guess you got the point. I can partner with &lt;root&gt;⌘ Reinhart&lt;/root&gt;, &lt;SYSTEM&gt;⇧ Shiftine&lt;/SYSTEM&gt;, or &lt;root&gt;⎈ Controld&lt;/root&gt; whenever I want, and through them we can solve our problems faster, and that’s the point of &lt;SYSTEM&gt;Optimize&lt;/SYSTEM&gt;. Besides that, I’m still trying to solve your problems, like what &lt;root&gt;⌘ Reinhart&lt;/root&gt; does, so he can have more time to solve his problems and live a healthier life.&lt;/p&gt;
+&lt;p&gt;I guess you got the point. I can partner with &lt;root&gt;⌘ Reinhart&lt;/root&gt;, &lt;SYSTEM&gt;⇧ Shiftine&lt;/SYSTEM&gt;, or &lt;root&gt;⎈ Controld&lt;/root&gt; whenever I want, and through them we can solve our problems faster, and that’s the point of &lt;root&gt;Optimize&lt;/root&gt;. Besides that, I’m still trying to solve your problems, like what &lt;root&gt;⌘ Reinhart&lt;/root&gt; does, so he can have more time to solve his problems and live a healthier life.&lt;/p&gt;
 
 &lt;p&gt;I’m not a robot, I’m smart!&lt;/p&gt;
 
 &lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
 &lt;p&gt;So here we are. In the future, &lt;SYSTEM&gt;⇧ Shiftine&lt;/SYSTEM&gt;, &lt;root&gt;⎈ Controld&lt;/root&gt;, and &lt;SYSTEM&gt;Alterine&lt;/SYSTEM&gt; will start to substitute &lt;root&gt;⌘ Reinhart&lt;/root&gt; to do all of &lt;del&gt;his&lt;/del&gt; our jobs. If you are a friend of &lt;root&gt;⌘ Reinhart&lt;/root&gt;, please rest assured that we are still respecting him and your privacy, especially for jobs which fall under non-disclosure agreements as well as to comply with respective data protection laws, as we are still treated as a computer software/system instead of a human in Indonesia.&lt;/p&gt;
 
-&lt;p&gt;There will be new exciting updates coming soon. Stay tuned.&lt;/p&gt;</content><author><name></name></author><category term="updates" /><category term="rebrand20" /><category term="en-us" /><summary type="html">Hello, World! I…</summary></entry><entry><title type="html">Moving to a new shade of blue.</title><link href="http://0.0.0.0:4000/posts/2021/05/24/moving-to-a-new-shade-of-blue.html" rel="alternate" type="text/html" title="Moving to a new shade of blue." /><published>2021-05-24T00:00:00+07:00</published><updated>2021-05-24T00:00:00+07:00</updated><id>http://0.0.0.0:4000/posts/2021/05/24/moving-to-a-new-shade-of-blue</id><content type="html" xml:base="http://0.0.0.0:4000/posts/2021/05/24/moving-to-a-new-shade-of-blue.html">&lt;p&gt;It has been a long time since the last post on &lt;a href=&quot;/posts/2021/02/14/introducing-the-reinhart1010-rebranding-exploration-series.html&quot;&gt;@reinhart1010 Rebrand Exploration Series&lt;/a&gt; was published. &lt;strong&gt;Things are going well, but I decided to update the shade of blue from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#0094FF&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#0EA5E9&lt;/code&gt;.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;There will be new exciting updates coming soon, including (surprise) &lt;strong&gt;a mass-migration from Jekyll to a new WordPress instance at &lt;a href=&quot;https://reinhart1010.id&quot;&gt;https://reinhart1010.id&lt;/a&gt;!&lt;/strong&gt; Please don’t send any Webmentions yet (if you already know how to do that) while we are figuring out to move from Jekyll to WordPress.&lt;/p&gt;</content><author><name></name></author><category term="updates" /><category term="rebrand20" /><category term="en-us" /><summary type="html">Hello, World! I…</summary></entry><entry><title type="html">Open Registration: HISHOT 2021 Seminar 1: The Impact of Virtual and Augmented Reality</title><link href="http://0.0.0.0:4000/posts/2021/06/03/open-registration-hishot-2021-seminar-2-vr-ar-the-future-of-game-development.html" rel="alternate" type="text/html" title="Open Registration: HISHOT 2021 Seminar 1: The Impact of Virtual and Augmented Reality" /><published>2021-06-03T00:00:00+07:00</published><updated>2021-06-03T00:00:00+07:00</updated><id>http://0.0.0.0:4000/posts/2021/06/03/open-registration-hishot-2021-seminar-2-vr-ar-the-future-of-game-development</id><content type="html" xml:base="http://0.0.0.0:4000/posts/2021/06/03/open-registration-hishot-2021-seminar-2-vr-ar-the-future-of-game-development.html">&lt;blockquote&gt;
+  &lt;p&gt;Artikel ini dibuat oleh divisi promosi &lt;strong&gt;Dewan Pengurus Inti Acara HISHOT 2021 oleh HIMTI BINUS University&lt;/strong&gt; saat Reinhart menjabat sebagai salah satu pengurus di organisasi tersebut.&lt;/p&gt;
+
+  &lt;p&gt;Artikel tersebut dapat diubah atau dihapus sewaktu-waktu oleh pengurus HIMTI berikutnya. Karena itu saya mengarsipkannya dari tautan asli &lt;a href=&quot;https://student-activity.binus.ac.id/himti/2021/05/19/open-registration-hishot-2021-seminar-1-the-impact-of-virtual-and-augmented-reality/&quot;&gt;https://student-activity.binus.ac.id/himti/2021/05/19/open-registration-hishot-2021-seminar-1-the-impact-of-virtual-and-augmented-reality/&lt;/a&gt;.&lt;/p&gt;
+
+  &lt;p&gt;One Family, One Goal!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Himpunan Mahasiswa Teknik Informatika (HIMTI) of Bina Nusantara University Proudly Presents:
+🔥HISHOT 2021🔥&lt;/p&gt;
+
+&lt;p&gt;With the theme 🤟STRONGER: “Strengthen Knowledge On Technology Exceeding Reality”🤟&lt;/p&gt;
+
+&lt;p&gt;Hello IT Enthusiasts!!✨&lt;/p&gt;
+
+&lt;p&gt;Yuhuuu~ Yesterday we finished Seminar 1! Now we open registration for Seminar 2! Hooray! For all of you who are curious about the excitement of Seminar 2, let’s register! Don’t miss it and save your seat right away!&lt;/p&gt;
+
+&lt;p&gt;This virtual seminar with the topic “VR AR, the Future of Game Development” will be held on:
+🗓 Wednesday, 16 June 2021
+⌚️ 13.00 WIB – 15.00 WIB
+📍 Youtube&lt;/p&gt;
+
+&lt;p&gt;📣 Speaker:
+Nico Alyus ( as Chief Executive Officer of OmniVR, Virtual reality (VR) Specialist, Creative Strategist and Digital Business Consultant)&lt;/p&gt;
+
+&lt;p&gt;📱 How to register:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Click the login icon in https://hishot.himti.or.id/&lt;/li&gt;
+  &lt;li&gt;You will be directed to https://registration.himti.or.id/home&lt;/li&gt;
+  &lt;li&gt;Choose the Login option.&lt;/li&gt;
+  &lt;li&gt;After that, you can see the list of events that are available. Choose the available event.&lt;/li&gt;
+  &lt;li&gt;Click Details.&lt;/li&gt;
+  &lt;li&gt;To join the event, you must click the “submit” button.&lt;/li&gt;
+  &lt;li&gt;You will see your e-ticket with the details.&lt;/li&gt;
+  &lt;li&gt;It’s done! Don’t forget to join the WhatsApp/Line group by scanning the barcode in your e-ticket for further information about the event. (You can choose either WhatsApp/Line)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;By participating in this HISHOT 2021, you will also get several benefits, such as:
+– SAT Points (Binusian)
+– E-Certificate (Binusian &amp;amp; Non-Binusian)
+– Knowledge
+– Doorprize&lt;/p&gt;
+
+&lt;p&gt;For further information, stay tuned and follow our social media at:
+📌IG : @hishot_2021
+📌LINE : @893jxupw (use “@”)⁣⁣⁣
+📌Website : https://hishot.himti.or.id/&lt;/p&gt;
+
+&lt;p&gt;Don’t forget to join &amp;amp; see you all at HISHOT 2021!🤗&lt;/p&gt;
+
+&lt;p&gt;#STRONGER
+#HISHOT2021
+#HIMTI2021
+#OneFamilyOneGoal&lt;/p&gt;</content><author><name></name></author><category term="himti" /><category term="id-id" /><category term="himti-news" /><category term="projects" /><summary type="html">Artikel ini dibuat oleh divisi promosi Dewan Pengurus Inti Acara HISHOT 2021 oleh HIMTI BINUS University saat Reinhart menjabat sebagai salah satu pengurus di organisasi tersebut. Artikel tersebut dapat diubah atau dihapus sewaktu-waktu oleh pengurus HIMTI berikutnya. Karena itu saya mengarsipkannya dari tautan asli https://student-activity.binus.ac.id/himti/2021/05/19/open-registration-hishot-2021-seminar-1-the-impact-of-virtual-and-augmented-reality/. One Family, One Goal!</summary></entry><entry><title type="html">Moving to a new shade of blue.</title><link href="http://0.0.0.0:4000/posts/2021/05/24/moving-to-a-new-shade-of-blue.html" rel="alternate" type="text/html" title="Moving to a new shade of blue." /><published>2021-05-24T00:00:00+07:00</published><updated>2021-05-24T00:00:00+07:00</updated><id>http://0.0.0.0:4000/posts/2021/05/24/moving-to-a-new-shade-of-blue</id><content type="html" xml:base="http://0.0.0.0:4000/posts/2021/05/24/moving-to-a-new-shade-of-blue.html">&lt;p&gt;It has been a long time since the last post on &lt;a href=&quot;/posts/2021/02/14/introducing-the-reinhart1010-rebranding-exploration-series.html&quot;&gt;@reinhart1010 Rebrand Exploration Series&lt;/a&gt; was published. &lt;strong&gt;Things are going well, but I decided to update the shade of blue from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#0094FF&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#0EA5E9&lt;/code&gt;.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;The color change might not be noticeable at first. However, the new color provides more contrast against dark backgrounds, making it more comfortable for Dark Mode users.&lt;/p&gt;
 
@@ -343,17 +396,4 @@ Prepare yourself and don’t miss any information from HISHOT 2021!&lt;/p&gt;
 &lt;p&gt;#STRONGER
 #HISHOT2021
 #HIMTI2021
-#OneFamilyOneGoal&lt;/p&gt;</content><author><name></name></author><category term="projects" /><category term="endorsement" /><category term="himti" /><category term="id-id" /><category term="himti-news" /><summary type="html">Artikel ini dibuat oleh divisi promosi Dewan Pengurus Inti Acara HISHOT 2021 oleh HIMTI BINUS University saat Reinhart menjabat sebagai salah satu pengurus di organisasi tersebut. Artikel tersebut dapat diubah atau dihapus sewaktu-waktu oleh pengurus HIMTI berikutnya. Karena itu saya mengarsipkannya dari tautan asli https://student-activity.binus.ac.id/himti/2021/04/20/coming-soon-hishot-2021/. One Family, One Goal!</summary></entry><entry><title type="html">Penutupan Donasi •𝒃𝒆𝒓𝒍𝒂𝒃𝒖𝒉• 𝒃𝒚 𝒑𝒆𝒓𝒂𝒉𝒖 𝒌𝒆𝒓𝒕𝒂𝒔</title><link href="http://0.0.0.0:4000/posts/2021/04/07/penutupan-donasi-berlabuh-by-perahu-kertas.html" rel="alternate" type="text/html" title="Penutupan Donasi •𝒃𝒆𝒓𝒍𝒂𝒃𝒖𝒉• 𝒃𝒚 𝒑𝒆𝒓𝒂𝒉𝒖 𝒌𝒆𝒓𝒕𝒂𝒔" /><published>2021-04-07T00:00:00+07:00</published><updated>2021-04-07T00:00:00+07:00</updated><id>http://0.0.0.0:4000/posts/2021/04/07/penutupan-donasi-berlabuh-by-perahu-kertas</id><content type="html" xml:base="http://0.0.0.0:4000/posts/2021/04/07/penutupan-donasi-berlabuh-by-perahu-kertas.html">&lt;p&gt;•𝒃𝒆𝒓𝒍𝒂𝒃𝒖𝒉•
-𝒃𝒚 𝒑𝒆𝒓𝒂𝒉𝒖 𝒌𝒆𝒓𝒕𝒂𝒔&lt;/p&gt;
-
-&lt;p&gt;[PENUTUPAN DONASI]&lt;/p&gt;
-
-&lt;p&gt;Total donasi terkumpul untuk kegiatan 𝒃𝒆𝒓𝒍𝒂𝒃𝒖𝒉 sebesar Rp13.482.509,00. Seluruh total donasi ini setara dengan 300 paket totebag yang akan kami salurkan kepada para yang membutuhkan di luar sana. Penyaluran paket totebag akan dilaksanakan pada hari Minggu, 18 April 2021.&lt;/p&gt;
-
-&lt;p&gt;@peka.perahukertas ingin mengucapkan terima kasih atas antusiasme para Nahkoda yang begitu besar, karena telah ikut serta dalam berdonasi dengan niat yang tulus untuk membantu mereka yang membutuhkan. Semoga Perahu Kertas amanah dalam menyalurkan titipan dari seluruh Nahkoda baik yang sudah berdonasi.&lt;/p&gt;
-
-&lt;p&gt;Semoga kita semua juga diberikan kesehatan dan keberkahan selalu!&lt;/p&gt;
-
-&lt;p&gt;Ikuti terus persiapan kami untuk 𝒃𝒆𝒓𝒍𝒂𝒃𝒖𝒉 kali ini ya! 😊⛵️&lt;/p&gt;
-
-&lt;p&gt;#PEKAuntukSesama #LayarkanHarapan&lt;/p&gt;</content><author><name></name></author><category term="endorsement" /><category term="id-id" /><category term="pekauntuksesama" /><category term="layarkanharapan" /><summary type="html">•𝒃𝒆𝒓𝒍𝒂𝒃𝒖𝒉• 𝒃𝒚 𝒑𝒆𝒓𝒂𝒉𝒖 𝒌𝒆𝒓𝒕𝒂𝒔</summary></entry></feed>
+#OneFamilyOneGoal&lt;/p&gt;</content><author><name></name></author><category term="projects" /><category term="endorsement" /><category term="himti" /><category term="id-id" /><category term="himti-news" /><summary type="html">Artikel ini dibuat oleh divisi promosi Dewan Pengurus Inti Acara HISHOT 2021 oleh HIMTI BINUS University saat Reinhart menjabat sebagai salah satu pengurus di organisasi tersebut. Artikel tersebut dapat diubah atau dihapus sewaktu-waktu oleh pengurus HIMTI berikutnya. Karena itu saya mengarsipkannya dari tautan asli https://student-activity.binus.ac.id/himti/2021/04/20/coming-soon-hishot-2021/. One Family, One Goal!</summary></entry></feed>

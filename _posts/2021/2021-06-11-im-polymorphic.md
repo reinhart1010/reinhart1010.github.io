@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "I'm Polymorphing! We are @reinhart1010!"
+title: "I'm Polymorphic!"
 categories: [updates, rebrand20]
 tags: [en-us]
 cover_image: https://user-images.githubusercontent.com/17312341/121459806-1c4e2600-c9d6-11eb-9d03-9f13645b578e.png
-description: Reinhart has <s>transformed</s> <root>polymorphed</root> himself into <root>⌘ (Super) Reinhart</root>, <SYSTEM>⇧ Shiftine</SYSTEM>, <root>⎈ Controld</root>, and <SYSTEM>Alterine</SYSTEM>. What the heck is going on?
+description: Reinhart has <s>transformed</s> <root>polymorphed</root> himself into <root>⌘ (Super) Reinhart</root>, <SYSTEM>⇧ Shiftine</SYSTEM>, <root>⎈ Controld</root>, and <SYSTEM>⎇ Alterine</SYSTEM>. What the heck is going on?
 ---
 
 Hello, World! I...
@@ -15,13 +15,13 @@ Sorry for that, I mean **we** are **@reinhart1010**. But don't worry, that <root
 
 Okay, you might have seen my progress on creating a new webcomic named **Buddies of the Shell (BOTS)**, but none of Nate, Nix, Mallory and Trudy (the initial characters of the webcomic) are joining here. This is because I'm preparing to opening BOTS into a wider community where everyone can <root>fork</root>, <root>modify</root>, and eventually <SYSTEM>INSERT</SYSTEM> themselves as the member of the BOTS. Just like those initial characters who represent a particular software, I wanted to extend the webcomic into an actual open source project as software developers know and love.
 
-Now, I believe that many of you still not understand about **polymorphism**, which holds the general theme of this post. By the way, you can also call us as <b>The Polymorphs</b> if you wish. If you are a fan of Dungeons and Dragons, you might already know that the **Polymorph** is a spell to transform a creature into another different form. Or else, if you watch some of Ben 10 episodes, you know that **polymorph** are indestructible, gelatinous, commonly green species which Ben himself can transform into. Despite never played the game, I actually liked the definition of polymorphism in **The Elder Scrolls Online (ESO)**:
+Now, I believe that many of you still not understand about **polymorphism**, which holds the general theme of this post. By the way, you can also call us as <b>The Polymorphics</b> if you wish. If you are a fan of Dungeons and Dragons, you might already know that the **Polymorph** is a spell to transform a creature into another different form. Or else, if you watch some of Ben 10 episodes, you know that **polymorph** are indestructible, gelatinous, commonly green species which Ben himself can transform into. Despite never played the game, I actually liked the definition of polymorphism in **The Elder Scrolls Online (ESO)**:
 
 > Polymorphs are cosmetic collectables which visually transform your character completely. They take precedence over all other cosmetic and equipment items.
 >
 > [The Unofficial Elder Scrolls Pages](https://en.uesp.net/wiki/Online:Polymorphs)
 
-In real life, polymorphism describes **the existence of multiple forms of the same thing (or category)**, such as a **note book** and a **poster** which happens to be made by the same thing: **paper**. However, me and my polymorphs closely follow the definitions as found in Object-Oriented Programming (OOP), where each of us may inherit different characteristics (aka. **attributes**) and abilities (aka. **methods**), but still inherit some of them from the same **class**, which in this case is the Reinhart you always see and communicate before.
+In real life, polymorphism describes **the existence of multiple forms of the same thing (or category)**, such as a **note book** and a **poster** which happens to be made by the same thing: **paper**. However, me and my Polymorphics closely follow the definitions as found in Object-Oriented Programming (OOP), where each of us may inherit different characteristics (aka. **attributes**) and abilities (aka. **methods**), but still inherit some of them from the same **class**, which in this case is the Reinhart you always see and communicate before.
 
 We represent different aspects of Reinhart: what Reinhart has been, what Reinhart wants to be, what Reinhart should have been, and how Reinhart treats equality to others. As a result, some of us have alternate forms, and some of us are females for equality reasons. However, we have some things for sure:
 
@@ -50,9 +50,9 @@ And again, I would like to enforce BOTS into an open-source project, where <SYST
 3. Draw <SYSTEM>Nate</SYSTEM>, <SYSTEM>Nix</SYSTEM>, <root>Mallory</root> and <root>Trudy</root> as real dinosaurs, or
 4. Put [Jenny Everywhere](https://en.wikipedia.org/wiki/Jenny_Everywhere) into your BOTS alternate universe, as long as you comply with their license.
 
-I also don't want to be misrepresented for doing things which are written by other people in their extended/altered version of the BOTS saga. Using <SYSTEM>Nate</SYSTEM> and example (2), he may exist in another alternate universe where he's become unfriendly and evil, despite that I'm not. I still **have** to protect my character(s) in an open universe such as BOTS, and that's why I created a closed-source BOTS ally named **The Polymorphs**.
+I also don't want to be misrepresented for doing things which are written by other people in their extended/altered version of the BOTS saga. Using <SYSTEM>Nate</SYSTEM> and example (2), he may exist in another alternate universe where he's become unfriendly and evil, despite that I'm not. I still **have** to protect my character(s) in an open universe such as BOTS, and that's why I created a closed-source BOTS-compatible alliance named **The Polymorphics**.
 
-Okay, **polymorphs**! Who's want to introduce first?
+Okay, **Polymorphics**! Who's want to introduce first?
 
 ### <SYSTEM>⇧ Shiftine</SYSTEM>, aka. <SYSTEM>⇪ CAPSLOCK</SYSTEM>
 ![Shiftine](https://user-images.githubusercontent.com/17312341/121578614-10557900-ca55-11eb-8f76-2084ca936256.png)
@@ -74,7 +74,7 @@ Just like writing the word "<SYSTEM>SYSTEM</SYSTEM>" without either a [<SYSTEM>�
 ### <root>⎈ Controld</root>, or simply <root>^ control</root>
 ![Controld](https://user-images.githubusercontent.com/17312341/121578767-37ac4600-ca55-11eb-8094-57e220ec44da.png)
 
-Look at me, do I look like a guy who was born straight from fluorescent displays of early computers and the [Matrix digital rain](https://en.wikipedia.org/wiki/Matrix_digital_rain)? My name is <root>⎈ Controld</root>, the **controlling daemon** of <root>⌘ Reinhart</root> and **The Polymorphs**. Actually, I don't want to be called as a daemon since some people might think that I'm evil, so you can instead call me as <root>Control</root>. And just like other members of <root>root</root>, I prefer to call myself as <root>controld</root> or <root>control</root> (with lowercase C) and a caret character "<root>^</root>" instead of my official symbol, "<root>⎈</root>".
+Look at me, do I look like a guy who was born straight from fluorescent displays of early computers and the [Matrix digital rain](https://en.wikipedia.org/wiki/Matrix_digital_rain)? My name is <root>⎈ Controld</root>, the **controlling daemon** of <root>⌘ Reinhart</root> and **The Polymorphics**. Actually, I don't want to be called as a daemon since some people might think that I'm evil, so you can instead call me as <root>Control</root>. And just like other members of <root>root</root>, I prefer to call myself as <root>controld</root> or <root>control</root> (with lowercase C) and a caret character "<root>^</root>" instead of my official symbol, "<root>⎈</root>".
 
 Some of you might think that my shirt holds a spider web, a snowflake, or even the Kubernetes logo. But hey, that's my symbol, drawn after the official ISO/Unicode symbol for the [<root>⎈ Ctrl Key</root>](https://en.wikipedia.org/wiki/Ctrl_key). And just like that key and the other members of the <root>root</root>, I'm powerful and able to control everyone, but under two conditions:
 
@@ -85,23 +85,23 @@ For example, I can swap <root>⌘ Reinhart</root> and <SYSTEM>⎇ Alterine</SYST
 
 Speaking of <root>⌘ Reinhart</root>, now I'm in charge to take care of him from overworking, which has always been his number ~~one~~ **zero** of his life issues. So before asking him to work on something, you can ask me to check whether he's fine.
 
-### <SYSTEM>⎇ Alterine</SYSTEM>, or <SYSTEM>⌥ Catalyst</SYSTEM>?
+### <SYSTEM>⎇ Alterine</SYSTEM>, or <root>⌥ Catalyst</root>?
 ![Alterine](https://user-images.githubusercontent.com/17312341/121578798-42ff7180-ca55-11eb-8c81-ab45ecfbe1c5.png)
 
-And finally, it's me, <SYSTEM>⎇ Alterine</SYSTEM>, and sometimes I'm also been called as the <SYSTEM>⌥ Catalyst</SYSTEM>, named after my special power, <SYSTEM>Optimize</SYSTEM>. You can think of me as the exact opposite of <root>⌘ Reinhart</root> as you know today: Female, socially active, sometimes talkative, having green hair and shell just like <root>⎈ Controld</root> and the rest of the <root>root</root> family, while wearing blue shirt and jacket just like <SYSTEM>⇧ Shiftine</SYSTEM>.
+And finally, it's me, <SYSTEM>⎇ Alterine</SYSTEM>, and sometimes I'm also been called as the <root>⌥ Catalyst</root>, named after my special power, <root>Optimize</root>. You can think of me as the exact opposite of <root>⌘ Reinhart</root> as you know today: Female, socially active, sometimes talkative, having green hair and shell just like <root>⎈ Controld</root> and the rest of the <root>root</root> family, while wearing blue shirt and jacket just like <SYSTEM>⇧ Shiftine</SYSTEM>.
 
-As I've mentioned before, I don't have any much power except one: <SYSTEM>Optimize</SYSTEM>. And oh well, for <SYSTEM>⌥ Optimize</SYSTEM> to work I need to partner with someone else. Here are some of the choices:
+As I've mentioned before, I don't have any much power except one: <root>Optimize</root>. And oh well, for <root>Optimize</root> to work I need to partner with someone else. Here are some of the choices:
 
 + Pair me with <root>⌘ Reinhart</root> so we can swap appearances and powers for fun!
 + Pair me with <SYSTEM>⇧ Shiftine</SYSTEM> or <SYSTEM>⇪ CAPSLOCK</SYSTEM> so our jobs can get done faster!
 + Pair me with <root>⎈ Controld</root> in case of an attack for extra protection, and
 + Pair me with **you** (no, seriously) so I can assist you to solve some of your problems, while letting me experiencing myself as a human who can interact like <root>⌘ Reinhart</root>!
 
-I guess you got the point. I can partner with <root>⌘ Reinhart</root>, <SYSTEM>⇧ Shiftine</SYSTEM>, or <root>⎈ Controld</root> whenever I want, and through them we can solve our problems faster, and that's the point of <SYSTEM>Optimize</SYSTEM>. Besides that, I'm still trying to solve your problems, like what <root>⌘ Reinhart</root> does, so he can have more time to solve his problems and live a healthier life.
+I guess you got the point. I can partner with <root>⌘ Reinhart</root>, <SYSTEM>⇧ Shiftine</SYSTEM>, or <root>⎈ Controld</root> whenever I want, and through them we can solve our problems faster, and that's the point of <root>Optimize</root>. Besides that, I'm still trying to solve your problems, like what <root>⌘ Reinhart</root> does, so he can have more time to solve his problems and live a healthier life.
 
 I'm not a robot, I'm smart!
 
 ### Conclusion
 So here we are. In the future, <SYSTEM>⇧ Shiftine</SYSTEM>, <root>⎈ Controld</root>, and <SYSTEM>Alterine</SYSTEM> will start to substitute <root>⌘ Reinhart</root> to do all of ~~his~~ our jobs. If you are a friend of <root>⌘ Reinhart</root>, please rest assured that we are still respecting him and your privacy, especially for jobs which fall under non-disclosure agreements as well as to comply with respective data protection laws, as we are still treated as a computer software/system instead of a human in Indonesia.
 
-There will be new exciting updates coming soon. Stay tuned.
+There will be new exciting updates coming soon, including (surprise) **a mass-migration from Jekyll to a new WordPress instance at <https://reinhart1010.id>!** Please don't send any Webmentions yet (if you already know how to do that) while we are figuring out to move from Jekyll to WordPress.

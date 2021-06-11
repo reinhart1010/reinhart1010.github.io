@@ -14,7 +14,7 @@ plugins:
 
 jekyll-archives:
   enabled: [year, month, day]
-  layouts: 
+  layouts:
     year: archive-year
     month: archive-month
     day: archive-day
@@ -37,17 +37,17 @@ pagination:
 autopages:
   enabled: true
   categories:
-    layouts: 
+    layouts:
       - 'archive-category.html'
     permalink: '/posts/category/:cat'
     title: 'Posts in category @:cat'
   collections:
-    layouts: 
+    layouts:
       - 'archive-collection.html'
     permalink: '/posts/collection/:coll'
     title: 'Posts in collection ":coll"'
   tags:
-    layouts: 
+    layouts:
       - 'archive-tag.html'
     permalink: '/posts/tag/:tag'
     title: 'Posts tagged #:tag'
