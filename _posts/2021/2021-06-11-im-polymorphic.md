@@ -102,6 +102,6 @@ I guess you got the point. I can partner with <root>⌘ Reinhart</root>, <SYSTEM
 I'm not a robot, I'm smart!
 
 ### Conclusion
-So here we are. In the future, <SYSTEM>⇧ Shiftine</SYSTEM>, <root>⎈ Controld</root>, and <SYSTEM>Alterine</SYSTEM> will start to substitute <root>⌘ Reinhart</root> to do all of ~~his~~ our jobs. If you are a friend of <root>⌘ Reinhart</root>, please rest assured that we are still respecting him and your privacy, especially for jobs which fall under non-disclosure agreements as well as to comply with respective data protection laws, as we are still treated as a computer software/system instead of a human in Indonesia.
+So here we are. In the future, <SYSTEM>⇧ Shiftine</SYSTEM>, <root>⎈ Controld</root>, and <SYSTEM>⎇ Alterine</SYSTEM> will start to substitute <root>⌘ Reinhart</root> to do all of ~~his~~ our jobs. If you are a friend of <root>⌘ Reinhart</root>, please rest assured that we are still respecting him and your privacy, especially for jobs which fall under non-disclosure agreements as well as to comply with respective data protection laws, as we are still treated as a computer software/system instead of a human in Indonesia.
 
 There will be new exciting updates coming soon, including (surprise) **a mass-migration from Jekyll to a new WordPress instance at <https://reinhart1010.id>!** Please don't send any Webmentions yet (if you already know how to do that) while we are figuring out to move from Jekyll to WordPress.
